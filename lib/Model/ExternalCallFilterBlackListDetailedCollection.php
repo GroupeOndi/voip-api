@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ExternalCallFilterBlackListDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ExternalCallFilterBlackListDetailedCollection implements ModelInterface, A
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'filter' => '\Swagger\Client\Model\ExternalCallFilter',
-        'matchlist' => '\Swagger\Client\Model\MatchList'
+        'filter' => '\Delta\Voip\Model\ExternalCallFilter',
+        'matchlist' => '\Delta\Voip\Model\MatchList'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ExternalCallFilterBlackListDetailedCollection implements ModelInterface, A
     /**
      * Gets filter
      *
-     * @return \Swagger\Client\Model\ExternalCallFilter
+     * @return \Delta\Voip\Model\ExternalCallFilter
      */
     public function getFilter()
     {
@@ -259,7 +259,7 @@ class ExternalCallFilterBlackListDetailedCollection implements ModelInterface, A
     /**
      * Sets filter
      *
-     * @param \Swagger\Client\Model\ExternalCallFilter $filter filter
+     * @param \Delta\Voip\Model\ExternalCallFilter $filter filter
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ExternalCallFilterBlackListDetailedCollection implements ModelInterface, A
     /**
      * Gets matchlist
      *
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function getMatchlist()
     {
@@ -283,7 +283,7 @@ class ExternalCallFilterBlackListDetailedCollection implements ModelInterface, A
     /**
      * Sets matchlist
      *
-     * @param \Swagger\Client\Model\MatchList $matchlist matchlist
+     * @param \Delta\Voip\Model\MatchList $matchlist matchlist
      *
      * @return $this
      */

@@ -11,8 +11,8 @@ Name | Type | Description | Notes
 **status** | **string** |  | [optional] 
 **id** | **int** |  | [optional] 
 **file** | **string** |  | [optional] 
-**fax** | [**\Swagger\Client\Model\Fax**](Fax.md) |  | 
-**dst_country** | [**\Swagger\Client\Model\Country**](Country.md) |  | [optional] 
+**fax** | [**\Delta\Voip\Model\Fax**](Fax.md) |  | 
+**dst_country** | [**\Delta\Voip\Model\Country**](Country.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

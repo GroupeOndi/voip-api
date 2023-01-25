@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * CallForwardSettingDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,15 +64,15 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
         'no_answer_timeout' => 'int',
         'enabled' => 'bool',
         'id' => 'int',
-        'user' => '\Swagger\Client\Model\User',
-        'friend' => '\Swagger\Client\Model\Friend',
-        'extension' => '\Swagger\Client\Model\Extension',
-        'voice_mail_user' => '\Swagger\Client\Model\User',
-        'number_country' => '\Swagger\Client\Model\Country',
-        'residential_device' => '\Swagger\Client\Model\ResidentialDevice',
-        'retail_account' => '\Swagger\Client\Model\RetailAccount',
-        'cfw_to_retail_account' => '\Swagger\Client\Model\RetailAccount',
-        'ddi' => '\Swagger\Client\Model\Ddi'
+        'user' => '\Delta\Voip\Model\User',
+        'friend' => '\Delta\Voip\Model\Friend',
+        'extension' => '\Delta\Voip\Model\Extension',
+        'voice_mail_user' => '\Delta\Voip\Model\User',
+        'number_country' => '\Delta\Voip\Model\Country',
+        'residential_device' => '\Delta\Voip\Model\ResidentialDevice',
+        'retail_account' => '\Delta\Voip\Model\RetailAccount',
+        'cfw_to_retail_account' => '\Delta\Voip\Model\RetailAccount',
+        'ddi' => '\Delta\Voip\Model\Ddi'
     ];
 
     /**
@@ -615,7 +615,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -625,7 +625,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -639,7 +639,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets friend
      *
-     * @return \Swagger\Client\Model\Friend
+     * @return \Delta\Voip\Model\Friend
      */
     public function getFriend()
     {
@@ -649,7 +649,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets friend
      *
-     * @param \Swagger\Client\Model\Friend $friend friend
+     * @param \Delta\Voip\Model\Friend $friend friend
      *
      * @return $this
      */
@@ -663,7 +663,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -673,7 +673,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */
@@ -687,7 +687,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getVoiceMailUser()
     {
@@ -697,7 +697,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $voice_mail_user voice_mail_user
+     * @param \Delta\Voip\Model\User $voice_mail_user voice_mail_user
      *
      * @return $this
      */
@@ -711,7 +711,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNumberCountry()
     {
@@ -721,7 +721,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets number_country
      *
-     * @param \Swagger\Client\Model\Country $number_country number_country
+     * @param \Delta\Voip\Model\Country $number_country number_country
      *
      * @return $this
      */
@@ -735,7 +735,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets residential_device
      *
-     * @return \Swagger\Client\Model\ResidentialDevice
+     * @return \Delta\Voip\Model\ResidentialDevice
      */
     public function getResidentialDevice()
     {
@@ -745,7 +745,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets residential_device
      *
-     * @param \Swagger\Client\Model\ResidentialDevice $residential_device residential_device
+     * @param \Delta\Voip\Model\ResidentialDevice $residential_device residential_device
      *
      * @return $this
      */
@@ -759,7 +759,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets retail_account
      *
-     * @return \Swagger\Client\Model\RetailAccount
+     * @return \Delta\Voip\Model\RetailAccount
      */
     public function getRetailAccount()
     {
@@ -769,7 +769,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets retail_account
      *
-     * @param \Swagger\Client\Model\RetailAccount $retail_account retail_account
+     * @param \Delta\Voip\Model\RetailAccount $retail_account retail_account
      *
      * @return $this
      */
@@ -783,7 +783,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets cfw_to_retail_account
      *
-     * @return \Swagger\Client\Model\RetailAccount
+     * @return \Delta\Voip\Model\RetailAccount
      */
     public function getCfwToRetailAccount()
     {
@@ -793,7 +793,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets cfw_to_retail_account
      *
-     * @param \Swagger\Client\Model\RetailAccount $cfw_to_retail_account cfw_to_retail_account
+     * @param \Delta\Voip\Model\RetailAccount $cfw_to_retail_account cfw_to_retail_account
      *
      * @return $this
      */
@@ -807,7 +807,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getDdi()
     {
@@ -817,7 +817,7 @@ class CallForwardSettingDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi
      *
-     * @param \Swagger\Client\Model\Ddi $ddi ddi
+     * @param \Delta\Voip\Model\Ddi $ddi ddi
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * HolidayDateDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,11 +65,11 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
         'route_type' => 'string',
         'number_value' => 'string',
         'id' => 'int',
-        'calendar' => '\Swagger\Client\Model\Calendar',
-        'locution' => '\Swagger\Client\Model\Locution',
-        'extension' => '\Swagger\Client\Model\Extension',
-        'voice_mail_user' => '\Swagger\Client\Model\User',
-        'number_country' => '\Swagger\Client\Model\Country'
+        'calendar' => '\Delta\Voip\Model\Calendar',
+        'locution' => '\Delta\Voip\Model\Locution',
+        'extension' => '\Delta\Voip\Model\Extension',
+        'voice_mail_user' => '\Delta\Voip\Model\User',
+        'number_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -541,7 +541,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets calendar
      *
-     * @return \Swagger\Client\Model\Calendar
+     * @return \Delta\Voip\Model\Calendar
      */
     public function getCalendar()
     {
@@ -551,7 +551,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets calendar
      *
-     * @param \Swagger\Client\Model\Calendar $calendar calendar
+     * @param \Delta\Voip\Model\Calendar $calendar calendar
      *
      * @return $this
      */
@@ -565,7 +565,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getLocution()
     {
@@ -575,7 +575,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets locution
      *
-     * @param \Swagger\Client\Model\Locution $locution locution
+     * @param \Delta\Voip\Model\Locution $locution locution
      *
      * @return $this
      */
@@ -589,7 +589,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -599,7 +599,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */
@@ -613,7 +613,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getVoiceMailUser()
     {
@@ -623,7 +623,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $voice_mail_user voice_mail_user
+     * @param \Delta\Voip\Model\User $voice_mail_user voice_mail_user
      *
      * @return $this
      */
@@ -637,7 +637,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNumberCountry()
     {
@@ -647,7 +647,7 @@ class HolidayDateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets number_country
      *
-     * @param \Swagger\Client\Model\Country $number_country number_country
+     * @param \Delta\Voip\Model\Country $number_country number_country
      *
      * @return $this
      */

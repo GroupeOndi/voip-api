@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * CallForwardSettingDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,10 +64,10 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
         'no_answer_timeout' => 'int',
         'id' => 'int',
         'enabled' => 'bool',
-        'user' => '\Swagger\Client\Model\User',
-        'extension' => '\Swagger\Client\Model\Extension',
-        'voice_mail_user' => '\Swagger\Client\Model\User',
-        'number_country' => '\Swagger\Client\Model\Country'
+        'user' => '\Delta\Voip\Model\User',
+        'extension' => '\Delta\Voip\Model\Extension',
+        'voice_mail_user' => '\Delta\Voip\Model\User',
+        'number_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -585,7 +585,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -595,7 +595,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -609,7 +609,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -619,7 +619,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */
@@ -633,7 +633,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Gets voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getVoiceMailUser()
     {
@@ -643,7 +643,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Sets voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $voice_mail_user voice_mail_user
+     * @param \Delta\Voip\Model\User $voice_mail_user voice_mail_user
      *
      * @return $this
      */
@@ -657,7 +657,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Gets number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNumberCountry()
     {
@@ -667,7 +667,7 @@ class CallForwardSettingDetailedCollection implements ModelInterface, ArrayAcces
     /**
      * Sets number_country
      *
-     * @param \Swagger\Client\Model\Country $number_country number_country
+     * @param \Delta\Voip\Model\Country $number_country number_country
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Delta\Voip\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Delta\Voip\ApiException;
+use Delta\Voip\Configuration;
+use Delta\Voip\HeaderSelector;
+use Delta\Voip\ObjectSerializer;
 
 /**
  * KamApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -154,9 +154,9 @@ class KamApi
      * @param  bool $_pagination _pagination (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersCdrCollection[]
+     * @return \Delta\Voip\Model\UsersCdrCollection[]
      */
     public function getUsersCdrCollection($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $end_time = null, $end_time_after = null, $end_time_before = null, $end_time_start = null, $end_time_strictly_after = null, $end_time_strictly_before = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $user = null, $user2 = null, $user_exists = null, $_order_callee = null, $_order_caller = null, $_order_direction = null, $_order_duration = null, $_order_end_time = null, $_order_id = null, $_order_start_time = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
@@ -231,13 +231,13 @@ class KamApi
      * @param  bool $_pagination (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersCdrCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UsersCdrCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getUsersCdrCollectionWithHttpInfo($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $end_time = null, $end_time_after = null, $end_time_before = null, $end_time_start = null, $end_time_strictly_after = null, $end_time_strictly_before = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $user = null, $user2 = null, $user_exists = null, $_order_callee = null, $_order_caller = null, $_order_direction = null, $_order_duration = null, $_order_end_time = null, $_order_id = null, $_order_start_time = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersCdrCollection[]';
+        $returnType = '\Delta\Voip\Model\UsersCdrCollection[]';
         $request = $this->getUsersCdrCollectionRequest($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $end_time, $end_time_after, $end_time_before, $end_time_start, $end_time_strictly_after, $end_time_strictly_before, $friend, $friend2, $friend_exists, $id_exact, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $start_time, $start_time_after, $start_time_before, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $user, $user2, $user_exists, $_order_callee, $_order_caller, $_order_direction, $_order_duration, $_order_end_time, $_order_id, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone);
 
         try {
@@ -289,7 +289,7 @@ class KamApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersCdrCollection[]',
+                        '\Delta\Voip\Model\UsersCdrCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -451,7 +451,7 @@ class KamApi
      */
     public function getUsersCdrCollectionAsyncWithHttpInfo($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $end_time = null, $end_time_after = null, $end_time_before = null, $end_time_start = null, $end_time_strictly_after = null, $end_time_strictly_before = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $user = null, $user2 = null, $user_exists = null, $_order_callee = null, $_order_caller = null, $_order_direction = null, $_order_duration = null, $_order_end_time = null, $_order_id = null, $_order_start_time = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersCdrCollection[]';
+        $returnType = '\Delta\Voip\Model\UsersCdrCollection[]';
         $request = $this->getUsersCdrCollectionRequest($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $end_time, $end_time_after, $end_time_before, $end_time_start, $end_time_strictly_after, $end_time_strictly_before, $friend, $friend2, $friend_exists, $id_exact, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $start_time, $start_time_after, $start_time_before, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $user, $user2, $user_exists, $_order_callee, $_order_caller, $_order_direction, $_order_duration, $_order_end_time, $_order_id, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone);
 
         return $this->client
@@ -899,9 +899,9 @@ class KamApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersCdrDetailed
+     * @return \Delta\Voip\Model\UsersCdrDetailed
      */
     public function getUsersCdrItem($id, $_timezone = null)
     {
@@ -917,13 +917,13 @@ class KamApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersCdrDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UsersCdrDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUsersCdrItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersCdrDetailed';
+        $returnType = '\Delta\Voip\Model\UsersCdrDetailed';
         $request = $this->getUsersCdrItemRequest($id, $_timezone);
 
         try {
@@ -975,7 +975,7 @@ class KamApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersCdrDetailed',
+                        '\Delta\Voip\Model\UsersCdrDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1019,7 +1019,7 @@ class KamApi
      */
     public function getUsersCdrItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersCdrDetailed';
+        $returnType = '\Delta\Voip\Model\UsersCdrDetailed';
         $request = $this->getUsersCdrItemRequest($id, $_timezone);
 
         return $this->client

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * BillableCallDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -70,7 +70,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
         'endpoint_name' => 'string',
         'direction' => 'string',
         'id' => 'int',
-        'ddi' => '\Swagger\Client\Model\Ddi'
+        'ddi' => '\Delta\Voip\Model\Ddi'
     ];
 
     /**
@@ -735,7 +735,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getDdi()
     {
@@ -745,7 +745,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi
      *
-     * @param \Swagger\Client\Model\Ddi $ddi ddi
+     * @param \Delta\Voip\Model\Ddi $ddi ddi
      *
      * @return $this
      */

@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **endpoint_name** | **string** |  | [optional] 
 **direction** | **string** |  | [optional] [default to 'outbound']
 **id** | **int** |  | [optional] 
-**ddi** | [**\Swagger\Client\Model\Ddi**](Ddi.md) |  | [optional] 
+**ddi** | [**\Delta\Voip\Model\Ddi**](Ddi.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * QueueMemberDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class QueueMemberDetailedCollection implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'penalty' => 'int',
         'id' => 'int',
-        'queue' => '\Swagger\Client\Model\Queue',
-        'user' => '\Swagger\Client\Model\User'
+        'queue' => '\Delta\Voip\Model\Queue',
+        'user' => '\Delta\Voip\Model\User'
     ];
 
     /**
@@ -279,7 +279,7 @@ class QueueMemberDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets queue
      *
-     * @return \Swagger\Client\Model\Queue
+     * @return \Delta\Voip\Model\Queue
      */
     public function getQueue()
     {
@@ -289,7 +289,7 @@ class QueueMemberDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets queue
      *
-     * @param \Swagger\Client\Model\Queue $queue queue
+     * @param \Delta\Voip\Model\Queue $queue queue
      *
      * @return $this
      */
@@ -303,7 +303,7 @@ class QueueMemberDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -313,7 +313,7 @@ class QueueMemberDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ConditionalRoutesConditionDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,16 +62,16 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
         'number_value' => 'string',
         'friend_value' => 'string',
         'id' => 'int',
-        'conditional_route' => '\Swagger\Client\Model\ConditionalRoute',
-        'ivr' => '\Swagger\Client\Model\Ivr',
-        'hunt_group' => '\Swagger\Client\Model\HuntGroup',
-        'voicemail_user' => '\Swagger\Client\Model\User',
-        'user' => '\Swagger\Client\Model\User',
-        'queue' => '\Swagger\Client\Model\Queue',
-        'locution' => '\Swagger\Client\Model\Locution',
-        'conference_room' => '\Swagger\Client\Model\ConferenceRoom',
-        'extension' => '\Swagger\Client\Model\Extension',
-        'number_country' => '\Swagger\Client\Model\Country',
+        'conditional_route' => '\Delta\Voip\Model\ConditionalRoute',
+        'ivr' => '\Delta\Voip\Model\Ivr',
+        'hunt_group' => '\Delta\Voip\Model\HuntGroup',
+        'voicemail_user' => '\Delta\Voip\Model\User',
+        'user' => '\Delta\Voip\Model\User',
+        'queue' => '\Delta\Voip\Model\Queue',
+        'locution' => '\Delta\Voip\Model\Locution',
+        'conference_room' => '\Delta\Voip\Model\ConferenceRoom',
+        'extension' => '\Delta\Voip\Model\Extension',
+        'number_country' => '\Delta\Voip\Model\Country',
         'match_list_ids' => 'int[]',
         'schedule_ids' => 'int[]',
         'calendar_ids' => 'int[]',
@@ -511,7 +511,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_route
      *
-     * @return \Swagger\Client\Model\ConditionalRoute
+     * @return \Delta\Voip\Model\ConditionalRoute
      */
     public function getConditionalRoute()
     {
@@ -521,7 +521,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_route
      *
-     * @param \Swagger\Client\Model\ConditionalRoute $conditional_route conditional_route
+     * @param \Delta\Voip\Model\ConditionalRoute $conditional_route conditional_route
      *
      * @return $this
      */
@@ -535,7 +535,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ivr
      *
-     * @return \Swagger\Client\Model\Ivr
+     * @return \Delta\Voip\Model\Ivr
      */
     public function getIvr()
     {
@@ -545,7 +545,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ivr
      *
-     * @param \Swagger\Client\Model\Ivr $ivr ivr
+     * @param \Delta\Voip\Model\Ivr $ivr ivr
      *
      * @return $this
      */
@@ -559,7 +559,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets hunt_group
      *
-     * @return \Swagger\Client\Model\HuntGroup
+     * @return \Delta\Voip\Model\HuntGroup
      */
     public function getHuntGroup()
     {
@@ -569,7 +569,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets hunt_group
      *
-     * @param \Swagger\Client\Model\HuntGroup $hunt_group hunt_group
+     * @param \Delta\Voip\Model\HuntGroup $hunt_group hunt_group
      *
      * @return $this
      */
@@ -583,7 +583,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voicemail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getVoicemailUser()
     {
@@ -593,7 +593,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voicemail_user
      *
-     * @param \Swagger\Client\Model\User $voicemail_user voicemail_user
+     * @param \Delta\Voip\Model\User $voicemail_user voicemail_user
      *
      * @return $this
      */
@@ -607,7 +607,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -617,7 +617,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -631,7 +631,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets queue
      *
-     * @return \Swagger\Client\Model\Queue
+     * @return \Delta\Voip\Model\Queue
      */
     public function getQueue()
     {
@@ -641,7 +641,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets queue
      *
-     * @param \Swagger\Client\Model\Queue $queue queue
+     * @param \Delta\Voip\Model\Queue $queue queue
      *
      * @return $this
      */
@@ -655,7 +655,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getLocution()
     {
@@ -665,7 +665,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets locution
      *
-     * @param \Swagger\Client\Model\Locution $locution locution
+     * @param \Delta\Voip\Model\Locution $locution locution
      *
      * @return $this
      */
@@ -679,7 +679,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets conference_room
      *
-     * @return \Swagger\Client\Model\ConferenceRoom
+     * @return \Delta\Voip\Model\ConferenceRoom
      */
     public function getConferenceRoom()
     {
@@ -689,7 +689,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets conference_room
      *
-     * @param \Swagger\Client\Model\ConferenceRoom $conference_room conference_room
+     * @param \Delta\Voip\Model\ConferenceRoom $conference_room conference_room
      *
      * @return $this
      */
@@ -703,7 +703,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -713,7 +713,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */
@@ -727,7 +727,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNumberCountry()
     {
@@ -737,7 +737,7 @@ class ConditionalRoutesConditionDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets number_country
      *
-     * @param \Swagger\Client\Model\Country $number_country number_country
+     * @param \Delta\Voip\Model\Country $number_country number_country
      *
      * @return $this
      */

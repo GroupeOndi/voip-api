@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **regexp** | **string** |  | [optional] 
 **numbervalue** | **string** |  | [optional] 
 **id** | **int** |  | [optional] 
-**match_list** | [**\Swagger\Client\Model\MatchList**](MatchList.md) |  | 
-**number_country** | [**\Swagger\Client\Model\Country**](Country.md) |  | [optional] 
+**match_list** | [**\Delta\Voip\Model\MatchList**](MatchList.md) |  | 
+**number_country** | [**\Delta\Voip\Model\Country**](Country.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

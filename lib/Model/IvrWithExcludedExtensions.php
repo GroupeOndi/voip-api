@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * IvrWithExcludedExtensions Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,16 +66,16 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
         'error_route_type' => 'string',
         'error_number_value' => 'string',
         'id' => 'int',
-        'welcome_locution' => '\Swagger\Client\Model\Locution',
-        'no_input_locution' => '\Swagger\Client\Model\Locution',
-        'error_locution' => '\Swagger\Client\Model\Locution',
-        'success_locution' => '\Swagger\Client\Model\Locution',
-        'no_input_extension' => '\Swagger\Client\Model\Extension',
-        'error_extension' => '\Swagger\Client\Model\Extension',
-        'no_input_voice_mail_user' => '\Swagger\Client\Model\User',
-        'error_voice_mail_user' => '\Swagger\Client\Model\User',
-        'no_input_number_country' => '\Swagger\Client\Model\Country',
-        'error_number_country' => '\Swagger\Client\Model\Country',
+        'welcome_locution' => '\Delta\Voip\Model\Locution',
+        'no_input_locution' => '\Delta\Voip\Model\Locution',
+        'error_locution' => '\Delta\Voip\Model\Locution',
+        'success_locution' => '\Delta\Voip\Model\Locution',
+        'no_input_extension' => '\Delta\Voip\Model\Extension',
+        'error_extension' => '\Delta\Voip\Model\Extension',
+        'no_input_voice_mail_user' => '\Delta\Voip\Model\User',
+        'error_voice_mail_user' => '\Delta\Voip\Model\User',
+        'no_input_number_country' => '\Delta\Voip\Model\Country',
+        'error_number_country' => '\Delta\Voip\Model\Country',
         'excluded_extension_ids' => 'int[]'
     ];
 
@@ -675,7 +675,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets welcome_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getWelcomeLocution()
     {
@@ -685,7 +685,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets welcome_locution
      *
-     * @param \Swagger\Client\Model\Locution $welcome_locution welcome_locution
+     * @param \Delta\Voip\Model\Locution $welcome_locution welcome_locution
      *
      * @return $this
      */
@@ -699,7 +699,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets no_input_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getNoInputLocution()
     {
@@ -709,7 +709,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets no_input_locution
      *
-     * @param \Swagger\Client\Model\Locution $no_input_locution no_input_locution
+     * @param \Delta\Voip\Model\Locution $no_input_locution no_input_locution
      *
      * @return $this
      */
@@ -723,7 +723,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets error_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getErrorLocution()
     {
@@ -733,7 +733,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets error_locution
      *
-     * @param \Swagger\Client\Model\Locution $error_locution error_locution
+     * @param \Delta\Voip\Model\Locution $error_locution error_locution
      *
      * @return $this
      */
@@ -747,7 +747,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets success_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getSuccessLocution()
     {
@@ -757,7 +757,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets success_locution
      *
-     * @param \Swagger\Client\Model\Locution $success_locution success_locution
+     * @param \Delta\Voip\Model\Locution $success_locution success_locution
      *
      * @return $this
      */
@@ -771,7 +771,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets no_input_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getNoInputExtension()
     {
@@ -781,7 +781,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets no_input_extension
      *
-     * @param \Swagger\Client\Model\Extension $no_input_extension no_input_extension
+     * @param \Delta\Voip\Model\Extension $no_input_extension no_input_extension
      *
      * @return $this
      */
@@ -795,7 +795,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets error_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getErrorExtension()
     {
@@ -805,7 +805,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets error_extension
      *
-     * @param \Swagger\Client\Model\Extension $error_extension error_extension
+     * @param \Delta\Voip\Model\Extension $error_extension error_extension
      *
      * @return $this
      */
@@ -819,7 +819,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets no_input_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getNoInputVoiceMailUser()
     {
@@ -829,7 +829,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets no_input_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $no_input_voice_mail_user no_input_voice_mail_user
+     * @param \Delta\Voip\Model\User $no_input_voice_mail_user no_input_voice_mail_user
      *
      * @return $this
      */
@@ -843,7 +843,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets error_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getErrorVoiceMailUser()
     {
@@ -853,7 +853,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets error_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $error_voice_mail_user error_voice_mail_user
+     * @param \Delta\Voip\Model\User $error_voice_mail_user error_voice_mail_user
      *
      * @return $this
      */
@@ -867,7 +867,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets no_input_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNoInputNumberCountry()
     {
@@ -877,7 +877,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets no_input_number_country
      *
-     * @param \Swagger\Client\Model\Country $no_input_number_country no_input_number_country
+     * @param \Delta\Voip\Model\Country $no_input_number_country no_input_number_country
      *
      * @return $this
      */
@@ -891,7 +891,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets error_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getErrorNumberCountry()
     {
@@ -901,7 +901,7 @@ class IvrWithExcludedExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets error_number_country
      *
-     * @param \Swagger\Client\Model\Country $error_number_country error_number_country
+     * @param \Delta\Voip\Model\Country $error_number_country error_number_country
      *
      * @return $this
      */

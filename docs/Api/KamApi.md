@@ -1,4 +1,4 @@
-# Swagger\Client\KamApi
+# Delta\Voip\KamApi
 
 All URIs are relative to *https://localhost/api/client/*
 
@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **getUsersCdrCollection**
-> \Swagger\Client\Model\UsersCdrCollection[] getUsersCdrCollection($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $end_time, $end_time_after, $end_time_before, $end_time_start, $end_time_strictly_after, $end_time_strictly_before, $friend, $friend2, $friend_exists, $id_exact, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $start_time, $start_time_after, $start_time_before, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $user, $user2, $user_exists, $_order_callee, $_order_caller, $_order_direction, $_order_duration, $_order_end_time, $_order_id, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone)
+> \Delta\Voip\Model\UsersCdrCollection[] getUsersCdrCollection($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $end_time, $end_time_after, $end_time_before, $end_time_start, $end_time_strictly_after, $end_time_strictly_before, $friend, $friend2, $friend_exists, $id_exact, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $start_time, $start_time_after, $start_time_before, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $user, $user2, $user_exists, $_order_callee, $_order_caller, $_order_direction, $_order_duration, $_order_end_time, $_order_id, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone)
 
 Retrieves the collection of UsersCdr resources.
 
@@ -19,11 +19,11 @@ Retrieves the collection of UsersCdr resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta\Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta\Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta\Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -168,7 +168,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersCdrCollection[]**](../Model/UsersCdrCollection.md)
+[**\Delta\Voip\Model\UsersCdrCollection[]**](../Model/UsersCdrCollection.md)
 
 ### Authorization
 
@@ -182,7 +182,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUsersCdrItem**
-> \Swagger\Client\Model\UsersCdrDetailed getUsersCdrItem($id, $_timezone)
+> \Delta\Voip\Model\UsersCdrDetailed getUsersCdrItem($id, $_timezone)
 
 Retrieves a UsersCdr resource.
 
@@ -192,11 +192,11 @@ Retrieves a UsersCdr resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta\Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta\Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta\Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -223,7 +223,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersCdrDetailed**](../Model/UsersCdrDetailed.md)
+[**\Delta\Voip\Model\UsersCdrDetailed**](../Model/UsersCdrDetailed.md)
 
 ### Authorization
 

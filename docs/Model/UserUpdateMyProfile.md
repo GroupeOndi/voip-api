@@ -11,8 +11,8 @@ Name | Type | Description | Notes
 **do_not_disturb** | **bool** |  | [default to false]
 **is_boss** | **bool** |  | [default to false]
 **max_calls** | **int** |  | 
-**boss_assistant** | [**\Swagger\Client\Model\User**](User.md) |  | [optional] 
-**timezone** | [**\Swagger\Client\Model\Timezone**](Timezone.md) |  | [optional] 
+**boss_assistant** | [**\Delta\Voip\Model\User**](User.md) |  | [optional] 
+**timezone** | [**\Delta\Voip\Model\Timezone**](Timezone.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

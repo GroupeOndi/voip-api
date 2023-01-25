@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * UsersCdrDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -70,10 +70,10 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
         'callid_hash' => 'string',
         'xcallid' => 'string',
         'id' => 'int',
-        'user' => '\Swagger\Client\Model\User',
-        'friend' => '\Swagger\Client\Model\Friend',
-        'residential_device' => '\Swagger\Client\Model\ResidentialDevice',
-        'retail_account' => '\Swagger\Client\Model\RetailAccount'
+        'user' => '\Delta\Voip\Model\User',
+        'friend' => '\Delta\Voip\Model\Friend',
+        'residential_device' => '\Delta\Voip\Model\ResidentialDevice',
+        'retail_account' => '\Delta\Voip\Model\RetailAccount'
     ];
 
     /**
@@ -688,7 +688,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -698,7 +698,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -712,7 +712,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets friend
      *
-     * @return \Swagger\Client\Model\Friend
+     * @return \Delta\Voip\Model\Friend
      */
     public function getFriend()
     {
@@ -722,7 +722,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets friend
      *
-     * @param \Swagger\Client\Model\Friend $friend friend
+     * @param \Delta\Voip\Model\Friend $friend friend
      *
      * @return $this
      */
@@ -736,7 +736,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets residential_device
      *
-     * @return \Swagger\Client\Model\ResidentialDevice
+     * @return \Delta\Voip\Model\ResidentialDevice
      */
     public function getResidentialDevice()
     {
@@ -746,7 +746,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets residential_device
      *
-     * @param \Swagger\Client\Model\ResidentialDevice $residential_device residential_device
+     * @param \Delta\Voip\Model\ResidentialDevice $residential_device residential_device
      *
      * @return $this
      */
@@ -760,7 +760,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets retail_account
      *
-     * @return \Swagger\Client\Model\RetailAccount
+     * @return \Delta\Voip\Model\RetailAccount
      */
     public function getRetailAccount()
     {
@@ -770,7 +770,7 @@ class UsersCdrDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets retail_account
      *
-     * @param \Swagger\Client\Model\RetailAccount $retail_account retail_account
+     * @param \Delta\Voip\Model\RetailAccount $retail_account retail_account
      *
      * @return $this
      */

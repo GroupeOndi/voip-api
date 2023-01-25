@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * TerminalDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,7 +68,7 @@ class TerminalDetailed implements ModelInterface, ArrayAccess
         't38_passthrough' => 'string',
         'rtp_encryption' => 'bool',
         'id' => 'int',
-        'terminal_model' => '\Swagger\Client\Model\TerminalModel'
+        'terminal_model' => '\Delta\Voip\Model\TerminalModel'
     ];
 
     /**
@@ -672,7 +672,7 @@ class TerminalDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets terminal_model
      *
-     * @return \Swagger\Client\Model\TerminalModel
+     * @return \Delta\Voip\Model\TerminalModel
      */
     public function getTerminalModel()
     {
@@ -682,7 +682,7 @@ class TerminalDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets terminal_model
      *
-     * @param \Swagger\Client\Model\TerminalModel $terminal_model terminal_model
+     * @param \Delta\Voip\Model\TerminalModel $terminal_model terminal_model
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * OutgoingDdiRulesPatternDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,9 +62,9 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
         'action' => 'string',
         'priority' => 'int',
         'id' => 'int',
-        'outgoing_ddi_rule' => '\Swagger\Client\Model\OutgoingDdiRule',
-        'match_list' => '\Swagger\Client\Model\MatchList',
-        'forced_ddi' => '\Swagger\Client\Model\Ddi'
+        'outgoing_ddi_rule' => '\Delta\Voip\Model\OutgoingDdiRule',
+        'match_list' => '\Delta\Voip\Model\MatchList',
+        'forced_ddi' => '\Delta\Voip\Model\Ddi'
     ];
 
     /**
@@ -469,7 +469,7 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
     /**
      * Gets outgoing_ddi_rule
      *
-     * @return \Swagger\Client\Model\OutgoingDdiRule
+     * @return \Delta\Voip\Model\OutgoingDdiRule
      */
     public function getOutgoingDdiRule()
     {
@@ -479,7 +479,7 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
     /**
      * Sets outgoing_ddi_rule
      *
-     * @param \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule outgoing_ddi_rule
+     * @param \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule outgoing_ddi_rule
      *
      * @return $this
      */
@@ -493,7 +493,7 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
     /**
      * Gets match_list
      *
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function getMatchList()
     {
@@ -503,7 +503,7 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
     /**
      * Sets match_list
      *
-     * @param \Swagger\Client\Model\MatchList $match_list match_list
+     * @param \Delta\Voip\Model\MatchList $match_list match_list
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
     /**
      * Gets forced_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getForcedDdi()
     {
@@ -527,7 +527,7 @@ class OutgoingDdiRulesPatternDetailedCollection implements ModelInterface, Array
     /**
      * Sets forced_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $forced_ddi forced_ddi
+     * @param \Delta\Voip\Model\Ddi $forced_ddi forced_ddi
      *
      * @return $this
      */

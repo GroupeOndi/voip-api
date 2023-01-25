@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * FriendsPatternDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class FriendsPatternDetailed implements ModelInterface, ArrayAccess
         'name' => 'string',
         'reg_exp' => 'string',
         'id' => 'int',
-        'friend' => '\Swagger\Client\Model\Friend'
+        'friend' => '\Delta\Voip\Model\Friend'
     ];
 
     /**
@@ -322,7 +322,7 @@ class FriendsPatternDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets friend
      *
-     * @return \Swagger\Client\Model\Friend
+     * @return \Delta\Voip\Model\Friend
      */
     public function getFriend()
     {
@@ -332,7 +332,7 @@ class FriendsPatternDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets friend
      *
-     * @param \Swagger\Client\Model\Friend $friend friend
+     * @param \Delta\Voip\Model\Friend $friend friend
      *
      * @return $this
      */

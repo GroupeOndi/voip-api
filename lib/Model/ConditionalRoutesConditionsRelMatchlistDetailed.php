@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ConditionalRoutesConditionsRelMatchlistDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ConditionalRoutesConditionsRelMatchlistDetailed implements ModelInterface,
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'condition' => '\Swagger\Client\Model\ConditionalRoutesCondition',
-        'matchlist' => '\Swagger\Client\Model\MatchList'
+        'condition' => '\Delta\Voip\Model\ConditionalRoutesCondition',
+        'matchlist' => '\Delta\Voip\Model\MatchList'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ConditionalRoutesConditionsRelMatchlistDetailed implements ModelInterface,
     /**
      * Gets condition
      *
-     * @return \Swagger\Client\Model\ConditionalRoutesCondition
+     * @return \Delta\Voip\Model\ConditionalRoutesCondition
      */
     public function getCondition()
     {
@@ -259,7 +259,7 @@ class ConditionalRoutesConditionsRelMatchlistDetailed implements ModelInterface,
     /**
      * Sets condition
      *
-     * @param \Swagger\Client\Model\ConditionalRoutesCondition $condition condition
+     * @param \Delta\Voip\Model\ConditionalRoutesCondition $condition condition
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ConditionalRoutesConditionsRelMatchlistDetailed implements ModelInterface,
     /**
      * Gets matchlist
      *
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function getMatchlist()
     {
@@ -283,7 +283,7 @@ class ConditionalRoutesConditionsRelMatchlistDetailed implements ModelInterface,
     /**
      * Sets matchlist
      *
-     * @param \Swagger\Client\Model\MatchList $matchlist matchlist
+     * @param \Delta\Voip\Model\MatchList $matchlist matchlist
      *
      * @return $this
      */

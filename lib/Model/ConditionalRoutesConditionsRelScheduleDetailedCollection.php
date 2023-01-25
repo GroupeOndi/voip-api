@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ConditionalRoutesConditionsRelScheduleDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ConditionalRoutesConditionsRelScheduleDetailedCollection implements ModelI
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'condition' => '\Swagger\Client\Model\ConditionalRoutesCondition',
-        'schedule' => '\Swagger\Client\Model\Schedule'
+        'condition' => '\Delta\Voip\Model\ConditionalRoutesCondition',
+        'schedule' => '\Delta\Voip\Model\Schedule'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ConditionalRoutesConditionsRelScheduleDetailedCollection implements ModelI
     /**
      * Gets condition
      *
-     * @return \Swagger\Client\Model\ConditionalRoutesCondition
+     * @return \Delta\Voip\Model\ConditionalRoutesCondition
      */
     public function getCondition()
     {
@@ -259,7 +259,7 @@ class ConditionalRoutesConditionsRelScheduleDetailedCollection implements ModelI
     /**
      * Sets condition
      *
-     * @param \Swagger\Client\Model\ConditionalRoutesCondition $condition condition
+     * @param \Delta\Voip\Model\ConditionalRoutesCondition $condition condition
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ConditionalRoutesConditionsRelScheduleDetailedCollection implements ModelI
     /**
      * Gets schedule
      *
-     * @return \Swagger\Client\Model\Schedule
+     * @return \Delta\Voip\Model\Schedule
      */
     public function getSchedule()
     {
@@ -283,7 +283,7 @@ class ConditionalRoutesConditionsRelScheduleDetailedCollection implements ModelI
     /**
      * Sets schedule
      *
-     * @param \Swagger\Client\Model\Schedule $schedule schedule
+     * @param \Delta\Voip\Model\Schedule $schedule schedule
      *
      * @return $this
      */

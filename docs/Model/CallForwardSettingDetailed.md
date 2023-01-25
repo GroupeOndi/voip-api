@@ -10,15 +10,15 @@ Name | Type | Description | Notes
 **no_answer_timeout** | **int** |  | 
 **enabled** | **bool** |  | [default to false]
 **id** | **int** |  | [optional] 
-**user** | [**\Swagger\Client\Model\User**](User.md) |  | [optional] 
-**friend** | [**\Swagger\Client\Model\Friend**](Friend.md) |  | [optional] 
-**extension** | [**\Swagger\Client\Model\Extension**](Extension.md) |  | [optional] 
-**voice_mail_user** | [**\Swagger\Client\Model\User**](User.md) |  | [optional] 
-**number_country** | [**\Swagger\Client\Model\Country**](Country.md) |  | [optional] 
-**residential_device** | [**\Swagger\Client\Model\ResidentialDevice**](ResidentialDevice.md) |  | [optional] 
-**retail_account** | [**\Swagger\Client\Model\RetailAccount**](RetailAccount.md) |  | [optional] 
-**cfw_to_retail_account** | [**\Swagger\Client\Model\RetailAccount**](RetailAccount.md) |  | [optional] 
-**ddi** | [**\Swagger\Client\Model\Ddi**](Ddi.md) |  | [optional] 
+**user** | [**\Delta\Voip\Model\User**](User.md) |  | [optional] 
+**friend** | [**\Delta\Voip\Model\Friend**](Friend.md) |  | [optional] 
+**extension** | [**\Delta\Voip\Model\Extension**](Extension.md) |  | [optional] 
+**voice_mail_user** | [**\Delta\Voip\Model\User**](User.md) |  | [optional] 
+**number_country** | [**\Delta\Voip\Model\Country**](Country.md) |  | [optional] 
+**residential_device** | [**\Delta\Voip\Model\ResidentialDevice**](ResidentialDevice.md) |  | [optional] 
+**retail_account** | [**\Delta\Voip\Model\RetailAccount**](RetailAccount.md) |  | [optional] 
+**cfw_to_retail_account** | [**\Delta\Voip\Model\RetailAccount**](RetailAccount.md) |  | [optional] 
+**ddi** | [**\Delta\Voip\Model\Ddi**](Ddi.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * IvrEntryDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,12 +61,12 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
         'route_type' => 'string',
         'number_value' => 'string',
         'id' => 'int',
-        'ivr' => '\Swagger\Client\Model\Ivr',
-        'welcome_locution' => '\Swagger\Client\Model\Locution',
-        'extension' => '\Swagger\Client\Model\Extension',
-        'voice_mail_user' => '\Swagger\Client\Model\User',
-        'conditional_route' => '\Swagger\Client\Model\ConditionalRoute',
-        'number_country' => '\Swagger\Client\Model\Country'
+        'ivr' => '\Delta\Voip\Model\Ivr',
+        'welcome_locution' => '\Delta\Voip\Model\Locution',
+        'extension' => '\Delta\Voip\Model\Extension',
+        'voice_mail_user' => '\Delta\Voip\Model\User',
+        'conditional_route' => '\Delta\Voip\Model\ConditionalRoute',
+        'number_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -426,7 +426,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ivr
      *
-     * @return \Swagger\Client\Model\Ivr
+     * @return \Delta\Voip\Model\Ivr
      */
     public function getIvr()
     {
@@ -436,7 +436,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ivr
      *
-     * @param \Swagger\Client\Model\Ivr $ivr ivr
+     * @param \Delta\Voip\Model\Ivr $ivr ivr
      *
      * @return $this
      */
@@ -450,7 +450,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets welcome_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getWelcomeLocution()
     {
@@ -460,7 +460,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets welcome_locution
      *
-     * @param \Swagger\Client\Model\Locution $welcome_locution welcome_locution
+     * @param \Delta\Voip\Model\Locution $welcome_locution welcome_locution
      *
      * @return $this
      */
@@ -474,7 +474,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -484,7 +484,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */
@@ -498,7 +498,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getVoiceMailUser()
     {
@@ -508,7 +508,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $voice_mail_user voice_mail_user
+     * @param \Delta\Voip\Model\User $voice_mail_user voice_mail_user
      *
      * @return $this
      */
@@ -522,7 +522,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_route
      *
-     * @return \Swagger\Client\Model\ConditionalRoute
+     * @return \Delta\Voip\Model\ConditionalRoute
      */
     public function getConditionalRoute()
     {
@@ -532,7 +532,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_route
      *
-     * @param \Swagger\Client\Model\ConditionalRoute $conditional_route conditional_route
+     * @param \Delta\Voip\Model\ConditionalRoute $conditional_route conditional_route
      *
      * @return $this
      */
@@ -546,7 +546,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNumberCountry()
     {
@@ -556,7 +556,7 @@ class IvrEntryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets number_country
      *
-     * @param \Swagger\Client\Model\Country $number_country number_country
+     * @param \Delta\Voip\Model\Country $number_country number_country
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ConditionalRoutesConditionsRelCalendarDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ConditionalRoutesConditionsRelCalendarDetailedCollection implements ModelI
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'condition' => '\Swagger\Client\Model\ConditionalRoutesCondition',
-        'calendar' => '\Swagger\Client\Model\Calendar'
+        'condition' => '\Delta\Voip\Model\ConditionalRoutesCondition',
+        'calendar' => '\Delta\Voip\Model\Calendar'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ConditionalRoutesConditionsRelCalendarDetailedCollection implements ModelI
     /**
      * Gets condition
      *
-     * @return \Swagger\Client\Model\ConditionalRoutesCondition
+     * @return \Delta\Voip\Model\ConditionalRoutesCondition
      */
     public function getCondition()
     {
@@ -259,7 +259,7 @@ class ConditionalRoutesConditionsRelCalendarDetailedCollection implements ModelI
     /**
      * Sets condition
      *
-     * @param \Swagger\Client\Model\ConditionalRoutesCondition $condition condition
+     * @param \Delta\Voip\Model\ConditionalRoutesCondition $condition condition
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ConditionalRoutesConditionsRelCalendarDetailedCollection implements ModelI
     /**
      * Gets calendar
      *
-     * @return \Swagger\Client\Model\Calendar
+     * @return \Delta\Voip\Model\Calendar
      */
     public function getCalendar()
     {
@@ -283,7 +283,7 @@ class ConditionalRoutesConditionsRelCalendarDetailedCollection implements ModelI
     /**
      * Sets calendar
      *
-     * @param \Swagger\Client\Model\Calendar $calendar calendar
+     * @param \Delta\Voip\Model\Calendar $calendar calendar
      *
      * @return $this
      */

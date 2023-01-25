@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * FaxesInOutDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class FaxesInOutDetailed implements ModelInterface, ArrayAccess
         'status' => 'string',
         'id' => 'int',
         'file' => 'string',
-        'fax' => '\Swagger\Client\Model\Fax',
-        'dst_country' => '\Swagger\Client\Model\Country'
+        'fax' => '\Delta\Voip\Model\Fax',
+        'dst_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -523,7 +523,7 @@ class FaxesInOutDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets fax
      *
-     * @return \Swagger\Client\Model\Fax
+     * @return \Delta\Voip\Model\Fax
      */
     public function getFax()
     {
@@ -533,7 +533,7 @@ class FaxesInOutDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets fax
      *
-     * @param \Swagger\Client\Model\Fax $fax fax
+     * @param \Delta\Voip\Model\Fax $fax fax
      *
      * @return $this
      */
@@ -547,7 +547,7 @@ class FaxesInOutDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets dst_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getDstCountry()
     {
@@ -557,7 +557,7 @@ class FaxesInOutDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets dst_country
      *
-     * @param \Swagger\Client\Model\Country $dst_country dst_country
+     * @param \Delta\Voip\Model\Country $dst_country dst_country
      *
      * @return $this
      */

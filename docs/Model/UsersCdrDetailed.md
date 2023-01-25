@@ -16,10 +16,10 @@ Name | Type | Description | Notes
 **callid_hash** | **string** |  | [optional] 
 **xcallid** | **string** |  | [optional] 
 **id** | **int** |  | [optional] 
-**user** | [**\Swagger\Client\Model\User**](User.md) |  | [optional] 
-**friend** | [**\Swagger\Client\Model\Friend**](Friend.md) |  | [optional] 
-**residential_device** | [**\Swagger\Client\Model\ResidentialDevice**](ResidentialDevice.md) |  | [optional] 
-**retail_account** | [**\Swagger\Client\Model\RetailAccount**](RetailAccount.md) |  | [optional] 
+**user** | [**\Delta\Voip\Model\User**](User.md) |  | [optional] 
+**friend** | [**\Delta\Voip\Model\Friend**](Friend.md) |  | [optional] 
+**residential_device** | [**\Delta\Voip\Model\ResidentialDevice**](ResidentialDevice.md) |  | [optional] 
+**retail_account** | [**\Delta\Voip\Model\RetailAccount**](RetailAccount.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

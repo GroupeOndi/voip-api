@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ExternalCallFilterRelScheduleDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ExternalCallFilterRelScheduleDetailed implements ModelInterface, ArrayAcce
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'filter' => '\Swagger\Client\Model\ExternalCallFilter',
-        'schedule' => '\Swagger\Client\Model\Schedule'
+        'filter' => '\Delta\Voip\Model\ExternalCallFilter',
+        'schedule' => '\Delta\Voip\Model\Schedule'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ExternalCallFilterRelScheduleDetailed implements ModelInterface, ArrayAcce
     /**
      * Gets filter
      *
-     * @return \Swagger\Client\Model\ExternalCallFilter
+     * @return \Delta\Voip\Model\ExternalCallFilter
      */
     public function getFilter()
     {
@@ -259,7 +259,7 @@ class ExternalCallFilterRelScheduleDetailed implements ModelInterface, ArrayAcce
     /**
      * Sets filter
      *
-     * @param \Swagger\Client\Model\ExternalCallFilter $filter filter
+     * @param \Delta\Voip\Model\ExternalCallFilter $filter filter
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ExternalCallFilterRelScheduleDetailed implements ModelInterface, ArrayAcce
     /**
      * Gets schedule
      *
-     * @return \Swagger\Client\Model\Schedule
+     * @return \Delta\Voip\Model\Schedule
      */
     public function getSchedule()
     {
@@ -283,7 +283,7 @@ class ExternalCallFilterRelScheduleDetailed implements ModelInterface, ArrayAcce
     /**
      * Sets schedule
      *
-     * @param \Swagger\Client\Model\Schedule $schedule schedule
+     * @param \Delta\Voip\Model\Schedule $schedule schedule
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ResidentialDeviceStatus Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class ResidentialDeviceStatus implements ModelInterface, ArrayAccess
         'id' => 'int',
         'name' => 'string',
         'domain_name' => 'string',
-        'status' => '\Swagger\Client\Model\RegistrationStatus[]'
+        'status' => '\Delta\Voip\Model\RegistrationStatus[]'
     ];
 
     /**
@@ -305,7 +305,7 @@ class ResidentialDeviceStatus implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\RegistrationStatus[]
+     * @return \Delta\Voip\Model\RegistrationStatus[]
      */
     public function getStatus()
     {
@@ -315,7 +315,7 @@ class ResidentialDeviceStatus implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\RegistrationStatus[] $status Registration status
+     * @param \Delta\Voip\Model\RegistrationStatus[] $status Registration status
      *
      * @return $this
      */

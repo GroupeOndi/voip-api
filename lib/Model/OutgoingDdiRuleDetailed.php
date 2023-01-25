@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * OutgoingDdiRuleDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class OutgoingDdiRuleDetailed implements ModelInterface, ArrayAccess
         'name' => 'string',
         'default_action' => 'string',
         'id' => 'int',
-        'forced_ddi' => '\Swagger\Client\Model\Ddi'
+        'forced_ddi' => '\Delta\Voip\Model\Ddi'
     ];
 
     /**
@@ -351,7 +351,7 @@ class OutgoingDdiRuleDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets forced_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getForcedDdi()
     {
@@ -361,7 +361,7 @@ class OutgoingDdiRuleDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets forced_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $forced_ddi forced_ddi
+     * @param \Delta\Voip\Model\Ddi $forced_ddi forced_ddi
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ConditionalRoutesConditionsRelRouteLockDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ConditionalRoutesConditionsRelRouteLockDetailedCollection implements Model
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'condition' => '\Swagger\Client\Model\ConditionalRoutesCondition',
-        'route_lock' => '\Swagger\Client\Model\RouteLock'
+        'condition' => '\Delta\Voip\Model\ConditionalRoutesCondition',
+        'route_lock' => '\Delta\Voip\Model\RouteLock'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ConditionalRoutesConditionsRelRouteLockDetailedCollection implements Model
     /**
      * Gets condition
      *
-     * @return \Swagger\Client\Model\ConditionalRoutesCondition
+     * @return \Delta\Voip\Model\ConditionalRoutesCondition
      */
     public function getCondition()
     {
@@ -259,7 +259,7 @@ class ConditionalRoutesConditionsRelRouteLockDetailedCollection implements Model
     /**
      * Sets condition
      *
-     * @param \Swagger\Client\Model\ConditionalRoutesCondition $condition condition
+     * @param \Delta\Voip\Model\ConditionalRoutesCondition $condition condition
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ConditionalRoutesConditionsRelRouteLockDetailedCollection implements Model
     /**
      * Gets route_lock
      *
-     * @return \Swagger\Client\Model\RouteLock
+     * @return \Delta\Voip\Model\RouteLock
      */
     public function getRouteLock()
     {
@@ -283,7 +283,7 @@ class ConditionalRoutesConditionsRelRouteLockDetailedCollection implements Model
     /**
      * Sets route_lock
      *
-     * @param \Swagger\Client\Model\RouteLock $route_lock route_lock
+     * @param \Delta\Voip\Model\RouteLock $route_lock route_lock
      *
      * @return $this
      */

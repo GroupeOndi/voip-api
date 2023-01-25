@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ExternalCallFilterRelCalendarDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ExternalCallFilterRelCalendarDetailed implements ModelInterface, ArrayAcce
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'filter' => '\Swagger\Client\Model\ExternalCallFilter',
-        'calendar' => '\Swagger\Client\Model\Calendar'
+        'filter' => '\Delta\Voip\Model\ExternalCallFilter',
+        'calendar' => '\Delta\Voip\Model\Calendar'
     ];
 
     /**
@@ -249,7 +249,7 @@ class ExternalCallFilterRelCalendarDetailed implements ModelInterface, ArrayAcce
     /**
      * Gets filter
      *
-     * @return \Swagger\Client\Model\ExternalCallFilter
+     * @return \Delta\Voip\Model\ExternalCallFilter
      */
     public function getFilter()
     {
@@ -259,7 +259,7 @@ class ExternalCallFilterRelCalendarDetailed implements ModelInterface, ArrayAcce
     /**
      * Sets filter
      *
-     * @param \Swagger\Client\Model\ExternalCallFilter $filter filter
+     * @param \Delta\Voip\Model\ExternalCallFilter $filter filter
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class ExternalCallFilterRelCalendarDetailed implements ModelInterface, ArrayAcce
     /**
      * Gets calendar
      *
-     * @return \Swagger\Client\Model\Calendar
+     * @return \Delta\Voip\Model\Calendar
      */
     public function getCalendar()
     {
@@ -283,7 +283,7 @@ class ExternalCallFilterRelCalendarDetailed implements ModelInterface, ArrayAcce
     /**
      * Sets calendar
      *
-     * @param \Swagger\Client\Model\Calendar $calendar calendar
+     * @param \Delta\Voip\Model\Calendar $calendar calendar
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * MusicOnHoldCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class MusicOnHoldCollection implements ModelInterface, ArrayAccess
         'id' => 'int',
         'name' => 'string',
         'status' => 'string',
-        'original_file' => '\Swagger\Client\Model\MusicOnHoldOriginalFile'
+        'original_file' => '\Delta\Voip\Model\MusicOnHoldOriginalFile'
     ];
 
     /**
@@ -352,7 +352,7 @@ class MusicOnHoldCollection implements ModelInterface, ArrayAccess
     /**
      * Gets original_file
      *
-     * @return \Swagger\Client\Model\MusicOnHoldOriginalFile
+     * @return \Delta\Voip\Model\MusicOnHoldOriginalFile
      */
     public function getOriginalFile()
     {
@@ -362,7 +362,7 @@ class MusicOnHoldCollection implements ModelInterface, ArrayAccess
     /**
      * Sets original_file
      *
-     * @param \Swagger\Client\Model\MusicOnHoldOriginalFile $original_file original_file
+     * @param \Delta\Voip\Model\MusicOnHoldOriginalFile $original_file original_file
      *
      * @return $this
      */

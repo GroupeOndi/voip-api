@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Delta\Voip\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Delta\Voip\ApiException;
+use Delta\Voip\Configuration;
+use Delta\Voip\HeaderSelector;
+use Delta\Voip\ObjectSerializer;
 
 /**
  * ProviderApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,7 +94,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -110,7 +110,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -331,7 +331,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -347,7 +347,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -568,7 +568,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -584,7 +584,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -805,7 +805,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -821,7 +821,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1042,7 +1042,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1058,7 +1058,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1279,7 +1279,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1295,7 +1295,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1516,7 +1516,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1532,7 +1532,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1753,7 +1753,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1769,7 +1769,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1990,7 +1990,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2006,7 +2006,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2227,7 +2227,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2243,7 +2243,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2464,7 +2464,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2480,7 +2480,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2701,7 +2701,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2717,7 +2717,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2938,7 +2938,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2954,7 +2954,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3175,7 +3175,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3191,7 +3191,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3412,7 +3412,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3428,7 +3428,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3649,7 +3649,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3665,7 +3665,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3886,7 +3886,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3902,7 +3902,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -4123,7 +4123,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -4139,7 +4139,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -4360,7 +4360,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -4376,7 +4376,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -4597,7 +4597,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -4613,7 +4613,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -4834,7 +4834,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -4850,7 +4850,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -5071,7 +5071,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -5087,7 +5087,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -5308,7 +5308,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -5324,7 +5324,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -5545,7 +5545,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -5561,7 +5561,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -5782,7 +5782,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -5798,7 +5798,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -6019,7 +6019,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -6035,7 +6035,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -6256,7 +6256,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -6272,7 +6272,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -6493,7 +6493,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -6509,7 +6509,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -6730,7 +6730,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -6746,7 +6746,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -6967,7 +6967,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -6983,7 +6983,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -7204,7 +7204,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -7220,7 +7220,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -7441,7 +7441,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -7457,7 +7457,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -7678,7 +7678,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -7694,7 +7694,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -7915,7 +7915,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -7931,7 +7931,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -8152,7 +8152,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -8168,7 +8168,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -8389,7 +8389,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -8405,7 +8405,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -8626,7 +8626,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -8642,7 +8642,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -8863,7 +8863,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -8879,7 +8879,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -9100,7 +9100,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -9116,7 +9116,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -9337,7 +9337,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -9353,7 +9353,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -9574,7 +9574,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -9590,7 +9590,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -9811,7 +9811,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -9827,7 +9827,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -10048,7 +10048,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -10064,7 +10064,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -10285,7 +10285,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -10301,7 +10301,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -10522,7 +10522,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -10538,7 +10538,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -10759,7 +10759,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -10775,7 +10775,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -10996,7 +10996,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -11012,7 +11012,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -11233,7 +11233,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -11249,7 +11249,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -11552,9 +11552,9 @@ class ProviderApi
      * @param  bool $_pagination _pagination (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BillableCallCollection[]
+     * @return \Delta\Voip\Model\BillableCallCollection[]
      */
     public function getBillableCallCollection($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $endpoint_id = null, $endpoint_id_between = null, $endpoint_id_exists = null, $endpoint_id_gt = null, $endpoint_id_gte = null, $endpoint_id_lt = null, $endpoint_id_lte = null, $endpoint_name = null, $endpoint_name_end = null, $endpoint_name_exact = null, $endpoint_name_exists = null, $endpoint_name_partial = null, $endpoint_name_start = null, $endpoint_type = null, $endpoint_type_end = null, $endpoint_type_exact = null, $endpoint_type_exists = null, $endpoint_type_partial = null, $endpoint_type_start = null, $id_exact = null, $price = null, $price_between = null, $price_exists = null, $price_gt = null, $price_gte = null, $price_lt = null, $price_lte = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_exists = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $_order_callee = null, $_order_caller = null, $_order_callid = null, $_order_direction = null, $_order_duration = null, $_order_endpoint_id = null, $_order_endpoint_name = null, $_order_endpoint_type = null, $_order_id = null, $_order_price = null, $_order_start_time = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
@@ -11651,13 +11651,13 @@ class ProviderApi
      * @param  bool $_pagination (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BillableCallCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\BillableCallCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getBillableCallCollectionWithHttpInfo($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $endpoint_id = null, $endpoint_id_between = null, $endpoint_id_exists = null, $endpoint_id_gt = null, $endpoint_id_gte = null, $endpoint_id_lt = null, $endpoint_id_lte = null, $endpoint_name = null, $endpoint_name_end = null, $endpoint_name_exact = null, $endpoint_name_exists = null, $endpoint_name_partial = null, $endpoint_name_start = null, $endpoint_type = null, $endpoint_type_end = null, $endpoint_type_exact = null, $endpoint_type_exists = null, $endpoint_type_partial = null, $endpoint_type_start = null, $id_exact = null, $price = null, $price_between = null, $price_exists = null, $price_gt = null, $price_gte = null, $price_lt = null, $price_lte = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_exists = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $_order_callee = null, $_order_caller = null, $_order_callid = null, $_order_direction = null, $_order_duration = null, $_order_endpoint_id = null, $_order_endpoint_name = null, $_order_endpoint_type = null, $_order_id = null, $_order_price = null, $_order_start_time = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\BillableCallCollection[]';
+        $returnType = '\Delta\Voip\Model\BillableCallCollection[]';
         $request = $this->getBillableCallCollectionRequest($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $ddi, $ddi2, $ddi_exists, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $endpoint_id, $endpoint_id_between, $endpoint_id_exists, $endpoint_id_gt, $endpoint_id_gte, $endpoint_id_lt, $endpoint_id_lte, $endpoint_name, $endpoint_name_end, $endpoint_name_exact, $endpoint_name_exists, $endpoint_name_partial, $endpoint_name_start, $endpoint_type, $endpoint_type_end, $endpoint_type_exact, $endpoint_type_exists, $endpoint_type_partial, $endpoint_type_start, $id_exact, $price, $price_between, $price_exists, $price_gt, $price_gte, $price_lt, $price_lte, $start_time, $start_time_after, $start_time_before, $start_time_exists, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $_order_callee, $_order_caller, $_order_callid, $_order_direction, $_order_duration, $_order_endpoint_id, $_order_endpoint_name, $_order_endpoint_type, $_order_id, $_order_price, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone);
 
         try {
@@ -11709,7 +11709,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BillableCallCollection[]',
+                        '\Delta\Voip\Model\BillableCallCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -11915,7 +11915,7 @@ class ProviderApi
      */
     public function getBillableCallCollectionAsyncWithHttpInfo($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $endpoint_id = null, $endpoint_id_between = null, $endpoint_id_exists = null, $endpoint_id_gt = null, $endpoint_id_gte = null, $endpoint_id_lt = null, $endpoint_id_lte = null, $endpoint_name = null, $endpoint_name_end = null, $endpoint_name_exact = null, $endpoint_name_exists = null, $endpoint_name_partial = null, $endpoint_name_start = null, $endpoint_type = null, $endpoint_type_end = null, $endpoint_type_exact = null, $endpoint_type_exists = null, $endpoint_type_partial = null, $endpoint_type_start = null, $id_exact = null, $price = null, $price_between = null, $price_exists = null, $price_gt = null, $price_gte = null, $price_lt = null, $price_lte = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_exists = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $_order_callee = null, $_order_caller = null, $_order_callid = null, $_order_direction = null, $_order_duration = null, $_order_endpoint_id = null, $_order_endpoint_name = null, $_order_endpoint_type = null, $_order_id = null, $_order_price = null, $_order_start_time = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\BillableCallCollection[]';
+        $returnType = '\Delta\Voip\Model\BillableCallCollection[]';
         $request = $this->getBillableCallCollectionRequest($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $ddi, $ddi2, $ddi_exists, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $endpoint_id, $endpoint_id_between, $endpoint_id_exists, $endpoint_id_gt, $endpoint_id_gte, $endpoint_id_lt, $endpoint_id_lte, $endpoint_name, $endpoint_name_end, $endpoint_name_exact, $endpoint_name_exists, $endpoint_name_partial, $endpoint_name_start, $endpoint_type, $endpoint_type_end, $endpoint_type_exact, $endpoint_type_exists, $endpoint_type_partial, $endpoint_type_start, $id_exact, $price, $price_between, $price_exists, $price_gt, $price_gte, $price_lt, $price_lte, $start_time, $start_time_after, $start_time_before, $start_time_exists, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $_order_callee, $_order_caller, $_order_callid, $_order_direction, $_order_duration, $_order_endpoint_id, $_order_endpoint_name, $_order_endpoint_type, $_order_id, $_order_price, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone);
 
         return $this->client
@@ -12473,9 +12473,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BillableCallDetailed
+     * @return \Delta\Voip\Model\BillableCallDetailed
      */
     public function getBillableCallItem($id, $_timezone = null)
     {
@@ -12491,13 +12491,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BillableCallDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\BillableCallDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getBillableCallItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\BillableCallDetailed';
+        $returnType = '\Delta\Voip\Model\BillableCallDetailed';
         $request = $this->getBillableCallItemRequest($id, $_timezone);
 
         try {
@@ -12549,7 +12549,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BillableCallDetailed',
+                        '\Delta\Voip\Model\BillableCallDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -12593,7 +12593,7 @@ class ProviderApi
      */
     public function getBillableCallItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\BillableCallDetailed';
+        $returnType = '\Delta\Voip\Model\BillableCallDetailed';
         $request = $this->getBillableCallItemRequest($id, $_timezone);
 
         return $this->client
@@ -12765,9 +12765,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarCollection[]
+     * @return \Delta\Voip\Model\CalendarCollection[]
      */
     public function getCalendarCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -12792,13 +12792,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCalendarCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarCollection[]';
+        $returnType = '\Delta\Voip\Model\CalendarCollection[]';
         $request = $this->getCalendarCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -12850,7 +12850,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarCollection[]',
+                        '\Delta\Voip\Model\CalendarCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -12912,7 +12912,7 @@ class ProviderApi
      */
     public function getCalendarCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarCollection[]';
+        $returnType = '\Delta\Voip\Model\CalendarCollection[]';
         $request = $this->getCalendarCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -13109,9 +13109,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarDetailed
+     * @return \Delta\Voip\Model\CalendarDetailed
      */
     public function getCalendarItem($id)
     {
@@ -13126,13 +13126,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCalendarItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CalendarDetailed';
+        $returnType = '\Delta\Voip\Model\CalendarDetailed';
         $request = $this->getCalendarItemRequest($id);
 
         try {
@@ -13184,7 +13184,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarDetailed',
+                        '\Delta\Voip\Model\CalendarDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -13226,7 +13226,7 @@ class ProviderApi
      */
     public function getCalendarItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CalendarDetailed';
+        $returnType = '\Delta\Voip\Model\CalendarDetailed';
         $request = $this->getCalendarItemRequest($id);
 
         return $this->client
@@ -13422,9 +13422,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriodCollection[]
+     * @return \Delta\Voip\Model\CalendarPeriodCollection[]
      */
     public function getCalendarPeriodCollection($calendar = null, $calendar2 = null, $end_date = null, $end_date_after = null, $end_date_before = null, $end_date_start = null, $end_date_strictly_after = null, $end_date_strictly_before = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $locution = null, $locution2 = null, $locution_exists = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $start_date = null, $start_date_after = null, $start_date_before = null, $start_date_start = null, $start_date_strictly_after = null, $start_date_strictly_before = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_end_date = null, $_order_id = null, $_order_route_type = null, $_order_start_date = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -13478,13 +13478,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriodCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriodCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCalendarPeriodCollectionWithHttpInfo($calendar = null, $calendar2 = null, $end_date = null, $end_date_after = null, $end_date_before = null, $end_date_start = null, $end_date_strictly_after = null, $end_date_strictly_before = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $locution = null, $locution2 = null, $locution_exists = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $start_date = null, $start_date_after = null, $start_date_before = null, $start_date_start = null, $start_date_strictly_after = null, $start_date_strictly_before = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_end_date = null, $_order_id = null, $_order_route_type = null, $_order_start_date = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodCollection[]';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodCollection[]';
         $request = $this->getCalendarPeriodCollectionRequest($calendar, $calendar2, $end_date, $end_date_after, $end_date_before, $end_date_start, $end_date_strictly_after, $end_date_strictly_before, $extension, $extension2, $extension_exists, $id_exact, $locution, $locution2, $locution_exists, $number_country, $number_country2, $number_country_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $start_date, $start_date_after, $start_date_before, $start_date_start, $start_date_strictly_after, $start_date_strictly_before, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $_order_end_date, $_order_id, $_order_route_type, $_order_start_date, $_items_per_page, $_page, $_properties);
 
         try {
@@ -13536,7 +13536,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriodCollection[]',
+                        '\Delta\Voip\Model\CalendarPeriodCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -13656,7 +13656,7 @@ class ProviderApi
      */
     public function getCalendarPeriodCollectionAsyncWithHttpInfo($calendar = null, $calendar2 = null, $end_date = null, $end_date_after = null, $end_date_before = null, $end_date_start = null, $end_date_strictly_after = null, $end_date_strictly_before = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $locution = null, $locution2 = null, $locution_exists = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $start_date = null, $start_date_after = null, $start_date_before = null, $start_date_start = null, $start_date_strictly_after = null, $start_date_strictly_before = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_end_date = null, $_order_id = null, $_order_route_type = null, $_order_start_date = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodCollection[]';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodCollection[]';
         $request = $this->getCalendarPeriodCollectionRequest($calendar, $calendar2, $end_date, $end_date_after, $end_date_before, $end_date_start, $end_date_strictly_after, $end_date_strictly_before, $extension, $extension2, $extension_exists, $id_exact, $locution, $locution2, $locution_exists, $number_country, $number_country2, $number_country_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $start_date, $start_date_after, $start_date_before, $start_date_start, $start_date_strictly_after, $start_date_strictly_before, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $_order_end_date, $_order_id, $_order_route_type, $_order_start_date, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -13998,9 +13998,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriodDetailed
+     * @return \Delta\Voip\Model\CalendarPeriodDetailed
      */
     public function getCalendarPeriodItem($id)
     {
@@ -14015,13 +14015,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriodDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriodDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCalendarPeriodItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodDetailed';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodDetailed';
         $request = $this->getCalendarPeriodItemRequest($id);
 
         try {
@@ -14073,7 +14073,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriodDetailed',
+                        '\Delta\Voip\Model\CalendarPeriodDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -14115,7 +14115,7 @@ class ProviderApi
      */
     public function getCalendarPeriodItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodDetailed';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodDetailed';
         $request = $this->getCalendarPeriodItemRequest($id);
 
         return $this->client
@@ -14299,9 +14299,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriodsRelScheduleDetailedCollection[]
+     * @return \Delta\Voip\Model\CalendarPeriodsRelScheduleDetailedCollection[]
      */
     public function getCalendarPeriodsRelScheduleCollection($calendar_period = null, $calendar_period_calendar = null, $calendar_period_end_date = null, $calendar_period_extension = null, $calendar_period_locution = null, $calendar_period_number_country = null, $calendar_period_number_value = null, $calendar_period_route_type = null, $calendar_period_start_date = null, $calendar_period_voice_mail_user = null, $calendar_period2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -14343,13 +14343,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriodsRelScheduleDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriodsRelScheduleDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCalendarPeriodsRelScheduleCollectionWithHttpInfo($calendar_period = null, $calendar_period_calendar = null, $calendar_period_end_date = null, $calendar_period_extension = null, $calendar_period_locution = null, $calendar_period_number_country = null, $calendar_period_number_value = null, $calendar_period_route_type = null, $calendar_period_start_date = null, $calendar_period_voice_mail_user = null, $calendar_period2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelScheduleDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelScheduleDetailedCollection[]';
         $request = $this->getCalendarPeriodsRelScheduleCollectionRequest($calendar_period, $calendar_period_calendar, $calendar_period_end_date, $calendar_period_extension, $calendar_period_locution, $calendar_period_number_country, $calendar_period_number_value, $calendar_period_route_type, $calendar_period_start_date, $calendar_period_voice_mail_user, $calendar_period2, $id_exact, $schedule, $schedule_friday, $schedule_monday, $schedule_name, $schedule_saturday, $schedule_sunday, $schedule_thursday, $schedule_time_in, $schedule_timeout, $schedule_tuesday, $schedule_wednesday, $schedule2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -14401,7 +14401,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriodsRelScheduleDetailedCollection[]',
+                        '\Delta\Voip\Model\CalendarPeriodsRelScheduleDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -14497,7 +14497,7 @@ class ProviderApi
      */
     public function getCalendarPeriodsRelScheduleCollectionAsyncWithHttpInfo($calendar_period = null, $calendar_period_calendar = null, $calendar_period_end_date = null, $calendar_period_extension = null, $calendar_period_locution = null, $calendar_period_number_country = null, $calendar_period_number_value = null, $calendar_period_route_type = null, $calendar_period_start_date = null, $calendar_period_voice_mail_user = null, $calendar_period2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelScheduleDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelScheduleDetailedCollection[]';
         $request = $this->getCalendarPeriodsRelScheduleCollectionRequest($calendar_period, $calendar_period_calendar, $calendar_period_end_date, $calendar_period_extension, $calendar_period_locution, $calendar_period_number_country, $calendar_period_number_value, $calendar_period_route_type, $calendar_period_start_date, $calendar_period_voice_mail_user, $calendar_period2, $id_exact, $schedule, $schedule_friday, $schedule_monday, $schedule_name, $schedule_saturday, $schedule_sunday, $schedule_thursday, $schedule_time_in, $schedule_timeout, $schedule_tuesday, $schedule_wednesday, $schedule2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -14779,9 +14779,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriodsRelScheduleDetailed
+     * @return \Delta\Voip\Model\CalendarPeriodsRelScheduleDetailed
      */
     public function getCalendarPeriodsRelScheduleItem($id)
     {
@@ -14796,13 +14796,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriodsRelScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriodsRelScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCalendarPeriodsRelScheduleItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelScheduleDetailed';
         $request = $this->getCalendarPeriodsRelScheduleItemRequest($id);
 
         try {
@@ -14854,7 +14854,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriodsRelScheduleDetailed',
+                        '\Delta\Voip\Model\CalendarPeriodsRelScheduleDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -14896,7 +14896,7 @@ class ProviderApi
      */
     public function getCalendarPeriodsRelScheduleItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelScheduleDetailed';
         $request = $this->getCalendarPeriodsRelScheduleItemRequest($id);
 
         return $this->client
@@ -15069,9 +15069,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAclCollection[]
+     * @return \Delta\Voip\Model\CallAclCollection[]
      */
     public function getCallAclCollection($default_policy = null, $default_policy_end = null, $default_policy_exact = null, $default_policy_partial = null, $default_policy_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_default_policy = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -15102,13 +15102,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAclCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAclCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallAclCollectionWithHttpInfo($default_policy = null, $default_policy_end = null, $default_policy_exact = null, $default_policy_partial = null, $default_policy_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_default_policy = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclCollection[]';
+        $returnType = '\Delta\Voip\Model\CallAclCollection[]';
         $request = $this->getCallAclCollectionRequest($default_policy, $default_policy_end, $default_policy_exact, $default_policy_partial, $default_policy_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_default_policy, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -15160,7 +15160,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAclCollection[]',
+                        '\Delta\Voip\Model\CallAclCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -15234,7 +15234,7 @@ class ProviderApi
      */
     public function getCallAclCollectionAsyncWithHttpInfo($default_policy = null, $default_policy_end = null, $default_policy_exact = null, $default_policy_partial = null, $default_policy_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_default_policy = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclCollection[]';
+        $returnType = '\Delta\Voip\Model\CallAclCollection[]';
         $request = $this->getCallAclCollectionRequest($default_policy, $default_policy_end, $default_policy_exact, $default_policy_partial, $default_policy_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_default_policy, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -15461,9 +15461,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAclDetailed
+     * @return \Delta\Voip\Model\CallAclDetailed
      */
     public function getCallAclItem($id)
     {
@@ -15478,13 +15478,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAclDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAclDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallAclItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CallAclDetailed';
+        $returnType = '\Delta\Voip\Model\CallAclDetailed';
         $request = $this->getCallAclItemRequest($id);
 
         try {
@@ -15536,7 +15536,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAclDetailed',
+                        '\Delta\Voip\Model\CallAclDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -15578,7 +15578,7 @@ class ProviderApi
      */
     public function getCallAclItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CallAclDetailed';
+        $returnType = '\Delta\Voip\Model\CallAclDetailed';
         $request = $this->getCallAclItemRequest($id);
 
         return $this->client
@@ -15759,9 +15759,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAclRelMatchListDetailedCollection[]
+     * @return \Delta\Voip\Model\CallAclRelMatchListDetailedCollection[]
      */
     public function getCallAclRelMatchListCollection($call_acl = null, $call_acl_default_policy = null, $call_acl_name = null, $call_acl2 = null, $id_exact = null, $match_list = null, $match_list_name = null, $match_list2 = null, $policy = null, $policy_end = null, $policy_exact = null, $policy_partial = null, $policy_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $_order_id = null, $_order_policy = null, $_order_priority = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -15800,13 +15800,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAclRelMatchListDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAclRelMatchListDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallAclRelMatchListCollectionWithHttpInfo($call_acl = null, $call_acl_default_policy = null, $call_acl_name = null, $call_acl2 = null, $id_exact = null, $match_list = null, $match_list_name = null, $match_list2 = null, $policy = null, $policy_end = null, $policy_exact = null, $policy_partial = null, $policy_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $_order_id = null, $_order_policy = null, $_order_priority = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchListDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchListDetailedCollection[]';
         $request = $this->getCallAclRelMatchListCollectionRequest($call_acl, $call_acl_default_policy, $call_acl_name, $call_acl2, $id_exact, $match_list, $match_list_name, $match_list2, $policy, $policy_end, $policy_exact, $policy_partial, $policy_start, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $_order_id, $_order_policy, $_order_priority, $_items_per_page, $_page, $_properties);
 
         try {
@@ -15858,7 +15858,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAclRelMatchListDetailedCollection[]',
+                        '\Delta\Voip\Model\CallAclRelMatchListDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -15948,7 +15948,7 @@ class ProviderApi
      */
     public function getCallAclRelMatchListCollectionAsyncWithHttpInfo($call_acl = null, $call_acl_default_policy = null, $call_acl_name = null, $call_acl2 = null, $id_exact = null, $match_list = null, $match_list_name = null, $match_list2 = null, $policy = null, $policy_end = null, $policy_exact = null, $policy_partial = null, $policy_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $_order_id = null, $_order_policy = null, $_order_priority = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchListDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchListDetailedCollection[]';
         $request = $this->getCallAclRelMatchListCollectionRequest($call_acl, $call_acl_default_policy, $call_acl_name, $call_acl2, $id_exact, $match_list, $match_list_name, $match_list2, $policy, $policy_end, $policy_exact, $policy_partial, $policy_start, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $_order_id, $_order_policy, $_order_priority, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -16215,9 +16215,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAclRelMatchListDetailed
+     * @return \Delta\Voip\Model\CallAclRelMatchListDetailed
      */
     public function getCallAclRelMatchListItem($id)
     {
@@ -16232,13 +16232,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAclRelMatchListDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAclRelMatchListDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallAclRelMatchListItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchListDetailed';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchListDetailed';
         $request = $this->getCallAclRelMatchListItemRequest($id);
 
         try {
@@ -16290,7 +16290,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAclRelMatchListDetailed',
+                        '\Delta\Voip\Model\CallAclRelMatchListDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -16332,7 +16332,7 @@ class ProviderApi
      */
     public function getCallAclRelMatchListItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchListDetailed';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchListDetailed';
         $request = $this->getCallAclRelMatchListItemRequest($id);
 
         return $this->client
@@ -16511,9 +16511,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallCsvReportCollection[]
+     * @return \Delta\Voip\Model\CallCsvReportCollection[]
      */
     public function getCallCsvReportCollection($call_csv_scheduler = null, $call_csv_scheduler2 = null, $call_csv_scheduler_exists = null, $id_exact = null, $in_date = null, $in_date_after = null, $in_date_before = null, $in_date_start = null, $in_date_strictly_after = null, $in_date_strictly_before = null, $out_date = null, $out_date_after = null, $out_date_before = null, $out_date_start = null, $out_date_strictly_after = null, $out_date_strictly_before = null, $_order_id = null, $_order_in_date = null, $_order_out_date = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
@@ -16550,13 +16550,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallCsvReportCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallCsvReportCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallCsvReportCollectionWithHttpInfo($call_csv_scheduler = null, $call_csv_scheduler2 = null, $call_csv_scheduler_exists = null, $id_exact = null, $in_date = null, $in_date_after = null, $in_date_before = null, $in_date_start = null, $in_date_strictly_after = null, $in_date_strictly_before = null, $out_date = null, $out_date_after = null, $out_date_before = null, $out_date_start = null, $out_date_strictly_after = null, $out_date_strictly_before = null, $_order_id = null, $_order_in_date = null, $_order_out_date = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvReportCollection[]';
+        $returnType = '\Delta\Voip\Model\CallCsvReportCollection[]';
         $request = $this->getCallCsvReportCollectionRequest($call_csv_scheduler, $call_csv_scheduler2, $call_csv_scheduler_exists, $id_exact, $in_date, $in_date_after, $in_date_before, $in_date_start, $in_date_strictly_after, $in_date_strictly_before, $out_date, $out_date_after, $out_date_before, $out_date_start, $out_date_strictly_after, $out_date_strictly_before, $_order_id, $_order_in_date, $_order_out_date, $_items_per_page, $_page, $_properties, $_timezone);
 
         try {
@@ -16608,7 +16608,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallCsvReportCollection[]',
+                        '\Delta\Voip\Model\CallCsvReportCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -16694,7 +16694,7 @@ class ProviderApi
      */
     public function getCallCsvReportCollectionAsyncWithHttpInfo($call_csv_scheduler = null, $call_csv_scheduler2 = null, $call_csv_scheduler_exists = null, $id_exact = null, $in_date = null, $in_date_after = null, $in_date_before = null, $in_date_start = null, $in_date_strictly_after = null, $in_date_strictly_before = null, $out_date = null, $out_date_after = null, $out_date_before = null, $out_date_start = null, $out_date_strictly_after = null, $out_date_strictly_before = null, $_order_id = null, $_order_in_date = null, $_order_out_date = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvReportCollection[]';
+        $returnType = '\Delta\Voip\Model\CallCsvReportCollection[]';
         $request = $this->getCallCsvReportCollectionRequest($call_csv_scheduler, $call_csv_scheduler2, $call_csv_scheduler_exists, $id_exact, $in_date, $in_date_after, $in_date_before, $in_date_start, $in_date_strictly_after, $in_date_strictly_before, $out_date, $out_date_after, $out_date_before, $out_date_start, $out_date_strictly_after, $out_date_strictly_before, $_order_id, $_order_in_date, $_order_out_date, $_items_per_page, $_page, $_properties, $_timezone);
 
         return $this->client
@@ -16952,9 +16952,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallCsvReportDetailed
+     * @return \Delta\Voip\Model\CallCsvReportDetailed
      */
     public function getCallCsvReportItem($id, $_timezone = null)
     {
@@ -16970,13 +16970,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallCsvReportDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallCsvReportDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallCsvReportItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvReportDetailed';
+        $returnType = '\Delta\Voip\Model\CallCsvReportDetailed';
         $request = $this->getCallCsvReportItemRequest($id, $_timezone);
 
         try {
@@ -17028,7 +17028,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallCsvReportDetailed',
+                        '\Delta\Voip\Model\CallCsvReportDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -17072,7 +17072,7 @@ class ProviderApi
      */
     public function getCallCsvReportItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvReportDetailed';
+        $returnType = '\Delta\Voip\Model\CallCsvReportDetailed';
         $request = $this->getCallCsvReportItemRequest($id, $_timezone);
 
         return $this->client
@@ -17315,9 +17315,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallCsvSchedulerCollection[]
+     * @return \Delta\Voip\Model\CallCsvSchedulerCollection[]
      */
     public function getCallCsvSchedulerCollection($call_csv_notification_template = null, $call_csv_notification_template2 = null, $call_csv_notification_template_exists = null, $call_direction = null, $call_direction_end = null, $call_direction_exact = null, $call_direction_exists = null, $call_direction_partial = null, $call_direction_start = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $email = null, $email_end = null, $email_exact = null, $email_partial = null, $email_start = null, $fax = null, $fax2 = null, $fax_exists = null, $frequency = null, $frequency_between = null, $frequency_gt = null, $frequency_gte = null, $frequency_lt = null, $frequency_lte = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $last_execution = null, $last_execution_error = null, $last_execution_error_end = null, $last_execution_error_exact = null, $last_execution_error_exists = null, $last_execution_error_partial = null, $last_execution_error_start = null, $last_execution_after = null, $last_execution_before = null, $last_execution_exists = null, $last_execution_start = null, $last_execution_strictly_after = null, $last_execution_strictly_before = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $next_execution = null, $next_execution_after = null, $next_execution_before = null, $next_execution_exists = null, $next_execution_start = null, $next_execution_strictly_after = null, $next_execution_strictly_before = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $unit = null, $unit_end = null, $unit_exact = null, $unit_partial = null, $unit_start = null, $user = null, $user2 = null, $user_exists = null, $_order_call_direction = null, $_order_email = null, $_order_frequency = null, $_order_id = null, $_order_last_execution_error = null, $_order_last_execution = null, $_order_name = null, $_order_next_execution = null, $_order_unit = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
@@ -17413,13 +17413,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallCsvSchedulerCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallCsvSchedulerCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallCsvSchedulerCollectionWithHttpInfo($call_csv_notification_template = null, $call_csv_notification_template2 = null, $call_csv_notification_template_exists = null, $call_direction = null, $call_direction_end = null, $call_direction_exact = null, $call_direction_exists = null, $call_direction_partial = null, $call_direction_start = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $email = null, $email_end = null, $email_exact = null, $email_partial = null, $email_start = null, $fax = null, $fax2 = null, $fax_exists = null, $frequency = null, $frequency_between = null, $frequency_gt = null, $frequency_gte = null, $frequency_lt = null, $frequency_lte = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $last_execution = null, $last_execution_error = null, $last_execution_error_end = null, $last_execution_error_exact = null, $last_execution_error_exists = null, $last_execution_error_partial = null, $last_execution_error_start = null, $last_execution_after = null, $last_execution_before = null, $last_execution_exists = null, $last_execution_start = null, $last_execution_strictly_after = null, $last_execution_strictly_before = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $next_execution = null, $next_execution_after = null, $next_execution_before = null, $next_execution_exists = null, $next_execution_start = null, $next_execution_strictly_after = null, $next_execution_strictly_before = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $unit = null, $unit_end = null, $unit_exact = null, $unit_partial = null, $unit_start = null, $user = null, $user2 = null, $user_exists = null, $_order_call_direction = null, $_order_email = null, $_order_frequency = null, $_order_id = null, $_order_last_execution_error = null, $_order_last_execution = null, $_order_name = null, $_order_next_execution = null, $_order_unit = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvSchedulerCollection[]';
+        $returnType = '\Delta\Voip\Model\CallCsvSchedulerCollection[]';
         $request = $this->getCallCsvSchedulerCollectionRequest($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $call_direction, $call_direction_end, $call_direction_exact, $call_direction_exists, $call_direction_partial, $call_direction_start, $ddi, $ddi2, $ddi_exists, $email, $email_end, $email_exact, $email_partial, $email_start, $fax, $fax2, $fax_exists, $frequency, $frequency_between, $frequency_gt, $frequency_gte, $frequency_lt, $frequency_lte, $friend, $friend2, $friend_exists, $id_exact, $last_execution, $last_execution_error, $last_execution_error_end, $last_execution_error_exact, $last_execution_error_exists, $last_execution_error_partial, $last_execution_error_start, $last_execution_after, $last_execution_before, $last_execution_exists, $last_execution_start, $last_execution_strictly_after, $last_execution_strictly_before, $name, $name_end, $name_exact, $name_partial, $name_start, $next_execution, $next_execution_after, $next_execution_before, $next_execution_exists, $next_execution_start, $next_execution_strictly_after, $next_execution_strictly_before, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $unit, $unit_end, $unit_exact, $unit_partial, $unit_start, $user, $user2, $user_exists, $_order_call_direction, $_order_email, $_order_frequency, $_order_id, $_order_last_execution_error, $_order_last_execution, $_order_name, $_order_next_execution, $_order_unit, $_items_per_page, $_page, $_properties, $_timezone);
 
         try {
@@ -17471,7 +17471,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallCsvSchedulerCollection[]',
+                        '\Delta\Voip\Model\CallCsvSchedulerCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -17675,7 +17675,7 @@ class ProviderApi
      */
     public function getCallCsvSchedulerCollectionAsyncWithHttpInfo($call_csv_notification_template = null, $call_csv_notification_template2 = null, $call_csv_notification_template_exists = null, $call_direction = null, $call_direction_end = null, $call_direction_exact = null, $call_direction_exists = null, $call_direction_partial = null, $call_direction_start = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $email = null, $email_end = null, $email_exact = null, $email_partial = null, $email_start = null, $fax = null, $fax2 = null, $fax_exists = null, $frequency = null, $frequency_between = null, $frequency_gt = null, $frequency_gte = null, $frequency_lt = null, $frequency_lte = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $last_execution = null, $last_execution_error = null, $last_execution_error_end = null, $last_execution_error_exact = null, $last_execution_error_exists = null, $last_execution_error_partial = null, $last_execution_error_start = null, $last_execution_after = null, $last_execution_before = null, $last_execution_exists = null, $last_execution_start = null, $last_execution_strictly_after = null, $last_execution_strictly_before = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $next_execution = null, $next_execution_after = null, $next_execution_before = null, $next_execution_exists = null, $next_execution_start = null, $next_execution_strictly_after = null, $next_execution_strictly_before = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $unit = null, $unit_end = null, $unit_exact = null, $unit_partial = null, $unit_start = null, $user = null, $user2 = null, $user_exists = null, $_order_call_direction = null, $_order_email = null, $_order_frequency = null, $_order_id = null, $_order_last_execution_error = null, $_order_last_execution = null, $_order_name = null, $_order_next_execution = null, $_order_unit = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvSchedulerCollection[]';
+        $returnType = '\Delta\Voip\Model\CallCsvSchedulerCollection[]';
         $request = $this->getCallCsvSchedulerCollectionRequest($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $call_direction, $call_direction_end, $call_direction_exact, $call_direction_exists, $call_direction_partial, $call_direction_start, $ddi, $ddi2, $ddi_exists, $email, $email_end, $email_exact, $email_partial, $email_start, $fax, $fax2, $fax_exists, $frequency, $frequency_between, $frequency_gt, $frequency_gte, $frequency_lt, $frequency_lte, $friend, $friend2, $friend_exists, $id_exact, $last_execution, $last_execution_error, $last_execution_error_end, $last_execution_error_exact, $last_execution_error_exists, $last_execution_error_partial, $last_execution_error_start, $last_execution_after, $last_execution_before, $last_execution_exists, $last_execution_start, $last_execution_strictly_after, $last_execution_strictly_before, $name, $name_end, $name_exact, $name_partial, $name_start, $next_execution, $next_execution_after, $next_execution_before, $next_execution_exists, $next_execution_start, $next_execution_strictly_after, $next_execution_strictly_before, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $unit, $unit_end, $unit_exact, $unit_partial, $unit_start, $user, $user2, $user_exists, $_order_call_direction, $_order_email, $_order_frequency, $_order_id, $_order_last_execution_error, $_order_last_execution, $_order_name, $_order_next_execution, $_order_unit, $_items_per_page, $_page, $_properties, $_timezone);
 
         return $this->client
@@ -18228,9 +18228,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallCsvSchedulerDetailed
+     * @return \Delta\Voip\Model\CallCsvSchedulerDetailed
      */
     public function getCallCsvSchedulerItem($id, $_timezone = null)
     {
@@ -18246,13 +18246,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallCsvSchedulerDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallCsvSchedulerDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallCsvSchedulerItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvSchedulerDetailed';
+        $returnType = '\Delta\Voip\Model\CallCsvSchedulerDetailed';
         $request = $this->getCallCsvSchedulerItemRequest($id, $_timezone);
 
         try {
@@ -18304,7 +18304,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallCsvSchedulerDetailed',
+                        '\Delta\Voip\Model\CallCsvSchedulerDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -18348,7 +18348,7 @@ class ProviderApi
      */
     public function getCallCsvSchedulerItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvSchedulerDetailed';
+        $returnType = '\Delta\Voip\Model\CallCsvSchedulerDetailed';
         $request = $this->getCallCsvSchedulerItemRequest($id, $_timezone);
 
         return $this->client
@@ -18569,9 +18569,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallForwardSettingCollection[]
+     * @return \Delta\Voip\Model\CallForwardSettingCollection[]
      */
     public function getCallForwardSettingCollection($call_forward_type = null, $call_forward_type_end = null, $call_forward_type_exact = null, $call_forward_type_partial = null, $call_forward_type_start = null, $call_type_filter = null, $call_type_filter_end = null, $call_type_filter_exact = null, $call_type_filter_partial = null, $call_type_filter_start = null, $cfw_to_retail_account = null, $cfw_to_retail_account2 = null, $cfw_to_retail_account_exists = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $enabled = null, $extension = null, $extension2 = null, $extension_exists = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $target_type = null, $target_type_end = null, $target_type_exact = null, $target_type_exists = null, $target_type_partial = null, $target_type_start = null, $user = null, $user2 = null, $user_exists = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_call_forward_type = null, $_order_call_type_filter = null, $_order_enabled = null, $_order_id = null, $_order_number_value = null, $_order_target_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -18645,13 +18645,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallForwardSettingCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallForwardSettingCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallForwardSettingCollectionWithHttpInfo($call_forward_type = null, $call_forward_type_end = null, $call_forward_type_exact = null, $call_forward_type_partial = null, $call_forward_type_start = null, $call_type_filter = null, $call_type_filter_end = null, $call_type_filter_exact = null, $call_type_filter_partial = null, $call_type_filter_start = null, $cfw_to_retail_account = null, $cfw_to_retail_account2 = null, $cfw_to_retail_account_exists = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $enabled = null, $extension = null, $extension2 = null, $extension_exists = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $target_type = null, $target_type_end = null, $target_type_exact = null, $target_type_exists = null, $target_type_partial = null, $target_type_start = null, $user = null, $user2 = null, $user_exists = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_call_forward_type = null, $_order_call_type_filter = null, $_order_enabled = null, $_order_id = null, $_order_number_value = null, $_order_target_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSettingCollection[]';
+        $returnType = '\Delta\Voip\Model\CallForwardSettingCollection[]';
         $request = $this->getCallForwardSettingCollectionRequest($call_forward_type, $call_forward_type_end, $call_forward_type_exact, $call_forward_type_partial, $call_forward_type_start, $call_type_filter, $call_type_filter_end, $call_type_filter_exact, $call_type_filter_partial, $call_type_filter_start, $cfw_to_retail_account, $cfw_to_retail_account2, $cfw_to_retail_account_exists, $ddi, $ddi2, $ddi_exists, $enabled, $extension, $extension2, $extension_exists, $friend, $friend2, $friend_exists, $id_exact, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $target_type, $target_type_end, $target_type_exact, $target_type_exists, $target_type_partial, $target_type_start, $user, $user2, $user_exists, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $_order_call_forward_type, $_order_call_type_filter, $_order_enabled, $_order_id, $_order_number_value, $_order_target_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -18703,7 +18703,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallForwardSettingCollection[]',
+                        '\Delta\Voip\Model\CallForwardSettingCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -18863,7 +18863,7 @@ class ProviderApi
      */
     public function getCallForwardSettingCollectionAsyncWithHttpInfo($call_forward_type = null, $call_forward_type_end = null, $call_forward_type_exact = null, $call_forward_type_partial = null, $call_forward_type_start = null, $call_type_filter = null, $call_type_filter_end = null, $call_type_filter_exact = null, $call_type_filter_partial = null, $call_type_filter_start = null, $cfw_to_retail_account = null, $cfw_to_retail_account2 = null, $cfw_to_retail_account_exists = null, $ddi = null, $ddi2 = null, $ddi_exists = null, $enabled = null, $extension = null, $extension2 = null, $extension_exists = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $target_type = null, $target_type_end = null, $target_type_exact = null, $target_type_exists = null, $target_type_partial = null, $target_type_start = null, $user = null, $user2 = null, $user_exists = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_call_forward_type = null, $_order_call_type_filter = null, $_order_enabled = null, $_order_id = null, $_order_number_value = null, $_order_target_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSettingCollection[]';
+        $returnType = '\Delta\Voip\Model\CallForwardSettingCollection[]';
         $request = $this->getCallForwardSettingCollectionRequest($call_forward_type, $call_forward_type_end, $call_forward_type_exact, $call_forward_type_partial, $call_forward_type_start, $call_type_filter, $call_type_filter_end, $call_type_filter_exact, $call_type_filter_partial, $call_type_filter_start, $cfw_to_retail_account, $cfw_to_retail_account2, $cfw_to_retail_account_exists, $ddi, $ddi2, $ddi_exists, $enabled, $extension, $extension2, $extension_exists, $friend, $friend2, $friend_exists, $id_exact, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $target_type, $target_type_end, $target_type_exact, $target_type_exists, $target_type_partial, $target_type_start, $user, $user2, $user_exists, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $_order_call_forward_type, $_order_call_type_filter, $_order_enabled, $_order_id, $_order_number_value, $_order_target_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -19305,9 +19305,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallForwardSettingDetailed
+     * @return \Delta\Voip\Model\CallForwardSettingDetailed
      */
     public function getCallForwardSettingItem($id)
     {
@@ -19322,13 +19322,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallForwardSettingDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallForwardSettingDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallForwardSettingItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSettingDetailed';
+        $returnType = '\Delta\Voip\Model\CallForwardSettingDetailed';
         $request = $this->getCallForwardSettingItemRequest($id);
 
         try {
@@ -19380,7 +19380,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallForwardSettingDetailed',
+                        '\Delta\Voip\Model\CallForwardSettingDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -19422,7 +19422,7 @@ class ProviderApi
      */
     public function getCallForwardSettingItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSettingDetailed';
+        $returnType = '\Delta\Voip\Model\CallForwardSettingDetailed';
         $request = $this->getCallForwardSettingItemRequest($id);
 
         return $this->client
@@ -19619,9 +19619,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CompanyCollection[]
+     * @return \Delta\Voip\Model\CompanyCollection[]
      */
     public function getCompanyCollection($country = null, $country2 = null, $default_timezone = null, $default_timezone2 = null, $default_timezone_exists = null, $domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $nif = null, $nif_end = null, $nif_exact = null, $nif_partial = null, $nif_start = null, $outgoing_ddi = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule2 = null, $outgoing_ddi_rule_exists = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_id = null, $_order_name = null, $_order_nif = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -19676,13 +19676,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CompanyCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CompanyCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCompanyCollectionWithHttpInfo($country = null, $country2 = null, $default_timezone = null, $default_timezone2 = null, $default_timezone_exists = null, $domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $nif = null, $nif_end = null, $nif_exact = null, $nif_partial = null, $nif_start = null, $outgoing_ddi = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule2 = null, $outgoing_ddi_rule_exists = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_id = null, $_order_name = null, $_order_nif = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyCollection[]';
+        $returnType = '\Delta\Voip\Model\CompanyCollection[]';
         $request = $this->getCompanyCollectionRequest($country, $country2, $default_timezone, $default_timezone2, $default_timezone_exists, $domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $nif, $nif_end, $nif_exact, $nif_partial, $nif_start, $outgoing_ddi, $outgoing_ddi_rule, $outgoing_ddi_rule2, $outgoing_ddi_rule_exists, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_id, $_order_name, $_order_nif, $_order_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -19734,7 +19734,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CompanyCollection[]',
+                        '\Delta\Voip\Model\CompanyCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -19856,7 +19856,7 @@ class ProviderApi
      */
     public function getCompanyCollectionAsyncWithHttpInfo($country = null, $country2 = null, $default_timezone = null, $default_timezone2 = null, $default_timezone_exists = null, $domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $nif = null, $nif_end = null, $nif_exact = null, $nif_partial = null, $nif_start = null, $outgoing_ddi = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule2 = null, $outgoing_ddi_rule_exists = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_id = null, $_order_name = null, $_order_nif = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyCollection[]';
+        $returnType = '\Delta\Voip\Model\CompanyCollection[]';
         $request = $this->getCompanyCollectionRequest($country, $country2, $default_timezone, $default_timezone2, $default_timezone_exists, $domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $nif, $nif_end, $nif_exact, $nif_partial, $nif_start, $outgoing_ddi, $outgoing_ddi_rule, $outgoing_ddi_rule2, $outgoing_ddi_rule_exists, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_id, $_order_name, $_order_nif, $_order_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -20203,9 +20203,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CompanyDetailed
+     * @return \Delta\Voip\Model\CompanyDetailed
      */
     public function getCompanyItem($id)
     {
@@ -20220,13 +20220,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CompanyDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CompanyDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCompanyItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CompanyDetailed';
+        $returnType = '\Delta\Voip\Model\CompanyDetailed';
         $request = $this->getCompanyItemRequest($id);
 
         try {
@@ -20278,7 +20278,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CompanyDetailed',
+                        '\Delta\Voip\Model\CompanyDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -20320,7 +20320,7 @@ class ProviderApi
      */
     public function getCompanyItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CompanyDetailed';
+        $returnType = '\Delta\Voip\Model\CompanyDetailed';
         $request = $this->getCompanyItemRequest($id);
 
         return $this->client
@@ -20489,9 +20489,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CompanyServiceCollection[]
+     * @return \Delta\Voip\Model\CompanyServiceCollection[]
      */
     public function getCompanyServiceCollection($code = null, $code_end = null, $code_exact = null, $code_partial = null, $code_start = null, $id_exact = null, $service = null, $service2 = null, $_order_code = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -20518,13 +20518,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CompanyServiceCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CompanyServiceCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCompanyServiceCollectionWithHttpInfo($code = null, $code_end = null, $code_exact = null, $code_partial = null, $code_start = null, $id_exact = null, $service = null, $service2 = null, $_order_code = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyServiceCollection[]';
+        $returnType = '\Delta\Voip\Model\CompanyServiceCollection[]';
         $request = $this->getCompanyServiceCollectionRequest($code, $code_end, $code_exact, $code_partial, $code_start, $id_exact, $service, $service2, $_order_code, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -20576,7 +20576,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CompanyServiceCollection[]',
+                        '\Delta\Voip\Model\CompanyServiceCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -20642,7 +20642,7 @@ class ProviderApi
      */
     public function getCompanyServiceCollectionAsyncWithHttpInfo($code = null, $code_end = null, $code_exact = null, $code_partial = null, $code_start = null, $id_exact = null, $service = null, $service2 = null, $_order_code = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyServiceCollection[]';
+        $returnType = '\Delta\Voip\Model\CompanyServiceCollection[]';
         $request = $this->getCompanyServiceCollectionRequest($code, $code_end, $code_exact, $code_partial, $code_start, $id_exact, $service, $service2, $_order_code, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -20849,9 +20849,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CompanyServiceDetailed
+     * @return \Delta\Voip\Model\CompanyServiceDetailed
      */
     public function getCompanyServiceItem($id)
     {
@@ -20866,13 +20866,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CompanyServiceDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CompanyServiceDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCompanyServiceItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CompanyServiceDetailed';
+        $returnType = '\Delta\Voip\Model\CompanyServiceDetailed';
         $request = $this->getCompanyServiceItemRequest($id);
 
         try {
@@ -20924,7 +20924,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CompanyServiceDetailed',
+                        '\Delta\Voip\Model\CompanyServiceDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -20966,7 +20966,7 @@ class ProviderApi
      */
     public function getCompanyServiceItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CompanyServiceDetailed';
+        $returnType = '\Delta\Voip\Model\CompanyServiceDetailed';
         $request = $this->getCompanyServiceItemRequest($id);
 
         return $this->client
@@ -21181,9 +21181,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRouteCollection[]
+     * @return \Delta\Voip\Model\ConditionalRouteCollection[]
      */
     public function getConditionalRouteCollection($conference_room = null, $conference_room2 = null, $conference_room_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $friendvalue = null, $friendvalue_end = null, $friendvalue_exact = null, $friendvalue_exists = null, $friendvalue_partial = null, $friendvalue_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $locution = null, $locution2 = null, $locution_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $numbervalue = null, $numbervalue_end = null, $numbervalue_exact = null, $numbervalue_exists = null, $numbervalue_partial = null, $numbervalue_start = null, $queue = null, $queue2 = null, $queue_exists = null, $routetype = null, $routetype_end = null, $routetype_exact = null, $routetype_exists = null, $routetype_partial = null, $routetype_start = null, $user = null, $user2 = null, $user_exists = null, $voicemail_user = null, $voicemail_user2 = null, $voicemail_user_exists = null, $_order_friendvalue = null, $_order_id = null, $_order_name = null, $_order_numbervalue = null, $_order_routetype = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -21256,13 +21256,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRouteCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRouteCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRouteCollectionWithHttpInfo($conference_room = null, $conference_room2 = null, $conference_room_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $friendvalue = null, $friendvalue_end = null, $friendvalue_exact = null, $friendvalue_exists = null, $friendvalue_partial = null, $friendvalue_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $locution = null, $locution2 = null, $locution_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $numbervalue = null, $numbervalue_end = null, $numbervalue_exact = null, $numbervalue_exists = null, $numbervalue_partial = null, $numbervalue_start = null, $queue = null, $queue2 = null, $queue_exists = null, $routetype = null, $routetype_end = null, $routetype_exact = null, $routetype_exists = null, $routetype_partial = null, $routetype_start = null, $user = null, $user2 = null, $user_exists = null, $voicemail_user = null, $voicemail_user2 = null, $voicemail_user_exists = null, $_order_friendvalue = null, $_order_id = null, $_order_name = null, $_order_numbervalue = null, $_order_routetype = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRouteCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRouteCollection[]';
         $request = $this->getConditionalRouteCollectionRequest($conference_room, $conference_room2, $conference_room_exists, $extension, $extension2, $extension_exists, $friendvalue, $friendvalue_end, $friendvalue_exact, $friendvalue_exists, $friendvalue_partial, $friendvalue_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $locution, $locution2, $locution_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $number_country, $number_country2, $number_country_exists, $numbervalue, $numbervalue_end, $numbervalue_exact, $numbervalue_exists, $numbervalue_partial, $numbervalue_start, $queue, $queue2, $queue_exists, $routetype, $routetype_end, $routetype_exact, $routetype_exists, $routetype_partial, $routetype_start, $user, $user2, $user_exists, $voicemail_user, $voicemail_user2, $voicemail_user_exists, $_order_friendvalue, $_order_id, $_order_name, $_order_numbervalue, $_order_routetype, $_items_per_page, $_page, $_properties);
 
         try {
@@ -21314,7 +21314,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRouteCollection[]',
+                        '\Delta\Voip\Model\ConditionalRouteCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -21472,7 +21472,7 @@ class ProviderApi
      */
     public function getConditionalRouteCollectionAsyncWithHttpInfo($conference_room = null, $conference_room2 = null, $conference_room_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $friendvalue = null, $friendvalue_end = null, $friendvalue_exact = null, $friendvalue_exists = null, $friendvalue_partial = null, $friendvalue_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $locution = null, $locution2 = null, $locution_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $numbervalue = null, $numbervalue_end = null, $numbervalue_exact = null, $numbervalue_exists = null, $numbervalue_partial = null, $numbervalue_start = null, $queue = null, $queue2 = null, $queue_exists = null, $routetype = null, $routetype_end = null, $routetype_exact = null, $routetype_exists = null, $routetype_partial = null, $routetype_start = null, $user = null, $user2 = null, $user_exists = null, $voicemail_user = null, $voicemail_user2 = null, $voicemail_user_exists = null, $_order_friendvalue = null, $_order_id = null, $_order_name = null, $_order_numbervalue = null, $_order_routetype = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRouteCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRouteCollection[]';
         $request = $this->getConditionalRouteCollectionRequest($conference_room, $conference_room2, $conference_room_exists, $extension, $extension2, $extension_exists, $friendvalue, $friendvalue_end, $friendvalue_exact, $friendvalue_exists, $friendvalue_partial, $friendvalue_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $locution, $locution2, $locution_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $number_country, $number_country2, $number_country_exists, $numbervalue, $numbervalue_end, $numbervalue_exact, $numbervalue_exists, $numbervalue_partial, $numbervalue_start, $queue, $queue2, $queue_exists, $routetype, $routetype_end, $routetype_exact, $routetype_exists, $routetype_partial, $routetype_start, $user, $user2, $user_exists, $voicemail_user, $voicemail_user2, $voicemail_user_exists, $_order_friendvalue, $_order_id, $_order_name, $_order_numbervalue, $_order_routetype, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -21909,9 +21909,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRouteDetailed
+     * @return \Delta\Voip\Model\ConditionalRouteDetailed
      */
     public function getConditionalRouteItem($id)
     {
@@ -21926,13 +21926,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRouteDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRouteDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRouteItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRouteDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRouteDetailed';
         $request = $this->getConditionalRouteItemRequest($id);
 
         try {
@@ -21984,7 +21984,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRouteDetailed',
+                        '\Delta\Voip\Model\ConditionalRouteDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -22026,7 +22026,7 @@ class ProviderApi
      */
     public function getConditionalRouteItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRouteDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRouteDetailed';
         $request = $this->getConditionalRouteItemRequest($id);
 
         return $this->client
@@ -22244,9 +22244,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionCollection[]
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionCollection[]
      */
     public function getConditionalRoutesConditionCollection($conditional_route = null, $conditional_route2 = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $locution = null, $locution2 = null, $locution_exists = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $queue = null, $queue2 = null, $queue_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $voicemail_user = null, $voicemail_user2 = null, $voicemail_user_exists = null, $_order_friend_value = null, $_order_id = null, $_order_number_value = null, $_order_priority = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -22322,13 +22322,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionCollectionWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $locution = null, $locution2 = null, $locution_exists = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $queue = null, $queue2 = null, $queue_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $voicemail_user = null, $voicemail_user2 = null, $voicemail_user_exists = null, $_order_friend_value = null, $_order_id = null, $_order_number_value = null, $_order_priority = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionCollection[]';
         $request = $this->getConditionalRoutesConditionCollectionRequest($conditional_route, $conditional_route2, $conference_room, $conference_room2, $conference_room_exists, $extension, $extension2, $extension_exists, $friend_value, $friend_value_end, $friend_value_exact, $friend_value_exists, $friend_value_partial, $friend_value_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $locution, $locution2, $locution_exists, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $queue, $queue2, $queue_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $user, $user2, $user_exists, $voicemail_user, $voicemail_user2, $voicemail_user_exists, $_order_friend_value, $_order_id, $_order_number_value, $_order_priority, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -22380,7 +22380,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionCollection[]',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -22544,7 +22544,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionCollectionAsyncWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $locution = null, $locution2 = null, $locution_exists = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $queue = null, $queue2 = null, $queue_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $voicemail_user = null, $voicemail_user2 = null, $voicemail_user_exists = null, $_order_friend_value = null, $_order_id = null, $_order_number_value = null, $_order_priority = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionCollection[]';
         $request = $this->getConditionalRoutesConditionCollectionRequest($conditional_route, $conditional_route2, $conference_room, $conference_room2, $conference_room_exists, $extension, $extension2, $extension_exists, $friend_value, $friend_value_end, $friend_value_exact, $friend_value_exists, $friend_value_partial, $friend_value_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $locution, $locution2, $locution_exists, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $queue, $queue2, $queue_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $user, $user2, $user_exists, $voicemail_user, $voicemail_user2, $voicemail_user_exists, $_order_friend_value, $_order_id, $_order_number_value, $_order_priority, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -22996,9 +22996,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionDetailed
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionDetailed
      */
     public function getConditionalRoutesConditionItem($id)
     {
@@ -23013,13 +23013,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionDetailed';
         $request = $this->getConditionalRoutesConditionItemRequest($id);
 
         try {
@@ -23071,7 +23071,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionDetailed',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -23113,7 +23113,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionDetailed';
         $request = $this->getConditionalRoutesConditionItemRequest($id);
 
         return $this->client
@@ -23293,9 +23293,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]
      */
     public function getConditionalRoutesConditionsRelCalendarCollection($calendar = null, $calendar_name = null, $calendar2 = null, $condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -23333,13 +23333,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelCalendarCollectionWithHttpInfo($calendar = null, $calendar_name = null, $calendar2 = null, $condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelCalendarCollectionRequest($calendar, $calendar_name, $calendar2, $condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -23391,7 +23391,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -23479,7 +23479,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelCalendarCollectionAsyncWithHttpInfo($calendar = null, $calendar_name = null, $calendar2 = null, $condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelCalendarCollectionRequest($calendar, $calendar_name, $calendar2, $condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -23741,9 +23741,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailed
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailed
      */
     public function getConditionalRoutesConditionsRelCalendarItem($id)
     {
@@ -23758,13 +23758,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelCalendarItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailed';
         $request = $this->getConditionalRoutesConditionsRelCalendarItemRequest($id);
 
         try {
@@ -23816,7 +23816,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailed',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -23858,7 +23858,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelCalendarItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendarDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendarDetailed';
         $request = $this->getConditionalRoutesConditionsRelCalendarItemRequest($id);
 
         return $this->client
@@ -24038,9 +24038,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]
      */
     public function getConditionalRoutesConditionsRelMatchlistCollection($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -24078,13 +24078,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelMatchlistCollectionWithHttpInfo($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelMatchlistCollectionRequest($condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $matchlist, $matchlist_name, $matchlist2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -24136,7 +24136,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -24224,7 +24224,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelMatchlistCollectionAsyncWithHttpInfo($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelMatchlistCollectionRequest($condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $matchlist, $matchlist_name, $matchlist2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -24486,9 +24486,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailed
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailed
      */
     public function getConditionalRoutesConditionsRelMatchlistItem($id)
     {
@@ -24503,13 +24503,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelMatchlistItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailed';
         $request = $this->getConditionalRoutesConditionsRelMatchlistItemRequest($id);
 
         try {
@@ -24561,7 +24561,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailed',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -24603,7 +24603,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelMatchlistItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlistDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlistDetailed';
         $request = $this->getConditionalRoutesConditionsRelMatchlistItemRequest($id);
 
         return $this->client
@@ -24788,9 +24788,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]
      */
     public function getConditionalRoutesConditionsRelRouteLockCollection($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $route_lock = null, $route_lock_close_extension = null, $route_lock_description = null, $route_lock_name = null, $route_lock_open = null, $route_lock_open_extension = null, $route_lock_toggle_extension = null, $route_lock2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -24833,13 +24833,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelRouteLockCollectionWithHttpInfo($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $route_lock = null, $route_lock_close_extension = null, $route_lock_description = null, $route_lock_name = null, $route_lock_open = null, $route_lock_open_extension = null, $route_lock_toggle_extension = null, $route_lock2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelRouteLockCollectionRequest($condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $route_lock, $route_lock_close_extension, $route_lock_description, $route_lock_name, $route_lock_open, $route_lock_open_extension, $route_lock_toggle_extension, $route_lock2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -24891,7 +24891,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -24989,7 +24989,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelRouteLockCollectionAsyncWithHttpInfo($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $route_lock = null, $route_lock_close_extension = null, $route_lock_description = null, $route_lock_name = null, $route_lock_open = null, $route_lock_open_extension = null, $route_lock_toggle_extension = null, $route_lock2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelRouteLockCollectionRequest($condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $route_lock, $route_lock_close_extension, $route_lock_description, $route_lock_name, $route_lock_open, $route_lock_open_extension, $route_lock_toggle_extension, $route_lock2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -25276,9 +25276,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailed
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailed
      */
     public function getConditionalRoutesConditionsRelRouteLockItem($id)
     {
@@ -25293,13 +25293,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelRouteLockItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailed';
         $request = $this->getConditionalRoutesConditionsRelRouteLockItemRequest($id);
 
         try {
@@ -25351,7 +25351,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailed',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -25393,7 +25393,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelRouteLockItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLockDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLockDetailed';
         $request = $this->getConditionalRoutesConditionsRelRouteLockItemRequest($id);
 
         return $this->client
@@ -25582,9 +25582,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]
      */
     public function getConditionalRoutesConditionsRelScheduleCollection($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -25631,13 +25631,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelScheduleCollectionWithHttpInfo($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelScheduleCollectionRequest($condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $schedule, $schedule_friday, $schedule_monday, $schedule_name, $schedule_saturday, $schedule_sunday, $schedule_thursday, $schedule_time_in, $schedule_timeout, $schedule_tuesday, $schedule_wednesday, $schedule2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -25689,7 +25689,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -25795,7 +25795,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelScheduleCollectionAsyncWithHttpInfo($condition = null, $condition_conditional_route = null, $condition_conference_room = null, $condition_extension = null, $condition_friend_value = null, $condition_hunt_group = null, $condition_ivr = null, $condition_locution = null, $condition_number_country = null, $condition_number_value = null, $condition_priority = null, $condition_queue = null, $condition_route_type = null, $condition_user = null, $condition_voicemail_user = null, $condition2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailedCollection[]';
         $request = $this->getConditionalRoutesConditionsRelScheduleCollectionRequest($condition, $condition_conditional_route, $condition_conference_room, $condition_extension, $condition_friend_value, $condition_hunt_group, $condition_ivr, $condition_locution, $condition_number_country, $condition_number_value, $condition_priority, $condition_queue, $condition_route_type, $condition_user, $condition_voicemail_user, $condition2, $id_exact, $schedule, $schedule_friday, $schedule_monday, $schedule_name, $schedule_saturday, $schedule_sunday, $schedule_thursday, $schedule_time_in, $schedule_timeout, $schedule_tuesday, $schedule_wednesday, $schedule2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -26102,9 +26102,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailed
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailed
      */
     public function getConditionalRoutesConditionsRelScheduleItem($id)
     {
@@ -26119,13 +26119,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConditionalRoutesConditionsRelScheduleItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailed';
         $request = $this->getConditionalRoutesConditionsRelScheduleItemRequest($id);
 
         try {
@@ -26177,7 +26177,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailed',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -26219,7 +26219,7 @@ class ProviderApi
      */
     public function getConditionalRoutesConditionsRelScheduleItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelScheduleDetailed';
         $request = $this->getConditionalRoutesConditionsRelScheduleItemRequest($id);
 
         return $this->client
@@ -26402,9 +26402,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConferenceRoomCollection[]
+     * @return \Delta\Voip\Model\ConferenceRoomCollection[]
      */
     public function getConferenceRoomCollection($id_exact = null, $max_members = null, $max_members_between = null, $max_members_gt = null, $max_members_gte = null, $max_members_lt = null, $max_members_lte = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $pin_code = null, $pin_code_end = null, $pin_code_exact = null, $pin_code_exists = null, $pin_code_partial = null, $pin_code_start = null, $pin_protected = null, $_order_id = null, $_order_max_members = null, $_order_name = null, $_order_pin_code = null, $_order_pin_protected = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -26445,13 +26445,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConferenceRoomCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConferenceRoomCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getConferenceRoomCollectionWithHttpInfo($id_exact = null, $max_members = null, $max_members_between = null, $max_members_gt = null, $max_members_gte = null, $max_members_lt = null, $max_members_lte = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $pin_code = null, $pin_code_end = null, $pin_code_exact = null, $pin_code_exists = null, $pin_code_partial = null, $pin_code_start = null, $pin_protected = null, $_order_id = null, $_order_max_members = null, $_order_name = null, $_order_pin_code = null, $_order_pin_protected = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoomCollection[]';
+        $returnType = '\Delta\Voip\Model\ConferenceRoomCollection[]';
         $request = $this->getConferenceRoomCollectionRequest($id_exact, $max_members, $max_members_between, $max_members_gt, $max_members_gte, $max_members_lt, $max_members_lte, $name, $name_end, $name_exact, $name_partial, $name_start, $pin_code, $pin_code_end, $pin_code_exact, $pin_code_exists, $pin_code_partial, $pin_code_start, $pin_protected, $_order_id, $_order_max_members, $_order_name, $_order_pin_code, $_order_pin_protected, $_items_per_page, $_page, $_properties);
 
         try {
@@ -26503,7 +26503,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConferenceRoomCollection[]',
+                        '\Delta\Voip\Model\ConferenceRoomCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -26597,7 +26597,7 @@ class ProviderApi
      */
     public function getConferenceRoomCollectionAsyncWithHttpInfo($id_exact = null, $max_members = null, $max_members_between = null, $max_members_gt = null, $max_members_gte = null, $max_members_lt = null, $max_members_lte = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $pin_code = null, $pin_code_end = null, $pin_code_exact = null, $pin_code_exists = null, $pin_code_partial = null, $pin_code_start = null, $pin_protected = null, $_order_id = null, $_order_max_members = null, $_order_name = null, $_order_pin_code = null, $_order_pin_protected = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoomCollection[]';
+        $returnType = '\Delta\Voip\Model\ConferenceRoomCollection[]';
         $request = $this->getConferenceRoomCollectionRequest($id_exact, $max_members, $max_members_between, $max_members_gt, $max_members_gte, $max_members_lt, $max_members_lte, $name, $name_end, $name_exact, $name_partial, $name_start, $pin_code, $pin_code_end, $pin_code_exact, $pin_code_exists, $pin_code_partial, $pin_code_start, $pin_protected, $_order_id, $_order_max_members, $_order_name, $_order_pin_code, $_order_pin_protected, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -26874,9 +26874,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConferenceRoomDetailed
+     * @return \Delta\Voip\Model\ConferenceRoomDetailed
      */
     public function getConferenceRoomItem($id)
     {
@@ -26891,13 +26891,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConferenceRoomDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConferenceRoomDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getConferenceRoomItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoomDetailed';
+        $returnType = '\Delta\Voip\Model\ConferenceRoomDetailed';
         $request = $this->getConferenceRoomItemRequest($id);
 
         try {
@@ -26949,7 +26949,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConferenceRoomDetailed',
+                        '\Delta\Voip\Model\ConferenceRoomDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -26991,7 +26991,7 @@ class ProviderApi
      */
     public function getConferenceRoomItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoomDetailed';
+        $returnType = '\Delta\Voip\Model\ConferenceRoomDetailed';
         $request = $this->getConferenceRoomItemRequest($id);
 
         return $this->client
@@ -27194,9 +27194,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  bool $_pagination _pagination (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CountryCollection[]
+     * @return \Delta\Voip\Model\CountryCollection[]
      */
     public function getCountryCollection($code = null, $code_end = null, $code_exact = null, $code_partial = null, $code_start = null, $country_code = null, $country_code_end = null, $country_code_exact = null, $country_code_exists = null, $country_code_partial = null, $country_code_start = null, $id_exact = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_exists = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_exists = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_exists = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_exists = null, $name_it_partial = null, $name_it_start = null, $_order_code = null, $_order_country_code = null, $_order_id = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null)
     {
@@ -27257,13 +27257,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  bool $_pagination (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CountryCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CountryCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getCountryCollectionWithHttpInfo($code = null, $code_end = null, $code_exact = null, $code_partial = null, $code_start = null, $country_code = null, $country_code_end = null, $country_code_exact = null, $country_code_exists = null, $country_code_partial = null, $country_code_start = null, $id_exact = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_exists = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_exists = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_exists = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_exists = null, $name_it_partial = null, $name_it_start = null, $_order_code = null, $_order_country_code = null, $_order_id = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null)
     {
-        $returnType = '\Swagger\Client\Model\CountryCollection[]';
+        $returnType = '\Delta\Voip\Model\CountryCollection[]';
         $request = $this->getCountryCollectionRequest($code, $code_end, $code_exact, $code_partial, $code_start, $country_code, $country_code_end, $country_code_exact, $country_code_exists, $country_code_partial, $country_code_start, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $_order_code, $_order_country_code, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties, $_pagination);
 
         try {
@@ -27315,7 +27315,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CountryCollection[]',
+                        '\Delta\Voip\Model\CountryCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -27449,7 +27449,7 @@ class ProviderApi
      */
     public function getCountryCollectionAsyncWithHttpInfo($code = null, $code_end = null, $code_exact = null, $code_partial = null, $code_start = null, $country_code = null, $country_code_end = null, $country_code_exact = null, $country_code_exists = null, $country_code_partial = null, $country_code_start = null, $id_exact = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_exists = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_exists = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_exists = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_exists = null, $name_it_partial = null, $name_it_start = null, $_order_code = null, $_order_country_code = null, $_order_id = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null)
     {
-        $returnType = '\Swagger\Client\Model\CountryCollection[]';
+        $returnType = '\Delta\Voip\Model\CountryCollection[]';
         $request = $this->getCountryCollectionRequest($code, $code_end, $code_exact, $code_partial, $code_start, $country_code, $country_code_end, $country_code_exact, $country_code_exists, $country_code_partial, $country_code_start, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $_order_code, $_order_country_code, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties, $_pagination);
 
         return $this->client
@@ -27826,9 +27826,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CountryDetailed
+     * @return \Delta\Voip\Model\CountryDetailed
      */
     public function getCountryItem($id)
     {
@@ -27843,13 +27843,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CountryDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CountryDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCountryItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CountryDetailed';
+        $returnType = '\Delta\Voip\Model\CountryDetailed';
         $request = $this->getCountryItemRequest($id);
 
         try {
@@ -27901,7 +27901,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CountryDetailed',
+                        '\Delta\Voip\Model\CountryDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -27943,7 +27943,7 @@ class ProviderApi
      */
     public function getCountryItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\CountryDetailed';
+        $returnType = '\Delta\Voip\Model\CountryDetailed';
         $request = $this->getCountryItemRequest($id);
 
         return $this->client
@@ -28167,9 +28167,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\DdiCollection[]
+     * @return \Delta\Voip\Model\DdiCollection[]
      */
     public function getDdiCollection($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $country = null, $country2 = null, $country_exists = null, $ddi = null, $ddi_end = null, $ddi_exact = null, $ddi_partial = null, $ddi_start = null, $ddie164 = null, $ddie164_end = null, $ddie164_exact = null, $ddie164_exists = null, $ddie164_partial = null, $ddie164_start = null, $external_call_filter = null, $external_call_filter2 = null, $external_call_filter_exists = null, $fax = null, $fax2 = null, $fax_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $language = null, $language2 = null, $language_exists = null, $queue = null, $queue2 = null, $queue_exists = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $_order_ddi = null, $_order_ddie164 = null, $_order_friend_value = null, $_order_id = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -28251,13 +28251,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\DdiCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\DdiCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getDdiCollectionWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $country = null, $country2 = null, $country_exists = null, $ddi = null, $ddi_end = null, $ddi_exact = null, $ddi_partial = null, $ddi_start = null, $ddie164 = null, $ddie164_end = null, $ddie164_exact = null, $ddie164_exists = null, $ddie164_partial = null, $ddie164_start = null, $external_call_filter = null, $external_call_filter2 = null, $external_call_filter_exists = null, $fax = null, $fax2 = null, $fax_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $language = null, $language2 = null, $language_exists = null, $queue = null, $queue2 = null, $queue_exists = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $_order_ddi = null, $_order_ddie164 = null, $_order_friend_value = null, $_order_id = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\DdiCollection[]';
+        $returnType = '\Delta\Voip\Model\DdiCollection[]';
         $request = $this->getDdiCollectionRequest($conditional_route, $conditional_route2, $conditional_route_exists, $conference_room, $conference_room2, $conference_room_exists, $country, $country2, $country_exists, $ddi, $ddi_end, $ddi_exact, $ddi_partial, $ddi_start, $ddie164, $ddie164_end, $ddie164_exact, $ddie164_exists, $ddie164_partial, $ddie164_start, $external_call_filter, $external_call_filter2, $external_call_filter_exists, $fax, $fax2, $fax_exists, $friend_value, $friend_value_end, $friend_value_exact, $friend_value_exists, $friend_value_partial, $friend_value_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $language, $language2, $language_exists, $queue, $queue2, $queue_exists, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $user, $user2, $user_exists, $_order_ddi, $_order_ddie164, $_order_friend_value, $_order_id, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -28309,7 +28309,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\DdiCollection[]',
+                        '\Delta\Voip\Model\DdiCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -28485,7 +28485,7 @@ class ProviderApi
      */
     public function getDdiCollectionAsyncWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $country = null, $country2 = null, $country_exists = null, $ddi = null, $ddi_end = null, $ddi_exact = null, $ddi_partial = null, $ddi_start = null, $ddie164 = null, $ddie164_end = null, $ddie164_exact = null, $ddie164_exists = null, $ddie164_partial = null, $ddie164_start = null, $external_call_filter = null, $external_call_filter2 = null, $external_call_filter_exists = null, $fax = null, $fax2 = null, $fax_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $language = null, $language2 = null, $language_exists = null, $queue = null, $queue2 = null, $queue_exists = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $_order_ddi = null, $_order_ddie164 = null, $_order_friend_value = null, $_order_id = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\DdiCollection[]';
+        $returnType = '\Delta\Voip\Model\DdiCollection[]';
         $request = $this->getDdiCollectionRequest($conditional_route, $conditional_route2, $conditional_route_exists, $conference_room, $conference_room2, $conference_room_exists, $country, $country2, $country_exists, $ddi, $ddi_end, $ddi_exact, $ddi_partial, $ddi_start, $ddie164, $ddie164_end, $ddie164_exact, $ddie164_exists, $ddie164_partial, $ddie164_start, $external_call_filter, $external_call_filter2, $external_call_filter_exists, $fax, $fax2, $fax_exists, $friend_value, $friend_value_end, $friend_value_exact, $friend_value_exists, $friend_value_partial, $friend_value_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $language, $language2, $language_exists, $queue, $queue2, $queue_exists, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $user, $user2, $user_exists, $_order_ddi, $_order_ddie164, $_order_friend_value, $_order_id, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -28967,9 +28967,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\DdiDetailed
+     * @return \Delta\Voip\Model\DdiDetailed
      */
     public function getDdiItem($id)
     {
@@ -28984,13 +28984,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\DdiDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\DdiDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getDdiItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\DdiDetailed';
+        $returnType = '\Delta\Voip\Model\DdiDetailed';
         $request = $this->getDdiItemRequest($id);
 
         try {
@@ -29042,7 +29042,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\DdiDetailed',
+                        '\Delta\Voip\Model\DdiDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -29084,7 +29084,7 @@ class ProviderApi
      */
     public function getDdiItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\DdiDetailed';
+        $returnType = '\Delta\Voip\Model\DdiDetailed';
         $request = $this->getDdiItemRequest($id);
 
         return $this->client
@@ -29293,9 +29293,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExtensionCollection[]
+     * @return \Delta\Voip\Model\ExtensionCollection[]
      */
     public function getExtensionCollection($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $number = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $number_end = null, $number_exact = null, $number_partial = null, $number_start = null, $queue = null, $queue2 = null, $queue_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $_order_friend_value = null, $_order_id = null, $_order_number_value = null, $_order_number = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -29362,13 +29362,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExtensionCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExtensionCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getExtensionCollectionWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $number = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $number_end = null, $number_exact = null, $number_partial = null, $number_start = null, $queue = null, $queue2 = null, $queue_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $_order_friend_value = null, $_order_id = null, $_order_number_value = null, $_order_number = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExtensionCollection[]';
+        $returnType = '\Delta\Voip\Model\ExtensionCollection[]';
         $request = $this->getExtensionCollectionRequest($conditional_route, $conditional_route2, $conditional_route_exists, $conference_room, $conference_room2, $conference_room_exists, $friend_value, $friend_value_end, $friend_value_exact, $friend_value_exists, $friend_value_partial, $friend_value_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $number, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $number_end, $number_exact, $number_partial, $number_start, $queue, $queue2, $queue_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $user, $user2, $user_exists, $_order_friend_value, $_order_id, $_order_number_value, $_order_number, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -29420,7 +29420,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExtensionCollection[]',
+                        '\Delta\Voip\Model\ExtensionCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -29566,7 +29566,7 @@ class ProviderApi
      */
     public function getExtensionCollectionAsyncWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $conference_room = null, $conference_room2 = null, $conference_room_exists = null, $friend_value = null, $friend_value_end = null, $friend_value_exact = null, $friend_value_exists = null, $friend_value_partial = null, $friend_value_start = null, $hunt_group = null, $hunt_group2 = null, $hunt_group_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $ivr_exists = null, $number = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $number_end = null, $number_exact = null, $number_partial = null, $number_start = null, $queue = null, $queue2 = null, $queue_exists = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_exists = null, $route_type_partial = null, $route_type_start = null, $user = null, $user2 = null, $user_exists = null, $_order_friend_value = null, $_order_id = null, $_order_number_value = null, $_order_number = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExtensionCollection[]';
+        $returnType = '\Delta\Voip\Model\ExtensionCollection[]';
         $request = $this->getExtensionCollectionRequest($conditional_route, $conditional_route2, $conditional_route_exists, $conference_room, $conference_room2, $conference_room_exists, $friend_value, $friend_value_end, $friend_value_exact, $friend_value_exists, $friend_value_partial, $friend_value_start, $hunt_group, $hunt_group2, $hunt_group_exists, $id_exact, $ivr, $ivr2, $ivr_exists, $number, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $number_end, $number_exact, $number_partial, $number_start, $queue, $queue2, $queue_exists, $route_type, $route_type_end, $route_type_exact, $route_type_exists, $route_type_partial, $route_type_start, $user, $user2, $user_exists, $_order_friend_value, $_order_id, $_order_number_value, $_order_number, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -29973,9 +29973,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExtensionDetailed
+     * @return \Delta\Voip\Model\ExtensionDetailed
      */
     public function getExtensionItem($id)
     {
@@ -29990,13 +29990,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExtensionDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExtensionDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getExtensionItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExtensionDetailed';
+        $returnType = '\Delta\Voip\Model\ExtensionDetailed';
         $request = $this->getExtensionItemRequest($id);
 
         try {
@@ -30048,7 +30048,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExtensionDetailed',
+                        '\Delta\Voip\Model\ExtensionDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -30090,7 +30090,7 @@ class ProviderApi
      */
     public function getExtensionItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExtensionDetailed';
+        $returnType = '\Delta\Voip\Model\ExtensionDetailed';
         $request = $this->getExtensionItemRequest($id);
 
         return $this->client
@@ -30270,9 +30270,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterBlackListDetailedCollection[]
+     * @return \Delta\Voip\Model\ExternalCallFilterBlackListDetailedCollection[]
      */
     public function getExternalCallFilterBlackListCollection($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -30310,13 +30310,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterBlackListDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterBlackListDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterBlackListCollectionWithHttpInfo($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackListDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackListDetailedCollection[]';
         $request = $this->getExternalCallFilterBlackListCollectionRequest($filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $matchlist, $matchlist_name, $matchlist2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -30368,7 +30368,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterBlackListDetailedCollection[]',
+                        '\Delta\Voip\Model\ExternalCallFilterBlackListDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -30456,7 +30456,7 @@ class ProviderApi
      */
     public function getExternalCallFilterBlackListCollectionAsyncWithHttpInfo($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackListDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackListDetailedCollection[]';
         $request = $this->getExternalCallFilterBlackListCollectionRequest($filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $matchlist, $matchlist_name, $matchlist2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -30718,9 +30718,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterBlackListDetailed
+     * @return \Delta\Voip\Model\ExternalCallFilterBlackListDetailed
      */
     public function getExternalCallFilterBlackListItem($id)
     {
@@ -30735,13 +30735,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterBlackListDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterBlackListDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterBlackListItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackListDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackListDetailed';
         $request = $this->getExternalCallFilterBlackListItemRequest($id);
 
         try {
@@ -30793,7 +30793,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterBlackListDetailed',
+                        '\Delta\Voip\Model\ExternalCallFilterBlackListDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -30835,7 +30835,7 @@ class ProviderApi
      */
     public function getExternalCallFilterBlackListItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackListDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackListDetailed';
         $request = $this->getExternalCallFilterBlackListItemRequest($id);
 
         return $this->client
@@ -31057,9 +31057,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterCollection[]
+     * @return \Delta\Voip\Model\ExternalCallFilterCollection[]
      */
     public function getExternalCallFilterCollection($holiday_extension = null, $holiday_extension2 = null, $holiday_extension_exists = null, $holiday_locution = null, $holiday_locution2 = null, $holiday_locution_exists = null, $holiday_number_country = null, $holiday_number_country2 = null, $holiday_number_country_exists = null, $holiday_number_value = null, $holiday_number_value_end = null, $holiday_number_value_exact = null, $holiday_number_value_exists = null, $holiday_number_value_partial = null, $holiday_number_value_start = null, $holiday_target_type = null, $holiday_target_type_end = null, $holiday_target_type_exact = null, $holiday_target_type_exists = null, $holiday_target_type_partial = null, $holiday_target_type_start = null, $holiday_voice_mail_user = null, $holiday_voice_mail_user2 = null, $holiday_voice_mail_user_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $out_of_schedule_extension = null, $out_of_schedule_extension2 = null, $out_of_schedule_extension_exists = null, $out_of_schedule_locution = null, $out_of_schedule_locution2 = null, $out_of_schedule_locution_exists = null, $out_of_schedule_number_country = null, $out_of_schedule_number_country2 = null, $out_of_schedule_number_country_exists = null, $out_of_schedule_number_value = null, $out_of_schedule_number_value_end = null, $out_of_schedule_number_value_exact = null, $out_of_schedule_number_value_exists = null, $out_of_schedule_number_value_partial = null, $out_of_schedule_number_value_start = null, $out_of_schedule_target_type = null, $out_of_schedule_target_type_end = null, $out_of_schedule_target_type_exact = null, $out_of_schedule_target_type_exists = null, $out_of_schedule_target_type_partial = null, $out_of_schedule_target_type_start = null, $out_of_schedule_voice_mail_user = null, $out_of_schedule_voice_mail_user2 = null, $out_of_schedule_voice_mail_user_exists = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_holiday_number_value = null, $_order_holiday_target_type = null, $_order_id = null, $_order_name = null, $_order_out_of_schedule_number_value = null, $_order_out_of_schedule_target_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -31139,13 +31139,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterCollectionWithHttpInfo($holiday_extension = null, $holiday_extension2 = null, $holiday_extension_exists = null, $holiday_locution = null, $holiday_locution2 = null, $holiday_locution_exists = null, $holiday_number_country = null, $holiday_number_country2 = null, $holiday_number_country_exists = null, $holiday_number_value = null, $holiday_number_value_end = null, $holiday_number_value_exact = null, $holiday_number_value_exists = null, $holiday_number_value_partial = null, $holiday_number_value_start = null, $holiday_target_type = null, $holiday_target_type_end = null, $holiday_target_type_exact = null, $holiday_target_type_exists = null, $holiday_target_type_partial = null, $holiday_target_type_start = null, $holiday_voice_mail_user = null, $holiday_voice_mail_user2 = null, $holiday_voice_mail_user_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $out_of_schedule_extension = null, $out_of_schedule_extension2 = null, $out_of_schedule_extension_exists = null, $out_of_schedule_locution = null, $out_of_schedule_locution2 = null, $out_of_schedule_locution_exists = null, $out_of_schedule_number_country = null, $out_of_schedule_number_country2 = null, $out_of_schedule_number_country_exists = null, $out_of_schedule_number_value = null, $out_of_schedule_number_value_end = null, $out_of_schedule_number_value_exact = null, $out_of_schedule_number_value_exists = null, $out_of_schedule_number_value_partial = null, $out_of_schedule_number_value_start = null, $out_of_schedule_target_type = null, $out_of_schedule_target_type_end = null, $out_of_schedule_target_type_exact = null, $out_of_schedule_target_type_exists = null, $out_of_schedule_target_type_partial = null, $out_of_schedule_target_type_start = null, $out_of_schedule_voice_mail_user = null, $out_of_schedule_voice_mail_user2 = null, $out_of_schedule_voice_mail_user_exists = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_holiday_number_value = null, $_order_holiday_target_type = null, $_order_id = null, $_order_name = null, $_order_out_of_schedule_number_value = null, $_order_out_of_schedule_target_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterCollection[]';
         $request = $this->getExternalCallFilterCollectionRequest($holiday_extension, $holiday_extension2, $holiday_extension_exists, $holiday_locution, $holiday_locution2, $holiday_locution_exists, $holiday_number_country, $holiday_number_country2, $holiday_number_country_exists, $holiday_number_value, $holiday_number_value_end, $holiday_number_value_exact, $holiday_number_value_exists, $holiday_number_value_partial, $holiday_number_value_start, $holiday_target_type, $holiday_target_type_end, $holiday_target_type_exact, $holiday_target_type_exists, $holiday_target_type_partial, $holiday_target_type_start, $holiday_voice_mail_user, $holiday_voice_mail_user2, $holiday_voice_mail_user_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $out_of_schedule_extension, $out_of_schedule_extension2, $out_of_schedule_extension_exists, $out_of_schedule_locution, $out_of_schedule_locution2, $out_of_schedule_locution_exists, $out_of_schedule_number_country, $out_of_schedule_number_country2, $out_of_schedule_number_country_exists, $out_of_schedule_number_value, $out_of_schedule_number_value_end, $out_of_schedule_number_value_exact, $out_of_schedule_number_value_exists, $out_of_schedule_number_value_partial, $out_of_schedule_number_value_start, $out_of_schedule_target_type, $out_of_schedule_target_type_end, $out_of_schedule_target_type_exact, $out_of_schedule_target_type_exists, $out_of_schedule_target_type_partial, $out_of_schedule_target_type_start, $out_of_schedule_voice_mail_user, $out_of_schedule_voice_mail_user2, $out_of_schedule_voice_mail_user_exists, $welcome_locution, $welcome_locution2, $welcome_locution_exists, $_order_holiday_number_value, $_order_holiday_target_type, $_order_id, $_order_name, $_order_out_of_schedule_number_value, $_order_out_of_schedule_target_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -31197,7 +31197,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterCollection[]',
+                        '\Delta\Voip\Model\ExternalCallFilterCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -31369,7 +31369,7 @@ class ProviderApi
      */
     public function getExternalCallFilterCollectionAsyncWithHttpInfo($holiday_extension = null, $holiday_extension2 = null, $holiday_extension_exists = null, $holiday_locution = null, $holiday_locution2 = null, $holiday_locution_exists = null, $holiday_number_country = null, $holiday_number_country2 = null, $holiday_number_country_exists = null, $holiday_number_value = null, $holiday_number_value_end = null, $holiday_number_value_exact = null, $holiday_number_value_exists = null, $holiday_number_value_partial = null, $holiday_number_value_start = null, $holiday_target_type = null, $holiday_target_type_end = null, $holiday_target_type_exact = null, $holiday_target_type_exists = null, $holiday_target_type_partial = null, $holiday_target_type_start = null, $holiday_voice_mail_user = null, $holiday_voice_mail_user2 = null, $holiday_voice_mail_user_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $out_of_schedule_extension = null, $out_of_schedule_extension2 = null, $out_of_schedule_extension_exists = null, $out_of_schedule_locution = null, $out_of_schedule_locution2 = null, $out_of_schedule_locution_exists = null, $out_of_schedule_number_country = null, $out_of_schedule_number_country2 = null, $out_of_schedule_number_country_exists = null, $out_of_schedule_number_value = null, $out_of_schedule_number_value_end = null, $out_of_schedule_number_value_exact = null, $out_of_schedule_number_value_exists = null, $out_of_schedule_number_value_partial = null, $out_of_schedule_number_value_start = null, $out_of_schedule_target_type = null, $out_of_schedule_target_type_end = null, $out_of_schedule_target_type_exact = null, $out_of_schedule_target_type_exists = null, $out_of_schedule_target_type_partial = null, $out_of_schedule_target_type_start = null, $out_of_schedule_voice_mail_user = null, $out_of_schedule_voice_mail_user2 = null, $out_of_schedule_voice_mail_user_exists = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_holiday_number_value = null, $_order_holiday_target_type = null, $_order_id = null, $_order_name = null, $_order_out_of_schedule_number_value = null, $_order_out_of_schedule_target_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterCollection[]';
         $request = $this->getExternalCallFilterCollectionRequest($holiday_extension, $holiday_extension2, $holiday_extension_exists, $holiday_locution, $holiday_locution2, $holiday_locution_exists, $holiday_number_country, $holiday_number_country2, $holiday_number_country_exists, $holiday_number_value, $holiday_number_value_end, $holiday_number_value_exact, $holiday_number_value_exists, $holiday_number_value_partial, $holiday_number_value_start, $holiday_target_type, $holiday_target_type_end, $holiday_target_type_exact, $holiday_target_type_exists, $holiday_target_type_partial, $holiday_target_type_start, $holiday_voice_mail_user, $holiday_voice_mail_user2, $holiday_voice_mail_user_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $out_of_schedule_extension, $out_of_schedule_extension2, $out_of_schedule_extension_exists, $out_of_schedule_locution, $out_of_schedule_locution2, $out_of_schedule_locution_exists, $out_of_schedule_number_country, $out_of_schedule_number_country2, $out_of_schedule_number_country_exists, $out_of_schedule_number_value, $out_of_schedule_number_value_end, $out_of_schedule_number_value_exact, $out_of_schedule_number_value_exists, $out_of_schedule_number_value_partial, $out_of_schedule_number_value_start, $out_of_schedule_target_type, $out_of_schedule_target_type_end, $out_of_schedule_target_type_exact, $out_of_schedule_target_type_exists, $out_of_schedule_target_type_partial, $out_of_schedule_target_type_start, $out_of_schedule_voice_mail_user, $out_of_schedule_voice_mail_user2, $out_of_schedule_voice_mail_user_exists, $welcome_locution, $welcome_locution2, $welcome_locution_exists, $_order_holiday_number_value, $_order_holiday_target_type, $_order_id, $_order_name, $_order_out_of_schedule_number_value, $_order_out_of_schedule_target_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -31841,9 +31841,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterDetailed
+     * @return \Delta\Voip\Model\ExternalCallFilterDetailed
      */
     public function getExternalCallFilterItem($id)
     {
@@ -31858,13 +31858,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterDetailed';
         $request = $this->getExternalCallFilterItemRequest($id);
 
         try {
@@ -31916,7 +31916,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterDetailed',
+                        '\Delta\Voip\Model\ExternalCallFilterDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -31958,7 +31958,7 @@ class ProviderApi
      */
     public function getExternalCallFilterItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterDetailed';
         $request = $this->getExternalCallFilterItemRequest($id);
 
         return $this->client
@@ -32138,9 +32138,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelCalendarDetailedCollection[]
+     * @return \Delta\Voip\Model\ExternalCallFilterRelCalendarDetailedCollection[]
      */
     public function getExternalCallFilterRelCalendarCollection($calendar = null, $calendar_name = null, $calendar2 = null, $filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -32178,13 +32178,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelCalendarDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelCalendarDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterRelCalendarCollectionWithHttpInfo($calendar = null, $calendar_name = null, $calendar2 = null, $filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendarDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendarDetailedCollection[]';
         $request = $this->getExternalCallFilterRelCalendarCollectionRequest($calendar, $calendar_name, $calendar2, $filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -32236,7 +32236,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelCalendarDetailedCollection[]',
+                        '\Delta\Voip\Model\ExternalCallFilterRelCalendarDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -32324,7 +32324,7 @@ class ProviderApi
      */
     public function getExternalCallFilterRelCalendarCollectionAsyncWithHttpInfo($calendar = null, $calendar_name = null, $calendar2 = null, $filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendarDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendarDetailedCollection[]';
         $request = $this->getExternalCallFilterRelCalendarCollectionRequest($calendar, $calendar_name, $calendar2, $filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -32586,9 +32586,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelCalendarDetailed
+     * @return \Delta\Voip\Model\ExternalCallFilterRelCalendarDetailed
      */
     public function getExternalCallFilterRelCalendarItem($id)
     {
@@ -32603,13 +32603,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelCalendarDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelCalendarDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterRelCalendarItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendarDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendarDetailed';
         $request = $this->getExternalCallFilterRelCalendarItemRequest($id);
 
         try {
@@ -32661,7 +32661,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelCalendarDetailed',
+                        '\Delta\Voip\Model\ExternalCallFilterRelCalendarDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -32703,7 +32703,7 @@ class ProviderApi
      */
     public function getExternalCallFilterRelCalendarItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendarDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendarDetailed';
         $request = $this->getExternalCallFilterRelCalendarItemRequest($id);
 
         return $this->client
@@ -32892,9 +32892,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelScheduleDetailedCollection[]
+     * @return \Delta\Voip\Model\ExternalCallFilterRelScheduleDetailedCollection[]
      */
     public function getExternalCallFilterRelScheduleCollection($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -32941,13 +32941,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelScheduleDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelScheduleDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterRelScheduleCollectionWithHttpInfo($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelScheduleDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelScheduleDetailedCollection[]';
         $request = $this->getExternalCallFilterRelScheduleCollectionRequest($filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $schedule, $schedule_friday, $schedule_monday, $schedule_name, $schedule_saturday, $schedule_sunday, $schedule_thursday, $schedule_time_in, $schedule_timeout, $schedule_tuesday, $schedule_wednesday, $schedule2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -32999,7 +32999,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelScheduleDetailedCollection[]',
+                        '\Delta\Voip\Model\ExternalCallFilterRelScheduleDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -33105,7 +33105,7 @@ class ProviderApi
      */
     public function getExternalCallFilterRelScheduleCollectionAsyncWithHttpInfo($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $schedule = null, $schedule_friday = null, $schedule_monday = null, $schedule_name = null, $schedule_saturday = null, $schedule_sunday = null, $schedule_thursday = null, $schedule_time_in = null, $schedule_timeout = null, $schedule_tuesday = null, $schedule_wednesday = null, $schedule2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelScheduleDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelScheduleDetailedCollection[]';
         $request = $this->getExternalCallFilterRelScheduleCollectionRequest($filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $schedule, $schedule_friday, $schedule_monday, $schedule_name, $schedule_saturday, $schedule_sunday, $schedule_thursday, $schedule_time_in, $schedule_timeout, $schedule_tuesday, $schedule_wednesday, $schedule2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -33412,9 +33412,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelScheduleDetailed
+     * @return \Delta\Voip\Model\ExternalCallFilterRelScheduleDetailed
      */
     public function getExternalCallFilterRelScheduleItem($id)
     {
@@ -33429,13 +33429,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterRelScheduleItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelScheduleDetailed';
         $request = $this->getExternalCallFilterRelScheduleItemRequest($id);
 
         try {
@@ -33487,7 +33487,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelScheduleDetailed',
+                        '\Delta\Voip\Model\ExternalCallFilterRelScheduleDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -33529,7 +33529,7 @@ class ProviderApi
      */
     public function getExternalCallFilterRelScheduleItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelScheduleDetailed';
         $request = $this->getExternalCallFilterRelScheduleItemRequest($id);
 
         return $this->client
@@ -33709,9 +33709,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterWhiteListDetailedCollection[]
+     * @return \Delta\Voip\Model\ExternalCallFilterWhiteListDetailedCollection[]
      */
     public function getExternalCallFilterWhiteListCollection($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -33749,13 +33749,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterWhiteListDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterWhiteListDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterWhiteListCollectionWithHttpInfo($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteListDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteListDetailedCollection[]';
         $request = $this->getExternalCallFilterWhiteListCollectionRequest($filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $matchlist, $matchlist_name, $matchlist2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -33807,7 +33807,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterWhiteListDetailedCollection[]',
+                        '\Delta\Voip\Model\ExternalCallFilterWhiteListDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -33895,7 +33895,7 @@ class ProviderApi
      */
     public function getExternalCallFilterWhiteListCollectionAsyncWithHttpInfo($filter = null, $filter_holiday_extension = null, $filter_holiday_locution = null, $filter_holiday_number_country = null, $filter_holiday_number_value = null, $filter_holiday_target_type = null, $filter_holiday_voice_mail_user = null, $filter_name = null, $filter_out_of_schedule_extension = null, $filter_out_of_schedule_locution = null, $filter_out_of_schedule_number_country = null, $filter_out_of_schedule_number_value = null, $filter_out_of_schedule_target_type = null, $filter_out_of_schedule_voice_mail_user = null, $filter_welcome_locution = null, $filter2 = null, $id_exact = null, $matchlist = null, $matchlist_name = null, $matchlist2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteListDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteListDetailedCollection[]';
         $request = $this->getExternalCallFilterWhiteListCollectionRequest($filter, $filter_holiday_extension, $filter_holiday_locution, $filter_holiday_number_country, $filter_holiday_number_value, $filter_holiday_target_type, $filter_holiday_voice_mail_user, $filter_name, $filter_out_of_schedule_extension, $filter_out_of_schedule_locution, $filter_out_of_schedule_number_country, $filter_out_of_schedule_number_value, $filter_out_of_schedule_target_type, $filter_out_of_schedule_voice_mail_user, $filter_welcome_locution, $filter2, $id_exact, $matchlist, $matchlist_name, $matchlist2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -34157,9 +34157,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterWhiteListDetailed
+     * @return \Delta\Voip\Model\ExternalCallFilterWhiteListDetailed
      */
     public function getExternalCallFilterWhiteListItem($id)
     {
@@ -34174,13 +34174,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterWhiteListDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterWhiteListDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getExternalCallFilterWhiteListItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteListDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteListDetailed';
         $request = $this->getExternalCallFilterWhiteListItemRequest($id);
 
         try {
@@ -34232,7 +34232,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterWhiteListDetailed',
+                        '\Delta\Voip\Model\ExternalCallFilterWhiteListDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -34274,7 +34274,7 @@ class ProviderApi
      */
     public function getExternalCallFilterWhiteListItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteListDetailed';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteListDetailed';
         $request = $this->getExternalCallFilterWhiteListItemRequest($id);
 
         return $this->client
@@ -34453,9 +34453,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FaxCollection[]
+     * @return \Delta\Voip\Model\FaxCollection[]
      */
     public function getFaxCollection($email = null, $email_end = null, $email_exact = null, $email_exists = null, $email_partial = null, $email_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $send_by_email = null, $_order_email = null, $_order_id = null, $_order_name = null, $_order_send_by_email = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -34492,13 +34492,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FaxCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FaxCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getFaxCollectionWithHttpInfo($email = null, $email_end = null, $email_exact = null, $email_exists = null, $email_partial = null, $email_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $send_by_email = null, $_order_email = null, $_order_id = null, $_order_name = null, $_order_send_by_email = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FaxCollection[]';
+        $returnType = '\Delta\Voip\Model\FaxCollection[]';
         $request = $this->getFaxCollectionRequest($email, $email_end, $email_exact, $email_exists, $email_partial, $email_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $send_by_email, $_order_email, $_order_id, $_order_name, $_order_send_by_email, $_items_per_page, $_page, $_properties);
 
         try {
@@ -34550,7 +34550,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FaxCollection[]',
+                        '\Delta\Voip\Model\FaxCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -34636,7 +34636,7 @@ class ProviderApi
      */
     public function getFaxCollectionAsyncWithHttpInfo($email = null, $email_end = null, $email_exact = null, $email_exists = null, $email_partial = null, $email_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $send_by_email = null, $_order_email = null, $_order_id = null, $_order_name = null, $_order_send_by_email = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FaxCollection[]';
+        $returnType = '\Delta\Voip\Model\FaxCollection[]';
         $request = $this->getFaxCollectionRequest($email, $email_end, $email_exact, $email_exists, $email_partial, $email_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $send_by_email, $_order_email, $_order_id, $_order_name, $_order_send_by_email, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -34893,9 +34893,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FaxDetailed
+     * @return \Delta\Voip\Model\FaxDetailed
      */
     public function getFaxItem($id)
     {
@@ -34910,13 +34910,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FaxDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FaxDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFaxItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FaxDetailed';
+        $returnType = '\Delta\Voip\Model\FaxDetailed';
         $request = $this->getFaxItemRequest($id);
 
         try {
@@ -34968,7 +34968,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FaxDetailed',
+                        '\Delta\Voip\Model\FaxDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -35010,7 +35010,7 @@ class ProviderApi
      */
     public function getFaxItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FaxDetailed';
+        $returnType = '\Delta\Voip\Model\FaxDetailed';
         $request = $this->getFaxItemRequest($id);
 
         return $this->client
@@ -35212,9 +35212,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FaxesInOutCollection[]
+     * @return \Delta\Voip\Model\FaxesInOutCollection[]
      */
     public function getFaxesInOutCollection($calldate = null, $calldate_after = null, $calldate_before = null, $calldate_start = null, $calldate_strictly_after = null, $calldate_strictly_before = null, $dst = null, $dst_country = null, $dst_country2 = null, $dst_country_exists = null, $dst_end = null, $dst_exact = null, $dst_exists = null, $dst_partial = null, $dst_start = null, $fax = null, $fax2 = null, $id_exact = null, $src = null, $src_end = null, $src_exact = null, $src_exists = null, $src_partial = null, $src_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $type = null, $type_end = null, $type_exact = null, $type_exists = null, $type_partial = null, $type_start = null, $_order_calldate = null, $_order_dst = null, $_order_id = null, $_order_src = null, $_order_status = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
@@ -35274,13 +35274,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FaxesInOutCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FaxesInOutCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getFaxesInOutCollectionWithHttpInfo($calldate = null, $calldate_after = null, $calldate_before = null, $calldate_start = null, $calldate_strictly_after = null, $calldate_strictly_before = null, $dst = null, $dst_country = null, $dst_country2 = null, $dst_country_exists = null, $dst_end = null, $dst_exact = null, $dst_exists = null, $dst_partial = null, $dst_start = null, $fax = null, $fax2 = null, $id_exact = null, $src = null, $src_end = null, $src_exact = null, $src_exists = null, $src_partial = null, $src_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $type = null, $type_end = null, $type_exact = null, $type_exists = null, $type_partial = null, $type_start = null, $_order_calldate = null, $_order_dst = null, $_order_id = null, $_order_src = null, $_order_status = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\FaxesInOutCollection[]';
+        $returnType = '\Delta\Voip\Model\FaxesInOutCollection[]';
         $request = $this->getFaxesInOutCollectionRequest($calldate, $calldate_after, $calldate_before, $calldate_start, $calldate_strictly_after, $calldate_strictly_before, $dst, $dst_country, $dst_country2, $dst_country_exists, $dst_end, $dst_exact, $dst_exists, $dst_partial, $dst_start, $fax, $fax2, $id_exact, $src, $src_end, $src_exact, $src_exists, $src_partial, $src_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $type, $type_end, $type_exact, $type_exists, $type_partial, $type_start, $_order_calldate, $_order_dst, $_order_id, $_order_src, $_order_status, $_order_type, $_items_per_page, $_page, $_properties, $_timezone);
 
         try {
@@ -35332,7 +35332,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FaxesInOutCollection[]',
+                        '\Delta\Voip\Model\FaxesInOutCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -35464,7 +35464,7 @@ class ProviderApi
      */
     public function getFaxesInOutCollectionAsyncWithHttpInfo($calldate = null, $calldate_after = null, $calldate_before = null, $calldate_start = null, $calldate_strictly_after = null, $calldate_strictly_before = null, $dst = null, $dst_country = null, $dst_country2 = null, $dst_country_exists = null, $dst_end = null, $dst_exact = null, $dst_exists = null, $dst_partial = null, $dst_start = null, $fax = null, $fax2 = null, $id_exact = null, $src = null, $src_end = null, $src_exact = null, $src_exists = null, $src_partial = null, $src_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $type = null, $type_end = null, $type_exact = null, $type_exists = null, $type_partial = null, $type_start = null, $_order_calldate = null, $_order_dst = null, $_order_id = null, $_order_src = null, $_order_status = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\FaxesInOutCollection[]';
+        $returnType = '\Delta\Voip\Model\FaxesInOutCollection[]';
         $request = $this->getFaxesInOutCollectionRequest($calldate, $calldate_after, $calldate_before, $calldate_start, $calldate_strictly_after, $calldate_strictly_before, $dst, $dst_country, $dst_country2, $dst_country_exists, $dst_end, $dst_exact, $dst_exists, $dst_partial, $dst_start, $fax, $fax2, $id_exact, $src, $src_end, $src_exact, $src_exists, $src_partial, $src_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $type, $type_end, $type_exact, $type_exists, $type_partial, $type_start, $_order_calldate, $_order_dst, $_order_id, $_order_src, $_order_status, $_order_type, $_items_per_page, $_page, $_properties, $_timezone);
 
         return $this->client
@@ -35837,9 +35837,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FaxesInOutDetailed
+     * @return \Delta\Voip\Model\FaxesInOutDetailed
      */
     public function getFaxesInOutItem($id, $_timezone = null)
     {
@@ -35855,13 +35855,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FaxesInOutDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FaxesInOutDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFaxesInOutItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\FaxesInOutDetailed';
+        $returnType = '\Delta\Voip\Model\FaxesInOutDetailed';
         $request = $this->getFaxesInOutItemRequest($id, $_timezone);
 
         try {
@@ -35913,7 +35913,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FaxesInOutDetailed',
+                        '\Delta\Voip\Model\FaxesInOutDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -35957,7 +35957,7 @@ class ProviderApi
      */
     public function getFaxesInOutItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\FaxesInOutDetailed';
+        $returnType = '\Delta\Voip\Model\FaxesInOutDetailed';
         $request = $this->getFaxesInOutItemRequest($id, $_timezone);
 
         return $this->client
@@ -36125,9 +36125,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FeaturesRelCompanyCollection[]
+     * @return \Delta\Voip\Model\FeaturesRelCompanyCollection[]
      */
     public function getFeaturesRelCompanyCollection($feature = null, $feature2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -36148,13 +36148,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FeaturesRelCompanyCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FeaturesRelCompanyCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getFeaturesRelCompanyCollectionWithHttpInfo($feature = null, $feature2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FeaturesRelCompanyCollection[]';
+        $returnType = '\Delta\Voip\Model\FeaturesRelCompanyCollection[]';
         $request = $this->getFeaturesRelCompanyCollectionRequest($feature, $feature2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -36206,7 +36206,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FeaturesRelCompanyCollection[]',
+                        '\Delta\Voip\Model\FeaturesRelCompanyCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -36260,7 +36260,7 @@ class ProviderApi
      */
     public function getFeaturesRelCompanyCollectionAsyncWithHttpInfo($feature = null, $feature2 = null, $id_exact = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FeaturesRelCompanyCollection[]';
+        $returnType = '\Delta\Voip\Model\FeaturesRelCompanyCollection[]';
         $request = $this->getFeaturesRelCompanyCollectionRequest($feature, $feature2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -36437,9 +36437,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FeaturesRelCompanyDetailed
+     * @return \Delta\Voip\Model\FeaturesRelCompanyDetailed
      */
     public function getFeaturesRelCompanyItem($id)
     {
@@ -36454,13 +36454,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FeaturesRelCompanyDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FeaturesRelCompanyDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFeaturesRelCompanyItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FeaturesRelCompanyDetailed';
+        $returnType = '\Delta\Voip\Model\FeaturesRelCompanyDetailed';
         $request = $this->getFeaturesRelCompanyItemRequest($id);
 
         try {
@@ -36512,7 +36512,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FeaturesRelCompanyDetailed',
+                        '\Delta\Voip\Model\FeaturesRelCompanyDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -36554,7 +36554,7 @@ class ProviderApi
      */
     public function getFeaturesRelCompanyItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FeaturesRelCompanyDetailed';
+        $returnType = '\Delta\Voip\Model\FeaturesRelCompanyDetailed';
         $request = $this->getFeaturesRelCompanyItemRequest($id);
 
         return $this->client
@@ -36753,9 +36753,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendCollection[]
+     * @return \Delta\Voip\Model\FriendCollection[]
      */
     public function getFriendCollection($call_acl = null, $call_acl2 = null, $call_acl_exists = null, $description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $direct_connectivity = null, $direct_connectivity_end = null, $direct_connectivity_exact = null, $direct_connectivity_partial = null, $direct_connectivity_start = null, $domain = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_description = null, $_order_direct_connectivity = null, $_order_id = null, $_order_name = null, $_order_priority = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -36812,13 +36812,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getFriendCollectionWithHttpInfo($call_acl = null, $call_acl2 = null, $call_acl_exists = null, $description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $direct_connectivity = null, $direct_connectivity_end = null, $direct_connectivity_exact = null, $direct_connectivity_partial = null, $direct_connectivity_start = null, $domain = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_description = null, $_order_direct_connectivity = null, $_order_id = null, $_order_name = null, $_order_priority = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendCollection[]';
+        $returnType = '\Delta\Voip\Model\FriendCollection[]';
         $request = $this->getFriendCollectionRequest($call_acl, $call_acl2, $call_acl_exists, $description, $description_end, $description_exact, $description_partial, $description_start, $direct_connectivity, $direct_connectivity_end, $direct_connectivity_exact, $direct_connectivity_partial, $direct_connectivity_start, $domain, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_direct_connectivity, $_order_id, $_order_name, $_order_priority, $_items_per_page, $_page, $_properties);
 
         try {
@@ -36870,7 +36870,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendCollection[]',
+                        '\Delta\Voip\Model\FriendCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -36996,7 +36996,7 @@ class ProviderApi
      */
     public function getFriendCollectionAsyncWithHttpInfo($call_acl = null, $call_acl2 = null, $call_acl_exists = null, $description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $direct_connectivity = null, $direct_connectivity_end = null, $direct_connectivity_exact = null, $direct_connectivity_partial = null, $direct_connectivity_start = null, $domain = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_description = null, $_order_direct_connectivity = null, $_order_id = null, $_order_name = null, $_order_priority = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendCollection[]';
+        $returnType = '\Delta\Voip\Model\FriendCollection[]';
         $request = $this->getFriendCollectionRequest($call_acl, $call_acl2, $call_acl_exists, $description, $description_end, $description_exact, $description_partial, $description_start, $direct_connectivity, $direct_connectivity_end, $direct_connectivity_exact, $direct_connectivity_partial, $direct_connectivity_start, $domain, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_direct_connectivity, $_order_id, $_order_name, $_order_priority, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -37353,9 +37353,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendDetailed
+     * @return \Delta\Voip\Model\FriendDetailed
      */
     public function getFriendItem($id)
     {
@@ -37370,13 +37370,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFriendItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FriendDetailed';
+        $returnType = '\Delta\Voip\Model\FriendDetailed';
         $request = $this->getFriendItemRequest($id);
 
         try {
@@ -37428,7 +37428,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendDetailed',
+                        '\Delta\Voip\Model\FriendDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -37470,7 +37470,7 @@ class ProviderApi
      */
     public function getFriendItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FriendDetailed';
+        $returnType = '\Delta\Voip\Model\FriendDetailed';
         $request = $this->getFriendItemRequest($id);
 
         return $this->client
@@ -37645,9 +37645,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendsPatternCollection[]
+     * @return \Delta\Voip\Model\FriendsPatternCollection[]
      */
     public function getFriendsPatternCollection($friend = null, $friend2 = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $reg_exp = null, $reg_exp_end = null, $reg_exp_exact = null, $reg_exp_partial = null, $reg_exp_start = null, $_order_id = null, $_order_name = null, $_order_reg_exp = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -37680,13 +37680,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendsPatternCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendsPatternCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getFriendsPatternCollectionWithHttpInfo($friend = null, $friend2 = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $reg_exp = null, $reg_exp_end = null, $reg_exp_exact = null, $reg_exp_partial = null, $reg_exp_start = null, $_order_id = null, $_order_name = null, $_order_reg_exp = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPatternCollection[]';
+        $returnType = '\Delta\Voip\Model\FriendsPatternCollection[]';
         $request = $this->getFriendsPatternCollectionRequest($friend, $friend2, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $reg_exp, $reg_exp_end, $reg_exp_exact, $reg_exp_partial, $reg_exp_start, $_order_id, $_order_name, $_order_reg_exp, $_items_per_page, $_page, $_properties);
 
         try {
@@ -37738,7 +37738,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendsPatternCollection[]',
+                        '\Delta\Voip\Model\FriendsPatternCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -37816,7 +37816,7 @@ class ProviderApi
      */
     public function getFriendsPatternCollectionAsyncWithHttpInfo($friend = null, $friend2 = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $reg_exp = null, $reg_exp_end = null, $reg_exp_exact = null, $reg_exp_partial = null, $reg_exp_start = null, $_order_id = null, $_order_name = null, $_order_reg_exp = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPatternCollection[]';
+        $returnType = '\Delta\Voip\Model\FriendsPatternCollection[]';
         $request = $this->getFriendsPatternCollectionRequest($friend, $friend2, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $reg_exp, $reg_exp_end, $reg_exp_exact, $reg_exp_partial, $reg_exp_start, $_order_id, $_order_name, $_order_reg_exp, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -38053,9 +38053,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendsPatternDetailed
+     * @return \Delta\Voip\Model\FriendsPatternDetailed
      */
     public function getFriendsPatternItem($id)
     {
@@ -38070,13 +38070,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendsPatternDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendsPatternDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFriendsPatternItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPatternDetailed';
+        $returnType = '\Delta\Voip\Model\FriendsPatternDetailed';
         $request = $this->getFriendsPatternItemRequest($id);
 
         try {
@@ -38128,7 +38128,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendsPatternDetailed',
+                        '\Delta\Voip\Model\FriendsPatternDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -38170,7 +38170,7 @@ class ProviderApi
      */
     public function getFriendsPatternItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPatternDetailed';
+        $returnType = '\Delta\Voip\Model\FriendsPatternDetailed';
         $request = $this->getFriendsPatternItemRequest($id);
 
         return $this->client
@@ -38358,9 +38358,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HolidayDateCollection[]
+     * @return \Delta\Voip\Model\HolidayDateCollection[]
      */
     public function getHolidayDateCollection($calendar = null, $calendar2 = null, $event_date = null, $event_date_after = null, $event_date_before = null, $event_date_start = null, $event_date_strictly_after = null, $event_date_strictly_before = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $locution = null, $locution2 = null, $locution_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_event_date = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -38406,13 +38406,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HolidayDateCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HolidayDateCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getHolidayDateCollectionWithHttpInfo($calendar = null, $calendar2 = null, $event_date = null, $event_date_after = null, $event_date_before = null, $event_date_start = null, $event_date_strictly_after = null, $event_date_strictly_before = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $locution = null, $locution2 = null, $locution_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_event_date = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDateCollection[]';
+        $returnType = '\Delta\Voip\Model\HolidayDateCollection[]';
         $request = $this->getHolidayDateCollectionRequest($calendar, $calendar2, $event_date, $event_date_after, $event_date_before, $event_date_start, $event_date_strictly_after, $event_date_strictly_before, $extension, $extension2, $extension_exists, $id_exact, $locution, $locution2, $locution_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $number_country, $number_country2, $number_country_exists, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $_order_event_date, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -38464,7 +38464,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HolidayDateCollection[]',
+                        '\Delta\Voip\Model\HolidayDateCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -38568,7 +38568,7 @@ class ProviderApi
      */
     public function getHolidayDateCollectionAsyncWithHttpInfo($calendar = null, $calendar2 = null, $event_date = null, $event_date_after = null, $event_date_before = null, $event_date_start = null, $event_date_strictly_after = null, $event_date_strictly_before = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $locution = null, $locution2 = null, $locution_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $_order_event_date = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDateCollection[]';
+        $returnType = '\Delta\Voip\Model\HolidayDateCollection[]';
         $request = $this->getHolidayDateCollectionRequest($calendar, $calendar2, $event_date, $event_date_after, $event_date_before, $event_date_start, $event_date_strictly_after, $event_date_strictly_before, $extension, $extension2, $extension_exists, $id_exact, $locution, $locution2, $locution_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $number_country, $number_country2, $number_country_exists, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $_order_event_date, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -38870,9 +38870,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HolidayDateDetailed
+     * @return \Delta\Voip\Model\HolidayDateDetailed
      */
     public function getHolidayDateItem($id)
     {
@@ -38887,13 +38887,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HolidayDateDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HolidayDateDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getHolidayDateItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDateDetailed';
+        $returnType = '\Delta\Voip\Model\HolidayDateDetailed';
         $request = $this->getHolidayDateItemRequest($id);
 
         try {
@@ -38945,7 +38945,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HolidayDateDetailed',
+                        '\Delta\Voip\Model\HolidayDateDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -38987,7 +38987,7 @@ class ProviderApi
      */
     public function getHolidayDateItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDateDetailed';
+        $returnType = '\Delta\Voip\Model\HolidayDateDetailed';
         $request = $this->getHolidayDateItemRequest($id);
 
         return $this->client
@@ -39178,9 +39178,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroupCollection[]
+     * @return \Delta\Voip\Model\HuntGroupCollection[]
      */
     public function getHuntGroupCollection($description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $no_answer_extension = null, $no_answer_extension2 = null, $no_answer_extension_exists = null, $no_answer_locution = null, $no_answer_locution2 = null, $no_answer_locution_exists = null, $no_answer_number_country = null, $no_answer_number_country2 = null, $no_answer_number_country_exists = null, $no_answer_voice_mail_user = null, $no_answer_voice_mail_user2 = null, $no_answer_voice_mail_user_exists = null, $strategy = null, $strategy_end = null, $strategy_exact = null, $strategy_partial = null, $strategy_start = null, $_order_description = null, $_order_id = null, $_order_name = null, $_order_strategy = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -39229,13 +39229,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroupCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroupCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getHuntGroupCollectionWithHttpInfo($description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $no_answer_extension = null, $no_answer_extension2 = null, $no_answer_extension_exists = null, $no_answer_locution = null, $no_answer_locution2 = null, $no_answer_locution_exists = null, $no_answer_number_country = null, $no_answer_number_country2 = null, $no_answer_number_country_exists = null, $no_answer_voice_mail_user = null, $no_answer_voice_mail_user2 = null, $no_answer_voice_mail_user_exists = null, $strategy = null, $strategy_end = null, $strategy_exact = null, $strategy_partial = null, $strategy_start = null, $_order_description = null, $_order_id = null, $_order_name = null, $_order_strategy = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupCollection[]';
+        $returnType = '\Delta\Voip\Model\HuntGroupCollection[]';
         $request = $this->getHuntGroupCollectionRequest($description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $no_answer_extension, $no_answer_extension2, $no_answer_extension_exists, $no_answer_locution, $no_answer_locution2, $no_answer_locution_exists, $no_answer_number_country, $no_answer_number_country2, $no_answer_number_country_exists, $no_answer_voice_mail_user, $no_answer_voice_mail_user2, $no_answer_voice_mail_user_exists, $strategy, $strategy_end, $strategy_exact, $strategy_partial, $strategy_start, $_order_description, $_order_id, $_order_name, $_order_strategy, $_items_per_page, $_page, $_properties);
 
         try {
@@ -39287,7 +39287,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroupCollection[]',
+                        '\Delta\Voip\Model\HuntGroupCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -39397,7 +39397,7 @@ class ProviderApi
      */
     public function getHuntGroupCollectionAsyncWithHttpInfo($description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $no_answer_extension = null, $no_answer_extension2 = null, $no_answer_extension_exists = null, $no_answer_locution = null, $no_answer_locution2 = null, $no_answer_locution_exists = null, $no_answer_number_country = null, $no_answer_number_country2 = null, $no_answer_number_country_exists = null, $no_answer_voice_mail_user = null, $no_answer_voice_mail_user2 = null, $no_answer_voice_mail_user_exists = null, $strategy = null, $strategy_end = null, $strategy_exact = null, $strategy_partial = null, $strategy_start = null, $_order_description = null, $_order_id = null, $_order_name = null, $_order_strategy = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupCollection[]';
+        $returnType = '\Delta\Voip\Model\HuntGroupCollection[]';
         $request = $this->getHuntGroupCollectionRequest($description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $no_answer_extension, $no_answer_extension2, $no_answer_extension_exists, $no_answer_locution, $no_answer_locution2, $no_answer_locution_exists, $no_answer_number_country, $no_answer_number_country2, $no_answer_number_country_exists, $no_answer_voice_mail_user, $no_answer_voice_mail_user2, $no_answer_voice_mail_user_exists, $strategy, $strategy_end, $strategy_exact, $strategy_partial, $strategy_start, $_order_description, $_order_id, $_order_name, $_order_strategy, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -39714,9 +39714,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroupDetailed
+     * @return \Delta\Voip\Model\HuntGroupDetailed
      */
     public function getHuntGroupItem($id)
     {
@@ -39731,13 +39731,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroupDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroupDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getHuntGroupItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupDetailed';
+        $returnType = '\Delta\Voip\Model\HuntGroupDetailed';
         $request = $this->getHuntGroupItemRequest($id);
 
         try {
@@ -39789,7 +39789,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroupDetailed',
+                        '\Delta\Voip\Model\HuntGroupDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -39831,7 +39831,7 @@ class ProviderApi
      */
     public function getHuntGroupItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupDetailed';
+        $returnType = '\Delta\Voip\Model\HuntGroupDetailed';
         $request = $this->getHuntGroupItemRequest($id);
 
         return $this->client
@@ -40078,9 +40078,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroupsRelUserDetailedCollection[]
+     * @return \Delta\Voip\Model\HuntGroupsRelUserDetailedCollection[]
      */
     public function getHuntGroupsRelUserCollection($hunt_group = null, $hunt_group_allow_call_forwards = null, $hunt_group_description = null, $hunt_group_name = null, $hunt_group_no_answer_extension = null, $hunt_group_no_answer_locution = null, $hunt_group_no_answer_number_country = null, $hunt_group_no_answer_number_value = null, $hunt_group_no_answer_target_type = null, $hunt_group_no_answer_voice_mail_user = null, $hunt_group_prevent_missed_calls = null, $hunt_group_ring_all_timeout = null, $hunt_group_strategy = null, $hunt_group2 = null, $id_exact = null, $name_ca = null, $name_en = null, $name_es = null, $name_it = null, $number_country = null, $number_country_code = null, $number_country_country_code = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $priority = null, $priority_between = null, $priority_exists = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_partial = null, $route_type_start = null, $timeout_time = null, $timeout_time_between = null, $timeout_time_exists = null, $timeout_time_gt = null, $timeout_time_gte = null, $timeout_time_lt = null, $timeout_time_lte = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $user_exists = null, $zone_ca = null, $zone_en = null, $zone_es = null, $zone_it = null, $_order_id = null, $_order_number_value = null, $_order_priority = null, $_order_route_type = null, $_order_timeout_time = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -40185,13 +40185,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroupsRelUserDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroupsRelUserDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getHuntGroupsRelUserCollectionWithHttpInfo($hunt_group = null, $hunt_group_allow_call_forwards = null, $hunt_group_description = null, $hunt_group_name = null, $hunt_group_no_answer_extension = null, $hunt_group_no_answer_locution = null, $hunt_group_no_answer_number_country = null, $hunt_group_no_answer_number_value = null, $hunt_group_no_answer_target_type = null, $hunt_group_no_answer_voice_mail_user = null, $hunt_group_prevent_missed_calls = null, $hunt_group_ring_all_timeout = null, $hunt_group_strategy = null, $hunt_group2 = null, $id_exact = null, $name_ca = null, $name_en = null, $name_es = null, $name_it = null, $number_country = null, $number_country_code = null, $number_country_country_code = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $priority = null, $priority_between = null, $priority_exists = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_partial = null, $route_type_start = null, $timeout_time = null, $timeout_time_between = null, $timeout_time_exists = null, $timeout_time_gt = null, $timeout_time_gte = null, $timeout_time_lt = null, $timeout_time_lte = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $user_exists = null, $zone_ca = null, $zone_en = null, $zone_es = null, $zone_it = null, $_order_id = null, $_order_number_value = null, $_order_priority = null, $_order_route_type = null, $_order_timeout_time = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUserDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUserDetailedCollection[]';
         $request = $this->getHuntGroupsRelUserCollectionRequest($hunt_group, $hunt_group_allow_call_forwards, $hunt_group_description, $hunt_group_name, $hunt_group_no_answer_extension, $hunt_group_no_answer_locution, $hunt_group_no_answer_number_country, $hunt_group_no_answer_number_value, $hunt_group_no_answer_target_type, $hunt_group_no_answer_voice_mail_user, $hunt_group_prevent_missed_calls, $hunt_group_ring_all_timeout, $hunt_group_strategy, $hunt_group2, $id_exact, $name_ca, $name_en, $name_es, $name_it, $number_country, $number_country_code, $number_country_country_code, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $priority, $priority_between, $priority_exists, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $route_type, $route_type_end, $route_type_exact, $route_type_partial, $route_type_start, $timeout_time, $timeout_time_between, $timeout_time_exists, $timeout_time_gt, $timeout_time_gte, $timeout_time_lt, $timeout_time_lte, $user, $user_active, $user_boss_assistant, $user_boss_assistant_white_list, $user_call_acl, $user_do_not_disturb, $user_email, $user_extension, $user_external_ip_calls, $user_gs_qr_code, $user_is_boss, $user_language, $user_lastname, $user_location, $user_max_calls, $user_multi_contact, $user_name, $user_outgoing_ddi, $user_outgoing_ddi_rule, $user_pass, $user_reject_call_method, $user_terminal, $user_timezone, $user_transformation_rule_set, $user_voicemail_attach_sound, $user_voicemail_enabled, $user_voicemail_locution, $user_voicemail_send_mail, $user2, $user_exists, $zone_ca, $zone_en, $zone_es, $zone_it, $_order_id, $_order_number_value, $_order_priority, $_order_route_type, $_order_timeout_time, $_items_per_page, $_page, $_properties);
 
         try {
@@ -40243,7 +40243,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroupsRelUserDetailedCollection[]',
+                        '\Delta\Voip\Model\HuntGroupsRelUserDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -40465,7 +40465,7 @@ class ProviderApi
      */
     public function getHuntGroupsRelUserCollectionAsyncWithHttpInfo($hunt_group = null, $hunt_group_allow_call_forwards = null, $hunt_group_description = null, $hunt_group_name = null, $hunt_group_no_answer_extension = null, $hunt_group_no_answer_locution = null, $hunt_group_no_answer_number_country = null, $hunt_group_no_answer_number_value = null, $hunt_group_no_answer_target_type = null, $hunt_group_no_answer_voice_mail_user = null, $hunt_group_prevent_missed_calls = null, $hunt_group_ring_all_timeout = null, $hunt_group_strategy = null, $hunt_group2 = null, $id_exact = null, $name_ca = null, $name_en = null, $name_es = null, $name_it = null, $number_country = null, $number_country_code = null, $number_country_country_code = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $priority = null, $priority_between = null, $priority_exists = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_partial = null, $route_type_start = null, $timeout_time = null, $timeout_time_between = null, $timeout_time_exists = null, $timeout_time_gt = null, $timeout_time_gte = null, $timeout_time_lt = null, $timeout_time_lte = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $user_exists = null, $zone_ca = null, $zone_en = null, $zone_es = null, $zone_it = null, $_order_id = null, $_order_number_value = null, $_order_priority = null, $_order_route_type = null, $_order_timeout_time = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUserDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUserDetailedCollection[]';
         $request = $this->getHuntGroupsRelUserCollectionRequest($hunt_group, $hunt_group_allow_call_forwards, $hunt_group_description, $hunt_group_name, $hunt_group_no_answer_extension, $hunt_group_no_answer_locution, $hunt_group_no_answer_number_country, $hunt_group_no_answer_number_value, $hunt_group_no_answer_target_type, $hunt_group_no_answer_voice_mail_user, $hunt_group_prevent_missed_calls, $hunt_group_ring_all_timeout, $hunt_group_strategy, $hunt_group2, $id_exact, $name_ca, $name_en, $name_es, $name_it, $number_country, $number_country_code, $number_country_country_code, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $priority, $priority_between, $priority_exists, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $route_type, $route_type_end, $route_type_exact, $route_type_partial, $route_type_start, $timeout_time, $timeout_time_between, $timeout_time_exists, $timeout_time_gt, $timeout_time_gte, $timeout_time_lt, $timeout_time_lte, $user, $user_active, $user_boss_assistant, $user_boss_assistant_white_list, $user_call_acl, $user_do_not_disturb, $user_email, $user_extension, $user_external_ip_calls, $user_gs_qr_code, $user_is_boss, $user_language, $user_lastname, $user_location, $user_max_calls, $user_multi_contact, $user_name, $user_outgoing_ddi, $user_outgoing_ddi_rule, $user_pass, $user_reject_call_method, $user_terminal, $user_timezone, $user_transformation_rule_set, $user_voicemail_attach_sound, $user_voicemail_enabled, $user_voicemail_locution, $user_voicemail_send_mail, $user2, $user_exists, $zone_ca, $zone_en, $zone_es, $zone_it, $_order_id, $_order_number_value, $_order_priority, $_order_route_type, $_order_timeout_time, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -41062,9 +41062,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroupsRelUserDetailed
+     * @return \Delta\Voip\Model\HuntGroupsRelUserDetailed
      */
     public function getHuntGroupsRelUserItem($id)
     {
@@ -41079,13 +41079,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroupsRelUserDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroupsRelUserDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getHuntGroupsRelUserItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUserDetailed';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUserDetailed';
         $request = $this->getHuntGroupsRelUserItemRequest($id);
 
         try {
@@ -41137,7 +41137,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroupsRelUserDetailed',
+                        '\Delta\Voip\Model\HuntGroupsRelUserDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -41179,7 +41179,7 @@ class ProviderApi
      */
     public function getHuntGroupsRelUserItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUserDetailed';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUserDetailed';
         $request = $this->getHuntGroupsRelUserItemRequest($id);
 
         return $this->client
@@ -41413,9 +41413,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrCollection[]
+     * @return \Delta\Voip\Model\IvrCollection[]
      */
     public function getIvrCollection($allow_extensions = null, $error_extension = null, $error_extension2 = null, $error_extension_exists = null, $error_locution = null, $error_locution2 = null, $error_locution_exists = null, $error_number_country = null, $error_number_country2 = null, $error_number_country_exists = null, $error_number_value = null, $error_number_value_end = null, $error_number_value_exact = null, $error_number_value_exists = null, $error_number_value_partial = null, $error_number_value_start = null, $error_route_type = null, $error_route_type_end = null, $error_route_type_exact = null, $error_route_type_exists = null, $error_route_type_partial = null, $error_route_type_start = null, $error_voice_mail_user = null, $error_voice_mail_user2 = null, $error_voice_mail_user_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $no_input_extension = null, $no_input_extension2 = null, $no_input_extension_exists = null, $no_input_locution = null, $no_input_locution2 = null, $no_input_locution_exists = null, $no_input_number_country = null, $no_input_number_country2 = null, $no_input_number_country_exists = null, $no_input_number_value = null, $no_input_number_value_end = null, $no_input_number_value_exact = null, $no_input_number_value_exists = null, $no_input_number_value_partial = null, $no_input_number_value_start = null, $no_input_route_type = null, $no_input_route_type_end = null, $no_input_route_type_exact = null, $no_input_route_type_exists = null, $no_input_route_type_partial = null, $no_input_route_type_start = null, $no_input_voice_mail_user = null, $no_input_voice_mail_user2 = null, $no_input_voice_mail_user_exists = null, $success_locution = null, $success_locution2 = null, $success_locution_exists = null, $timeout = null, $timeout_between = null, $timeout_gt = null, $timeout_gte = null, $timeout_lt = null, $timeout_lte = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_allow_extensions = null, $_order_error_number_value = null, $_order_error_route_type = null, $_order_id = null, $_order_name = null, $_order_no_input_number_value = null, $_order_no_input_route_type = null, $_order_timeout = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -41507,13 +41507,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getIvrCollectionWithHttpInfo($allow_extensions = null, $error_extension = null, $error_extension2 = null, $error_extension_exists = null, $error_locution = null, $error_locution2 = null, $error_locution_exists = null, $error_number_country = null, $error_number_country2 = null, $error_number_country_exists = null, $error_number_value = null, $error_number_value_end = null, $error_number_value_exact = null, $error_number_value_exists = null, $error_number_value_partial = null, $error_number_value_start = null, $error_route_type = null, $error_route_type_end = null, $error_route_type_exact = null, $error_route_type_exists = null, $error_route_type_partial = null, $error_route_type_start = null, $error_voice_mail_user = null, $error_voice_mail_user2 = null, $error_voice_mail_user_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $no_input_extension = null, $no_input_extension2 = null, $no_input_extension_exists = null, $no_input_locution = null, $no_input_locution2 = null, $no_input_locution_exists = null, $no_input_number_country = null, $no_input_number_country2 = null, $no_input_number_country_exists = null, $no_input_number_value = null, $no_input_number_value_end = null, $no_input_number_value_exact = null, $no_input_number_value_exists = null, $no_input_number_value_partial = null, $no_input_number_value_start = null, $no_input_route_type = null, $no_input_route_type_end = null, $no_input_route_type_exact = null, $no_input_route_type_exists = null, $no_input_route_type_partial = null, $no_input_route_type_start = null, $no_input_voice_mail_user = null, $no_input_voice_mail_user2 = null, $no_input_voice_mail_user_exists = null, $success_locution = null, $success_locution2 = null, $success_locution_exists = null, $timeout = null, $timeout_between = null, $timeout_gt = null, $timeout_gte = null, $timeout_lt = null, $timeout_lte = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_allow_extensions = null, $_order_error_number_value = null, $_order_error_route_type = null, $_order_id = null, $_order_name = null, $_order_no_input_number_value = null, $_order_no_input_route_type = null, $_order_timeout = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrCollection[]';
+        $returnType = '\Delta\Voip\Model\IvrCollection[]';
         $request = $this->getIvrCollectionRequest($allow_extensions, $error_extension, $error_extension2, $error_extension_exists, $error_locution, $error_locution2, $error_locution_exists, $error_number_country, $error_number_country2, $error_number_country_exists, $error_number_value, $error_number_value_end, $error_number_value_exact, $error_number_value_exists, $error_number_value_partial, $error_number_value_start, $error_route_type, $error_route_type_end, $error_route_type_exact, $error_route_type_exists, $error_route_type_partial, $error_route_type_start, $error_voice_mail_user, $error_voice_mail_user2, $error_voice_mail_user_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $no_input_extension, $no_input_extension2, $no_input_extension_exists, $no_input_locution, $no_input_locution2, $no_input_locution_exists, $no_input_number_country, $no_input_number_country2, $no_input_number_country_exists, $no_input_number_value, $no_input_number_value_end, $no_input_number_value_exact, $no_input_number_value_exists, $no_input_number_value_partial, $no_input_number_value_start, $no_input_route_type, $no_input_route_type_end, $no_input_route_type_exact, $no_input_route_type_exists, $no_input_route_type_partial, $no_input_route_type_start, $no_input_voice_mail_user, $no_input_voice_mail_user2, $no_input_voice_mail_user_exists, $success_locution, $success_locution2, $success_locution_exists, $timeout, $timeout_between, $timeout_gt, $timeout_gte, $timeout_lt, $timeout_lte, $welcome_locution, $welcome_locution2, $welcome_locution_exists, $_order_allow_extensions, $_order_error_number_value, $_order_error_route_type, $_order_id, $_order_name, $_order_no_input_number_value, $_order_no_input_route_type, $_order_timeout, $_items_per_page, $_page, $_properties);
 
         try {
@@ -41565,7 +41565,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrCollection[]',
+                        '\Delta\Voip\Model\IvrCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -41761,7 +41761,7 @@ class ProviderApi
      */
     public function getIvrCollectionAsyncWithHttpInfo($allow_extensions = null, $error_extension = null, $error_extension2 = null, $error_extension_exists = null, $error_locution = null, $error_locution2 = null, $error_locution_exists = null, $error_number_country = null, $error_number_country2 = null, $error_number_country_exists = null, $error_number_value = null, $error_number_value_end = null, $error_number_value_exact = null, $error_number_value_exists = null, $error_number_value_partial = null, $error_number_value_start = null, $error_route_type = null, $error_route_type_end = null, $error_route_type_exact = null, $error_route_type_exists = null, $error_route_type_partial = null, $error_route_type_start = null, $error_voice_mail_user = null, $error_voice_mail_user2 = null, $error_voice_mail_user_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $no_input_extension = null, $no_input_extension2 = null, $no_input_extension_exists = null, $no_input_locution = null, $no_input_locution2 = null, $no_input_locution_exists = null, $no_input_number_country = null, $no_input_number_country2 = null, $no_input_number_country_exists = null, $no_input_number_value = null, $no_input_number_value_end = null, $no_input_number_value_exact = null, $no_input_number_value_exists = null, $no_input_number_value_partial = null, $no_input_number_value_start = null, $no_input_route_type = null, $no_input_route_type_end = null, $no_input_route_type_exact = null, $no_input_route_type_exists = null, $no_input_route_type_partial = null, $no_input_route_type_start = null, $no_input_voice_mail_user = null, $no_input_voice_mail_user2 = null, $no_input_voice_mail_user_exists = null, $success_locution = null, $success_locution2 = null, $success_locution_exists = null, $timeout = null, $timeout_between = null, $timeout_gt = null, $timeout_gte = null, $timeout_lt = null, $timeout_lte = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_allow_extensions = null, $_order_error_number_value = null, $_order_error_route_type = null, $_order_id = null, $_order_name = null, $_order_no_input_number_value = null, $_order_no_input_route_type = null, $_order_timeout = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrCollection[]';
+        $returnType = '\Delta\Voip\Model\IvrCollection[]';
         $request = $this->getIvrCollectionRequest($allow_extensions, $error_extension, $error_extension2, $error_extension_exists, $error_locution, $error_locution2, $error_locution_exists, $error_number_country, $error_number_country2, $error_number_country_exists, $error_number_value, $error_number_value_end, $error_number_value_exact, $error_number_value_exists, $error_number_value_partial, $error_number_value_start, $error_route_type, $error_route_type_end, $error_route_type_exact, $error_route_type_exists, $error_route_type_partial, $error_route_type_start, $error_voice_mail_user, $error_voice_mail_user2, $error_voice_mail_user_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $no_input_extension, $no_input_extension2, $no_input_extension_exists, $no_input_locution, $no_input_locution2, $no_input_locution_exists, $no_input_number_country, $no_input_number_country2, $no_input_number_country_exists, $no_input_number_value, $no_input_number_value_end, $no_input_number_value_exact, $no_input_number_value_exists, $no_input_number_value_partial, $no_input_number_value_start, $no_input_route_type, $no_input_route_type_end, $no_input_route_type_exact, $no_input_route_type_exists, $no_input_route_type_partial, $no_input_route_type_start, $no_input_voice_mail_user, $no_input_voice_mail_user2, $no_input_voice_mail_user_exists, $success_locution, $success_locution2, $success_locution_exists, $timeout, $timeout_between, $timeout_gt, $timeout_gte, $timeout_lt, $timeout_lte, $welcome_locution, $welcome_locution2, $welcome_locution_exists, $_order_allow_extensions, $_order_error_number_value, $_order_error_route_type, $_order_id, $_order_name, $_order_no_input_number_value, $_order_no_input_route_type, $_order_timeout, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -42333,9 +42333,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrEntryCollection[]
+     * @return \Delta\Voip\Model\IvrEntryCollection[]
      */
     public function getIvrEntryCollection($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $entry = null, $entry_end = null, $entry_exact = null, $entry_partial = null, $entry_start = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_partial = null, $route_type_start = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_entry = null, $_order_id = null, $_order_number_value = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -42390,13 +42390,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrEntryCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrEntryCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getIvrEntryCollectionWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $entry = null, $entry_end = null, $entry_exact = null, $entry_partial = null, $entry_start = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_partial = null, $route_type_start = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_entry = null, $_order_id = null, $_order_number_value = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntryCollection[]';
+        $returnType = '\Delta\Voip\Model\IvrEntryCollection[]';
         $request = $this->getIvrEntryCollectionRequest($conditional_route, $conditional_route2, $conditional_route_exists, $entry, $entry_end, $entry_exact, $entry_partial, $entry_start, $extension, $extension2, $extension_exists, $id_exact, $ivr, $ivr2, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $route_type, $route_type_end, $route_type_exact, $route_type_partial, $route_type_start, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $welcome_locution, $welcome_locution2, $welcome_locution_exists, $_order_entry, $_order_id, $_order_number_value, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -42448,7 +42448,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrEntryCollection[]',
+                        '\Delta\Voip\Model\IvrEntryCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -42570,7 +42570,7 @@ class ProviderApi
      */
     public function getIvrEntryCollectionAsyncWithHttpInfo($conditional_route = null, $conditional_route2 = null, $conditional_route_exists = null, $entry = null, $entry_end = null, $entry_exact = null, $entry_partial = null, $entry_start = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $ivr = null, $ivr2 = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $number_value = null, $number_value_end = null, $number_value_exact = null, $number_value_exists = null, $number_value_partial = null, $number_value_start = null, $route_type = null, $route_type_end = null, $route_type_exact = null, $route_type_partial = null, $route_type_start = null, $voice_mail_user = null, $voice_mail_user2 = null, $voice_mail_user_exists = null, $welcome_locution = null, $welcome_locution2 = null, $welcome_locution_exists = null, $_order_entry = null, $_order_id = null, $_order_number_value = null, $_order_route_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntryCollection[]';
+        $returnType = '\Delta\Voip\Model\IvrEntryCollection[]';
         $request = $this->getIvrEntryCollectionRequest($conditional_route, $conditional_route2, $conditional_route_exists, $entry, $entry_end, $entry_exact, $entry_partial, $entry_start, $extension, $extension2, $extension_exists, $id_exact, $ivr, $ivr2, $number_country, $number_country2, $number_country_exists, $number_value, $number_value_end, $number_value_exact, $number_value_exists, $number_value_partial, $number_value_start, $route_type, $route_type_end, $route_type_exact, $route_type_partial, $route_type_start, $voice_mail_user, $voice_mail_user2, $voice_mail_user_exists, $welcome_locution, $welcome_locution2, $welcome_locution_exists, $_order_entry, $_order_id, $_order_number_value, $_order_route_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -42917,9 +42917,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrEntryDetailed
+     * @return \Delta\Voip\Model\IvrEntryDetailed
      */
     public function getIvrEntryItem($id)
     {
@@ -42934,13 +42934,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrEntryDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrEntryDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getIvrEntryItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntryDetailed';
+        $returnType = '\Delta\Voip\Model\IvrEntryDetailed';
         $request = $this->getIvrEntryItemRequest($id);
 
         try {
@@ -42992,7 +42992,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrEntryDetailed',
+                        '\Delta\Voip\Model\IvrEntryDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -43034,7 +43034,7 @@ class ProviderApi
      */
     public function getIvrEntryItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntryDetailed';
+        $returnType = '\Delta\Voip\Model\IvrEntryDetailed';
         $request = $this->getIvrEntryItemRequest($id);
 
         return $this->client
@@ -43228,9 +43228,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrExcludedExtensionDetailedCollection[]
+     * @return \Delta\Voip\Model\IvrExcludedExtensionDetailedCollection[]
      */
     public function getIvrExcludedExtensionCollection($extension = null, $extension_conditional_route = null, $extension_conference_room = null, $extension_friend_value = null, $extension_hunt_group = null, $extension_ivr = null, $extension_number = null, $extension_number_country = null, $extension_number_value = null, $extension_queue = null, $extension_route_type = null, $extension_user = null, $extension2 = null, $id_exact = null, $ivr = null, $ivr_allow_extensions = null, $ivr_error_extension = null, $ivr_error_locution = null, $ivr_error_number_country = null, $ivr_error_number_value = null, $ivr_error_route_type = null, $ivr_error_voice_mail_user = null, $ivr_max_digits = null, $ivr_name = null, $ivr_no_input_extension = null, $ivr_no_input_locution = null, $ivr_no_input_number_country = null, $ivr_no_input_number_value = null, $ivr_no_input_route_type = null, $ivr_no_input_voice_mail_user = null, $ivr_success_locution = null, $ivr_timeout = null, $ivr_welcome_locution = null, $ivr2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -43282,13 +43282,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrExcludedExtensionDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrExcludedExtensionDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getIvrExcludedExtensionCollectionWithHttpInfo($extension = null, $extension_conditional_route = null, $extension_conference_room = null, $extension_friend_value = null, $extension_hunt_group = null, $extension_ivr = null, $extension_number = null, $extension_number_country = null, $extension_number_value = null, $extension_queue = null, $extension_route_type = null, $extension_user = null, $extension2 = null, $id_exact = null, $ivr = null, $ivr_allow_extensions = null, $ivr_error_extension = null, $ivr_error_locution = null, $ivr_error_number_country = null, $ivr_error_number_value = null, $ivr_error_route_type = null, $ivr_error_voice_mail_user = null, $ivr_max_digits = null, $ivr_name = null, $ivr_no_input_extension = null, $ivr_no_input_locution = null, $ivr_no_input_number_country = null, $ivr_no_input_number_value = null, $ivr_no_input_route_type = null, $ivr_no_input_voice_mail_user = null, $ivr_success_locution = null, $ivr_timeout = null, $ivr_welcome_locution = null, $ivr2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtensionDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtensionDetailedCollection[]';
         $request = $this->getIvrExcludedExtensionCollectionRequest($extension, $extension_conditional_route, $extension_conference_room, $extension_friend_value, $extension_hunt_group, $extension_ivr, $extension_number, $extension_number_country, $extension_number_value, $extension_queue, $extension_route_type, $extension_user, $extension2, $id_exact, $ivr, $ivr_allow_extensions, $ivr_error_extension, $ivr_error_locution, $ivr_error_number_country, $ivr_error_number_value, $ivr_error_route_type, $ivr_error_voice_mail_user, $ivr_max_digits, $ivr_name, $ivr_no_input_extension, $ivr_no_input_locution, $ivr_no_input_number_country, $ivr_no_input_number_value, $ivr_no_input_route_type, $ivr_no_input_voice_mail_user, $ivr_success_locution, $ivr_timeout, $ivr_welcome_locution, $ivr2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -43340,7 +43340,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrExcludedExtensionDetailedCollection[]',
+                        '\Delta\Voip\Model\IvrExcludedExtensionDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -43456,7 +43456,7 @@ class ProviderApi
      */
     public function getIvrExcludedExtensionCollectionAsyncWithHttpInfo($extension = null, $extension_conditional_route = null, $extension_conference_room = null, $extension_friend_value = null, $extension_hunt_group = null, $extension_ivr = null, $extension_number = null, $extension_number_country = null, $extension_number_value = null, $extension_queue = null, $extension_route_type = null, $extension_user = null, $extension2 = null, $id_exact = null, $ivr = null, $ivr_allow_extensions = null, $ivr_error_extension = null, $ivr_error_locution = null, $ivr_error_number_country = null, $ivr_error_number_value = null, $ivr_error_route_type = null, $ivr_error_voice_mail_user = null, $ivr_max_digits = null, $ivr_name = null, $ivr_no_input_extension = null, $ivr_no_input_locution = null, $ivr_no_input_number_country = null, $ivr_no_input_number_value = null, $ivr_no_input_route_type = null, $ivr_no_input_voice_mail_user = null, $ivr_success_locution = null, $ivr_timeout = null, $ivr_welcome_locution = null, $ivr2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtensionDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtensionDetailedCollection[]';
         $request = $this->getIvrExcludedExtensionCollectionRequest($extension, $extension_conditional_route, $extension_conference_room, $extension_friend_value, $extension_hunt_group, $extension_ivr, $extension_number, $extension_number_country, $extension_number_value, $extension_queue, $extension_route_type, $extension_user, $extension2, $id_exact, $ivr, $ivr_allow_extensions, $ivr_error_extension, $ivr_error_locution, $ivr_error_number_country, $ivr_error_number_value, $ivr_error_route_type, $ivr_error_voice_mail_user, $ivr_max_digits, $ivr_name, $ivr_no_input_extension, $ivr_no_input_locution, $ivr_no_input_number_country, $ivr_no_input_number_value, $ivr_no_input_route_type, $ivr_no_input_voice_mail_user, $ivr_success_locution, $ivr_timeout, $ivr_welcome_locution, $ivr2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -43788,9 +43788,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrExcludedExtensionDetailed
+     * @return \Delta\Voip\Model\IvrExcludedExtensionDetailed
      */
     public function getIvrExcludedExtensionItem($id)
     {
@@ -43805,13 +43805,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrExcludedExtensionDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrExcludedExtensionDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getIvrExcludedExtensionItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtensionDetailed';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtensionDetailed';
         $request = $this->getIvrExcludedExtensionItemRequest($id);
 
         try {
@@ -43863,7 +43863,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrExcludedExtensionDetailed',
+                        '\Delta\Voip\Model\IvrExcludedExtensionDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -43905,7 +43905,7 @@ class ProviderApi
      */
     public function getIvrExcludedExtensionItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtensionDetailed';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtensionDetailed';
         $request = $this->getIvrExcludedExtensionItemRequest($id);
 
         return $this->client
@@ -44062,9 +44062,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrDetailed
+     * @return \Delta\Voip\Model\IvrDetailed
      */
     public function getIvrItem($id)
     {
@@ -44079,13 +44079,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getIvrItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\IvrDetailed';
+        $returnType = '\Delta\Voip\Model\IvrDetailed';
         $request = $this->getIvrItemRequest($id);
 
         try {
@@ -44137,7 +44137,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrDetailed',
+                        '\Delta\Voip\Model\IvrDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -44179,7 +44179,7 @@ class ProviderApi
      */
     public function getIvrItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\IvrDetailed';
+        $returnType = '\Delta\Voip\Model\IvrDetailed';
         $request = $this->getIvrItemRequest($id);
 
         return $this->client
@@ -44370,9 +44370,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LanguageCollection[]
+     * @return \Delta\Voip\Model\LanguageCollection[]
      */
     public function getLanguageCollection($id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_id = null, $_order_iden = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -44421,13 +44421,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LanguageCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\LanguageCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getLanguageCollectionWithHttpInfo($id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_id = null, $_order_iden = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\LanguageCollection[]';
+        $returnType = '\Delta\Voip\Model\LanguageCollection[]';
         $request = $this->getLanguageCollectionRequest($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties);
 
         try {
@@ -44479,7 +44479,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LanguageCollection[]',
+                        '\Delta\Voip\Model\LanguageCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -44589,7 +44589,7 @@ class ProviderApi
      */
     public function getLanguageCollectionAsyncWithHttpInfo($id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_id = null, $_order_iden = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\LanguageCollection[]';
+        $returnType = '\Delta\Voip\Model\LanguageCollection[]';
         $request = $this->getLanguageCollectionRequest($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -44906,9 +44906,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LanguageDetailed
+     * @return \Delta\Voip\Model\LanguageDetailed
      */
     public function getLanguageItem($id)
     {
@@ -44923,13 +44923,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LanguageDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\LanguageDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getLanguageItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\LanguageDetailed';
+        $returnType = '\Delta\Voip\Model\LanguageDetailed';
         $request = $this->getLanguageItemRequest($id);
 
         try {
@@ -44981,7 +44981,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LanguageDetailed',
+                        '\Delta\Voip\Model\LanguageDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -45023,7 +45023,7 @@ class ProviderApi
      */
     public function getLanguageItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\LanguageDetailed';
+        $returnType = '\Delta\Voip\Model\LanguageDetailed';
         $request = $this->getLanguageItemRequest($id);
 
         return $this->client
@@ -45190,9 +45190,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LocationCollection[]
+     * @return \Delta\Voip\Model\LocationCollection[]
      */
     public function getLocationCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -45217,13 +45217,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LocationCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\LocationCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getLocationCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\LocationCollection[]';
+        $returnType = '\Delta\Voip\Model\LocationCollection[]';
         $request = $this->getLocationCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -45275,7 +45275,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LocationCollection[]',
+                        '\Delta\Voip\Model\LocationCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -45337,7 +45337,7 @@ class ProviderApi
      */
     public function getLocationCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\LocationCollection[]';
+        $returnType = '\Delta\Voip\Model\LocationCollection[]';
         $request = $this->getLocationCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -45534,9 +45534,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LocationDetailed
+     * @return \Delta\Voip\Model\LocationDetailed
      */
     public function getLocationItem($id)
     {
@@ -45551,13 +45551,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LocationDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\LocationDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getLocationItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\LocationDetailed';
+        $returnType = '\Delta\Voip\Model\LocationDetailed';
         $request = $this->getLocationItemRequest($id);
 
         try {
@@ -45609,7 +45609,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LocationDetailed',
+                        '\Delta\Voip\Model\LocationDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -45651,7 +45651,7 @@ class ProviderApi
      */
     public function getLocationItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\LocationDetailed';
+        $returnType = '\Delta\Voip\Model\LocationDetailed';
         $request = $this->getLocationItemRequest($id);
 
         return $this->client
@@ -45848,9 +45848,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LocutionCollection[]
+     * @return \Delta\Voip\Model\LocutionCollection[]
      */
     public function getLocutionCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $original_file = null, $original_file_base_name = null, $original_file_base_name_end = null, $original_file_base_name_exact = null, $original_file_base_name_exists = null, $original_file_base_name_partial = null, $original_file_base_name_start = null, $original_file_file_size = null, $original_file_file_size_between = null, $original_file_file_size_exists = null, $original_file_file_size_gt = null, $original_file_file_size_gte = null, $original_file_file_size_lt = null, $original_file_file_size_lte = null, $original_file_mime_type = null, $original_file_mime_type_end = null, $original_file_mime_type_exact = null, $original_file_mime_type_exists = null, $original_file_mime_type_partial = null, $original_file_mime_type_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $_order_id = null, $_order_name = null, $_order_original_file_base_name = null, $_order_original_file_file_size = null, $_order_original_file_mime_type = null, $_order_status = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -45905,13 +45905,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LocutionCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\LocutionCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getLocutionCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $original_file = null, $original_file_base_name = null, $original_file_base_name_end = null, $original_file_base_name_exact = null, $original_file_base_name_exists = null, $original_file_base_name_partial = null, $original_file_base_name_start = null, $original_file_file_size = null, $original_file_file_size_between = null, $original_file_file_size_exists = null, $original_file_file_size_gt = null, $original_file_file_size_gte = null, $original_file_file_size_lt = null, $original_file_file_size_lte = null, $original_file_mime_type = null, $original_file_mime_type_end = null, $original_file_mime_type_exact = null, $original_file_mime_type_exists = null, $original_file_mime_type_partial = null, $original_file_mime_type_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $_order_id = null, $_order_name = null, $_order_original_file_base_name = null, $_order_original_file_file_size = null, $_order_original_file_mime_type = null, $_order_status = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\LocutionCollection[]';
+        $returnType = '\Delta\Voip\Model\LocutionCollection[]';
         $request = $this->getLocutionCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $original_file, $original_file_base_name, $original_file_base_name_end, $original_file_base_name_exact, $original_file_base_name_exists, $original_file_base_name_partial, $original_file_base_name_start, $original_file_file_size, $original_file_file_size_between, $original_file_file_size_exists, $original_file_file_size_gt, $original_file_file_size_gte, $original_file_file_size_lt, $original_file_file_size_lte, $original_file_mime_type, $original_file_mime_type_end, $original_file_mime_type_exact, $original_file_mime_type_exists, $original_file_mime_type_partial, $original_file_mime_type_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $_order_id, $_order_name, $_order_original_file_base_name, $_order_original_file_file_size, $_order_original_file_mime_type, $_order_status, $_items_per_page, $_page, $_properties);
 
         try {
@@ -45963,7 +45963,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LocutionCollection[]',
+                        '\Delta\Voip\Model\LocutionCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -46085,7 +46085,7 @@ class ProviderApi
      */
     public function getLocutionCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $original_file = null, $original_file_base_name = null, $original_file_base_name_end = null, $original_file_base_name_exact = null, $original_file_base_name_exists = null, $original_file_base_name_partial = null, $original_file_base_name_start = null, $original_file_file_size = null, $original_file_file_size_between = null, $original_file_file_size_exists = null, $original_file_file_size_gt = null, $original_file_file_size_gte = null, $original_file_file_size_lt = null, $original_file_file_size_lte = null, $original_file_mime_type = null, $original_file_mime_type_end = null, $original_file_mime_type_exact = null, $original_file_mime_type_exists = null, $original_file_mime_type_partial = null, $original_file_mime_type_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $_order_id = null, $_order_name = null, $_order_original_file_base_name = null, $_order_original_file_file_size = null, $_order_original_file_mime_type = null, $_order_status = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\LocutionCollection[]';
+        $returnType = '\Delta\Voip\Model\LocutionCollection[]';
         $request = $this->getLocutionCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $original_file, $original_file_base_name, $original_file_base_name_end, $original_file_base_name_exact, $original_file_base_name_exists, $original_file_base_name_partial, $original_file_base_name_start, $original_file_file_size, $original_file_file_size_between, $original_file_file_size_exists, $original_file_file_size_gt, $original_file_file_size_gte, $original_file_file_size_lt, $original_file_file_size_lte, $original_file_mime_type, $original_file_mime_type_end, $original_file_mime_type_exact, $original_file_mime_type_exists, $original_file_mime_type_partial, $original_file_mime_type_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $_order_id, $_order_name, $_order_original_file_base_name, $_order_original_file_file_size, $_order_original_file_mime_type, $_order_status, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -46432,9 +46432,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LocutionDetailed
+     * @return \Delta\Voip\Model\LocutionDetailed
      */
     public function getLocutionItem($id)
     {
@@ -46449,13 +46449,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LocutionDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\LocutionDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getLocutionItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\LocutionDetailed';
+        $returnType = '\Delta\Voip\Model\LocutionDetailed';
         $request = $this->getLocutionItemRequest($id);
 
         try {
@@ -46507,7 +46507,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LocutionDetailed',
+                        '\Delta\Voip\Model\LocutionDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -46549,7 +46549,7 @@ class ProviderApi
      */
     public function getLocutionItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\LocutionDetailed';
+        $returnType = '\Delta\Voip\Model\LocutionDetailed';
         $request = $this->getLocutionItemRequest($id);
 
         return $this->client
@@ -46716,9 +46716,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchListCollection[]
+     * @return \Delta\Voip\Model\MatchListCollection[]
      */
     public function getMatchListCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -46743,13 +46743,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchListCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchListCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchListCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListCollection[]';
+        $returnType = '\Delta\Voip\Model\MatchListCollection[]';
         $request = $this->getMatchListCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -46801,7 +46801,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchListCollection[]',
+                        '\Delta\Voip\Model\MatchListCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -46863,7 +46863,7 @@ class ProviderApi
      */
     public function getMatchListCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListCollection[]';
+        $returnType = '\Delta\Voip\Model\MatchListCollection[]';
         $request = $this->getMatchListCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -47060,9 +47060,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchListDetailed
+     * @return \Delta\Voip\Model\MatchListDetailed
      */
     public function getMatchListItem($id)
     {
@@ -47077,13 +47077,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchListDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchListDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchListItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\MatchListDetailed';
+        $returnType = '\Delta\Voip\Model\MatchListDetailed';
         $request = $this->getMatchListItemRequest($id);
 
         try {
@@ -47135,7 +47135,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchListDetailed',
+                        '\Delta\Voip\Model\MatchListDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -47177,7 +47177,7 @@ class ProviderApi
      */
     public function getMatchListItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\MatchListDetailed';
+        $returnType = '\Delta\Voip\Model\MatchListDetailed';
         $request = $this->getMatchListItemRequest($id);
 
         return $this->client
@@ -47370,9 +47370,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchListPatternCollection[]
+     * @return \Delta\Voip\Model\MatchListPatternCollection[]
      */
     public function getMatchListPatternCollection($description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $match_list = null, $match_list2 = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $numbervalue = null, $numbervalue_end = null, $numbervalue_exact = null, $numbervalue_exists = null, $numbervalue_partial = null, $numbervalue_start = null, $regexp = null, $regexp_end = null, $regexp_exact = null, $regexp_exists = null, $regexp_partial = null, $regexp_start = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_description = null, $_order_id = null, $_order_numbervalue = null, $_order_regexp = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -47423,13 +47423,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchListPatternCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchListPatternCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchListPatternCollectionWithHttpInfo($description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $match_list = null, $match_list2 = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $numbervalue = null, $numbervalue_end = null, $numbervalue_exact = null, $numbervalue_exists = null, $numbervalue_partial = null, $numbervalue_start = null, $regexp = null, $regexp_end = null, $regexp_exact = null, $regexp_exists = null, $regexp_partial = null, $regexp_start = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_description = null, $_order_id = null, $_order_numbervalue = null, $_order_regexp = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPatternCollection[]';
+        $returnType = '\Delta\Voip\Model\MatchListPatternCollection[]';
         $request = $this->getMatchListPatternCollectionRequest($description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $match_list, $match_list2, $number_country, $number_country2, $number_country_exists, $numbervalue, $numbervalue_end, $numbervalue_exact, $numbervalue_exists, $numbervalue_partial, $numbervalue_start, $regexp, $regexp_end, $regexp_exact, $regexp_exists, $regexp_partial, $regexp_start, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_description, $_order_id, $_order_numbervalue, $_order_regexp, $_order_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -47481,7 +47481,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchListPatternCollection[]',
+                        '\Delta\Voip\Model\MatchListPatternCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -47595,7 +47595,7 @@ class ProviderApi
      */
     public function getMatchListPatternCollectionAsyncWithHttpInfo($description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $match_list = null, $match_list2 = null, $number_country = null, $number_country2 = null, $number_country_exists = null, $numbervalue = null, $numbervalue_end = null, $numbervalue_exact = null, $numbervalue_exists = null, $numbervalue_partial = null, $numbervalue_start = null, $regexp = null, $regexp_end = null, $regexp_exact = null, $regexp_exists = null, $regexp_partial = null, $regexp_start = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_description = null, $_order_id = null, $_order_numbervalue = null, $_order_regexp = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPatternCollection[]';
+        $returnType = '\Delta\Voip\Model\MatchListPatternCollection[]';
         $request = $this->getMatchListPatternCollectionRequest($description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $match_list, $match_list2, $number_country, $number_country2, $number_country_exists, $numbervalue, $numbervalue_end, $numbervalue_exact, $numbervalue_exists, $numbervalue_partial, $numbervalue_start, $regexp, $regexp_end, $regexp_exact, $regexp_exists, $regexp_partial, $regexp_start, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_description, $_order_id, $_order_numbervalue, $_order_regexp, $_order_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -47922,9 +47922,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchListPatternDetailed
+     * @return \Delta\Voip\Model\MatchListPatternDetailed
      */
     public function getMatchListPatternItem($id)
     {
@@ -47939,13 +47939,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchListPatternDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchListPatternDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMatchListPatternItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPatternDetailed';
+        $returnType = '\Delta\Voip\Model\MatchListPatternDetailed';
         $request = $this->getMatchListPatternItemRequest($id);
 
         try {
@@ -47997,7 +47997,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchListPatternDetailed',
+                        '\Delta\Voip\Model\MatchListPatternDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -48039,7 +48039,7 @@ class ProviderApi
      */
     public function getMatchListPatternItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPatternDetailed';
+        $returnType = '\Delta\Voip\Model\MatchListPatternDetailed';
         $request = $this->getMatchListPatternItemRequest($id);
 
         return $this->client
@@ -48235,9 +48235,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MusicOnHoldCollection[]
+     * @return \Delta\Voip\Model\MusicOnHoldCollection[]
      */
     public function getMusicOnHoldCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $original_file_base_name = null, $original_file_base_name_end = null, $original_file_base_name_exact = null, $original_file_base_name_exists = null, $original_file_base_name_partial = null, $original_file_base_name_start = null, $original_file_file_size = null, $original_file_file_size_between = null, $original_file_file_size_exists = null, $original_file_file_size_gt = null, $original_file_file_size_gte = null, $original_file_file_size_lt = null, $original_file_file_size_lte = null, $original_file_mime_type = null, $original_file_mime_type_end = null, $original_file_mime_type_exact = null, $original_file_mime_type_exists = null, $original_file_mime_type_partial = null, $original_file_mime_type_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $_order_id = null, $_order_name = null, $_order_original_file_base_name = null, $_order_original_file_file_size = null, $_order_original_file_mime_type = null, $_order_status = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -48291,13 +48291,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MusicOnHoldCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MusicOnHoldCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMusicOnHoldCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $original_file_base_name = null, $original_file_base_name_end = null, $original_file_base_name_exact = null, $original_file_base_name_exists = null, $original_file_base_name_partial = null, $original_file_base_name_start = null, $original_file_file_size = null, $original_file_file_size_between = null, $original_file_file_size_exists = null, $original_file_file_size_gt = null, $original_file_file_size_gte = null, $original_file_file_size_lt = null, $original_file_file_size_lte = null, $original_file_mime_type = null, $original_file_mime_type_end = null, $original_file_mime_type_exact = null, $original_file_mime_type_exists = null, $original_file_mime_type_partial = null, $original_file_mime_type_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $_order_id = null, $_order_name = null, $_order_original_file_base_name = null, $_order_original_file_file_size = null, $_order_original_file_mime_type = null, $_order_status = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHoldCollection[]';
+        $returnType = '\Delta\Voip\Model\MusicOnHoldCollection[]';
         $request = $this->getMusicOnHoldCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $original_file_base_name, $original_file_base_name_end, $original_file_base_name_exact, $original_file_base_name_exists, $original_file_base_name_partial, $original_file_base_name_start, $original_file_file_size, $original_file_file_size_between, $original_file_file_size_exists, $original_file_file_size_gt, $original_file_file_size_gte, $original_file_file_size_lt, $original_file_file_size_lte, $original_file_mime_type, $original_file_mime_type_end, $original_file_mime_type_exact, $original_file_mime_type_exists, $original_file_mime_type_partial, $original_file_mime_type_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $_order_id, $_order_name, $_order_original_file_base_name, $_order_original_file_file_size, $_order_original_file_mime_type, $_order_status, $_items_per_page, $_page, $_properties);
 
         try {
@@ -48349,7 +48349,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MusicOnHoldCollection[]',
+                        '\Delta\Voip\Model\MusicOnHoldCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -48469,7 +48469,7 @@ class ProviderApi
      */
     public function getMusicOnHoldCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $original_file_base_name = null, $original_file_base_name_end = null, $original_file_base_name_exact = null, $original_file_base_name_exists = null, $original_file_base_name_partial = null, $original_file_base_name_start = null, $original_file_file_size = null, $original_file_file_size_between = null, $original_file_file_size_exists = null, $original_file_file_size_gt = null, $original_file_file_size_gte = null, $original_file_file_size_lt = null, $original_file_file_size_lte = null, $original_file_mime_type = null, $original_file_mime_type_end = null, $original_file_mime_type_exact = null, $original_file_mime_type_exists = null, $original_file_mime_type_partial = null, $original_file_mime_type_start = null, $status = null, $status_end = null, $status_exact = null, $status_exists = null, $status_partial = null, $status_start = null, $_order_id = null, $_order_name = null, $_order_original_file_base_name = null, $_order_original_file_file_size = null, $_order_original_file_mime_type = null, $_order_status = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHoldCollection[]';
+        $returnType = '\Delta\Voip\Model\MusicOnHoldCollection[]';
         $request = $this->getMusicOnHoldCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $original_file_base_name, $original_file_base_name_end, $original_file_base_name_exact, $original_file_base_name_exists, $original_file_base_name_partial, $original_file_base_name_start, $original_file_file_size, $original_file_file_size_between, $original_file_file_size_exists, $original_file_file_size_gt, $original_file_file_size_gte, $original_file_file_size_lt, $original_file_file_size_lte, $original_file_mime_type, $original_file_mime_type_end, $original_file_mime_type_exact, $original_file_mime_type_exists, $original_file_mime_type_partial, $original_file_mime_type_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $_order_id, $_order_name, $_order_original_file_base_name, $_order_original_file_file_size, $_order_original_file_mime_type, $_order_status, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -48811,9 +48811,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MusicOnHoldDetailed
+     * @return \Delta\Voip\Model\MusicOnHoldDetailed
      */
     public function getMusicOnHoldItem($id)
     {
@@ -48828,13 +48828,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MusicOnHoldDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MusicOnHoldDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMusicOnHoldItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHoldDetailed';
+        $returnType = '\Delta\Voip\Model\MusicOnHoldDetailed';
         $request = $this->getMusicOnHoldItemRequest($id);
 
         try {
@@ -48886,7 +48886,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MusicOnHoldDetailed',
+                        '\Delta\Voip\Model\MusicOnHoldDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -48928,7 +48928,7 @@ class ProviderApi
      */
     public function getMusicOnHoldItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHoldDetailed';
+        $returnType = '\Delta\Voip\Model\MusicOnHoldDetailed';
         $request = $this->getMusicOnHoldItemRequest($id);
 
         return $this->client
@@ -49085,9 +49085,9 @@ class ProviderApi
      *
      * @param  int $id Rating plan group Id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RatingPlanPrices[]
+     * @return \Delta\Voip\Model\RatingPlanPrices[]
      */
     public function getMyRatingPlanPricesRatingPlanPricesCollection($id)
     {
@@ -49102,13 +49102,13 @@ class ProviderApi
      *
      * @param  int $id Rating plan group Id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RatingPlanPrices[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RatingPlanPrices[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyRatingPlanPricesRatingPlanPricesCollectionWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RatingPlanPrices[]';
+        $returnType = '\Delta\Voip\Model\RatingPlanPrices[]';
         $request = $this->getMyRatingPlanPricesRatingPlanPricesCollectionRequest($id);
 
         try {
@@ -49160,7 +49160,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RatingPlanPrices[]',
+                        '\Delta\Voip\Model\RatingPlanPrices[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -49202,7 +49202,7 @@ class ProviderApi
      */
     public function getMyRatingPlanPricesRatingPlanPricesCollectionAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RatingPlanPrices[]';
+        $returnType = '\Delta\Voip\Model\RatingPlanPrices[]';
         $request = $this->getMyRatingPlanPricesRatingPlanPricesCollectionRequest($id);
 
         return $this->client
@@ -49378,9 +49378,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRuleCollection[]
+     * @return \Delta\Voip\Model\OutgoingDdiRuleCollection[]
      */
     public function getOutgoingDdiRuleCollection($default_action = null, $default_action_end = null, $default_action_exact = null, $default_action_partial = null, $default_action_start = null, $forced_ddi = null, $forced_ddi2 = null, $forced_ddi_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_default_action = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -49414,13 +49414,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRuleCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRuleCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getOutgoingDdiRuleCollectionWithHttpInfo($default_action = null, $default_action_end = null, $default_action_exact = null, $default_action_partial = null, $default_action_start = null, $forced_ddi = null, $forced_ddi2 = null, $forced_ddi_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_default_action = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRuleCollection[]';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRuleCollection[]';
         $request = $this->getOutgoingDdiRuleCollectionRequest($default_action, $default_action_end, $default_action_exact, $default_action_partial, $default_action_start, $forced_ddi, $forced_ddi2, $forced_ddi_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_default_action, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -49472,7 +49472,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRuleCollection[]',
+                        '\Delta\Voip\Model\OutgoingDdiRuleCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -49552,7 +49552,7 @@ class ProviderApi
      */
     public function getOutgoingDdiRuleCollectionAsyncWithHttpInfo($default_action = null, $default_action_end = null, $default_action_exact = null, $default_action_partial = null, $default_action_start = null, $forced_ddi = null, $forced_ddi2 = null, $forced_ddi_exists = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_default_action = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRuleCollection[]';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRuleCollection[]';
         $request = $this->getOutgoingDdiRuleCollectionRequest($default_action, $default_action_end, $default_action_exact, $default_action_partial, $default_action_start, $forced_ddi, $forced_ddi2, $forced_ddi_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_default_action, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -49794,9 +49794,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRuleDetailed
+     * @return \Delta\Voip\Model\OutgoingDdiRuleDetailed
      */
     public function getOutgoingDdiRuleItem($id)
     {
@@ -49811,13 +49811,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRuleDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRuleDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOutgoingDdiRuleItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRuleDetailed';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRuleDetailed';
         $request = $this->getOutgoingDdiRuleItemRequest($id);
 
         try {
@@ -49869,7 +49869,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRuleDetailed',
+                        '\Delta\Voip\Model\OutgoingDdiRuleDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -49911,7 +49911,7 @@ class ProviderApi
      */
     public function getOutgoingDdiRuleItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRuleDetailed';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRuleDetailed';
         $request = $this->getOutgoingDdiRuleItemRequest($id);
 
         return $this->client
@@ -50128,9 +50128,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRulesPatternDetailedCollection[]
+     * @return \Delta\Voip\Model\OutgoingDdiRulesPatternDetailedCollection[]
      */
     public function getOutgoingDdiRulesPatternCollection($action = null, $action_end = null, $action_exact = null, $action_partial = null, $action_start = null, $forced_ddi = null, $forced_ddi_conditional_route = null, $forced_ddi_conference_room = null, $forced_ddi_country = null, $forced_ddi_ddi = null, $forced_ddi_ddie164 = null, $forced_ddi_display_name = null, $forced_ddi_external_call_filter = null, $forced_ddi_fax = null, $forced_ddi_friend_value = null, $forced_ddi_hunt_group = null, $forced_ddi_ivr = null, $forced_ddi_language = null, $forced_ddi_queue = null, $forced_ddi_record_calls = null, $forced_ddi_residential_device = null, $forced_ddi_retail_account = null, $forced_ddi_route_type = null, $forced_ddi_user = null, $forced_ddi2 = null, $forced_ddi_exists = null, $id_exact = null, $match_list = null, $match_list_name = null, $match_list2 = null, $match_list_exists = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule_default_action = null, $outgoing_ddi_rule_forced_ddi = null, $outgoing_ddi_rule_name = null, $outgoing_ddi_rule2 = null, $prefix = null, $prefix_end = null, $prefix_exact = null, $prefix_exists = null, $prefix_partial = null, $prefix_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_action = null, $_order_id = null, $_order_prefix = null, $_order_priority = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -50205,13 +50205,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRulesPatternDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRulesPatternDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getOutgoingDdiRulesPatternCollectionWithHttpInfo($action = null, $action_end = null, $action_exact = null, $action_partial = null, $action_start = null, $forced_ddi = null, $forced_ddi_conditional_route = null, $forced_ddi_conference_room = null, $forced_ddi_country = null, $forced_ddi_ddi = null, $forced_ddi_ddie164 = null, $forced_ddi_display_name = null, $forced_ddi_external_call_filter = null, $forced_ddi_fax = null, $forced_ddi_friend_value = null, $forced_ddi_hunt_group = null, $forced_ddi_ivr = null, $forced_ddi_language = null, $forced_ddi_queue = null, $forced_ddi_record_calls = null, $forced_ddi_residential_device = null, $forced_ddi_retail_account = null, $forced_ddi_route_type = null, $forced_ddi_user = null, $forced_ddi2 = null, $forced_ddi_exists = null, $id_exact = null, $match_list = null, $match_list_name = null, $match_list2 = null, $match_list_exists = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule_default_action = null, $outgoing_ddi_rule_forced_ddi = null, $outgoing_ddi_rule_name = null, $outgoing_ddi_rule2 = null, $prefix = null, $prefix_end = null, $prefix_exact = null, $prefix_exists = null, $prefix_partial = null, $prefix_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_action = null, $_order_id = null, $_order_prefix = null, $_order_priority = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPatternDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPatternDetailedCollection[]';
         $request = $this->getOutgoingDdiRulesPatternCollectionRequest($action, $action_end, $action_exact, $action_partial, $action_start, $forced_ddi, $forced_ddi_conditional_route, $forced_ddi_conference_room, $forced_ddi_country, $forced_ddi_ddi, $forced_ddi_ddie164, $forced_ddi_display_name, $forced_ddi_external_call_filter, $forced_ddi_fax, $forced_ddi_friend_value, $forced_ddi_hunt_group, $forced_ddi_ivr, $forced_ddi_language, $forced_ddi_queue, $forced_ddi_record_calls, $forced_ddi_residential_device, $forced_ddi_retail_account, $forced_ddi_route_type, $forced_ddi_user, $forced_ddi2, $forced_ddi_exists, $id_exact, $match_list, $match_list_name, $match_list2, $match_list_exists, $outgoing_ddi_rule, $outgoing_ddi_rule_default_action, $outgoing_ddi_rule_forced_ddi, $outgoing_ddi_rule_name, $outgoing_ddi_rule2, $prefix, $prefix_end, $prefix_exact, $prefix_exists, $prefix_partial, $prefix_start, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_action, $_order_id, $_order_prefix, $_order_priority, $_order_type, $_items_per_page, $_page, $_properties);
 
         try {
@@ -50263,7 +50263,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRulesPatternDetailedCollection[]',
+                        '\Delta\Voip\Model\OutgoingDdiRulesPatternDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -50425,7 +50425,7 @@ class ProviderApi
      */
     public function getOutgoingDdiRulesPatternCollectionAsyncWithHttpInfo($action = null, $action_end = null, $action_exact = null, $action_partial = null, $action_start = null, $forced_ddi = null, $forced_ddi_conditional_route = null, $forced_ddi_conference_room = null, $forced_ddi_country = null, $forced_ddi_ddi = null, $forced_ddi_ddie164 = null, $forced_ddi_display_name = null, $forced_ddi_external_call_filter = null, $forced_ddi_fax = null, $forced_ddi_friend_value = null, $forced_ddi_hunt_group = null, $forced_ddi_ivr = null, $forced_ddi_language = null, $forced_ddi_queue = null, $forced_ddi_record_calls = null, $forced_ddi_residential_device = null, $forced_ddi_retail_account = null, $forced_ddi_route_type = null, $forced_ddi_user = null, $forced_ddi2 = null, $forced_ddi_exists = null, $id_exact = null, $match_list = null, $match_list_name = null, $match_list2 = null, $match_list_exists = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule_default_action = null, $outgoing_ddi_rule_forced_ddi = null, $outgoing_ddi_rule_name = null, $outgoing_ddi_rule2 = null, $prefix = null, $prefix_end = null, $prefix_exact = null, $prefix_exists = null, $prefix_partial = null, $prefix_start = null, $priority = null, $priority_between = null, $priority_gt = null, $priority_gte = null, $priority_lt = null, $priority_lte = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_action = null, $_order_id = null, $_order_prefix = null, $_order_priority = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPatternDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPatternDetailedCollection[]';
         $request = $this->getOutgoingDdiRulesPatternCollectionRequest($action, $action_end, $action_exact, $action_partial, $action_start, $forced_ddi, $forced_ddi_conditional_route, $forced_ddi_conference_room, $forced_ddi_country, $forced_ddi_ddi, $forced_ddi_ddie164, $forced_ddi_display_name, $forced_ddi_external_call_filter, $forced_ddi_fax, $forced_ddi_friend_value, $forced_ddi_hunt_group, $forced_ddi_ivr, $forced_ddi_language, $forced_ddi_queue, $forced_ddi_record_calls, $forced_ddi_residential_device, $forced_ddi_retail_account, $forced_ddi_route_type, $forced_ddi_user, $forced_ddi2, $forced_ddi_exists, $id_exact, $match_list, $match_list_name, $match_list2, $match_list_exists, $outgoing_ddi_rule, $outgoing_ddi_rule_default_action, $outgoing_ddi_rule_forced_ddi, $outgoing_ddi_rule_name, $outgoing_ddi_rule2, $prefix, $prefix_end, $prefix_exact, $prefix_exists, $prefix_partial, $prefix_start, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_action, $_order_id, $_order_prefix, $_order_priority, $_order_type, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -50872,9 +50872,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRulesPatternDetailed
+     * @return \Delta\Voip\Model\OutgoingDdiRulesPatternDetailed
      */
     public function getOutgoingDdiRulesPatternItem($id)
     {
@@ -50889,13 +50889,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRulesPatternDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRulesPatternDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOutgoingDdiRulesPatternItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPatternDetailed';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPatternDetailed';
         $request = $this->getOutgoingDdiRulesPatternItemRequest($id);
 
         try {
@@ -50947,7 +50947,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRulesPatternDetailed',
+                        '\Delta\Voip\Model\OutgoingDdiRulesPatternDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -50989,7 +50989,7 @@ class ProviderApi
      */
     public function getOutgoingDdiRulesPatternItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPatternDetailed';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPatternDetailed';
         $request = $this->getOutgoingDdiRulesPatternItemRequest($id);
 
         return $this->client
@@ -51156,9 +51156,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpGroupCollection[]
+     * @return \Delta\Voip\Model\PickUpGroupCollection[]
      */
     public function getPickUpGroupCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -51183,13 +51183,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpGroupCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpGroupCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getPickUpGroupCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupCollection[]';
+        $returnType = '\Delta\Voip\Model\PickUpGroupCollection[]';
         $request = $this->getPickUpGroupCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -51241,7 +51241,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpGroupCollection[]',
+                        '\Delta\Voip\Model\PickUpGroupCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -51303,7 +51303,7 @@ class ProviderApi
      */
     public function getPickUpGroupCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupCollection[]';
+        $returnType = '\Delta\Voip\Model\PickUpGroupCollection[]';
         $request = $this->getPickUpGroupCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -51500,9 +51500,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpGroupDetailed
+     * @return \Delta\Voip\Model\PickUpGroupDetailed
      */
     public function getPickUpGroupItem($id)
     {
@@ -51517,13 +51517,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpGroupDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpGroupDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPickUpGroupItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupDetailed';
+        $returnType = '\Delta\Voip\Model\PickUpGroupDetailed';
         $request = $this->getPickUpGroupItemRequest($id);
 
         try {
@@ -51575,7 +51575,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpGroupDetailed',
+                        '\Delta\Voip\Model\PickUpGroupDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -51617,7 +51617,7 @@ class ProviderApi
      */
     public function getPickUpGroupItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupDetailed';
+        $returnType = '\Delta\Voip\Model\PickUpGroupDetailed';
         $request = $this->getPickUpGroupItemRequest($id);
 
         return $this->client
@@ -51810,9 +51810,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpRelUserDetailedCollection[]
+     * @return \Delta\Voip\Model\PickUpRelUserDetailedCollection[]
      */
     public function getPickUpRelUserCollection($id_exact = null, $pick_up_group = null, $pick_up_group_name = null, $pick_up_group2 = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -51863,13 +51863,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpRelUserDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpRelUserDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getPickUpRelUserCollectionWithHttpInfo($id_exact = null, $pick_up_group = null, $pick_up_group_name = null, $pick_up_group2 = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUserDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\PickUpRelUserDetailedCollection[]';
         $request = $this->getPickUpRelUserCollectionRequest($id_exact, $pick_up_group, $pick_up_group_name, $pick_up_group2, $user, $user_active, $user_boss_assistant, $user_boss_assistant_white_list, $user_call_acl, $user_do_not_disturb, $user_email, $user_extension, $user_external_ip_calls, $user_gs_qr_code, $user_is_boss, $user_language, $user_lastname, $user_location, $user_max_calls, $user_multi_contact, $user_name, $user_outgoing_ddi, $user_outgoing_ddi_rule, $user_pass, $user_reject_call_method, $user_terminal, $user_timezone, $user_transformation_rule_set, $user_voicemail_attach_sound, $user_voicemail_enabled, $user_voicemail_locution, $user_voicemail_send_mail, $user2, $_order_id, $_items_per_page, $_page, $_properties);
 
         try {
@@ -51921,7 +51921,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpRelUserDetailedCollection[]',
+                        '\Delta\Voip\Model\PickUpRelUserDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -52035,7 +52035,7 @@ class ProviderApi
      */
     public function getPickUpRelUserCollectionAsyncWithHttpInfo($id_exact = null, $pick_up_group = null, $pick_up_group_name = null, $pick_up_group2 = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUserDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\PickUpRelUserDetailedCollection[]';
         $request = $this->getPickUpRelUserCollectionRequest($id_exact, $pick_up_group, $pick_up_group_name, $pick_up_group2, $user, $user_active, $user_boss_assistant, $user_boss_assistant_white_list, $user_call_acl, $user_do_not_disturb, $user_email, $user_extension, $user_external_ip_calls, $user_gs_qr_code, $user_is_boss, $user_language, $user_lastname, $user_location, $user_max_calls, $user_multi_contact, $user_name, $user_outgoing_ddi, $user_outgoing_ddi_rule, $user_pass, $user_reject_call_method, $user_terminal, $user_timezone, $user_transformation_rule_set, $user_voicemail_attach_sound, $user_voicemail_enabled, $user_voicemail_locution, $user_voicemail_send_mail, $user2, $_order_id, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -52362,9 +52362,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpRelUserDetailed
+     * @return \Delta\Voip\Model\PickUpRelUserDetailed
      */
     public function getPickUpRelUserItem($id)
     {
@@ -52379,13 +52379,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpRelUserDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpRelUserDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPickUpRelUserItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUserDetailed';
+        $returnType = '\Delta\Voip\Model\PickUpRelUserDetailed';
         $request = $this->getPickUpRelUserItemRequest($id);
 
         try {
@@ -52437,7 +52437,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpRelUserDetailed',
+                        '\Delta\Voip\Model\PickUpRelUserDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -52479,7 +52479,7 @@ class ProviderApi
      */
     public function getPickUpRelUserItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUserDetailed';
+        $returnType = '\Delta\Voip\Model\PickUpRelUserDetailed';
         $request = $this->getPickUpRelUserItemRequest($id);
 
         return $this->client
@@ -52721,9 +52721,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\QueueCollection[]
+     * @return \Delta\Voip\Model\QueueCollection[]
      */
     public function getQueueCollection($full_extension = null, $full_extension2 = null, $full_extension_exists = null, $full_locution = null, $full_locution2 = null, $full_locution_exists = null, $full_number_country = null, $full_number_country2 = null, $full_number_country_exists = null, $full_voice_mail_user = null, $full_voice_mail_user2 = null, $full_voice_mail_user_exists = null, $id_exact = null, $max_wait_time = null, $max_wait_time_between = null, $max_wait_time_exists = null, $max_wait_time_gt = null, $max_wait_time_gte = null, $max_wait_time_lt = null, $max_wait_time_lte = null, $maxlen = null, $maxlen_between = null, $maxlen_exists = null, $maxlen_gt = null, $maxlen_gte = null, $maxlen_lt = null, $maxlen_lte = null, $member_call_rest = null, $member_call_rest_between = null, $member_call_rest_exists = null, $member_call_rest_gt = null, $member_call_rest_gte = null, $member_call_rest_lt = null, $member_call_rest_lte = null, $member_call_timeout = null, $member_call_timeout_between = null, $member_call_timeout_exists = null, $member_call_timeout_gt = null, $member_call_timeout_gte = null, $member_call_timeout_lt = null, $member_call_timeout_lte = null, $name = null, $name_end = null, $name_exact = null, $name_exists = null, $name_partial = null, $name_start = null, $periodic_announce_locution = null, $periodic_announce_locution2 = null, $periodic_announce_locution_exists = null, $strategy = null, $strategy_end = null, $strategy_exact = null, $strategy_exists = null, $strategy_partial = null, $strategy_start = null, $timeout_extension = null, $timeout_extension2 = null, $timeout_extension_exists = null, $timeout_locution = null, $timeout_locution2 = null, $timeout_locution_exists = null, $timeout_number_country = null, $timeout_number_country2 = null, $timeout_number_country_exists = null, $timeout_voice_mail_user = null, $timeout_voice_mail_user2 = null, $timeout_voice_mail_user_exists = null, $weight = null, $weight_between = null, $weight_exists = null, $weight_gt = null, $weight_gte = null, $weight_lt = null, $weight_lte = null, $_order_id = null, $_order_max_wait_time = null, $_order_maxlen = null, $_order_member_call_rest = null, $_order_member_call_timeout = null, $_order_name = null, $_order_strategy = null, $_order_weight = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -52823,13 +52823,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\QueueCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\QueueCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getQueueCollectionWithHttpInfo($full_extension = null, $full_extension2 = null, $full_extension_exists = null, $full_locution = null, $full_locution2 = null, $full_locution_exists = null, $full_number_country = null, $full_number_country2 = null, $full_number_country_exists = null, $full_voice_mail_user = null, $full_voice_mail_user2 = null, $full_voice_mail_user_exists = null, $id_exact = null, $max_wait_time = null, $max_wait_time_between = null, $max_wait_time_exists = null, $max_wait_time_gt = null, $max_wait_time_gte = null, $max_wait_time_lt = null, $max_wait_time_lte = null, $maxlen = null, $maxlen_between = null, $maxlen_exists = null, $maxlen_gt = null, $maxlen_gte = null, $maxlen_lt = null, $maxlen_lte = null, $member_call_rest = null, $member_call_rest_between = null, $member_call_rest_exists = null, $member_call_rest_gt = null, $member_call_rest_gte = null, $member_call_rest_lt = null, $member_call_rest_lte = null, $member_call_timeout = null, $member_call_timeout_between = null, $member_call_timeout_exists = null, $member_call_timeout_gt = null, $member_call_timeout_gte = null, $member_call_timeout_lt = null, $member_call_timeout_lte = null, $name = null, $name_end = null, $name_exact = null, $name_exists = null, $name_partial = null, $name_start = null, $periodic_announce_locution = null, $periodic_announce_locution2 = null, $periodic_announce_locution_exists = null, $strategy = null, $strategy_end = null, $strategy_exact = null, $strategy_exists = null, $strategy_partial = null, $strategy_start = null, $timeout_extension = null, $timeout_extension2 = null, $timeout_extension_exists = null, $timeout_locution = null, $timeout_locution2 = null, $timeout_locution_exists = null, $timeout_number_country = null, $timeout_number_country2 = null, $timeout_number_country_exists = null, $timeout_voice_mail_user = null, $timeout_voice_mail_user2 = null, $timeout_voice_mail_user_exists = null, $weight = null, $weight_between = null, $weight_exists = null, $weight_gt = null, $weight_gte = null, $weight_lt = null, $weight_lte = null, $_order_id = null, $_order_max_wait_time = null, $_order_maxlen = null, $_order_member_call_rest = null, $_order_member_call_timeout = null, $_order_name = null, $_order_strategy = null, $_order_weight = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueCollection[]';
+        $returnType = '\Delta\Voip\Model\QueueCollection[]';
         $request = $this->getQueueCollectionRequest($full_extension, $full_extension2, $full_extension_exists, $full_locution, $full_locution2, $full_locution_exists, $full_number_country, $full_number_country2, $full_number_country_exists, $full_voice_mail_user, $full_voice_mail_user2, $full_voice_mail_user_exists, $id_exact, $max_wait_time, $max_wait_time_between, $max_wait_time_exists, $max_wait_time_gt, $max_wait_time_gte, $max_wait_time_lt, $max_wait_time_lte, $maxlen, $maxlen_between, $maxlen_exists, $maxlen_gt, $maxlen_gte, $maxlen_lt, $maxlen_lte, $member_call_rest, $member_call_rest_between, $member_call_rest_exists, $member_call_rest_gt, $member_call_rest_gte, $member_call_rest_lt, $member_call_rest_lte, $member_call_timeout, $member_call_timeout_between, $member_call_timeout_exists, $member_call_timeout_gt, $member_call_timeout_gte, $member_call_timeout_lt, $member_call_timeout_lte, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $periodic_announce_locution, $periodic_announce_locution2, $periodic_announce_locution_exists, $strategy, $strategy_end, $strategy_exact, $strategy_exists, $strategy_partial, $strategy_start, $timeout_extension, $timeout_extension2, $timeout_extension_exists, $timeout_locution, $timeout_locution2, $timeout_locution_exists, $timeout_number_country, $timeout_number_country2, $timeout_number_country_exists, $timeout_voice_mail_user, $timeout_voice_mail_user2, $timeout_voice_mail_user_exists, $weight, $weight_between, $weight_exists, $weight_gt, $weight_gte, $weight_lt, $weight_lte, $_order_id, $_order_max_wait_time, $_order_maxlen, $_order_member_call_rest, $_order_member_call_timeout, $_order_name, $_order_strategy, $_order_weight, $_items_per_page, $_page, $_properties);
 
         try {
@@ -52881,7 +52881,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\QueueCollection[]',
+                        '\Delta\Voip\Model\QueueCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -53093,7 +53093,7 @@ class ProviderApi
      */
     public function getQueueCollectionAsyncWithHttpInfo($full_extension = null, $full_extension2 = null, $full_extension_exists = null, $full_locution = null, $full_locution2 = null, $full_locution_exists = null, $full_number_country = null, $full_number_country2 = null, $full_number_country_exists = null, $full_voice_mail_user = null, $full_voice_mail_user2 = null, $full_voice_mail_user_exists = null, $id_exact = null, $max_wait_time = null, $max_wait_time_between = null, $max_wait_time_exists = null, $max_wait_time_gt = null, $max_wait_time_gte = null, $max_wait_time_lt = null, $max_wait_time_lte = null, $maxlen = null, $maxlen_between = null, $maxlen_exists = null, $maxlen_gt = null, $maxlen_gte = null, $maxlen_lt = null, $maxlen_lte = null, $member_call_rest = null, $member_call_rest_between = null, $member_call_rest_exists = null, $member_call_rest_gt = null, $member_call_rest_gte = null, $member_call_rest_lt = null, $member_call_rest_lte = null, $member_call_timeout = null, $member_call_timeout_between = null, $member_call_timeout_exists = null, $member_call_timeout_gt = null, $member_call_timeout_gte = null, $member_call_timeout_lt = null, $member_call_timeout_lte = null, $name = null, $name_end = null, $name_exact = null, $name_exists = null, $name_partial = null, $name_start = null, $periodic_announce_locution = null, $periodic_announce_locution2 = null, $periodic_announce_locution_exists = null, $strategy = null, $strategy_end = null, $strategy_exact = null, $strategy_exists = null, $strategy_partial = null, $strategy_start = null, $timeout_extension = null, $timeout_extension2 = null, $timeout_extension_exists = null, $timeout_locution = null, $timeout_locution2 = null, $timeout_locution_exists = null, $timeout_number_country = null, $timeout_number_country2 = null, $timeout_number_country_exists = null, $timeout_voice_mail_user = null, $timeout_voice_mail_user2 = null, $timeout_voice_mail_user_exists = null, $weight = null, $weight_between = null, $weight_exists = null, $weight_gt = null, $weight_gte = null, $weight_lt = null, $weight_lte = null, $_order_id = null, $_order_max_wait_time = null, $_order_maxlen = null, $_order_member_call_rest = null, $_order_member_call_timeout = null, $_order_name = null, $_order_strategy = null, $_order_weight = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueCollection[]';
+        $returnType = '\Delta\Voip\Model\QueueCollection[]';
         $request = $this->getQueueCollectionRequest($full_extension, $full_extension2, $full_extension_exists, $full_locution, $full_locution2, $full_locution_exists, $full_number_country, $full_number_country2, $full_number_country_exists, $full_voice_mail_user, $full_voice_mail_user2, $full_voice_mail_user_exists, $id_exact, $max_wait_time, $max_wait_time_between, $max_wait_time_exists, $max_wait_time_gt, $max_wait_time_gte, $max_wait_time_lt, $max_wait_time_lte, $maxlen, $maxlen_between, $maxlen_exists, $maxlen_gt, $maxlen_gte, $maxlen_lt, $maxlen_lte, $member_call_rest, $member_call_rest_between, $member_call_rest_exists, $member_call_rest_gt, $member_call_rest_gte, $member_call_rest_lt, $member_call_rest_lte, $member_call_timeout, $member_call_timeout_between, $member_call_timeout_exists, $member_call_timeout_gt, $member_call_timeout_gte, $member_call_timeout_lt, $member_call_timeout_lte, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $periodic_announce_locution, $periodic_announce_locution2, $periodic_announce_locution_exists, $strategy, $strategy_end, $strategy_exact, $strategy_exists, $strategy_partial, $strategy_start, $timeout_extension, $timeout_extension2, $timeout_extension_exists, $timeout_locution, $timeout_locution2, $timeout_locution_exists, $timeout_number_country, $timeout_number_country2, $timeout_number_country_exists, $timeout_voice_mail_user, $timeout_voice_mail_user2, $timeout_voice_mail_user_exists, $weight, $weight_between, $weight_exists, $weight_gt, $weight_gte, $weight_lt, $weight_lte, $_order_id, $_order_max_wait_time, $_order_maxlen, $_order_member_call_rest, $_order_member_call_timeout, $_order_name, $_order_strategy, $_order_weight, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -53665,9 +53665,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\QueueDetailed
+     * @return \Delta\Voip\Model\QueueDetailed
      */
     public function getQueueItem($id)
     {
@@ -53682,13 +53682,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\QueueDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\QueueDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getQueueItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\QueueDetailed';
+        $returnType = '\Delta\Voip\Model\QueueDetailed';
         $request = $this->getQueueItemRequest($id);
 
         try {
@@ -53740,7 +53740,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\QueueDetailed',
+                        '\Delta\Voip\Model\QueueDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -53782,7 +53782,7 @@ class ProviderApi
      */
     public function getQueueItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\QueueDetailed';
+        $returnType = '\Delta\Voip\Model\QueueDetailed';
         $request = $this->getQueueItemRequest($id);
 
         return $this->client
@@ -54004,9 +54004,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\QueueMemberDetailedCollection[]
+     * @return \Delta\Voip\Model\QueueMemberDetailedCollection[]
      */
     public function getQueueMemberCollection($id_exact = null, $penalty = null, $penalty_between = null, $penalty_exists = null, $penalty_gt = null, $penalty_gte = null, $penalty_lt = null, $penalty_lte = null, $queue = null, $queue_full_extension = null, $queue_full_locution = null, $queue_full_number_country = null, $queue_full_number_value = null, $queue_full_target_type = null, $queue_full_voice_mail_user = null, $queue_max_wait_time = null, $queue_maxlen = null, $queue_member_call_rest = null, $queue_member_call_timeout = null, $queue_name = null, $queue_periodic_announce_frequency = null, $queue_periodic_announce_locution = null, $queue_prevent_missed_calls = null, $queue_strategy = null, $queue_timeout_extension = null, $queue_timeout_locution = null, $queue_timeout_number_country = null, $queue_timeout_number_value = null, $queue_timeout_target_type = null, $queue_timeout_voice_mail_user = null, $queue_weight = null, $queue2 = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $_order_id = null, $_order_penalty = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -54086,13 +54086,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\QueueMemberDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\QueueMemberDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getQueueMemberCollectionWithHttpInfo($id_exact = null, $penalty = null, $penalty_between = null, $penalty_exists = null, $penalty_gt = null, $penalty_gte = null, $penalty_lt = null, $penalty_lte = null, $queue = null, $queue_full_extension = null, $queue_full_locution = null, $queue_full_number_country = null, $queue_full_number_value = null, $queue_full_target_type = null, $queue_full_voice_mail_user = null, $queue_max_wait_time = null, $queue_maxlen = null, $queue_member_call_rest = null, $queue_member_call_timeout = null, $queue_name = null, $queue_periodic_announce_frequency = null, $queue_periodic_announce_locution = null, $queue_prevent_missed_calls = null, $queue_strategy = null, $queue_timeout_extension = null, $queue_timeout_locution = null, $queue_timeout_number_country = null, $queue_timeout_number_value = null, $queue_timeout_target_type = null, $queue_timeout_voice_mail_user = null, $queue_weight = null, $queue2 = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $_order_id = null, $_order_penalty = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueMemberDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\QueueMemberDetailedCollection[]';
         $request = $this->getQueueMemberCollectionRequest($id_exact, $penalty, $penalty_between, $penalty_exists, $penalty_gt, $penalty_gte, $penalty_lt, $penalty_lte, $queue, $queue_full_extension, $queue_full_locution, $queue_full_number_country, $queue_full_number_value, $queue_full_target_type, $queue_full_voice_mail_user, $queue_max_wait_time, $queue_maxlen, $queue_member_call_rest, $queue_member_call_timeout, $queue_name, $queue_periodic_announce_frequency, $queue_periodic_announce_locution, $queue_prevent_missed_calls, $queue_strategy, $queue_timeout_extension, $queue_timeout_locution, $queue_timeout_number_country, $queue_timeout_number_value, $queue_timeout_target_type, $queue_timeout_voice_mail_user, $queue_weight, $queue2, $user, $user_active, $user_boss_assistant, $user_boss_assistant_white_list, $user_call_acl, $user_do_not_disturb, $user_email, $user_extension, $user_external_ip_calls, $user_gs_qr_code, $user_is_boss, $user_language, $user_lastname, $user_location, $user_max_calls, $user_multi_contact, $user_name, $user_outgoing_ddi, $user_outgoing_ddi_rule, $user_pass, $user_reject_call_method, $user_terminal, $user_timezone, $user_transformation_rule_set, $user_voicemail_attach_sound, $user_voicemail_enabled, $user_voicemail_locution, $user_voicemail_send_mail, $user2, $_order_id, $_order_penalty, $_items_per_page, $_page, $_properties);
 
         try {
@@ -54144,7 +54144,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\QueueMemberDetailedCollection[]',
+                        '\Delta\Voip\Model\QueueMemberDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -54316,7 +54316,7 @@ class ProviderApi
      */
     public function getQueueMemberCollectionAsyncWithHttpInfo($id_exact = null, $penalty = null, $penalty_between = null, $penalty_exists = null, $penalty_gt = null, $penalty_gte = null, $penalty_lt = null, $penalty_lte = null, $queue = null, $queue_full_extension = null, $queue_full_locution = null, $queue_full_number_country = null, $queue_full_number_value = null, $queue_full_target_type = null, $queue_full_voice_mail_user = null, $queue_max_wait_time = null, $queue_maxlen = null, $queue_member_call_rest = null, $queue_member_call_timeout = null, $queue_name = null, $queue_periodic_announce_frequency = null, $queue_periodic_announce_locution = null, $queue_prevent_missed_calls = null, $queue_strategy = null, $queue_timeout_extension = null, $queue_timeout_locution = null, $queue_timeout_number_country = null, $queue_timeout_number_value = null, $queue_timeout_target_type = null, $queue_timeout_voice_mail_user = null, $queue_weight = null, $queue2 = null, $user = null, $user_active = null, $user_boss_assistant = null, $user_boss_assistant_white_list = null, $user_call_acl = null, $user_do_not_disturb = null, $user_email = null, $user_extension = null, $user_external_ip_calls = null, $user_gs_qr_code = null, $user_is_boss = null, $user_language = null, $user_lastname = null, $user_location = null, $user_max_calls = null, $user_multi_contact = null, $user_name = null, $user_outgoing_ddi = null, $user_outgoing_ddi_rule = null, $user_pass = null, $user_reject_call_method = null, $user_terminal = null, $user_timezone = null, $user_transformation_rule_set = null, $user_voicemail_attach_sound = null, $user_voicemail_enabled = null, $user_voicemail_locution = null, $user_voicemail_send_mail = null, $user2 = null, $_order_id = null, $_order_penalty = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueMemberDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\QueueMemberDetailedCollection[]';
         $request = $this->getQueueMemberCollectionRequest($id_exact, $penalty, $penalty_between, $penalty_exists, $penalty_gt, $penalty_gte, $penalty_lt, $penalty_lte, $queue, $queue_full_extension, $queue_full_locution, $queue_full_number_country, $queue_full_number_value, $queue_full_target_type, $queue_full_voice_mail_user, $queue_max_wait_time, $queue_maxlen, $queue_member_call_rest, $queue_member_call_timeout, $queue_name, $queue_periodic_announce_frequency, $queue_periodic_announce_locution, $queue_prevent_missed_calls, $queue_strategy, $queue_timeout_extension, $queue_timeout_locution, $queue_timeout_number_country, $queue_timeout_number_value, $queue_timeout_target_type, $queue_timeout_voice_mail_user, $queue_weight, $queue2, $user, $user_active, $user_boss_assistant, $user_boss_assistant_white_list, $user_call_acl, $user_do_not_disturb, $user_email, $user_extension, $user_external_ip_calls, $user_gs_qr_code, $user_is_boss, $user_language, $user_lastname, $user_location, $user_max_calls, $user_multi_contact, $user_name, $user_outgoing_ddi, $user_outgoing_ddi_rule, $user_pass, $user_reject_call_method, $user_terminal, $user_timezone, $user_transformation_rule_set, $user_voicemail_attach_sound, $user_voicemail_enabled, $user_voicemail_locution, $user_voicemail_send_mail, $user2, $_order_id, $_order_penalty, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -54788,9 +54788,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\QueueMemberDetailed
+     * @return \Delta\Voip\Model\QueueMemberDetailed
      */
     public function getQueueMemberItem($id)
     {
@@ -54805,13 +54805,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\QueueMemberDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\QueueMemberDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getQueueMemberItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\QueueMemberDetailed';
+        $returnType = '\Delta\Voip\Model\QueueMemberDetailed';
         $request = $this->getQueueMemberItemRequest($id);
 
         try {
@@ -54863,7 +54863,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\QueueMemberDetailed',
+                        '\Delta\Voip\Model\QueueMemberDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -54905,7 +54905,7 @@ class ProviderApi
      */
     public function getQueueMemberItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\QueueMemberDetailed';
+        $returnType = '\Delta\Voip\Model\QueueMemberDetailed';
         $request = $this->getQueueMemberItemRequest($id);
 
         return $this->client
@@ -55091,9 +55091,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RatingPlanGroupCollection[]
+     * @return \Delta\Voip\Model\RatingPlanGroupCollection[]
      */
     public function getRatingPlanGroupCollection($id_exact = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_id = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -55137,13 +55137,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RatingPlanGroupCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RatingPlanGroupCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRatingPlanGroupCollectionWithHttpInfo($id_exact = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_id = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RatingPlanGroupCollection[]';
+        $returnType = '\Delta\Voip\Model\RatingPlanGroupCollection[]';
         $request = $this->getRatingPlanGroupCollectionRequest($id_exact, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties);
 
         try {
@@ -55195,7 +55195,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RatingPlanGroupCollection[]',
+                        '\Delta\Voip\Model\RatingPlanGroupCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -55295,7 +55295,7 @@ class ProviderApi
      */
     public function getRatingPlanGroupCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_id = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RatingPlanGroupCollection[]';
+        $returnType = '\Delta\Voip\Model\RatingPlanGroupCollection[]';
         $request = $this->getRatingPlanGroupCollectionRequest($id_exact, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -55587,9 +55587,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RatingPlanGroupDetailed
+     * @return \Delta\Voip\Model\RatingPlanGroupDetailed
      */
     public function getRatingPlanGroupItem($id)
     {
@@ -55604,13 +55604,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RatingPlanGroupDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RatingPlanGroupDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRatingPlanGroupItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RatingPlanGroupDetailed';
+        $returnType = '\Delta\Voip\Model\RatingPlanGroupDetailed';
         $request = $this->getRatingPlanGroupItemRequest($id);
 
         try {
@@ -55662,7 +55662,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RatingPlanGroupDetailed',
+                        '\Delta\Voip\Model\RatingPlanGroupDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -55704,7 +55704,7 @@ class ProviderApi
      */
     public function getRatingPlanGroupItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RatingPlanGroupDetailed';
+        $returnType = '\Delta\Voip\Model\RatingPlanGroupDetailed';
         $request = $this->getRatingPlanGroupItemRequest($id);
 
         return $this->client
@@ -55878,9 +55878,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RatingProfileCollection[]
+     * @return \Delta\Voip\Model\RatingProfileCollection[]
      */
     public function getRatingProfileCollection($activation_time = null, $activation_time_after = null, $activation_time_before = null, $activation_time_start = null, $activation_time_strictly_after = null, $activation_time_strictly_before = null, $id_exact = null, $rating_plan_group = null, $rating_plan_group2 = null, $routing_tag = null, $routing_tag2 = null, $routing_tag_exists = null, $_order_activation_time = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
@@ -55912,13 +55912,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RatingProfileCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RatingProfileCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRatingProfileCollectionWithHttpInfo($activation_time = null, $activation_time_after = null, $activation_time_before = null, $activation_time_start = null, $activation_time_strictly_after = null, $activation_time_strictly_before = null, $id_exact = null, $rating_plan_group = null, $rating_plan_group2 = null, $routing_tag = null, $routing_tag2 = null, $routing_tag_exists = null, $_order_activation_time = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RatingProfileCollection[]';
+        $returnType = '\Delta\Voip\Model\RatingProfileCollection[]';
         $request = $this->getRatingProfileCollectionRequest($activation_time, $activation_time_after, $activation_time_before, $activation_time_start, $activation_time_strictly_after, $activation_time_strictly_before, $id_exact, $rating_plan_group, $rating_plan_group2, $routing_tag, $routing_tag2, $routing_tag_exists, $_order_activation_time, $_order_id, $_items_per_page, $_page, $_properties, $_timezone);
 
         try {
@@ -55970,7 +55970,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RatingProfileCollection[]',
+                        '\Delta\Voip\Model\RatingProfileCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -56046,7 +56046,7 @@ class ProviderApi
      */
     public function getRatingProfileCollectionAsyncWithHttpInfo($activation_time = null, $activation_time_after = null, $activation_time_before = null, $activation_time_start = null, $activation_time_strictly_after = null, $activation_time_strictly_before = null, $id_exact = null, $rating_plan_group = null, $rating_plan_group2 = null, $routing_tag = null, $routing_tag2 = null, $routing_tag_exists = null, $_order_activation_time = null, $_order_id = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RatingProfileCollection[]';
+        $returnType = '\Delta\Voip\Model\RatingProfileCollection[]';
         $request = $this->getRatingProfileCollectionRequest($activation_time, $activation_time_after, $activation_time_before, $activation_time_start, $activation_time_strictly_after, $activation_time_strictly_before, $id_exact, $rating_plan_group, $rating_plan_group2, $routing_tag, $routing_tag2, $routing_tag_exists, $_order_activation_time, $_order_id, $_items_per_page, $_page, $_properties, $_timezone);
 
         return $this->client
@@ -56279,9 +56279,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RatingProfileDetailed
+     * @return \Delta\Voip\Model\RatingProfileDetailed
      */
     public function getRatingProfileItem($id, $_timezone = null)
     {
@@ -56297,13 +56297,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RatingProfileDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RatingProfileDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRatingProfileItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RatingProfileDetailed';
+        $returnType = '\Delta\Voip\Model\RatingProfileDetailed';
         $request = $this->getRatingProfileItemRequest($id, $_timezone);
 
         try {
@@ -56355,7 +56355,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RatingProfileDetailed',
+                        '\Delta\Voip\Model\RatingProfileDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -56399,7 +56399,7 @@ class ProviderApi
      */
     public function getRatingProfileItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RatingProfileDetailed';
+        $returnType = '\Delta\Voip\Model\RatingProfileDetailed';
         $request = $this->getRatingProfileItemRequest($id, $_timezone);
 
         return $this->client
@@ -56614,9 +56614,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RecordingCollection[]
+     * @return \Delta\Voip\Model\RecordingCollection[]
      */
     public function getRecordingCollection($calldate = null, $calldate_after = null, $calldate_before = null, $calldate_start = null, $calldate_strictly_after = null, $calldate_strictly_before = null, $callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $id_exact = null, $recorder = null, $recorder_end = null, $recorder_exact = null, $recorder_exists = null, $recorder_partial = null, $recorder_start = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_calldate = null, $_order_callee = null, $_order_caller = null, $_order_callid = null, $_order_duration = null, $_order_id = null, $_order_recorder = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
@@ -56684,13 +56684,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RecordingCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RecordingCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRecordingCollectionWithHttpInfo($calldate = null, $calldate_after = null, $calldate_before = null, $calldate_start = null, $calldate_strictly_after = null, $calldate_strictly_before = null, $callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $id_exact = null, $recorder = null, $recorder_end = null, $recorder_exact = null, $recorder_exists = null, $recorder_partial = null, $recorder_start = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_calldate = null, $_order_callee = null, $_order_caller = null, $_order_callid = null, $_order_duration = null, $_order_id = null, $_order_recorder = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RecordingCollection[]';
+        $returnType = '\Delta\Voip\Model\RecordingCollection[]';
         $request = $this->getRecordingCollectionRequest($calldate, $calldate_after, $calldate_before, $calldate_start, $calldate_strictly_after, $calldate_strictly_before, $callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $id_exact, $recorder, $recorder_end, $recorder_exact, $recorder_exists, $recorder_partial, $recorder_start, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_calldate, $_order_callee, $_order_caller, $_order_callid, $_order_duration, $_order_id, $_order_recorder, $_order_type, $_items_per_page, $_page, $_properties, $_timezone);
 
         try {
@@ -56742,7 +56742,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RecordingCollection[]',
+                        '\Delta\Voip\Model\RecordingCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -56890,7 +56890,7 @@ class ProviderApi
      */
     public function getRecordingCollectionAsyncWithHttpInfo($calldate = null, $calldate_after = null, $calldate_before = null, $calldate_start = null, $calldate_strictly_after = null, $calldate_strictly_before = null, $callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $id_exact = null, $recorder = null, $recorder_end = null, $recorder_exact = null, $recorder_exists = null, $recorder_partial = null, $recorder_start = null, $type = null, $type_end = null, $type_exact = null, $type_partial = null, $type_start = null, $_order_calldate = null, $_order_callee = null, $_order_caller = null, $_order_callid = null, $_order_duration = null, $_order_id = null, $_order_recorder = null, $_order_type = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RecordingCollection[]';
+        $returnType = '\Delta\Voip\Model\RecordingCollection[]';
         $request = $this->getRecordingCollectionRequest($calldate, $calldate_after, $calldate_before, $calldate_start, $calldate_strictly_after, $calldate_strictly_before, $callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $id_exact, $recorder, $recorder_end, $recorder_exact, $recorder_exists, $recorder_partial, $recorder_start, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_calldate, $_order_callee, $_order_caller, $_order_callid, $_order_duration, $_order_id, $_order_recorder, $_order_type, $_items_per_page, $_page, $_properties, $_timezone);
 
         return $this->client
@@ -57303,9 +57303,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RecordingDetailed
+     * @return \Delta\Voip\Model\RecordingDetailed
      */
     public function getRecordingItem($id, $_timezone = null)
     {
@@ -57321,13 +57321,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RecordingDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RecordingDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRecordingItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RecordingDetailed';
+        $returnType = '\Delta\Voip\Model\RecordingDetailed';
         $request = $this->getRecordingItemRequest($id, $_timezone);
 
         try {
@@ -57379,7 +57379,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RecordingDetailed',
+                        '\Delta\Voip\Model\RecordingDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -57423,7 +57423,7 @@ class ProviderApi
      */
     public function getRecordingItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\RecordingDetailed';
+        $returnType = '\Delta\Voip\Model\RecordingDetailed';
         $request = $this->getRecordingItemRequest($id, $_timezone);
 
         return $this->client
@@ -57611,9 +57611,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ResidentialDeviceCollection[]
+     * @return \Delta\Voip\Model\ResidentialDeviceCollection[]
      */
     public function getResidentialDeviceCollection($id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $transport = null, $transport_end = null, $transport_exact = null, $transport_exists = null, $transport_partial = null, $transport_start = null, $_order_id = null, $_order_name = null, $_order_transport = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -57654,13 +57654,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ResidentialDeviceCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ResidentialDeviceCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getResidentialDeviceCollectionWithHttpInfo($id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $transport = null, $transport_end = null, $transport_exact = null, $transport_exists = null, $transport_partial = null, $transport_start = null, $_order_id = null, $_order_name = null, $_order_transport = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceCollection[]';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceCollection[]';
         $request = $this->getResidentialDeviceCollectionRequest($id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties);
 
         try {
@@ -57712,7 +57712,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ResidentialDeviceCollection[]',
+                        '\Delta\Voip\Model\ResidentialDeviceCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -57806,7 +57806,7 @@ class ProviderApi
      */
     public function getResidentialDeviceCollectionAsyncWithHttpInfo($id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $transport = null, $transport_end = null, $transport_exact = null, $transport_exists = null, $transport_partial = null, $transport_start = null, $_order_id = null, $_order_name = null, $_order_transport = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceCollection[]';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceCollection[]';
         $request = $this->getResidentialDeviceCollectionRequest($id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -58083,9 +58083,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ResidentialDeviceDetailed
+     * @return \Delta\Voip\Model\ResidentialDeviceDetailed
      */
     public function getResidentialDeviceItem($id)
     {
@@ -58100,13 +58100,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ResidentialDeviceDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ResidentialDeviceDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getResidentialDeviceItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceDetailed';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceDetailed';
         $request = $this->getResidentialDeviceItemRequest($id);
 
         try {
@@ -58158,7 +58158,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ResidentialDeviceDetailed',
+                        '\Delta\Voip\Model\ResidentialDeviceDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -58200,7 +58200,7 @@ class ProviderApi
      */
     public function getResidentialDeviceItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceDetailed';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceDetailed';
         $request = $this->getResidentialDeviceItemRequest($id);
 
         return $this->client
@@ -58380,9 +58380,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RetailAccountCollection[]
+     * @return \Delta\Voip\Model\RetailAccountCollection[]
      */
     public function getRetailAccountCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $transport = null, $transport_end = null, $transport_exact = null, $transport_exists = null, $transport_partial = null, $transport_start = null, $_order_id = null, $_order_name = null, $_order_transport = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -58420,13 +58420,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RetailAccountCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RetailAccountCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRetailAccountCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $transport = null, $transport_end = null, $transport_exact = null, $transport_exists = null, $transport_partial = null, $transport_start = null, $_order_id = null, $_order_name = null, $_order_transport = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountCollection[]';
+        $returnType = '\Delta\Voip\Model\RetailAccountCollection[]';
         $request = $this->getRetailAccountCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties);
 
         try {
@@ -58478,7 +58478,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RetailAccountCollection[]',
+                        '\Delta\Voip\Model\RetailAccountCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -58566,7 +58566,7 @@ class ProviderApi
      */
     public function getRetailAccountCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $transport = null, $transport_end = null, $transport_exact = null, $transport_exists = null, $transport_partial = null, $transport_start = null, $_order_id = null, $_order_name = null, $_order_transport = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountCollection[]';
+        $returnType = '\Delta\Voip\Model\RetailAccountCollection[]';
         $request = $this->getRetailAccountCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -58828,9 +58828,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RetailAccountDetailed
+     * @return \Delta\Voip\Model\RetailAccountDetailed
      */
     public function getRetailAccountItem($id)
     {
@@ -58845,13 +58845,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RetailAccountDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RetailAccountDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRetailAccountItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountDetailed';
+        $returnType = '\Delta\Voip\Model\RetailAccountDetailed';
         $request = $this->getRetailAccountItemRequest($id);
 
         try {
@@ -58903,7 +58903,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RetailAccountDetailed',
+                        '\Delta\Voip\Model\RetailAccountDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -58945,7 +58945,7 @@ class ProviderApi
      */
     public function getRetailAccountItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountDetailed';
+        $returnType = '\Delta\Voip\Model\RetailAccountDetailed';
         $request = $this->getRetailAccountItemRequest($id);
 
         return $this->client
@@ -59123,9 +59123,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RouteLockCollection[]
+     * @return \Delta\Voip\Model\RouteLockCollection[]
      */
     public function getRouteLockCollection($close_extension = null, $description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $open = null, $open_extension = null, $toggle_extension = null, $_order_description = null, $_order_id = null, $_order_name = null, $_order_open = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -59161,13 +59161,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RouteLockCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RouteLockCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRouteLockCollectionWithHttpInfo($close_extension = null, $description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $open = null, $open_extension = null, $toggle_extension = null, $_order_description = null, $_order_id = null, $_order_name = null, $_order_open = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RouteLockCollection[]';
+        $returnType = '\Delta\Voip\Model\RouteLockCollection[]';
         $request = $this->getRouteLockCollectionRequest($close_extension, $description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $open, $open_extension, $toggle_extension, $_order_description, $_order_id, $_order_name, $_order_open, $_items_per_page, $_page, $_properties);
 
         try {
@@ -59219,7 +59219,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RouteLockCollection[]',
+                        '\Delta\Voip\Model\RouteLockCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -59303,7 +59303,7 @@ class ProviderApi
      */
     public function getRouteLockCollectionAsyncWithHttpInfo($close_extension = null, $description = null, $description_end = null, $description_exact = null, $description_partial = null, $description_start = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $open = null, $open_extension = null, $toggle_extension = null, $_order_description = null, $_order_id = null, $_order_name = null, $_order_open = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RouteLockCollection[]';
+        $returnType = '\Delta\Voip\Model\RouteLockCollection[]';
         $request = $this->getRouteLockCollectionRequest($close_extension, $description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $open, $open_extension, $toggle_extension, $_order_description, $_order_id, $_order_name, $_order_open, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -59555,9 +59555,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RouteLockDetailed
+     * @return \Delta\Voip\Model\RouteLockDetailed
      */
     public function getRouteLockItem($id)
     {
@@ -59572,13 +59572,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RouteLockDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RouteLockDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRouteLockItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RouteLockDetailed';
+        $returnType = '\Delta\Voip\Model\RouteLockDetailed';
         $request = $this->getRouteLockItemRequest($id);
 
         try {
@@ -59630,7 +59630,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RouteLockDetailed',
+                        '\Delta\Voip\Model\RouteLockDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -59672,7 +59672,7 @@ class ProviderApi
      */
     public function getRouteLockItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RouteLockDetailed';
+        $returnType = '\Delta\Voip\Model\RouteLockDetailed';
         $request = $this->getRouteLockItemRequest($id);
 
         return $this->client
@@ -59845,9 +59845,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RoutingTagCollection[]
+     * @return \Delta\Voip\Model\RoutingTagCollection[]
      */
     public function getRoutingTagCollection($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $tag = null, $tag_end = null, $tag_exact = null, $tag_partial = null, $tag_start = null, $_order_id = null, $_order_name = null, $_order_tag = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -59878,13 +59878,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RoutingTagCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RoutingTagCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRoutingTagCollectionWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $tag = null, $tag_end = null, $tag_exact = null, $tag_partial = null, $tag_start = null, $_order_id = null, $_order_name = null, $_order_tag = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RoutingTagCollection[]';
+        $returnType = '\Delta\Voip\Model\RoutingTagCollection[]';
         $request = $this->getRoutingTagCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $tag, $tag_end, $tag_exact, $tag_partial, $tag_start, $_order_id, $_order_name, $_order_tag, $_items_per_page, $_page, $_properties);
 
         try {
@@ -59936,7 +59936,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RoutingTagCollection[]',
+                        '\Delta\Voip\Model\RoutingTagCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -60010,7 +60010,7 @@ class ProviderApi
      */
     public function getRoutingTagCollectionAsyncWithHttpInfo($id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $tag = null, $tag_end = null, $tag_exact = null, $tag_partial = null, $tag_start = null, $_order_id = null, $_order_name = null, $_order_tag = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RoutingTagCollection[]';
+        $returnType = '\Delta\Voip\Model\RoutingTagCollection[]';
         $request = $this->getRoutingTagCollectionRequest($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $tag, $tag_end, $tag_exact, $tag_partial, $tag_start, $_order_id, $_order_name, $_order_tag, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -60237,9 +60237,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RoutingTagDetailed
+     * @return \Delta\Voip\Model\RoutingTagDetailed
      */
     public function getRoutingTagItem($id)
     {
@@ -60254,13 +60254,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RoutingTagDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RoutingTagDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRoutingTagItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RoutingTagDetailed';
+        $returnType = '\Delta\Voip\Model\RoutingTagDetailed';
         $request = $this->getRoutingTagItemRequest($id);
 
         try {
@@ -60312,7 +60312,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RoutingTagDetailed',
+                        '\Delta\Voip\Model\RoutingTagDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -60354,7 +60354,7 @@ class ProviderApi
      */
     public function getRoutingTagItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RoutingTagDetailed';
+        $returnType = '\Delta\Voip\Model\RoutingTagDetailed';
         $request = $this->getRoutingTagItemRequest($id);
 
         return $this->client
@@ -60556,9 +60556,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ScheduleCollection[]
+     * @return \Delta\Voip\Model\ScheduleCollection[]
      */
     public function getScheduleCollection($friday = null, $friday_exists = null, $id_exact = null, $monday = null, $monday_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $saturday = null, $saturday_exists = null, $sunday = null, $sunday_exists = null, $thursday = null, $thursday_exists = null, $time_in = null, $time_in_after = null, $time_in_before = null, $time_in_start = null, $time_in_strictly_after = null, $time_in_strictly_before = null, $timeout = null, $timeout_after = null, $timeout_before = null, $timeout_start = null, $timeout_strictly_after = null, $timeout_strictly_before = null, $tuesday = null, $tuesday_exists = null, $wednesday = null, $wednesday_exists = null, $_order_friday = null, $_order_id = null, $_order_monday = null, $_order_name = null, $_order_saturday = null, $_order_sunday = null, $_order_thursday = null, $_order_time_in = null, $_order_timeout = null, $_order_tuesday = null, $_order_wednesday = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -60618,13 +60618,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ScheduleCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ScheduleCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getScheduleCollectionWithHttpInfo($friday = null, $friday_exists = null, $id_exact = null, $monday = null, $monday_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $saturday = null, $saturday_exists = null, $sunday = null, $sunday_exists = null, $thursday = null, $thursday_exists = null, $time_in = null, $time_in_after = null, $time_in_before = null, $time_in_start = null, $time_in_strictly_after = null, $time_in_strictly_before = null, $timeout = null, $timeout_after = null, $timeout_before = null, $timeout_start = null, $timeout_strictly_after = null, $timeout_strictly_before = null, $tuesday = null, $tuesday_exists = null, $wednesday = null, $wednesday_exists = null, $_order_friday = null, $_order_id = null, $_order_monday = null, $_order_name = null, $_order_saturday = null, $_order_sunday = null, $_order_thursday = null, $_order_time_in = null, $_order_timeout = null, $_order_tuesday = null, $_order_wednesday = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ScheduleCollection[]';
+        $returnType = '\Delta\Voip\Model\ScheduleCollection[]';
         $request = $this->getScheduleCollectionRequest($friday, $friday_exists, $id_exact, $monday, $monday_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $saturday, $saturday_exists, $sunday, $sunday_exists, $thursday, $thursday_exists, $time_in, $time_in_after, $time_in_before, $time_in_start, $time_in_strictly_after, $time_in_strictly_before, $timeout, $timeout_after, $timeout_before, $timeout_start, $timeout_strictly_after, $timeout_strictly_before, $tuesday, $tuesday_exists, $wednesday, $wednesday_exists, $_order_friday, $_order_id, $_order_monday, $_order_name, $_order_saturday, $_order_sunday, $_order_thursday, $_order_time_in, $_order_timeout, $_order_tuesday, $_order_wednesday, $_items_per_page, $_page, $_properties);
 
         try {
@@ -60676,7 +60676,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ScheduleCollection[]',
+                        '\Delta\Voip\Model\ScheduleCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -60808,7 +60808,7 @@ class ProviderApi
      */
     public function getScheduleCollectionAsyncWithHttpInfo($friday = null, $friday_exists = null, $id_exact = null, $monday = null, $monday_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $saturday = null, $saturday_exists = null, $sunday = null, $sunday_exists = null, $thursday = null, $thursday_exists = null, $time_in = null, $time_in_after = null, $time_in_before = null, $time_in_start = null, $time_in_strictly_after = null, $time_in_strictly_before = null, $timeout = null, $timeout_after = null, $timeout_before = null, $timeout_start = null, $timeout_strictly_after = null, $timeout_strictly_before = null, $tuesday = null, $tuesday_exists = null, $wednesday = null, $wednesday_exists = null, $_order_friday = null, $_order_id = null, $_order_monday = null, $_order_name = null, $_order_saturday = null, $_order_sunday = null, $_order_thursday = null, $_order_time_in = null, $_order_timeout = null, $_order_tuesday = null, $_order_wednesday = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ScheduleCollection[]';
+        $returnType = '\Delta\Voip\Model\ScheduleCollection[]';
         $request = $this->getScheduleCollectionRequest($friday, $friday_exists, $id_exact, $monday, $monday_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $saturday, $saturday_exists, $sunday, $sunday_exists, $thursday, $thursday_exists, $time_in, $time_in_after, $time_in_before, $time_in_start, $time_in_strictly_after, $time_in_strictly_before, $timeout, $timeout_after, $timeout_before, $timeout_start, $timeout_strictly_after, $timeout_strictly_before, $tuesday, $tuesday_exists, $wednesday, $wednesday_exists, $_order_friday, $_order_id, $_order_monday, $_order_name, $_order_saturday, $_order_sunday, $_order_thursday, $_order_time_in, $_order_timeout, $_order_tuesday, $_order_wednesday, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -61180,9 +61180,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ScheduleDetailed
+     * @return \Delta\Voip\Model\ScheduleDetailed
      */
     public function getScheduleItem($id)
     {
@@ -61197,13 +61197,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ScheduleDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getScheduleItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\ScheduleDetailed';
         $request = $this->getScheduleItemRequest($id);
 
         try {
@@ -61255,7 +61255,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ScheduleDetailed',
+                        '\Delta\Voip\Model\ScheduleDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -61297,7 +61297,7 @@ class ProviderApi
      */
     public function getScheduleItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ScheduleDetailed';
+        $returnType = '\Delta\Voip\Model\ScheduleDetailed';
         $request = $this->getScheduleItemRequest($id);
 
         return $this->client
@@ -61497,9 +61497,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ServiceCollection[]
+     * @return \Delta\Voip\Model\ServiceCollection[]
      */
     public function getServiceCollection($default_code = null, $default_code_end = null, $default_code_exact = null, $default_code_partial = null, $default_code_start = null, $extra_args = null, $id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_default_code = null, $_order_extra_args = null, $_order_id = null, $_order_iden = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -61557,13 +61557,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ServiceCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ServiceCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getServiceCollectionWithHttpInfo($default_code = null, $default_code_end = null, $default_code_exact = null, $default_code_partial = null, $default_code_start = null, $extra_args = null, $id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_default_code = null, $_order_extra_args = null, $_order_id = null, $_order_iden = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ServiceCollection[]';
+        $returnType = '\Delta\Voip\Model\ServiceCollection[]';
         $request = $this->getServiceCollectionRequest($default_code, $default_code_end, $default_code_exact, $default_code_partial, $default_code_start, $extra_args, $id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_default_code, $_order_extra_args, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties);
 
         try {
@@ -61615,7 +61615,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ServiceCollection[]',
+                        '\Delta\Voip\Model\ServiceCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -61743,7 +61743,7 @@ class ProviderApi
      */
     public function getServiceCollectionAsyncWithHttpInfo($default_code = null, $default_code_end = null, $default_code_exact = null, $default_code_partial = null, $default_code_start = null, $extra_args = null, $id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $_order_default_code = null, $_order_extra_args = null, $_order_id = null, $_order_iden = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ServiceCollection[]';
+        $returnType = '\Delta\Voip\Model\ServiceCollection[]';
         $request = $this->getServiceCollectionRequest($default_code, $default_code_end, $default_code_exact, $default_code_partial, $default_code_start, $extra_args, $id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_default_code, $_order_extra_args, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -62105,9 +62105,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ServiceDetailed
+     * @return \Delta\Voip\Model\ServiceDetailed
      */
     public function getServiceItem($id)
     {
@@ -62122,13 +62122,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ServiceDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ServiceDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getServiceItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ServiceDetailed';
+        $returnType = '\Delta\Voip\Model\ServiceDetailed';
         $request = $this->getServiceItemRequest($id);
 
         try {
@@ -62180,7 +62180,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ServiceDetailed',
+                        '\Delta\Voip\Model\ServiceDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -62222,7 +62222,7 @@ class ProviderApi
      */
     public function getServiceItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ServiceDetailed';
+        $returnType = '\Delta\Voip\Model\ServiceDetailed';
         $request = $this->getServiceItemRequest($id);
 
         return $this->client
@@ -62379,9 +62379,9 @@ class ProviderApi
      *
      * @param  int $_include_id Ensure certain service id is included (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Service[]
+     * @return \Delta\Voip\Model\Service[]
      */
     public function getServicesUnassignedServiceCollection($_include_id = null)
     {
@@ -62396,13 +62396,13 @@ class ProviderApi
      *
      * @param  int $_include_id Ensure certain service id is included (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Service[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Service[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getServicesUnassignedServiceCollectionWithHttpInfo($_include_id = null)
     {
-        $returnType = '\Swagger\Client\Model\Service[]';
+        $returnType = '\Delta\Voip\Model\Service[]';
         $request = $this->getServicesUnassignedServiceCollectionRequest($_include_id);
 
         try {
@@ -62454,7 +62454,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Service[]',
+                        '\Delta\Voip\Model\Service[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -62496,7 +62496,7 @@ class ProviderApi
      */
     public function getServicesUnassignedServiceCollectionAsyncWithHttpInfo($_include_id = null)
     {
-        $returnType = '\Swagger\Client\Model\Service[]';
+        $returnType = '\Delta\Voip\Model\Service[]';
         $request = $this->getServicesUnassignedServiceCollectionRequest($_include_id);
 
         return $this->client
@@ -62666,9 +62666,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendStatus[]
+     * @return \Delta\Voip\Model\FriendStatus[]
      */
     public function getStatusCollectionFriendCollection($call_acl = null, $call_acl2 = null, $call_acl_exists = null, $domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -62706,13 +62706,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendStatus[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendStatus[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusCollectionFriendCollectionWithHttpInfo($call_acl = null, $call_acl2 = null, $call_acl_exists = null, $domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendStatus[]';
+        $returnType = '\Delta\Voip\Model\FriendStatus[]';
         $request = $this->getStatusCollectionFriendCollectionRequest($call_acl, $call_acl2, $call_acl_exists, $domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -62764,7 +62764,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendStatus[]',
+                        '\Delta\Voip\Model\FriendStatus[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -62852,7 +62852,7 @@ class ProviderApi
      */
     public function getStatusCollectionFriendCollectionAsyncWithHttpInfo($call_acl = null, $call_acl2 = null, $call_acl_exists = null, $domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendStatus[]';
+        $returnType = '\Delta\Voip\Model\FriendStatus[]';
         $request = $this->getStatusCollectionFriendCollectionRequest($call_acl, $call_acl2, $call_acl_exists, $domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -63134,9 +63134,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ResidentialDeviceStatus[]
+     * @return \Delta\Voip\Model\ResidentialDeviceStatus[]
      */
     public function getStatusCollectionResidentialDeviceCollection($domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -63171,13 +63171,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ResidentialDeviceStatus[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ResidentialDeviceStatus[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusCollectionResidentialDeviceCollectionWithHttpInfo($domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceStatus[]';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceStatus[]';
         $request = $this->getStatusCollectionResidentialDeviceCollectionRequest($domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -63229,7 +63229,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ResidentialDeviceStatus[]',
+                        '\Delta\Voip\Model\ResidentialDeviceStatus[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -63311,7 +63311,7 @@ class ProviderApi
      */
     public function getStatusCollectionResidentialDeviceCollectionAsyncWithHttpInfo($domain_name = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceStatus[]';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceStatus[]';
         $request = $this->getStatusCollectionResidentialDeviceCollectionRequest($domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -63575,9 +63575,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RetailAccountStatus[]
+     * @return \Delta\Voip\Model\RetailAccountStatus[]
      */
     public function getStatusCollectionRetailAccountCollection($domain_name = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -63609,13 +63609,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RetailAccountStatus[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RetailAccountStatus[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusCollectionRetailAccountCollectionWithHttpInfo($domain_name = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountStatus[]';
+        $returnType = '\Delta\Voip\Model\RetailAccountStatus[]';
         $request = $this->getStatusCollectionRetailAccountCollectionRequest($domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -63667,7 +63667,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RetailAccountStatus[]',
+                        '\Delta\Voip\Model\RetailAccountStatus[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -63743,7 +63743,7 @@ class ProviderApi
      */
     public function getStatusCollectionRetailAccountCollectionAsyncWithHttpInfo($domain_name = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountStatus[]';
+        $returnType = '\Delta\Voip\Model\RetailAccountStatus[]';
         $request = $this->getStatusCollectionRetailAccountCollectionRequest($domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -63989,9 +63989,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TerminalStatus[]
+     * @return \Delta\Voip\Model\TerminalStatus[]
      */
     public function getStatusCollectionTerminalCollection($domain_name = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $terminal_model = null, $terminal_model2 = null, $terminal_model_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -64020,13 +64020,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TerminalStatus[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TerminalStatus[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusCollectionTerminalCollectionWithHttpInfo($domain_name = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $terminal_model = null, $terminal_model2 = null, $terminal_model_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalStatus[]';
+        $returnType = '\Delta\Voip\Model\TerminalStatus[]';
         $request = $this->getStatusCollectionTerminalCollectionRequest($domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $terminal_model, $terminal_model2, $terminal_model_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -64078,7 +64078,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TerminalStatus[]',
+                        '\Delta\Voip\Model\TerminalStatus[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -64148,7 +64148,7 @@ class ProviderApi
      */
     public function getStatusCollectionTerminalCollectionAsyncWithHttpInfo($domain_name = null, $id_exact = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $terminal_model = null, $terminal_model2 = null, $terminal_model_exists = null, $_order_id = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalStatus[]';
+        $returnType = '\Delta\Voip\Model\TerminalStatus[]';
         $request = $this->getStatusCollectionTerminalCollectionRequest($domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $terminal_model, $terminal_model2, $terminal_model_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -64365,9 +64365,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendStatus
+     * @return \Delta\Voip\Model\FriendStatus
      */
     public function getStatusItemFriendItem($id)
     {
@@ -64382,13 +64382,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendStatus, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendStatus, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusItemFriendItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FriendStatus';
+        $returnType = '\Delta\Voip\Model\FriendStatus';
         $request = $this->getStatusItemFriendItemRequest($id);
 
         try {
@@ -64440,7 +64440,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendStatus',
+                        '\Delta\Voip\Model\FriendStatus',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -64482,7 +64482,7 @@ class ProviderApi
      */
     public function getStatusItemFriendItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\FriendStatus';
+        $returnType = '\Delta\Voip\Model\FriendStatus';
         $request = $this->getStatusItemFriendItemRequest($id);
 
         return $this->client
@@ -64639,9 +64639,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ResidentialDeviceStatus
+     * @return \Delta\Voip\Model\ResidentialDeviceStatus
      */
     public function getStatusItemResidentialDeviceItem($id)
     {
@@ -64656,13 +64656,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ResidentialDeviceStatus, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ResidentialDeviceStatus, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusItemResidentialDeviceItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceStatus';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceStatus';
         $request = $this->getStatusItemResidentialDeviceItemRequest($id);
 
         try {
@@ -64714,7 +64714,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ResidentialDeviceStatus',
+                        '\Delta\Voip\Model\ResidentialDeviceStatus',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -64756,7 +64756,7 @@ class ProviderApi
      */
     public function getStatusItemResidentialDeviceItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDeviceStatus';
+        $returnType = '\Delta\Voip\Model\ResidentialDeviceStatus';
         $request = $this->getStatusItemResidentialDeviceItemRequest($id);
 
         return $this->client
@@ -64913,9 +64913,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RetailAccountStatus
+     * @return \Delta\Voip\Model\RetailAccountStatus
      */
     public function getStatusItemRetailAccountItem($id)
     {
@@ -64930,13 +64930,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RetailAccountStatus, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RetailAccountStatus, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusItemRetailAccountItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountStatus';
+        $returnType = '\Delta\Voip\Model\RetailAccountStatus';
         $request = $this->getStatusItemRetailAccountItemRequest($id);
 
         try {
@@ -64988,7 +64988,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RetailAccountStatus',
+                        '\Delta\Voip\Model\RetailAccountStatus',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -65030,7 +65030,7 @@ class ProviderApi
      */
     public function getStatusItemRetailAccountItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccountStatus';
+        $returnType = '\Delta\Voip\Model\RetailAccountStatus';
         $request = $this->getStatusItemRetailAccountItemRequest($id);
 
         return $this->client
@@ -65187,9 +65187,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TerminalStatus
+     * @return \Delta\Voip\Model\TerminalStatus
      */
     public function getStatusItemTerminalItem($id)
     {
@@ -65204,13 +65204,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TerminalStatus, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TerminalStatus, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStatusItemTerminalItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TerminalStatus';
+        $returnType = '\Delta\Voip\Model\TerminalStatus';
         $request = $this->getStatusItemTerminalItemRequest($id);
 
         try {
@@ -65262,7 +65262,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TerminalStatus',
+                        '\Delta\Voip\Model\TerminalStatus',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -65304,7 +65304,7 @@ class ProviderApi
      */
     public function getStatusItemTerminalItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TerminalStatus';
+        $returnType = '\Delta\Voip\Model\TerminalStatus';
         $request = $this->getStatusItemTerminalItemRequest($id);
 
         return $this->client
@@ -65491,9 +65491,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TerminalCollection[]
+     * @return \Delta\Voip\Model\TerminalCollection[]
      */
     public function getTerminalCollection($domain = null, $id_exact = null, $last_provision_date = null, $last_provision_date_after = null, $last_provision_date_before = null, $last_provision_date_exists = null, $last_provision_date_start = null, $last_provision_date_strictly_after = null, $last_provision_date_strictly_before = null, $mac = null, $mac_end = null, $mac_exact = null, $mac_exists = null, $mac_partial = null, $mac_start = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $terminal_model = null, $terminal_model2 = null, $terminal_model_exists = null, $_order_id = null, $_order_last_provision_date = null, $_order_mac = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
@@ -65538,13 +65538,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TerminalCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TerminalCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTerminalCollectionWithHttpInfo($domain = null, $id_exact = null, $last_provision_date = null, $last_provision_date_after = null, $last_provision_date_before = null, $last_provision_date_exists = null, $last_provision_date_start = null, $last_provision_date_strictly_after = null, $last_provision_date_strictly_before = null, $mac = null, $mac_end = null, $mac_exact = null, $mac_exists = null, $mac_partial = null, $mac_start = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $terminal_model = null, $terminal_model2 = null, $terminal_model_exists = null, $_order_id = null, $_order_last_provision_date = null, $_order_mac = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalCollection[]';
+        $returnType = '\Delta\Voip\Model\TerminalCollection[]';
         $request = $this->getTerminalCollectionRequest($domain, $id_exact, $last_provision_date, $last_provision_date_after, $last_provision_date_before, $last_provision_date_exists, $last_provision_date_start, $last_provision_date_strictly_after, $last_provision_date_strictly_before, $mac, $mac_end, $mac_exact, $mac_exists, $mac_partial, $mac_start, $name, $name_end, $name_exact, $name_partial, $name_start, $terminal_model, $terminal_model2, $terminal_model_exists, $_order_id, $_order_last_provision_date, $_order_mac, $_order_name, $_items_per_page, $_page, $_properties, $_timezone);
 
         try {
@@ -65596,7 +65596,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TerminalCollection[]',
+                        '\Delta\Voip\Model\TerminalCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -65698,7 +65698,7 @@ class ProviderApi
      */
     public function getTerminalCollectionAsyncWithHttpInfo($domain = null, $id_exact = null, $last_provision_date = null, $last_provision_date_after = null, $last_provision_date_before = null, $last_provision_date_exists = null, $last_provision_date_start = null, $last_provision_date_strictly_after = null, $last_provision_date_strictly_before = null, $mac = null, $mac_end = null, $mac_exact = null, $mac_exists = null, $mac_partial = null, $mac_start = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $terminal_model = null, $terminal_model2 = null, $terminal_model_exists = null, $_order_id = null, $_order_last_provision_date = null, $_order_mac = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalCollection[]';
+        $returnType = '\Delta\Voip\Model\TerminalCollection[]';
         $request = $this->getTerminalCollectionRequest($domain, $id_exact, $last_provision_date, $last_provision_date_after, $last_provision_date_before, $last_provision_date_exists, $last_provision_date_start, $last_provision_date_strictly_after, $last_provision_date_strictly_before, $mac, $mac_end, $mac_exact, $mac_exists, $mac_partial, $mac_start, $name, $name_end, $name_exact, $name_partial, $name_start, $terminal_model, $terminal_model2, $terminal_model_exists, $_order_id, $_order_last_provision_date, $_order_mac, $_order_name, $_items_per_page, $_page, $_properties, $_timezone);
 
         return $this->client
@@ -65996,9 +65996,9 @@ class ProviderApi
      * @param  string $id id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TerminalDetailed
+     * @return \Delta\Voip\Model\TerminalDetailed
      */
     public function getTerminalItem($id, $_timezone = null)
     {
@@ -66014,13 +66014,13 @@ class ProviderApi
      * @param  string $id (required)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TerminalDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TerminalDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTerminalItemWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalDetailed';
+        $returnType = '\Delta\Voip\Model\TerminalDetailed';
         $request = $this->getTerminalItemRequest($id, $_timezone);
 
         try {
@@ -66072,7 +66072,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TerminalDetailed',
+                        '\Delta\Voip\Model\TerminalDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -66116,7 +66116,7 @@ class ProviderApi
      */
     public function getTerminalItemAsyncWithHttpInfo($id, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalDetailed';
+        $returnType = '\Delta\Voip\Model\TerminalDetailed';
         $request = $this->getTerminalItemRequest($id, $_timezone);
 
         return $this->client
@@ -66294,9 +66294,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TerminalModelCollection[]
+     * @return \Delta\Voip\Model\TerminalModelCollection[]
      */
     public function getTerminalModelCollection($id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_iden = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -66327,13 +66327,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TerminalModelCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TerminalModelCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTerminalModelCollectionWithHttpInfo($id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_iden = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalModelCollection[]';
+        $returnType = '\Delta\Voip\Model\TerminalModelCollection[]';
         $request = $this->getTerminalModelCollectionRequest($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_iden, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -66385,7 +66385,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TerminalModelCollection[]',
+                        '\Delta\Voip\Model\TerminalModelCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -66459,7 +66459,7 @@ class ProviderApi
      */
     public function getTerminalModelCollectionAsyncWithHttpInfo($id_exact = null, $iden = null, $iden_end = null, $iden_exact = null, $iden_partial = null, $iden_start = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $_order_id = null, $_order_iden = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\TerminalModelCollection[]';
+        $returnType = '\Delta\Voip\Model\TerminalModelCollection[]';
         $request = $this->getTerminalModelCollectionRequest($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_iden, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -66686,9 +66686,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TerminalModelDetailed
+     * @return \Delta\Voip\Model\TerminalModelDetailed
      */
     public function getTerminalModelItem($id)
     {
@@ -66703,13 +66703,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TerminalModelDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TerminalModelDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTerminalModelItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TerminalModelDetailed';
+        $returnType = '\Delta\Voip\Model\TerminalModelDetailed';
         $request = $this->getTerminalModelItemRequest($id);
 
         try {
@@ -66761,7 +66761,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TerminalModelDetailed',
+                        '\Delta\Voip\Model\TerminalModelDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -66803,7 +66803,7 @@ class ProviderApi
      */
     public function getTerminalModelItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TerminalModelDetailed';
+        $returnType = '\Delta\Voip\Model\TerminalModelDetailed';
         $request = $this->getTerminalModelItemRequest($id);
 
         return $this->client
@@ -66974,9 +66974,9 @@ class ProviderApi
      * @param  string $_properties _properties (optional)
      * @param  bool $_pagination _pagination (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TimezoneCollection[]
+     * @return \Delta\Voip\Model\TimezoneCollection[]
      */
     public function getTimezoneCollection($country = null, $country2 = null, $country_exists = null, $id_exact = null, $tz = null, $tz_end = null, $tz_exact = null, $tz_partial = null, $tz_start = null, $_order_id = null, $_order_tz = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null)
     {
@@ -67005,13 +67005,13 @@ class ProviderApi
      * @param  string $_properties (optional)
      * @param  bool $_pagination (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TimezoneCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TimezoneCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTimezoneCollectionWithHttpInfo($country = null, $country2 = null, $country_exists = null, $id_exact = null, $tz = null, $tz_end = null, $tz_exact = null, $tz_partial = null, $tz_start = null, $_order_id = null, $_order_tz = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null)
     {
-        $returnType = '\Swagger\Client\Model\TimezoneCollection[]';
+        $returnType = '\Delta\Voip\Model\TimezoneCollection[]';
         $request = $this->getTimezoneCollectionRequest($country, $country2, $country_exists, $id_exact, $tz, $tz_end, $tz_exact, $tz_partial, $tz_start, $_order_id, $_order_tz, $_items_per_page, $_page, $_properties, $_pagination);
 
         try {
@@ -67063,7 +67063,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TimezoneCollection[]',
+                        '\Delta\Voip\Model\TimezoneCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -67133,7 +67133,7 @@ class ProviderApi
      */
     public function getTimezoneCollectionAsyncWithHttpInfo($country = null, $country2 = null, $country_exists = null, $id_exact = null, $tz = null, $tz_end = null, $tz_exact = null, $tz_partial = null, $tz_start = null, $_order_id = null, $_order_tz = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null)
     {
-        $returnType = '\Swagger\Client\Model\TimezoneCollection[]';
+        $returnType = '\Delta\Voip\Model\TimezoneCollection[]';
         $request = $this->getTimezoneCollectionRequest($country, $country2, $country_exists, $id_exact, $tz, $tz_end, $tz_exact, $tz_partial, $tz_start, $_order_id, $_order_tz, $_items_per_page, $_page, $_properties, $_pagination);
 
         return $this->client
@@ -67350,9 +67350,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TimezoneDetailed
+     * @return \Delta\Voip\Model\TimezoneDetailed
      */
     public function getTimezoneItem($id)
     {
@@ -67367,13 +67367,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TimezoneDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TimezoneDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTimezoneItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TimezoneDetailed';
+        $returnType = '\Delta\Voip\Model\TimezoneDetailed';
         $request = $this->getTimezoneItemRequest($id);
 
         try {
@@ -67425,7 +67425,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TimezoneDetailed',
+                        '\Delta\Voip\Model\TimezoneDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -67467,7 +67467,7 @@ class ProviderApi
      */
     public function getTimezoneItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TimezoneDetailed';
+        $returnType = '\Delta\Voip\Model\TimezoneDetailed';
         $request = $this->getTimezoneItemRequest($id);
 
         return $this->client
@@ -67692,9 +67692,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TransformationRuleSetCollection[]
+     * @return \Delta\Voip\Model\TransformationRuleSetCollection[]
      */
     public function getTransformationRuleSetCollection($area_code = null, $area_code_end = null, $area_code_exact = null, $area_code_exists = null, $area_code_partial = null, $area_code_start = null, $country = null, $country2 = null, $country_exists = null, $description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $international_code = null, $international_code_end = null, $international_code_exact = null, $international_code_exists = null, $international_code_partial = null, $international_code_start = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $national_len = null, $national_len_between = null, $national_len_exists = null, $national_len_gt = null, $national_len_gte = null, $national_len_lt = null, $national_len_lte = null, $trunk_prefix = null, $trunk_prefix_end = null, $trunk_prefix_exact = null, $trunk_prefix_exists = null, $trunk_prefix_partial = null, $trunk_prefix_start = null, $_order_area_code = null, $_order_description = null, $_order_id = null, $_order_international_code = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_order_national_len = null, $_order_trunk_prefix = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -67777,13 +67777,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TransformationRuleSetCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TransformationRuleSetCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getTransformationRuleSetCollectionWithHttpInfo($area_code = null, $area_code_end = null, $area_code_exact = null, $area_code_exists = null, $area_code_partial = null, $area_code_start = null, $country = null, $country2 = null, $country_exists = null, $description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $international_code = null, $international_code_end = null, $international_code_exact = null, $international_code_exists = null, $international_code_partial = null, $international_code_start = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $national_len = null, $national_len_between = null, $national_len_exists = null, $national_len_gt = null, $national_len_gte = null, $national_len_lt = null, $national_len_lte = null, $trunk_prefix = null, $trunk_prefix_end = null, $trunk_prefix_exact = null, $trunk_prefix_exists = null, $trunk_prefix_partial = null, $trunk_prefix_start = null, $_order_area_code = null, $_order_description = null, $_order_id = null, $_order_international_code = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_order_national_len = null, $_order_trunk_prefix = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\TransformationRuleSetCollection[]';
+        $returnType = '\Delta\Voip\Model\TransformationRuleSetCollection[]';
         $request = $this->getTransformationRuleSetCollectionRequest($area_code, $area_code_end, $area_code_exact, $area_code_exists, $area_code_partial, $area_code_start, $country, $country2, $country_exists, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $international_code, $international_code_end, $international_code_exact, $international_code_exists, $international_code_partial, $international_code_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $national_len, $national_len_between, $national_len_exists, $national_len_gt, $national_len_gte, $national_len_lt, $national_len_lte, $trunk_prefix, $trunk_prefix_end, $trunk_prefix_exact, $trunk_prefix_exists, $trunk_prefix_partial, $trunk_prefix_start, $_order_area_code, $_order_description, $_order_id, $_order_international_code, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_national_len, $_order_trunk_prefix, $_items_per_page, $_page, $_properties);
 
         try {
@@ -67835,7 +67835,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TransformationRuleSetCollection[]',
+                        '\Delta\Voip\Model\TransformationRuleSetCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -68013,7 +68013,7 @@ class ProviderApi
      */
     public function getTransformationRuleSetCollectionAsyncWithHttpInfo($area_code = null, $area_code_end = null, $area_code_exact = null, $area_code_exists = null, $area_code_partial = null, $area_code_start = null, $country = null, $country2 = null, $country_exists = null, $description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $international_code = null, $international_code_end = null, $international_code_exact = null, $international_code_exists = null, $international_code_partial = null, $international_code_start = null, $name = null, $name_ca = null, $name_ca_end = null, $name_ca_exact = null, $name_ca_partial = null, $name_ca_start = null, $name_en = null, $name_en_end = null, $name_en_exact = null, $name_en_partial = null, $name_en_start = null, $name_es = null, $name_es_end = null, $name_es_exact = null, $name_es_partial = null, $name_es_start = null, $name_it = null, $name_it_end = null, $name_it_exact = null, $name_it_partial = null, $name_it_start = null, $national_len = null, $national_len_between = null, $national_len_exists = null, $national_len_gt = null, $national_len_gte = null, $national_len_lt = null, $national_len_lte = null, $trunk_prefix = null, $trunk_prefix_end = null, $trunk_prefix_exact = null, $trunk_prefix_exists = null, $trunk_prefix_partial = null, $trunk_prefix_start = null, $_order_area_code = null, $_order_description = null, $_order_id = null, $_order_international_code = null, $_order_name_ca = null, $_order_name_en = null, $_order_name_es = null, $_order_name_it = null, $_order_national_len = null, $_order_trunk_prefix = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\TransformationRuleSetCollection[]';
+        $returnType = '\Delta\Voip\Model\TransformationRuleSetCollection[]';
         $request = $this->getTransformationRuleSetCollectionRequest($area_code, $area_code_end, $area_code_exact, $area_code_exists, $area_code_partial, $area_code_start, $country, $country2, $country_exists, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $international_code, $international_code_end, $international_code_exact, $international_code_exists, $international_code_partial, $international_code_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $national_len, $national_len_between, $national_len_exists, $national_len_gt, $national_len_gte, $national_len_lt, $national_len_lte, $trunk_prefix, $trunk_prefix_end, $trunk_prefix_exact, $trunk_prefix_exists, $trunk_prefix_partial, $trunk_prefix_start, $_order_area_code, $_order_description, $_order_id, $_order_international_code, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_national_len, $_order_trunk_prefix, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -68500,9 +68500,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\TransformationRuleSetDetailed
+     * @return \Delta\Voip\Model\TransformationRuleSetDetailed
      */
     public function getTransformationRuleSetItem($id)
     {
@@ -68517,13 +68517,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\TransformationRuleSetDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\TransformationRuleSetDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTransformationRuleSetItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TransformationRuleSetDetailed';
+        $returnType = '\Delta\Voip\Model\TransformationRuleSetDetailed';
         $request = $this->getTransformationRuleSetItemRequest($id);
 
         try {
@@ -68575,7 +68575,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\TransformationRuleSetDetailed',
+                        '\Delta\Voip\Model\TransformationRuleSetDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -68617,7 +68617,7 @@ class ProviderApi
      */
     public function getTransformationRuleSetItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\TransformationRuleSetDetailed';
+        $returnType = '\Delta\Voip\Model\TransformationRuleSetDetailed';
         $request = $this->getTransformationRuleSetItemRequest($id);
 
         return $this->client
@@ -68826,9 +68826,9 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UserCollection[]
+     * @return \Delta\Voip\Model\UserCollection[]
      */
     public function getUserCollection($boss_assistant = null, $boss_assistant_white_list = null, $boss_assistant_white_list2 = null, $boss_assistant_white_list_exists = null, $boss_assistant2 = null, $boss_assistant_exists = null, $call_acl = null, $call_acl2 = null, $call_acl_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $lastname = null, $lastname_end = null, $lastname_exact = null, $lastname_partial = null, $lastname_start = null, $location = null, $location2 = null, $location_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule2 = null, $outgoing_ddi_rule_exists = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $terminal = null, $terminal2 = null, $terminal_exists = null, $timezone = null, $timezone2 = null, $timezone_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $voicemail_locution = null, $voicemail_locution2 = null, $voicemail_locution_exists = null, $_order_id = null, $_order_lastname = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -68895,13 +68895,13 @@ class ProviderApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UserCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UserCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getUserCollectionWithHttpInfo($boss_assistant = null, $boss_assistant_white_list = null, $boss_assistant_white_list2 = null, $boss_assistant_white_list_exists = null, $boss_assistant2 = null, $boss_assistant_exists = null, $call_acl = null, $call_acl2 = null, $call_acl_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $lastname = null, $lastname_end = null, $lastname_exact = null, $lastname_partial = null, $lastname_start = null, $location = null, $location2 = null, $location_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule2 = null, $outgoing_ddi_rule_exists = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $terminal = null, $terminal2 = null, $terminal_exists = null, $timezone = null, $timezone2 = null, $timezone_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $voicemail_locution = null, $voicemail_locution2 = null, $voicemail_locution_exists = null, $_order_id = null, $_order_lastname = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\UserCollection[]';
+        $returnType = '\Delta\Voip\Model\UserCollection[]';
         $request = $this->getUserCollectionRequest($boss_assistant, $boss_assistant_white_list, $boss_assistant_white_list2, $boss_assistant_white_list_exists, $boss_assistant2, $boss_assistant_exists, $call_acl, $call_acl2, $call_acl_exists, $extension, $extension2, $extension_exists, $id_exact, $language, $language2, $language_exists, $lastname, $lastname_end, $lastname_exact, $lastname_partial, $lastname_start, $location, $location2, $location_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi_rule, $outgoing_ddi_rule2, $outgoing_ddi_rule_exists, $outgoing_ddi2, $outgoing_ddi_exists, $terminal, $terminal2, $terminal_exists, $timezone, $timezone2, $timezone_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $voicemail_locution, $voicemail_locution2, $voicemail_locution_exists, $_order_id, $_order_lastname, $_order_name, $_items_per_page, $_page, $_properties);
 
         try {
@@ -68953,7 +68953,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UserCollection[]',
+                        '\Delta\Voip\Model\UserCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -69099,7 +69099,7 @@ class ProviderApi
      */
     public function getUserCollectionAsyncWithHttpInfo($boss_assistant = null, $boss_assistant_white_list = null, $boss_assistant_white_list2 = null, $boss_assistant_white_list_exists = null, $boss_assistant2 = null, $boss_assistant_exists = null, $call_acl = null, $call_acl2 = null, $call_acl_exists = null, $extension = null, $extension2 = null, $extension_exists = null, $id_exact = null, $language = null, $language2 = null, $language_exists = null, $lastname = null, $lastname_end = null, $lastname_exact = null, $lastname_partial = null, $lastname_start = null, $location = null, $location2 = null, $location_exists = null, $name = null, $name_end = null, $name_exact = null, $name_partial = null, $name_start = null, $outgoing_ddi = null, $outgoing_ddi_rule = null, $outgoing_ddi_rule2 = null, $outgoing_ddi_rule_exists = null, $outgoing_ddi2 = null, $outgoing_ddi_exists = null, $terminal = null, $terminal2 = null, $terminal_exists = null, $timezone = null, $timezone2 = null, $timezone_exists = null, $transformation_rule_set = null, $transformation_rule_set2 = null, $transformation_rule_set_exists = null, $voicemail_locution = null, $voicemail_locution2 = null, $voicemail_locution_exists = null, $_order_id = null, $_order_lastname = null, $_order_name = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\UserCollection[]';
+        $returnType = '\Delta\Voip\Model\UserCollection[]';
         $request = $this->getUserCollectionRequest($boss_assistant, $boss_assistant_white_list, $boss_assistant_white_list2, $boss_assistant_white_list_exists, $boss_assistant2, $boss_assistant_exists, $call_acl, $call_acl2, $call_acl_exists, $extension, $extension2, $extension_exists, $id_exact, $language, $language2, $language_exists, $lastname, $lastname_end, $lastname_exact, $lastname_partial, $lastname_start, $location, $location2, $location_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi_rule, $outgoing_ddi_rule2, $outgoing_ddi_rule_exists, $outgoing_ddi2, $outgoing_ddi_exists, $terminal, $terminal2, $terminal_exists, $timezone, $timezone2, $timezone_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $voicemail_locution, $voicemail_locution2, $voicemail_locution_exists, $_order_id, $_order_lastname, $_order_name, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -69506,9 +69506,9 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UserDetailed
+     * @return \Delta\Voip\Model\UserDetailed
      */
     public function getUserItem($id)
     {
@@ -69523,13 +69523,13 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UserDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UserDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUserItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\UserDetailed';
+        $returnType = '\Delta\Voip\Model\UserDetailed';
         $request = $this->getUserItemRequest($id);
 
         try {
@@ -69581,7 +69581,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UserDetailed',
+                        '\Delta\Voip\Model\UserDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -69623,7 +69623,7 @@ class ProviderApi
      */
     public function getUserItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\UserDetailed';
+        $returnType = '\Delta\Voip\Model\UserDetailed';
         $request = $this->getUserItemRequest($id);
 
         return $this->client
@@ -69780,7 +69780,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -69796,7 +69796,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -70017,7 +70017,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -70033,7 +70033,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -70254,7 +70254,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -70270,7 +70270,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -70491,7 +70491,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -70507,7 +70507,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -70726,11 +70726,11 @@ class ProviderApi
      *
      * Creates a Calendar resource.
      *
-     * @param  \Swagger\Client\Model\Calendar $calendar The new Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The new Calendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Calendar
+     * @return \Delta\Voip\Model\Calendar
      */
     public function postCalendarCollection($calendar = null)
     {
@@ -70743,15 +70743,15 @@ class ProviderApi
      *
      * Creates a Calendar resource.
      *
-     * @param  \Swagger\Client\Model\Calendar $calendar The new Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The new Calendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Calendar, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Calendar, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCalendarCollectionWithHttpInfo($calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\Calendar';
+        $returnType = '\Delta\Voip\Model\Calendar';
         $request = $this->postCalendarCollectionRequest($calendar);
 
         try {
@@ -70803,7 +70803,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Calendar',
+                        '\Delta\Voip\Model\Calendar',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -70818,7 +70818,7 @@ class ProviderApi
      *
      * Creates a Calendar resource.
      *
-     * @param  \Swagger\Client\Model\Calendar $calendar The new Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The new Calendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -70838,14 +70838,14 @@ class ProviderApi
      *
      * Creates a Calendar resource.
      *
-     * @param  \Swagger\Client\Model\Calendar $calendar The new Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The new Calendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCalendarCollectionAsyncWithHttpInfo($calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\Calendar';
+        $returnType = '\Delta\Voip\Model\Calendar';
         $request = $this->postCalendarCollectionRequest($calendar);
 
         return $this->client
@@ -70888,7 +70888,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCalendarCollection'
      *
-     * @param  \Swagger\Client\Model\Calendar $calendar The new Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The new Calendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -70989,11 +70989,11 @@ class ProviderApi
      *
      * Creates a CalendarPeriod resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriod
+     * @return \Delta\Voip\Model\CalendarPeriod
      */
     public function postCalendarPeriodCollection($calendar_period = null)
     {
@@ -71006,15 +71006,15 @@ class ProviderApi
      *
      * Creates a CalendarPeriod resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriod, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriod, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCalendarPeriodCollectionWithHttpInfo($calendar_period = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriod';
+        $returnType = '\Delta\Voip\Model\CalendarPeriod';
         $request = $this->postCalendarPeriodCollectionRequest($calendar_period);
 
         try {
@@ -71066,7 +71066,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriod',
+                        '\Delta\Voip\Model\CalendarPeriod',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -71081,7 +71081,7 @@ class ProviderApi
      *
      * Creates a CalendarPeriod resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -71101,14 +71101,14 @@ class ProviderApi
      *
      * Creates a CalendarPeriod resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCalendarPeriodCollectionAsyncWithHttpInfo($calendar_period = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriod';
+        $returnType = '\Delta\Voip\Model\CalendarPeriod';
         $request = $this->postCalendarPeriodCollectionRequest($calendar_period);
 
         return $this->client
@@ -71151,7 +71151,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCalendarPeriodCollection'
      *
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The new CalendarPeriod resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -71252,11 +71252,11 @@ class ProviderApi
      *
      * Creates a CalendarPeriodsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriodsRelSchedule
+     * @return \Delta\Voip\Model\CalendarPeriodsRelSchedule
      */
     public function postCalendarPeriodsRelScheduleCollection($calendar_periods_rel_schedule = null)
     {
@@ -71269,15 +71269,15 @@ class ProviderApi
      *
      * Creates a CalendarPeriodsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriodsRelSchedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriodsRelSchedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCalendarPeriodsRelScheduleCollectionWithHttpInfo($calendar_periods_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelSchedule';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelSchedule';
         $request = $this->postCalendarPeriodsRelScheduleCollectionRequest($calendar_periods_rel_schedule);
 
         try {
@@ -71329,7 +71329,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriodsRelSchedule',
+                        '\Delta\Voip\Model\CalendarPeriodsRelSchedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -71344,7 +71344,7 @@ class ProviderApi
      *
      * Creates a CalendarPeriodsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -71364,14 +71364,14 @@ class ProviderApi
      *
      * Creates a CalendarPeriodsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCalendarPeriodsRelScheduleCollectionAsyncWithHttpInfo($calendar_periods_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelSchedule';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelSchedule';
         $request = $this->postCalendarPeriodsRelScheduleCollectionRequest($calendar_periods_rel_schedule);
 
         return $this->client
@@ -71414,7 +71414,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCalendarPeriodsRelScheduleCollection'
      *
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The new CalendarPeriodsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -71515,11 +71515,11 @@ class ProviderApi
      *
      * Creates a CallAcl resource.
      *
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The new CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The new CallAcl resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAcl
+     * @return \Delta\Voip\Model\CallAcl
      */
     public function postCallAclCollection($call_acl = null)
     {
@@ -71532,15 +71532,15 @@ class ProviderApi
      *
      * Creates a CallAcl resource.
      *
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The new CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The new CallAcl resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAcl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAcl, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCallAclCollectionWithHttpInfo($call_acl = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAcl';
+        $returnType = '\Delta\Voip\Model\CallAcl';
         $request = $this->postCallAclCollectionRequest($call_acl);
 
         try {
@@ -71592,7 +71592,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAcl',
+                        '\Delta\Voip\Model\CallAcl',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -71607,7 +71607,7 @@ class ProviderApi
      *
      * Creates a CallAcl resource.
      *
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The new CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The new CallAcl resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -71627,14 +71627,14 @@ class ProviderApi
      *
      * Creates a CallAcl resource.
      *
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The new CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The new CallAcl resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCallAclCollectionAsyncWithHttpInfo($call_acl = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAcl';
+        $returnType = '\Delta\Voip\Model\CallAcl';
         $request = $this->postCallAclCollectionRequest($call_acl);
 
         return $this->client
@@ -71677,7 +71677,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCallAclCollection'
      *
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The new CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The new CallAcl resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -71778,11 +71778,11 @@ class ProviderApi
      *
      * Creates a CallAclRelMatchList resource.
      *
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAclRelMatchList
+     * @return \Delta\Voip\Model\CallAclRelMatchList
      */
     public function postCallAclRelMatchListCollection($call_acl_rel_match_list = null)
     {
@@ -71795,15 +71795,15 @@ class ProviderApi
      *
      * Creates a CallAclRelMatchList resource.
      *
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAclRelMatchList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAclRelMatchList, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCallAclRelMatchListCollectionWithHttpInfo($call_acl_rel_match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchList';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchList';
         $request = $this->postCallAclRelMatchListCollectionRequest($call_acl_rel_match_list);
 
         try {
@@ -71855,7 +71855,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAclRelMatchList',
+                        '\Delta\Voip\Model\CallAclRelMatchList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -71870,7 +71870,7 @@ class ProviderApi
      *
      * Creates a CallAclRelMatchList resource.
      *
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -71890,14 +71890,14 @@ class ProviderApi
      *
      * Creates a CallAclRelMatchList resource.
      *
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCallAclRelMatchListCollectionAsyncWithHttpInfo($call_acl_rel_match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchList';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchList';
         $request = $this->postCallAclRelMatchListCollectionRequest($call_acl_rel_match_list);
 
         return $this->client
@@ -71940,7 +71940,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCallAclRelMatchListCollection'
      *
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The new CallAclRelMatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -72041,12 +72041,12 @@ class ProviderApi
      *
      * Creates a CallCsvScheduler resource.
      *
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallCsvScheduler
+     * @return \Delta\Voip\Model\CallCsvScheduler
      */
     public function postCallCsvSchedulerCollection($call_csv_scheduler = null, $_timezone = null)
     {
@@ -72059,16 +72059,16 @@ class ProviderApi
      *
      * Creates a CallCsvScheduler resource.
      *
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallCsvScheduler, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallCsvScheduler, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCallCsvSchedulerCollectionWithHttpInfo($call_csv_scheduler = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvScheduler';
+        $returnType = '\Delta\Voip\Model\CallCsvScheduler';
         $request = $this->postCallCsvSchedulerCollectionRequest($call_csv_scheduler, $_timezone);
 
         try {
@@ -72120,7 +72120,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallCsvScheduler',
+                        '\Delta\Voip\Model\CallCsvScheduler',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -72135,7 +72135,7 @@ class ProviderApi
      *
      * Creates a CallCsvScheduler resource.
      *
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -72156,7 +72156,7 @@ class ProviderApi
      *
      * Creates a CallCsvScheduler resource.
      *
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -72164,7 +72164,7 @@ class ProviderApi
      */
     public function postCallCsvSchedulerCollectionAsyncWithHttpInfo($call_csv_scheduler = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvScheduler';
+        $returnType = '\Delta\Voip\Model\CallCsvScheduler';
         $request = $this->postCallCsvSchedulerCollectionRequest($call_csv_scheduler, $_timezone);
 
         return $this->client
@@ -72207,7 +72207,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCallCsvSchedulerCollection'
      *
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The new CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -72313,11 +72313,11 @@ class ProviderApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallForwardSetting
+     * @return \Delta\Voip\Model\CallForwardSetting
      */
     public function postCallForwardSettingCollection($call_forward_setting = null)
     {
@@ -72330,15 +72330,15 @@ class ProviderApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallForwardSetting, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallForwardSetting, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCallForwardSettingCollectionWithHttpInfo($call_forward_setting = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSetting';
+        $returnType = '\Delta\Voip\Model\CallForwardSetting';
         $request = $this->postCallForwardSettingCollectionRequest($call_forward_setting);
 
         try {
@@ -72390,7 +72390,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallForwardSetting',
+                        '\Delta\Voip\Model\CallForwardSetting',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -72405,7 +72405,7 @@ class ProviderApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -72425,14 +72425,14 @@ class ProviderApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCallForwardSettingCollectionAsyncWithHttpInfo($call_forward_setting = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSetting';
+        $returnType = '\Delta\Voip\Model\CallForwardSetting';
         $request = $this->postCallForwardSettingCollectionRequest($call_forward_setting);
 
         return $this->client
@@ -72475,7 +72475,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCallForwardSettingCollection'
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The new CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -72576,11 +72576,11 @@ class ProviderApi
      *
      * Creates a CompanyService resource.
      *
-     * @param  \Swagger\Client\Model\CompanyService $company_service The new CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The new CompanyService resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CompanyService
+     * @return \Delta\Voip\Model\CompanyService
      */
     public function postCompanyServiceCollection($company_service = null)
     {
@@ -72593,15 +72593,15 @@ class ProviderApi
      *
      * Creates a CompanyService resource.
      *
-     * @param  \Swagger\Client\Model\CompanyService $company_service The new CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The new CompanyService resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CompanyService, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CompanyService, HTTP status code, HTTP response headers (array of strings)
      */
     public function postCompanyServiceCollectionWithHttpInfo($company_service = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyService';
+        $returnType = '\Delta\Voip\Model\CompanyService';
         $request = $this->postCompanyServiceCollectionRequest($company_service);
 
         try {
@@ -72653,7 +72653,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CompanyService',
+                        '\Delta\Voip\Model\CompanyService',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -72668,7 +72668,7 @@ class ProviderApi
      *
      * Creates a CompanyService resource.
      *
-     * @param  \Swagger\Client\Model\CompanyService $company_service The new CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The new CompanyService resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -72688,14 +72688,14 @@ class ProviderApi
      *
      * Creates a CompanyService resource.
      *
-     * @param  \Swagger\Client\Model\CompanyService $company_service The new CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The new CompanyService resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postCompanyServiceCollectionAsyncWithHttpInfo($company_service = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyService';
+        $returnType = '\Delta\Voip\Model\CompanyService';
         $request = $this->postCompanyServiceCollectionRequest($company_service);
 
         return $this->client
@@ -72738,7 +72738,7 @@ class ProviderApi
     /**
      * Create request for operation 'postCompanyServiceCollection'
      *
-     * @param  \Swagger\Client\Model\CompanyService $company_service The new CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The new CompanyService resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -72839,11 +72839,11 @@ class ProviderApi
      *
      * Creates a ConditionalRoute resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoute
+     * @return \Delta\Voip\Model\ConditionalRoute
      */
     public function postConditionalRouteCollection($conditional_route = null)
     {
@@ -72856,15 +72856,15 @@ class ProviderApi
      *
      * Creates a ConditionalRoute resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoute, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoute, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConditionalRouteCollectionWithHttpInfo($conditional_route = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoute';
+        $returnType = '\Delta\Voip\Model\ConditionalRoute';
         $request = $this->postConditionalRouteCollectionRequest($conditional_route);
 
         try {
@@ -72916,7 +72916,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoute',
+                        '\Delta\Voip\Model\ConditionalRoute',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -72931,7 +72931,7 @@ class ProviderApi
      *
      * Creates a ConditionalRoute resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -72951,14 +72951,14 @@ class ProviderApi
      *
      * Creates a ConditionalRoute resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConditionalRouteCollectionAsyncWithHttpInfo($conditional_route = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoute';
+        $returnType = '\Delta\Voip\Model\ConditionalRoute';
         $request = $this->postConditionalRouteCollectionRequest($conditional_route);
 
         return $this->client
@@ -73001,7 +73001,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConditionalRouteCollection'
      *
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The new ConditionalRoute resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -73102,11 +73102,11 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesCondition resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships
      */
     public function postConditionalRoutesConditionCollection($conditional_routes_condition = null)
     {
@@ -73119,15 +73119,15 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesCondition resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConditionalRoutesConditionCollectionWithHttpInfo($conditional_routes_condition = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships';
         $request = $this->postConditionalRoutesConditionCollectionRequest($conditional_routes_condition);
 
         try {
@@ -73179,7 +73179,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -73194,7 +73194,7 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesCondition resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -73214,14 +73214,14 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesCondition resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConditionalRoutesConditionCollectionAsyncWithHttpInfo($conditional_routes_condition = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships';
         $request = $this->postConditionalRoutesConditionCollectionRequest($conditional_routes_condition);
 
         return $this->client
@@ -73264,7 +73264,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConditionalRoutesConditionCollection'
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The new ConditionalRoutesCondition resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -73365,11 +73365,11 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar
      */
     public function postConditionalRoutesConditionsRelCalendarCollection($conditional_routes_conditions_rel_calendar = null)
     {
@@ -73382,15 +73382,15 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConditionalRoutesConditionsRelCalendarCollectionWithHttpInfo($conditional_routes_conditions_rel_calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar';
         $request = $this->postConditionalRoutesConditionsRelCalendarCollectionRequest($conditional_routes_conditions_rel_calendar);
 
         try {
@@ -73442,7 +73442,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -73457,7 +73457,7 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -73477,14 +73477,14 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConditionalRoutesConditionsRelCalendarCollectionAsyncWithHttpInfo($conditional_routes_conditions_rel_calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar';
         $request = $this->postConditionalRoutesConditionsRelCalendarCollectionRequest($conditional_routes_conditions_rel_calendar);
 
         return $this->client
@@ -73527,7 +73527,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConditionalRoutesConditionsRelCalendarCollection'
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelCalendar $conditional_routes_conditions_rel_calendar The new ConditionalRoutesConditionsRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -73628,11 +73628,11 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelMatchlist resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist
      */
     public function postConditionalRoutesConditionsRelMatchlistCollection($conditional_routes_conditions_rel_matchlist = null)
     {
@@ -73645,15 +73645,15 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelMatchlist resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConditionalRoutesConditionsRelMatchlistCollectionWithHttpInfo($conditional_routes_conditions_rel_matchlist = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist';
         $request = $this->postConditionalRoutesConditionsRelMatchlistCollectionRequest($conditional_routes_conditions_rel_matchlist);
 
         try {
@@ -73705,7 +73705,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -73720,7 +73720,7 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelMatchlist resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -73740,14 +73740,14 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelMatchlist resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConditionalRoutesConditionsRelMatchlistCollectionAsyncWithHttpInfo($conditional_routes_conditions_rel_matchlist = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist';
         $request = $this->postConditionalRoutesConditionsRelMatchlistCollectionRequest($conditional_routes_conditions_rel_matchlist);
 
         return $this->client
@@ -73790,7 +73790,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConditionalRoutesConditionsRelMatchlistCollection'
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelMatchlist $conditional_routes_conditions_rel_matchlist The new ConditionalRoutesConditionsRelMatchlist resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -73891,11 +73891,11 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelRouteLock resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock
      */
     public function postConditionalRoutesConditionsRelRouteLockCollection($conditional_routes_conditions_rel_route_lock = null)
     {
@@ -73908,15 +73908,15 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelRouteLock resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConditionalRoutesConditionsRelRouteLockCollectionWithHttpInfo($conditional_routes_conditions_rel_route_lock = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock';
         $request = $this->postConditionalRoutesConditionsRelRouteLockCollectionRequest($conditional_routes_conditions_rel_route_lock);
 
         try {
@@ -73968,7 +73968,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -73983,7 +73983,7 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelRouteLock resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -74003,14 +74003,14 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelRouteLock resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConditionalRoutesConditionsRelRouteLockCollectionAsyncWithHttpInfo($conditional_routes_conditions_rel_route_lock = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock';
         $request = $this->postConditionalRoutesConditionsRelRouteLockCollectionRequest($conditional_routes_conditions_rel_route_lock);
 
         return $this->client
@@ -74053,7 +74053,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConditionalRoutesConditionsRelRouteLockCollection'
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelRouteLock $conditional_routes_conditions_rel_route_lock The new ConditionalRoutesConditionsRelRouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -74154,11 +74154,11 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule
      */
     public function postConditionalRoutesConditionsRelScheduleCollection($conditional_routes_conditions_rel_schedule = null)
     {
@@ -74171,15 +74171,15 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConditionalRoutesConditionsRelScheduleCollectionWithHttpInfo($conditional_routes_conditions_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule';
         $request = $this->postConditionalRoutesConditionsRelScheduleCollectionRequest($conditional_routes_conditions_rel_schedule);
 
         try {
@@ -74231,7 +74231,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -74246,7 +74246,7 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -74266,14 +74266,14 @@ class ProviderApi
      *
      * Creates a ConditionalRoutesConditionsRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConditionalRoutesConditionsRelScheduleCollectionAsyncWithHttpInfo($conditional_routes_conditions_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule';
         $request = $this->postConditionalRoutesConditionsRelScheduleCollectionRequest($conditional_routes_conditions_rel_schedule);
 
         return $this->client
@@ -74316,7 +74316,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConditionalRoutesConditionsRelScheduleCollection'
      *
-     * @param  \Swagger\Client\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesConditionsRelSchedule $conditional_routes_conditions_rel_schedule The new ConditionalRoutesConditionsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -74417,11 +74417,11 @@ class ProviderApi
      *
      * Creates a ConferenceRoom resource.
      *
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConferenceRoom
+     * @return \Delta\Voip\Model\ConferenceRoom
      */
     public function postConferenceRoomCollection($conference_room = null)
     {
@@ -74434,15 +74434,15 @@ class ProviderApi
      *
      * Creates a ConferenceRoom resource.
      *
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConferenceRoom, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConferenceRoom, HTTP status code, HTTP response headers (array of strings)
      */
     public function postConferenceRoomCollectionWithHttpInfo($conference_room = null)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoom';
+        $returnType = '\Delta\Voip\Model\ConferenceRoom';
         $request = $this->postConferenceRoomCollectionRequest($conference_room);
 
         try {
@@ -74494,7 +74494,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConferenceRoom',
+                        '\Delta\Voip\Model\ConferenceRoom',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -74509,7 +74509,7 @@ class ProviderApi
      *
      * Creates a ConferenceRoom resource.
      *
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -74529,14 +74529,14 @@ class ProviderApi
      *
      * Creates a ConferenceRoom resource.
      *
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postConferenceRoomCollectionAsyncWithHttpInfo($conference_room = null)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoom';
+        $returnType = '\Delta\Voip\Model\ConferenceRoom';
         $request = $this->postConferenceRoomCollectionRequest($conference_room);
 
         return $this->client
@@ -74579,7 +74579,7 @@ class ProviderApi
     /**
      * Create request for operation 'postConferenceRoomCollection'
      *
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The new ConferenceRoom resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -74680,11 +74680,11 @@ class ProviderApi
      *
      * Creates a Extension resource.
      *
-     * @param  \Swagger\Client\Model\Extension $extension The new Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The new Extension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function postExtensionCollection($extension = null)
     {
@@ -74697,15 +74697,15 @@ class ProviderApi
      *
      * Creates a Extension resource.
      *
-     * @param  \Swagger\Client\Model\Extension $extension The new Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The new Extension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Extension, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Extension, HTTP status code, HTTP response headers (array of strings)
      */
     public function postExtensionCollectionWithHttpInfo($extension = null)
     {
-        $returnType = '\Swagger\Client\Model\Extension';
+        $returnType = '\Delta\Voip\Model\Extension';
         $request = $this->postExtensionCollectionRequest($extension);
 
         try {
@@ -74757,7 +74757,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Extension',
+                        '\Delta\Voip\Model\Extension',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -74772,7 +74772,7 @@ class ProviderApi
      *
      * Creates a Extension resource.
      *
-     * @param  \Swagger\Client\Model\Extension $extension The new Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The new Extension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -74792,14 +74792,14 @@ class ProviderApi
      *
      * Creates a Extension resource.
      *
-     * @param  \Swagger\Client\Model\Extension $extension The new Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The new Extension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postExtensionCollectionAsyncWithHttpInfo($extension = null)
     {
-        $returnType = '\Swagger\Client\Model\Extension';
+        $returnType = '\Delta\Voip\Model\Extension';
         $request = $this->postExtensionCollectionRequest($extension);
 
         return $this->client
@@ -74842,7 +74842,7 @@ class ProviderApi
     /**
      * Create request for operation 'postExtensionCollection'
      *
-     * @param  \Swagger\Client\Model\Extension $extension The new Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The new Extension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -74943,11 +74943,11 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterBlackList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterBlackList
+     * @return \Delta\Voip\Model\ExternalCallFilterBlackList
      */
     public function postExternalCallFilterBlackListCollection($external_call_filter_black_list = null)
     {
@@ -74960,15 +74960,15 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterBlackList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterBlackList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterBlackList, HTTP status code, HTTP response headers (array of strings)
      */
     public function postExternalCallFilterBlackListCollectionWithHttpInfo($external_call_filter_black_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackList';
         $request = $this->postExternalCallFilterBlackListCollectionRequest($external_call_filter_black_list);
 
         try {
@@ -75020,7 +75020,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterBlackList',
+                        '\Delta\Voip\Model\ExternalCallFilterBlackList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -75035,7 +75035,7 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterBlackList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -75055,14 +75055,14 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterBlackList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postExternalCallFilterBlackListCollectionAsyncWithHttpInfo($external_call_filter_black_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackList';
         $request = $this->postExternalCallFilterBlackListCollectionRequest($external_call_filter_black_list);
 
         return $this->client
@@ -75105,7 +75105,7 @@ class ProviderApi
     /**
      * Create request for operation 'postExternalCallFilterBlackListCollection'
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The new ExternalCallFilterBlackList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -75206,11 +75206,11 @@ class ProviderApi
      *
      * Creates a ExternalCallFilter resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterWithInverseRelationships
+     * @return \Delta\Voip\Model\ExternalCallFilterWithInverseRelationships
      */
     public function postExternalCallFilterCollection($external_call_filter = null)
     {
@@ -75223,15 +75223,15 @@ class ProviderApi
      *
      * Creates a ExternalCallFilter resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
      */
     public function postExternalCallFilterCollectionWithHttpInfo($external_call_filter = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWithInverseRelationships';
         $request = $this->postExternalCallFilterCollectionRequest($external_call_filter);
 
         try {
@@ -75283,7 +75283,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterWithInverseRelationships',
+                        '\Delta\Voip\Model\ExternalCallFilterWithInverseRelationships',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -75298,7 +75298,7 @@ class ProviderApi
      *
      * Creates a ExternalCallFilter resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -75318,14 +75318,14 @@ class ProviderApi
      *
      * Creates a ExternalCallFilter resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postExternalCallFilterCollectionAsyncWithHttpInfo($external_call_filter = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWithInverseRelationships';
         $request = $this->postExternalCallFilterCollectionRequest($external_call_filter);
 
         return $this->client
@@ -75368,7 +75368,7 @@ class ProviderApi
     /**
      * Create request for operation 'postExternalCallFilterCollection'
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The new ExternalCallFilter resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -75469,11 +75469,11 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelCalendar
+     * @return \Delta\Voip\Model\ExternalCallFilterRelCalendar
      */
     public function postExternalCallFilterRelCalendarCollection($external_call_filter_rel_calendar = null)
     {
@@ -75486,15 +75486,15 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelCalendar, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelCalendar, HTTP status code, HTTP response headers (array of strings)
      */
     public function postExternalCallFilterRelCalendarCollectionWithHttpInfo($external_call_filter_rel_calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendar';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendar';
         $request = $this->postExternalCallFilterRelCalendarCollectionRequest($external_call_filter_rel_calendar);
 
         try {
@@ -75546,7 +75546,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelCalendar',
+                        '\Delta\Voip\Model\ExternalCallFilterRelCalendar',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -75561,7 +75561,7 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -75581,14 +75581,14 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelCalendar resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postExternalCallFilterRelCalendarCollectionAsyncWithHttpInfo($external_call_filter_rel_calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendar';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendar';
         $request = $this->postExternalCallFilterRelCalendarCollectionRequest($external_call_filter_rel_calendar);
 
         return $this->client
@@ -75631,7 +75631,7 @@ class ProviderApi
     /**
      * Create request for operation 'postExternalCallFilterRelCalendarCollection'
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The new ExternalCallFilterRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -75732,11 +75732,11 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelSchedule
+     * @return \Delta\Voip\Model\ExternalCallFilterRelSchedule
      */
     public function postExternalCallFilterRelScheduleCollection($external_call_filter_rel_schedule = null)
     {
@@ -75749,15 +75749,15 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelSchedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelSchedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function postExternalCallFilterRelScheduleCollectionWithHttpInfo($external_call_filter_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelSchedule';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelSchedule';
         $request = $this->postExternalCallFilterRelScheduleCollectionRequest($external_call_filter_rel_schedule);
 
         try {
@@ -75809,7 +75809,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelSchedule',
+                        '\Delta\Voip\Model\ExternalCallFilterRelSchedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -75824,7 +75824,7 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -75844,14 +75844,14 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterRelSchedule resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postExternalCallFilterRelScheduleCollectionAsyncWithHttpInfo($external_call_filter_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelSchedule';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelSchedule';
         $request = $this->postExternalCallFilterRelScheduleCollectionRequest($external_call_filter_rel_schedule);
 
         return $this->client
@@ -75894,7 +75894,7 @@ class ProviderApi
     /**
      * Create request for operation 'postExternalCallFilterRelScheduleCollection'
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The new ExternalCallFilterRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -75995,11 +75995,11 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterWhiteList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterWhiteList
+     * @return \Delta\Voip\Model\ExternalCallFilterWhiteList
      */
     public function postExternalCallFilterWhiteListCollection($external_call_filter_white_list = null)
     {
@@ -76012,15 +76012,15 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterWhiteList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterWhiteList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterWhiteList, HTTP status code, HTTP response headers (array of strings)
      */
     public function postExternalCallFilterWhiteListCollectionWithHttpInfo($external_call_filter_white_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteList';
         $request = $this->postExternalCallFilterWhiteListCollectionRequest($external_call_filter_white_list);
 
         try {
@@ -76072,7 +76072,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterWhiteList',
+                        '\Delta\Voip\Model\ExternalCallFilterWhiteList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -76087,7 +76087,7 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterWhiteList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -76107,14 +76107,14 @@ class ProviderApi
      *
      * Creates a ExternalCallFilterWhiteList resource.
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postExternalCallFilterWhiteListCollectionAsyncWithHttpInfo($external_call_filter_white_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteList';
         $request = $this->postExternalCallFilterWhiteListCollectionRequest($external_call_filter_white_list);
 
         return $this->client
@@ -76157,7 +76157,7 @@ class ProviderApi
     /**
      * Create request for operation 'postExternalCallFilterWhiteListCollection'
      *
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The new ExternalCallFilterWhiteList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -76258,11 +76258,11 @@ class ProviderApi
      *
      * Creates a Fax resource.
      *
-     * @param  \Swagger\Client\Model\Fax $fax The new Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The new Fax resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Fax
+     * @return \Delta\Voip\Model\Fax
      */
     public function postFaxCollection($fax = null)
     {
@@ -76275,15 +76275,15 @@ class ProviderApi
      *
      * Creates a Fax resource.
      *
-     * @param  \Swagger\Client\Model\Fax $fax The new Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The new Fax resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Fax, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Fax, HTTP status code, HTTP response headers (array of strings)
      */
     public function postFaxCollectionWithHttpInfo($fax = null)
     {
-        $returnType = '\Swagger\Client\Model\Fax';
+        $returnType = '\Delta\Voip\Model\Fax';
         $request = $this->postFaxCollectionRequest($fax);
 
         try {
@@ -76335,7 +76335,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Fax',
+                        '\Delta\Voip\Model\Fax',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -76350,7 +76350,7 @@ class ProviderApi
      *
      * Creates a Fax resource.
      *
-     * @param  \Swagger\Client\Model\Fax $fax The new Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The new Fax resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -76370,14 +76370,14 @@ class ProviderApi
      *
      * Creates a Fax resource.
      *
-     * @param  \Swagger\Client\Model\Fax $fax The new Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The new Fax resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postFaxCollectionAsyncWithHttpInfo($fax = null)
     {
-        $returnType = '\Swagger\Client\Model\Fax';
+        $returnType = '\Delta\Voip\Model\Fax';
         $request = $this->postFaxCollectionRequest($fax);
 
         return $this->client
@@ -76420,7 +76420,7 @@ class ProviderApi
     /**
      * Create request for operation 'postFaxCollection'
      *
-     * @param  \Swagger\Client\Model\Fax $fax The new Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The new Fax resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -76521,11 +76521,11 @@ class ProviderApi
      *
      * Creates a Friend resource.
      *
-     * @param  \Swagger\Client\Model\Friend $friend The new Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The new Friend resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Friend
+     * @return \Delta\Voip\Model\Friend
      */
     public function postFriendCollection($friend = null)
     {
@@ -76538,15 +76538,15 @@ class ProviderApi
      *
      * Creates a Friend resource.
      *
-     * @param  \Swagger\Client\Model\Friend $friend The new Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The new Friend resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Friend, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Friend, HTTP status code, HTTP response headers (array of strings)
      */
     public function postFriendCollectionWithHttpInfo($friend = null)
     {
-        $returnType = '\Swagger\Client\Model\Friend';
+        $returnType = '\Delta\Voip\Model\Friend';
         $request = $this->postFriendCollectionRequest($friend);
 
         try {
@@ -76598,7 +76598,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Friend',
+                        '\Delta\Voip\Model\Friend',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -76613,7 +76613,7 @@ class ProviderApi
      *
      * Creates a Friend resource.
      *
-     * @param  \Swagger\Client\Model\Friend $friend The new Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The new Friend resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -76633,14 +76633,14 @@ class ProviderApi
      *
      * Creates a Friend resource.
      *
-     * @param  \Swagger\Client\Model\Friend $friend The new Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The new Friend resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postFriendCollectionAsyncWithHttpInfo($friend = null)
     {
-        $returnType = '\Swagger\Client\Model\Friend';
+        $returnType = '\Delta\Voip\Model\Friend';
         $request = $this->postFriendCollectionRequest($friend);
 
         return $this->client
@@ -76683,7 +76683,7 @@ class ProviderApi
     /**
      * Create request for operation 'postFriendCollection'
      *
-     * @param  \Swagger\Client\Model\Friend $friend The new Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The new Friend resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -76784,11 +76784,11 @@ class ProviderApi
      *
      * Creates a FriendsPattern resource.
      *
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendsPattern
+     * @return \Delta\Voip\Model\FriendsPattern
      */
     public function postFriendsPatternCollection($friends_pattern = null)
     {
@@ -76801,15 +76801,15 @@ class ProviderApi
      *
      * Creates a FriendsPattern resource.
      *
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendsPattern, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendsPattern, HTTP status code, HTTP response headers (array of strings)
      */
     public function postFriendsPatternCollectionWithHttpInfo($friends_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPattern';
+        $returnType = '\Delta\Voip\Model\FriendsPattern';
         $request = $this->postFriendsPatternCollectionRequest($friends_pattern);
 
         try {
@@ -76861,7 +76861,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendsPattern',
+                        '\Delta\Voip\Model\FriendsPattern',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -76876,7 +76876,7 @@ class ProviderApi
      *
      * Creates a FriendsPattern resource.
      *
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -76896,14 +76896,14 @@ class ProviderApi
      *
      * Creates a FriendsPattern resource.
      *
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postFriendsPatternCollectionAsyncWithHttpInfo($friends_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPattern';
+        $returnType = '\Delta\Voip\Model\FriendsPattern';
         $request = $this->postFriendsPatternCollectionRequest($friends_pattern);
 
         return $this->client
@@ -76946,7 +76946,7 @@ class ProviderApi
     /**
      * Create request for operation 'postFriendsPatternCollection'
      *
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The new FriendsPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -77047,11 +77047,11 @@ class ProviderApi
      *
      * Creates a HolidayDate resource.
      *
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HolidayDate
+     * @return \Delta\Voip\Model\HolidayDate
      */
     public function postHolidayDateCollection($holiday_date = null)
     {
@@ -77064,15 +77064,15 @@ class ProviderApi
      *
      * Creates a HolidayDate resource.
      *
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HolidayDate, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HolidayDate, HTTP status code, HTTP response headers (array of strings)
      */
     public function postHolidayDateCollectionWithHttpInfo($holiday_date = null)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDate';
+        $returnType = '\Delta\Voip\Model\HolidayDate';
         $request = $this->postHolidayDateCollectionRequest($holiday_date);
 
         try {
@@ -77124,7 +77124,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HolidayDate',
+                        '\Delta\Voip\Model\HolidayDate',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -77139,7 +77139,7 @@ class ProviderApi
      *
      * Creates a HolidayDate resource.
      *
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -77159,14 +77159,14 @@ class ProviderApi
      *
      * Creates a HolidayDate resource.
      *
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postHolidayDateCollectionAsyncWithHttpInfo($holiday_date = null)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDate';
+        $returnType = '\Delta\Voip\Model\HolidayDate';
         $request = $this->postHolidayDateCollectionRequest($holiday_date);
 
         return $this->client
@@ -77209,7 +77209,7 @@ class ProviderApi
     /**
      * Create request for operation 'postHolidayDateCollection'
      *
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The new HolidayDate resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -77310,11 +77310,11 @@ class ProviderApi
      *
      * Creates a HuntGroup resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroup
+     * @return \Delta\Voip\Model\HuntGroup
      */
     public function postHuntGroupCollection($hunt_group = null)
     {
@@ -77327,15 +77327,15 @@ class ProviderApi
      *
      * Creates a HuntGroup resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroup, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroup, HTTP status code, HTTP response headers (array of strings)
      */
     public function postHuntGroupCollectionWithHttpInfo($hunt_group = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroup';
+        $returnType = '\Delta\Voip\Model\HuntGroup';
         $request = $this->postHuntGroupCollectionRequest($hunt_group);
 
         try {
@@ -77387,7 +77387,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroup',
+                        '\Delta\Voip\Model\HuntGroup',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -77402,7 +77402,7 @@ class ProviderApi
      *
      * Creates a HuntGroup resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -77422,14 +77422,14 @@ class ProviderApi
      *
      * Creates a HuntGroup resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postHuntGroupCollectionAsyncWithHttpInfo($hunt_group = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroup';
+        $returnType = '\Delta\Voip\Model\HuntGroup';
         $request = $this->postHuntGroupCollectionRequest($hunt_group);
 
         return $this->client
@@ -77472,7 +77472,7 @@ class ProviderApi
     /**
      * Create request for operation 'postHuntGroupCollection'
      *
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The new HuntGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -77573,11 +77573,11 @@ class ProviderApi
      *
      * Creates a HuntGroupsRelUser resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroupsRelUser
+     * @return \Delta\Voip\Model\HuntGroupsRelUser
      */
     public function postHuntGroupsRelUserCollection($hunt_groups_rel_user = null)
     {
@@ -77590,15 +77590,15 @@ class ProviderApi
      *
      * Creates a HuntGroupsRelUser resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroupsRelUser, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroupsRelUser, HTTP status code, HTTP response headers (array of strings)
      */
     public function postHuntGroupsRelUserCollectionWithHttpInfo($hunt_groups_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUser';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUser';
         $request = $this->postHuntGroupsRelUserCollectionRequest($hunt_groups_rel_user);
 
         try {
@@ -77650,7 +77650,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroupsRelUser',
+                        '\Delta\Voip\Model\HuntGroupsRelUser',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -77665,7 +77665,7 @@ class ProviderApi
      *
      * Creates a HuntGroupsRelUser resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -77685,14 +77685,14 @@ class ProviderApi
      *
      * Creates a HuntGroupsRelUser resource.
      *
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postHuntGroupsRelUserCollectionAsyncWithHttpInfo($hunt_groups_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUser';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUser';
         $request = $this->postHuntGroupsRelUserCollectionRequest($hunt_groups_rel_user);
 
         return $this->client
@@ -77735,7 +77735,7 @@ class ProviderApi
     /**
      * Create request for operation 'postHuntGroupsRelUserCollection'
      *
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The new HuntGroupsRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -77836,11 +77836,11 @@ class ProviderApi
      *
      * Creates a Ivr resource.
      *
-     * @param  \Swagger\Client\Model\Ivr $ivr The new Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The new Ivr resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrWithExcludedExtensions
+     * @return \Delta\Voip\Model\IvrWithExcludedExtensions
      */
     public function postIvrCollection($ivr = null)
     {
@@ -77853,15 +77853,15 @@ class ProviderApi
      *
      * Creates a Ivr resource.
      *
-     * @param  \Swagger\Client\Model\Ivr $ivr The new Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The new Ivr resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrWithExcludedExtensions, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrWithExcludedExtensions, HTTP status code, HTTP response headers (array of strings)
      */
     public function postIvrCollectionWithHttpInfo($ivr = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrWithExcludedExtensions';
+        $returnType = '\Delta\Voip\Model\IvrWithExcludedExtensions';
         $request = $this->postIvrCollectionRequest($ivr);
 
         try {
@@ -77913,7 +77913,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrWithExcludedExtensions',
+                        '\Delta\Voip\Model\IvrWithExcludedExtensions',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -77928,7 +77928,7 @@ class ProviderApi
      *
      * Creates a Ivr resource.
      *
-     * @param  \Swagger\Client\Model\Ivr $ivr The new Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The new Ivr resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -77948,14 +77948,14 @@ class ProviderApi
      *
      * Creates a Ivr resource.
      *
-     * @param  \Swagger\Client\Model\Ivr $ivr The new Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The new Ivr resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postIvrCollectionAsyncWithHttpInfo($ivr = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrWithExcludedExtensions';
+        $returnType = '\Delta\Voip\Model\IvrWithExcludedExtensions';
         $request = $this->postIvrCollectionRequest($ivr);
 
         return $this->client
@@ -77998,7 +77998,7 @@ class ProviderApi
     /**
      * Create request for operation 'postIvrCollection'
      *
-     * @param  \Swagger\Client\Model\Ivr $ivr The new Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The new Ivr resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -78099,11 +78099,11 @@ class ProviderApi
      *
      * Creates a IvrEntry resource.
      *
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrEntry
+     * @return \Delta\Voip\Model\IvrEntry
      */
     public function postIvrEntryCollection($ivr_entry = null)
     {
@@ -78116,15 +78116,15 @@ class ProviderApi
      *
      * Creates a IvrEntry resource.
      *
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrEntry, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrEntry, HTTP status code, HTTP response headers (array of strings)
      */
     public function postIvrEntryCollectionWithHttpInfo($ivr_entry = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntry';
+        $returnType = '\Delta\Voip\Model\IvrEntry';
         $request = $this->postIvrEntryCollectionRequest($ivr_entry);
 
         try {
@@ -78176,7 +78176,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrEntry',
+                        '\Delta\Voip\Model\IvrEntry',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -78191,7 +78191,7 @@ class ProviderApi
      *
      * Creates a IvrEntry resource.
      *
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -78211,14 +78211,14 @@ class ProviderApi
      *
      * Creates a IvrEntry resource.
      *
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postIvrEntryCollectionAsyncWithHttpInfo($ivr_entry = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntry';
+        $returnType = '\Delta\Voip\Model\IvrEntry';
         $request = $this->postIvrEntryCollectionRequest($ivr_entry);
 
         return $this->client
@@ -78261,7 +78261,7 @@ class ProviderApi
     /**
      * Create request for operation 'postIvrEntryCollection'
      *
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The new IvrEntry resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -78362,11 +78362,11 @@ class ProviderApi
      *
      * Creates a IvrExcludedExtension resource.
      *
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrExcludedExtension
+     * @return \Delta\Voip\Model\IvrExcludedExtension
      */
     public function postIvrExcludedExtensionCollection($ivr_excluded_extension = null)
     {
@@ -78379,15 +78379,15 @@ class ProviderApi
      *
      * Creates a IvrExcludedExtension resource.
      *
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrExcludedExtension, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrExcludedExtension, HTTP status code, HTTP response headers (array of strings)
      */
     public function postIvrExcludedExtensionCollectionWithHttpInfo($ivr_excluded_extension = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtension';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtension';
         $request = $this->postIvrExcludedExtensionCollectionRequest($ivr_excluded_extension);
 
         try {
@@ -78439,7 +78439,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrExcludedExtension',
+                        '\Delta\Voip\Model\IvrExcludedExtension',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -78454,7 +78454,7 @@ class ProviderApi
      *
      * Creates a IvrExcludedExtension resource.
      *
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -78474,14 +78474,14 @@ class ProviderApi
      *
      * Creates a IvrExcludedExtension resource.
      *
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postIvrExcludedExtensionCollectionAsyncWithHttpInfo($ivr_excluded_extension = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtension';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtension';
         $request = $this->postIvrExcludedExtensionCollectionRequest($ivr_excluded_extension);
 
         return $this->client
@@ -78524,7 +78524,7 @@ class ProviderApi
     /**
      * Create request for operation 'postIvrExcludedExtensionCollection'
      *
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The new IvrExcludedExtension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -78625,11 +78625,11 @@ class ProviderApi
      *
      * Creates a Location resource.
      *
-     * @param  \Swagger\Client\Model\Location $location The new Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The new Location resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Location
+     * @return \Delta\Voip\Model\Location
      */
     public function postLocationCollection($location = null)
     {
@@ -78642,15 +78642,15 @@ class ProviderApi
      *
      * Creates a Location resource.
      *
-     * @param  \Swagger\Client\Model\Location $location The new Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The new Location resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Location, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Location, HTTP status code, HTTP response headers (array of strings)
      */
     public function postLocationCollectionWithHttpInfo($location = null)
     {
-        $returnType = '\Swagger\Client\Model\Location';
+        $returnType = '\Delta\Voip\Model\Location';
         $request = $this->postLocationCollectionRequest($location);
 
         try {
@@ -78702,7 +78702,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Location',
+                        '\Delta\Voip\Model\Location',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -78717,7 +78717,7 @@ class ProviderApi
      *
      * Creates a Location resource.
      *
-     * @param  \Swagger\Client\Model\Location $location The new Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The new Location resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -78737,14 +78737,14 @@ class ProviderApi
      *
      * Creates a Location resource.
      *
-     * @param  \Swagger\Client\Model\Location $location The new Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The new Location resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postLocationCollectionAsyncWithHttpInfo($location = null)
     {
-        $returnType = '\Swagger\Client\Model\Location';
+        $returnType = '\Delta\Voip\Model\Location';
         $request = $this->postLocationCollectionRequest($location);
 
         return $this->client
@@ -78787,7 +78787,7 @@ class ProviderApi
     /**
      * Create request for operation 'postLocationCollection'
      *
-     * @param  \Swagger\Client\Model\Location $location The new Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The new Location resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -78891,9 +78891,9 @@ class ProviderApi
      * @param  string $locution The new Locution resource (optional)
      * @param  \SplFileObject $original_file original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function postLocutionCollection($locution = null, $original_file = null)
     {
@@ -78909,13 +78909,13 @@ class ProviderApi
      * @param  string $locution The new Locution resource (optional)
      * @param  \SplFileObject $original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Locution, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Locution, HTTP status code, HTTP response headers (array of strings)
      */
     public function postLocutionCollectionWithHttpInfo($locution = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\Locution';
+        $returnType = '\Delta\Voip\Model\Locution';
         $request = $this->postLocutionCollectionRequest($locution, $original_file);
 
         try {
@@ -78967,7 +78967,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Locution',
+                        '\Delta\Voip\Model\Locution',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -79011,7 +79011,7 @@ class ProviderApi
      */
     public function postLocutionCollectionAsyncWithHttpInfo($locution = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\Locution';
+        $returnType = '\Delta\Voip\Model\Locution';
         $request = $this->postLocutionCollectionRequest($locution, $original_file);
 
         return $this->client
@@ -79162,11 +79162,11 @@ class ProviderApi
      *
      * Creates a MatchList resource.
      *
-     * @param  \Swagger\Client\Model\MatchList $match_list The new MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The new MatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function postMatchListCollection($match_list = null)
     {
@@ -79179,15 +79179,15 @@ class ProviderApi
      *
      * Creates a MatchList resource.
      *
-     * @param  \Swagger\Client\Model\MatchList $match_list The new MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The new MatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchList, HTTP status code, HTTP response headers (array of strings)
      */
     public function postMatchListCollectionWithHttpInfo($match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchList';
+        $returnType = '\Delta\Voip\Model\MatchList';
         $request = $this->postMatchListCollectionRequest($match_list);
 
         try {
@@ -79239,7 +79239,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchList',
+                        '\Delta\Voip\Model\MatchList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -79254,7 +79254,7 @@ class ProviderApi
      *
      * Creates a MatchList resource.
      *
-     * @param  \Swagger\Client\Model\MatchList $match_list The new MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The new MatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -79274,14 +79274,14 @@ class ProviderApi
      *
      * Creates a MatchList resource.
      *
-     * @param  \Swagger\Client\Model\MatchList $match_list The new MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The new MatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postMatchListCollectionAsyncWithHttpInfo($match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchList';
+        $returnType = '\Delta\Voip\Model\MatchList';
         $request = $this->postMatchListCollectionRequest($match_list);
 
         return $this->client
@@ -79324,7 +79324,7 @@ class ProviderApi
     /**
      * Create request for operation 'postMatchListCollection'
      *
-     * @param  \Swagger\Client\Model\MatchList $match_list The new MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The new MatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -79425,11 +79425,11 @@ class ProviderApi
      *
      * Creates a MatchListPattern resource.
      *
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchListPattern
+     * @return \Delta\Voip\Model\MatchListPattern
      */
     public function postMatchListPatternCollection($match_list_pattern = null)
     {
@@ -79442,15 +79442,15 @@ class ProviderApi
      *
      * Creates a MatchListPattern resource.
      *
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchListPattern, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchListPattern, HTTP status code, HTTP response headers (array of strings)
      */
     public function postMatchListPatternCollectionWithHttpInfo($match_list_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPattern';
+        $returnType = '\Delta\Voip\Model\MatchListPattern';
         $request = $this->postMatchListPatternCollectionRequest($match_list_pattern);
 
         try {
@@ -79502,7 +79502,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchListPattern',
+                        '\Delta\Voip\Model\MatchListPattern',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -79517,7 +79517,7 @@ class ProviderApi
      *
      * Creates a MatchListPattern resource.
      *
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -79537,14 +79537,14 @@ class ProviderApi
      *
      * Creates a MatchListPattern resource.
      *
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postMatchListPatternCollectionAsyncWithHttpInfo($match_list_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPattern';
+        $returnType = '\Delta\Voip\Model\MatchListPattern';
         $request = $this->postMatchListPatternCollectionRequest($match_list_pattern);
 
         return $this->client
@@ -79587,7 +79587,7 @@ class ProviderApi
     /**
      * Create request for operation 'postMatchListPatternCollection'
      *
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The new MatchListPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -79691,9 +79691,9 @@ class ProviderApi
      * @param  string $music_on_hold The new MusicOnHold resource (optional)
      * @param  \SplFileObject $original_file original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MusicOnHold
+     * @return \Delta\Voip\Model\MusicOnHold
      */
     public function postMusicOnHoldCollection($music_on_hold = null, $original_file = null)
     {
@@ -79709,13 +79709,13 @@ class ProviderApi
      * @param  string $music_on_hold The new MusicOnHold resource (optional)
      * @param  \SplFileObject $original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MusicOnHold, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MusicOnHold, HTTP status code, HTTP response headers (array of strings)
      */
     public function postMusicOnHoldCollectionWithHttpInfo($music_on_hold = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHold';
+        $returnType = '\Delta\Voip\Model\MusicOnHold';
         $request = $this->postMusicOnHoldCollectionRequest($music_on_hold, $original_file);
 
         try {
@@ -79767,7 +79767,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MusicOnHold',
+                        '\Delta\Voip\Model\MusicOnHold',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -79811,7 +79811,7 @@ class ProviderApi
      */
     public function postMusicOnHoldCollectionAsyncWithHttpInfo($music_on_hold = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHold';
+        $returnType = '\Delta\Voip\Model\MusicOnHold';
         $request = $this->postMusicOnHoldCollectionRequest($music_on_hold, $original_file);
 
         return $this->client
@@ -79962,11 +79962,11 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRule resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRule
+     * @return \Delta\Voip\Model\OutgoingDdiRule
      */
     public function postOutgoingDdiRuleCollection($outgoing_ddi_rule = null)
     {
@@ -79979,15 +79979,15 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRule resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRule, HTTP status code, HTTP response headers (array of strings)
      */
     public function postOutgoingDdiRuleCollectionWithHttpInfo($outgoing_ddi_rule = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRule';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRule';
         $request = $this->postOutgoingDdiRuleCollectionRequest($outgoing_ddi_rule);
 
         try {
@@ -80039,7 +80039,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRule',
+                        '\Delta\Voip\Model\OutgoingDdiRule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -80054,7 +80054,7 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRule resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -80074,14 +80074,14 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRule resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postOutgoingDdiRuleCollectionAsyncWithHttpInfo($outgoing_ddi_rule = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRule';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRule';
         $request = $this->postOutgoingDdiRuleCollectionRequest($outgoing_ddi_rule);
 
         return $this->client
@@ -80124,7 +80124,7 @@ class ProviderApi
     /**
      * Create request for operation 'postOutgoingDdiRuleCollection'
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The new OutgoingDdiRule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -80225,11 +80225,11 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRulesPattern resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRulesPattern
+     * @return \Delta\Voip\Model\OutgoingDdiRulesPattern
      */
     public function postOutgoingDdiRulesPatternCollection($outgoing_ddi_rules_pattern = null)
     {
@@ -80242,15 +80242,15 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRulesPattern resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRulesPattern, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRulesPattern, HTTP status code, HTTP response headers (array of strings)
      */
     public function postOutgoingDdiRulesPatternCollectionWithHttpInfo($outgoing_ddi_rules_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPattern';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPattern';
         $request = $this->postOutgoingDdiRulesPatternCollectionRequest($outgoing_ddi_rules_pattern);
 
         try {
@@ -80302,7 +80302,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRulesPattern',
+                        '\Delta\Voip\Model\OutgoingDdiRulesPattern',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -80317,7 +80317,7 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRulesPattern resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -80337,14 +80337,14 @@ class ProviderApi
      *
      * Creates a OutgoingDdiRulesPattern resource.
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postOutgoingDdiRulesPatternCollectionAsyncWithHttpInfo($outgoing_ddi_rules_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPattern';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPattern';
         $request = $this->postOutgoingDdiRulesPatternCollectionRequest($outgoing_ddi_rules_pattern);
 
         return $this->client
@@ -80387,7 +80387,7 @@ class ProviderApi
     /**
      * Create request for operation 'postOutgoingDdiRulesPatternCollection'
      *
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The new OutgoingDdiRulesPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -80488,11 +80488,11 @@ class ProviderApi
      *
      * Creates a PickUpGroup resource.
      *
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpGroupWithUsers
+     * @return \Delta\Voip\Model\PickUpGroupWithUsers
      */
     public function postPickUpGroupCollection($pick_up_group = null)
     {
@@ -80505,15 +80505,15 @@ class ProviderApi
      *
      * Creates a PickUpGroup resource.
      *
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpGroupWithUsers, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpGroupWithUsers, HTTP status code, HTTP response headers (array of strings)
      */
     public function postPickUpGroupCollectionWithHttpInfo($pick_up_group = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupWithUsers';
+        $returnType = '\Delta\Voip\Model\PickUpGroupWithUsers';
         $request = $this->postPickUpGroupCollectionRequest($pick_up_group);
 
         try {
@@ -80565,7 +80565,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpGroupWithUsers',
+                        '\Delta\Voip\Model\PickUpGroupWithUsers',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -80580,7 +80580,7 @@ class ProviderApi
      *
      * Creates a PickUpGroup resource.
      *
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -80600,14 +80600,14 @@ class ProviderApi
      *
      * Creates a PickUpGroup resource.
      *
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postPickUpGroupCollectionAsyncWithHttpInfo($pick_up_group = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupWithUsers';
+        $returnType = '\Delta\Voip\Model\PickUpGroupWithUsers';
         $request = $this->postPickUpGroupCollectionRequest($pick_up_group);
 
         return $this->client
@@ -80650,7 +80650,7 @@ class ProviderApi
     /**
      * Create request for operation 'postPickUpGroupCollection'
      *
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The new PickUpGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -80751,11 +80751,11 @@ class ProviderApi
      *
      * Creates a PickUpRelUser resource.
      *
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpRelUser
+     * @return \Delta\Voip\Model\PickUpRelUser
      */
     public function postPickUpRelUserCollection($pick_up_rel_user = null)
     {
@@ -80768,15 +80768,15 @@ class ProviderApi
      *
      * Creates a PickUpRelUser resource.
      *
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpRelUser, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpRelUser, HTTP status code, HTTP response headers (array of strings)
      */
     public function postPickUpRelUserCollectionWithHttpInfo($pick_up_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUser';
+        $returnType = '\Delta\Voip\Model\PickUpRelUser';
         $request = $this->postPickUpRelUserCollectionRequest($pick_up_rel_user);
 
         try {
@@ -80828,7 +80828,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpRelUser',
+                        '\Delta\Voip\Model\PickUpRelUser',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -80843,7 +80843,7 @@ class ProviderApi
      *
      * Creates a PickUpRelUser resource.
      *
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -80863,14 +80863,14 @@ class ProviderApi
      *
      * Creates a PickUpRelUser resource.
      *
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postPickUpRelUserCollectionAsyncWithHttpInfo($pick_up_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUser';
+        $returnType = '\Delta\Voip\Model\PickUpRelUser';
         $request = $this->postPickUpRelUserCollectionRequest($pick_up_rel_user);
 
         return $this->client
@@ -80913,7 +80913,7 @@ class ProviderApi
     /**
      * Create request for operation 'postPickUpRelUserCollection'
      *
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The new PickUpRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -81014,11 +81014,11 @@ class ProviderApi
      *
      * Creates a Queue resource.
      *
-     * @param  \Swagger\Client\Model\Queue $queue The new Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The new Queue resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Queue
+     * @return \Delta\Voip\Model\Queue
      */
     public function postQueueCollection($queue = null)
     {
@@ -81031,15 +81031,15 @@ class ProviderApi
      *
      * Creates a Queue resource.
      *
-     * @param  \Swagger\Client\Model\Queue $queue The new Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The new Queue resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Queue, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Queue, HTTP status code, HTTP response headers (array of strings)
      */
     public function postQueueCollectionWithHttpInfo($queue = null)
     {
-        $returnType = '\Swagger\Client\Model\Queue';
+        $returnType = '\Delta\Voip\Model\Queue';
         $request = $this->postQueueCollectionRequest($queue);
 
         try {
@@ -81091,7 +81091,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Queue',
+                        '\Delta\Voip\Model\Queue',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -81106,7 +81106,7 @@ class ProviderApi
      *
      * Creates a Queue resource.
      *
-     * @param  \Swagger\Client\Model\Queue $queue The new Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The new Queue resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -81126,14 +81126,14 @@ class ProviderApi
      *
      * Creates a Queue resource.
      *
-     * @param  \Swagger\Client\Model\Queue $queue The new Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The new Queue resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postQueueCollectionAsyncWithHttpInfo($queue = null)
     {
-        $returnType = '\Swagger\Client\Model\Queue';
+        $returnType = '\Delta\Voip\Model\Queue';
         $request = $this->postQueueCollectionRequest($queue);
 
         return $this->client
@@ -81176,7 +81176,7 @@ class ProviderApi
     /**
      * Create request for operation 'postQueueCollection'
      *
-     * @param  \Swagger\Client\Model\Queue $queue The new Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The new Queue resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -81277,11 +81277,11 @@ class ProviderApi
      *
      * Creates a QueueMember resource.
      *
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The new QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The new QueueMember resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\QueueMember
+     * @return \Delta\Voip\Model\QueueMember
      */
     public function postQueueMemberCollection($queue_member = null)
     {
@@ -81294,15 +81294,15 @@ class ProviderApi
      *
      * Creates a QueueMember resource.
      *
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The new QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The new QueueMember resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\QueueMember, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\QueueMember, HTTP status code, HTTP response headers (array of strings)
      */
     public function postQueueMemberCollectionWithHttpInfo($queue_member = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueMember';
+        $returnType = '\Delta\Voip\Model\QueueMember';
         $request = $this->postQueueMemberCollectionRequest($queue_member);
 
         try {
@@ -81354,7 +81354,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\QueueMember',
+                        '\Delta\Voip\Model\QueueMember',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -81369,7 +81369,7 @@ class ProviderApi
      *
      * Creates a QueueMember resource.
      *
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The new QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The new QueueMember resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -81389,14 +81389,14 @@ class ProviderApi
      *
      * Creates a QueueMember resource.
      *
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The new QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The new QueueMember resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postQueueMemberCollectionAsyncWithHttpInfo($queue_member = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueMember';
+        $returnType = '\Delta\Voip\Model\QueueMember';
         $request = $this->postQueueMemberCollectionRequest($queue_member);
 
         return $this->client
@@ -81439,7 +81439,7 @@ class ProviderApi
     /**
      * Create request for operation 'postQueueMemberCollection'
      *
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The new QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The new QueueMember resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -81540,11 +81540,11 @@ class ProviderApi
      *
      * Creates a RouteLock resource.
      *
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The new RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The new RouteLock resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RouteLock
+     * @return \Delta\Voip\Model\RouteLock
      */
     public function postRouteLockCollection($route_lock = null)
     {
@@ -81557,15 +81557,15 @@ class ProviderApi
      *
      * Creates a RouteLock resource.
      *
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The new RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The new RouteLock resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RouteLock, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RouteLock, HTTP status code, HTTP response headers (array of strings)
      */
     public function postRouteLockCollectionWithHttpInfo($route_lock = null)
     {
-        $returnType = '\Swagger\Client\Model\RouteLock';
+        $returnType = '\Delta\Voip\Model\RouteLock';
         $request = $this->postRouteLockCollectionRequest($route_lock);
 
         try {
@@ -81617,7 +81617,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RouteLock',
+                        '\Delta\Voip\Model\RouteLock',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -81632,7 +81632,7 @@ class ProviderApi
      *
      * Creates a RouteLock resource.
      *
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The new RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The new RouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -81652,14 +81652,14 @@ class ProviderApi
      *
      * Creates a RouteLock resource.
      *
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The new RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The new RouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postRouteLockCollectionAsyncWithHttpInfo($route_lock = null)
     {
-        $returnType = '\Swagger\Client\Model\RouteLock';
+        $returnType = '\Delta\Voip\Model\RouteLock';
         $request = $this->postRouteLockCollectionRequest($route_lock);
 
         return $this->client
@@ -81702,7 +81702,7 @@ class ProviderApi
     /**
      * Create request for operation 'postRouteLockCollection'
      *
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The new RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The new RouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -81803,11 +81803,11 @@ class ProviderApi
      *
      * Creates a Schedule resource.
      *
-     * @param  \Swagger\Client\Model\Schedule $schedule The new Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The new Schedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Schedule
+     * @return \Delta\Voip\Model\Schedule
      */
     public function postScheduleCollection($schedule = null)
     {
@@ -81820,15 +81820,15 @@ class ProviderApi
      *
      * Creates a Schedule resource.
      *
-     * @param  \Swagger\Client\Model\Schedule $schedule The new Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The new Schedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Schedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Schedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function postScheduleCollectionWithHttpInfo($schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\Schedule';
+        $returnType = '\Delta\Voip\Model\Schedule';
         $request = $this->postScheduleCollectionRequest($schedule);
 
         try {
@@ -81880,7 +81880,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Schedule',
+                        '\Delta\Voip\Model\Schedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -81895,7 +81895,7 @@ class ProviderApi
      *
      * Creates a Schedule resource.
      *
-     * @param  \Swagger\Client\Model\Schedule $schedule The new Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The new Schedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -81915,14 +81915,14 @@ class ProviderApi
      *
      * Creates a Schedule resource.
      *
-     * @param  \Swagger\Client\Model\Schedule $schedule The new Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The new Schedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postScheduleCollectionAsyncWithHttpInfo($schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\Schedule';
+        $returnType = '\Delta\Voip\Model\Schedule';
         $request = $this->postScheduleCollectionRequest($schedule);
 
         return $this->client
@@ -81965,7 +81965,7 @@ class ProviderApi
     /**
      * Create request for operation 'postScheduleCollection'
      *
-     * @param  \Swagger\Client\Model\Schedule $schedule The new Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The new Schedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -82066,12 +82066,12 @@ class ProviderApi
      *
      * Creates a Terminal resource.
      *
-     * @param  \Swagger\Client\Model\Terminal $terminal The new Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The new Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Terminal
+     * @return \Delta\Voip\Model\Terminal
      */
     public function postTerminalCollection($terminal = null, $_timezone = null)
     {
@@ -82084,16 +82084,16 @@ class ProviderApi
      *
      * Creates a Terminal resource.
      *
-     * @param  \Swagger\Client\Model\Terminal $terminal The new Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The new Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Terminal, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Terminal, HTTP status code, HTTP response headers (array of strings)
      */
     public function postTerminalCollectionWithHttpInfo($terminal = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\Terminal';
+        $returnType = '\Delta\Voip\Model\Terminal';
         $request = $this->postTerminalCollectionRequest($terminal, $_timezone);
 
         try {
@@ -82145,7 +82145,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Terminal',
+                        '\Delta\Voip\Model\Terminal',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -82160,7 +82160,7 @@ class ProviderApi
      *
      * Creates a Terminal resource.
      *
-     * @param  \Swagger\Client\Model\Terminal $terminal The new Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The new Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -82181,7 +82181,7 @@ class ProviderApi
      *
      * Creates a Terminal resource.
      *
-     * @param  \Swagger\Client\Model\Terminal $terminal The new Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The new Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -82189,7 +82189,7 @@ class ProviderApi
      */
     public function postTerminalCollectionAsyncWithHttpInfo($terminal = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\Terminal';
+        $returnType = '\Delta\Voip\Model\Terminal';
         $request = $this->postTerminalCollectionRequest($terminal, $_timezone);
 
         return $this->client
@@ -82232,7 +82232,7 @@ class ProviderApi
     /**
      * Create request for operation 'postTerminalCollection'
      *
-     * @param  \Swagger\Client\Model\Terminal $terminal The new Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The new Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -82338,11 +82338,11 @@ class ProviderApi
      *
      * Creates a User resource.
      *
-     * @param  \Swagger\Client\Model\User $user The new User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The new User resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function postUserCollection($user = null)
     {
@@ -82355,15 +82355,15 @@ class ProviderApi
      *
      * Creates a User resource.
      *
-     * @param  \Swagger\Client\Model\User $user The new User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The new User resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\User, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\User, HTTP status code, HTTP response headers (array of strings)
      */
     public function postUserCollectionWithHttpInfo($user = null)
     {
-        $returnType = '\Swagger\Client\Model\User';
+        $returnType = '\Delta\Voip\Model\User';
         $request = $this->postUserCollectionRequest($user);
 
         try {
@@ -82415,7 +82415,7 @@ class ProviderApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\User',
+                        '\Delta\Voip\Model\User',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -82430,7 +82430,7 @@ class ProviderApi
      *
      * Creates a User resource.
      *
-     * @param  \Swagger\Client\Model\User $user The new User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The new User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -82450,14 +82450,14 @@ class ProviderApi
      *
      * Creates a User resource.
      *
-     * @param  \Swagger\Client\Model\User $user The new User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The new User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postUserCollectionAsyncWithHttpInfo($user = null)
     {
-        $returnType = '\Swagger\Client\Model\User';
+        $returnType = '\Delta\Voip\Model\User';
         $request = $this->postUserCollectionRequest($user);
 
         return $this->client
@@ -82500,7 +82500,7 @@ class ProviderApi
     /**
      * Create request for operation 'postUserCollection'
      *
-     * @param  \Swagger\Client\Model\User $user The new User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The new User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -82602,11 +82602,11 @@ class ProviderApi
      * Replaces the Calendar resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Calendar $calendar The updated Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The updated Calendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Calendar
+     * @return \Delta\Voip\Model\Calendar
      */
     public function putCalendarItem($id, $calendar = null)
     {
@@ -82620,15 +82620,15 @@ class ProviderApi
      * Replaces the Calendar resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Calendar $calendar The updated Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The updated Calendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Calendar, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Calendar, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCalendarItemWithHttpInfo($id, $calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\Calendar';
+        $returnType = '\Delta\Voip\Model\Calendar';
         $request = $this->putCalendarItemRequest($id, $calendar);
 
         try {
@@ -82680,7 +82680,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Calendar',
+                        '\Delta\Voip\Model\Calendar',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -82696,7 +82696,7 @@ class ProviderApi
      * Replaces the Calendar resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Calendar $calendar The updated Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The updated Calendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -82717,14 +82717,14 @@ class ProviderApi
      * Replaces the Calendar resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Calendar $calendar The updated Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The updated Calendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCalendarItemAsyncWithHttpInfo($id, $calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\Calendar';
+        $returnType = '\Delta\Voip\Model\Calendar';
         $request = $this->putCalendarItemRequest($id, $calendar);
 
         return $this->client
@@ -82768,7 +82768,7 @@ class ProviderApi
      * Create request for operation 'putCalendarItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Calendar $calendar The updated Calendar resource (optional)
+     * @param  \Delta\Voip\Model\Calendar $calendar The updated Calendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -82884,11 +82884,11 @@ class ProviderApi
      * Replaces the CalendarPeriod resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriod
+     * @return \Delta\Voip\Model\CalendarPeriod
      */
     public function putCalendarPeriodItem($id, $calendar_period = null)
     {
@@ -82902,15 +82902,15 @@ class ProviderApi
      * Replaces the CalendarPeriod resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriod, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriod, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCalendarPeriodItemWithHttpInfo($id, $calendar_period = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriod';
+        $returnType = '\Delta\Voip\Model\CalendarPeriod';
         $request = $this->putCalendarPeriodItemRequest($id, $calendar_period);
 
         try {
@@ -82962,7 +82962,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriod',
+                        '\Delta\Voip\Model\CalendarPeriod',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -82978,7 +82978,7 @@ class ProviderApi
      * Replaces the CalendarPeriod resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -82999,14 +82999,14 @@ class ProviderApi
      * Replaces the CalendarPeriod resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCalendarPeriodItemAsyncWithHttpInfo($id, $calendar_period = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriod';
+        $returnType = '\Delta\Voip\Model\CalendarPeriod';
         $request = $this->putCalendarPeriodItemRequest($id, $calendar_period);
 
         return $this->client
@@ -83050,7 +83050,7 @@ class ProviderApi
      * Create request for operation 'putCalendarPeriodItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriod $calendar_period The updated CalendarPeriod resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -83166,11 +83166,11 @@ class ProviderApi
      * Replaces the CalendarPeriodsRelSchedule resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CalendarPeriodsRelSchedule
+     * @return \Delta\Voip\Model\CalendarPeriodsRelSchedule
      */
     public function putCalendarPeriodsRelScheduleItem($id, $calendar_periods_rel_schedule = null)
     {
@@ -83184,15 +83184,15 @@ class ProviderApi
      * Replaces the CalendarPeriodsRelSchedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CalendarPeriodsRelSchedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CalendarPeriodsRelSchedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCalendarPeriodsRelScheduleItemWithHttpInfo($id, $calendar_periods_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelSchedule';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelSchedule';
         $request = $this->putCalendarPeriodsRelScheduleItemRequest($id, $calendar_periods_rel_schedule);
 
         try {
@@ -83244,7 +83244,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CalendarPeriodsRelSchedule',
+                        '\Delta\Voip\Model\CalendarPeriodsRelSchedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -83260,7 +83260,7 @@ class ProviderApi
      * Replaces the CalendarPeriodsRelSchedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -83281,14 +83281,14 @@ class ProviderApi
      * Replaces the CalendarPeriodsRelSchedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCalendarPeriodsRelScheduleItemAsyncWithHttpInfo($id, $calendar_periods_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\CalendarPeriodsRelSchedule';
+        $returnType = '\Delta\Voip\Model\CalendarPeriodsRelSchedule';
         $request = $this->putCalendarPeriodsRelScheduleItemRequest($id, $calendar_periods_rel_schedule);
 
         return $this->client
@@ -83332,7 +83332,7 @@ class ProviderApi
      * Create request for operation 'putCalendarPeriodsRelScheduleItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\CalendarPeriodsRelSchedule $calendar_periods_rel_schedule The updated CalendarPeriodsRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -83448,11 +83448,11 @@ class ProviderApi
      * Replaces the CallAcl resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The updated CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The updated CallAcl resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAcl
+     * @return \Delta\Voip\Model\CallAcl
      */
     public function putCallAclItem($id, $call_acl = null)
     {
@@ -83466,15 +83466,15 @@ class ProviderApi
      * Replaces the CallAcl resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The updated CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The updated CallAcl resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAcl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAcl, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCallAclItemWithHttpInfo($id, $call_acl = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAcl';
+        $returnType = '\Delta\Voip\Model\CallAcl';
         $request = $this->putCallAclItemRequest($id, $call_acl);
 
         try {
@@ -83526,7 +83526,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAcl',
+                        '\Delta\Voip\Model\CallAcl',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -83542,7 +83542,7 @@ class ProviderApi
      * Replaces the CallAcl resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The updated CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The updated CallAcl resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -83563,14 +83563,14 @@ class ProviderApi
      * Replaces the CallAcl resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The updated CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The updated CallAcl resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCallAclItemAsyncWithHttpInfo($id, $call_acl = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAcl';
+        $returnType = '\Delta\Voip\Model\CallAcl';
         $request = $this->putCallAclItemRequest($id, $call_acl);
 
         return $this->client
@@ -83614,7 +83614,7 @@ class ProviderApi
      * Create request for operation 'putCallAclItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAcl $call_acl The updated CallAcl resource (optional)
+     * @param  \Delta\Voip\Model\CallAcl $call_acl The updated CallAcl resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -83730,11 +83730,11 @@ class ProviderApi
      * Replaces the CallAclRelMatchList resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallAclRelMatchList
+     * @return \Delta\Voip\Model\CallAclRelMatchList
      */
     public function putCallAclRelMatchListItem($id, $call_acl_rel_match_list = null)
     {
@@ -83748,15 +83748,15 @@ class ProviderApi
      * Replaces the CallAclRelMatchList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallAclRelMatchList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallAclRelMatchList, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCallAclRelMatchListItemWithHttpInfo($id, $call_acl_rel_match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchList';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchList';
         $request = $this->putCallAclRelMatchListItemRequest($id, $call_acl_rel_match_list);
 
         try {
@@ -83808,7 +83808,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallAclRelMatchList',
+                        '\Delta\Voip\Model\CallAclRelMatchList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -83824,7 +83824,7 @@ class ProviderApi
      * Replaces the CallAclRelMatchList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -83845,14 +83845,14 @@ class ProviderApi
      * Replaces the CallAclRelMatchList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCallAclRelMatchListItemAsyncWithHttpInfo($id, $call_acl_rel_match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\CallAclRelMatchList';
+        $returnType = '\Delta\Voip\Model\CallAclRelMatchList';
         $request = $this->putCallAclRelMatchListItemRequest($id, $call_acl_rel_match_list);
 
         return $this->client
@@ -83896,7 +83896,7 @@ class ProviderApi
      * Create request for operation 'putCallAclRelMatchListItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
+     * @param  \Delta\Voip\Model\CallAclRelMatchList $call_acl_rel_match_list The updated CallAclRelMatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -84012,12 +84012,12 @@ class ProviderApi
      * Replaces the CallCsvScheduler resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallCsvScheduler
+     * @return \Delta\Voip\Model\CallCsvScheduler
      */
     public function putCallCsvSchedulerItem($id, $call_csv_scheduler = null, $_timezone = null)
     {
@@ -84031,16 +84031,16 @@ class ProviderApi
      * Replaces the CallCsvScheduler resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallCsvScheduler, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallCsvScheduler, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCallCsvSchedulerItemWithHttpInfo($id, $call_csv_scheduler = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvScheduler';
+        $returnType = '\Delta\Voip\Model\CallCsvScheduler';
         $request = $this->putCallCsvSchedulerItemRequest($id, $call_csv_scheduler, $_timezone);
 
         try {
@@ -84092,7 +84092,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallCsvScheduler',
+                        '\Delta\Voip\Model\CallCsvScheduler',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -84108,7 +84108,7 @@ class ProviderApi
      * Replaces the CallCsvScheduler resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -84130,7 +84130,7 @@ class ProviderApi
      * Replaces the CallCsvScheduler resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -84138,7 +84138,7 @@ class ProviderApi
      */
     public function putCallCsvSchedulerItemAsyncWithHttpInfo($id, $call_csv_scheduler = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\CallCsvScheduler';
+        $returnType = '\Delta\Voip\Model\CallCsvScheduler';
         $request = $this->putCallCsvSchedulerItemRequest($id, $call_csv_scheduler, $_timezone);
 
         return $this->client
@@ -84182,7 +84182,7 @@ class ProviderApi
      * Create request for operation 'putCallCsvSchedulerItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
+     * @param  \Delta\Voip\Model\CallCsvScheduler $call_csv_scheduler The updated CallCsvScheduler resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -84303,11 +84303,11 @@ class ProviderApi
      * Replaces the CallForwardSetting resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallForwardSetting
+     * @return \Delta\Voip\Model\CallForwardSetting
      */
     public function putCallForwardSettingItem($id, $call_forward_setting = null)
     {
@@ -84321,15 +84321,15 @@ class ProviderApi
      * Replaces the CallForwardSetting resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallForwardSetting, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallForwardSetting, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCallForwardSettingItemWithHttpInfo($id, $call_forward_setting = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSetting';
+        $returnType = '\Delta\Voip\Model\CallForwardSetting';
         $request = $this->putCallForwardSettingItemRequest($id, $call_forward_setting);
 
         try {
@@ -84381,7 +84381,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallForwardSetting',
+                        '\Delta\Voip\Model\CallForwardSetting',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -84397,7 +84397,7 @@ class ProviderApi
      * Replaces the CallForwardSetting resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -84418,14 +84418,14 @@ class ProviderApi
      * Replaces the CallForwardSetting resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCallForwardSettingItemAsyncWithHttpInfo($id, $call_forward_setting = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSetting';
+        $returnType = '\Delta\Voip\Model\CallForwardSetting';
         $request = $this->putCallForwardSettingItemRequest($id, $call_forward_setting);
 
         return $this->client
@@ -84469,7 +84469,7 @@ class ProviderApi
      * Create request for operation 'putCallForwardSettingItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -84585,11 +84585,11 @@ class ProviderApi
      * Replaces the CompanyService resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\CompanyService $company_service The updated CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The updated CompanyService resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CompanyService
+     * @return \Delta\Voip\Model\CompanyService
      */
     public function putCompanyServiceItem($id, $company_service = null)
     {
@@ -84603,15 +84603,15 @@ class ProviderApi
      * Replaces the CompanyService resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CompanyService $company_service The updated CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The updated CompanyService resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CompanyService, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CompanyService, HTTP status code, HTTP response headers (array of strings)
      */
     public function putCompanyServiceItemWithHttpInfo($id, $company_service = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyService';
+        $returnType = '\Delta\Voip\Model\CompanyService';
         $request = $this->putCompanyServiceItemRequest($id, $company_service);
 
         try {
@@ -84663,7 +84663,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CompanyService',
+                        '\Delta\Voip\Model\CompanyService',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -84679,7 +84679,7 @@ class ProviderApi
      * Replaces the CompanyService resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CompanyService $company_service The updated CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The updated CompanyService resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -84700,14 +84700,14 @@ class ProviderApi
      * Replaces the CompanyService resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CompanyService $company_service The updated CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The updated CompanyService resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putCompanyServiceItemAsyncWithHttpInfo($id, $company_service = null)
     {
-        $returnType = '\Swagger\Client\Model\CompanyService';
+        $returnType = '\Delta\Voip\Model\CompanyService';
         $request = $this->putCompanyServiceItemRequest($id, $company_service);
 
         return $this->client
@@ -84751,7 +84751,7 @@ class ProviderApi
      * Create request for operation 'putCompanyServiceItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\CompanyService $company_service The updated CompanyService resource (optional)
+     * @param  \Delta\Voip\Model\CompanyService $company_service The updated CompanyService resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -84867,11 +84867,11 @@ class ProviderApi
      * Replaces the ConditionalRoute resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoute
+     * @return \Delta\Voip\Model\ConditionalRoute
      */
     public function putConditionalRouteItem($id, $conditional_route = null)
     {
@@ -84885,15 +84885,15 @@ class ProviderApi
      * Replaces the ConditionalRoute resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoute, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoute, HTTP status code, HTTP response headers (array of strings)
      */
     public function putConditionalRouteItemWithHttpInfo($id, $conditional_route = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoute';
+        $returnType = '\Delta\Voip\Model\ConditionalRoute';
         $request = $this->putConditionalRouteItemRequest($id, $conditional_route);
 
         try {
@@ -84945,7 +84945,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoute',
+                        '\Delta\Voip\Model\ConditionalRoute',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -84961,7 +84961,7 @@ class ProviderApi
      * Replaces the ConditionalRoute resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -84982,14 +84982,14 @@ class ProviderApi
      * Replaces the ConditionalRoute resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putConditionalRouteItemAsyncWithHttpInfo($id, $conditional_route = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoute';
+        $returnType = '\Delta\Voip\Model\ConditionalRoute';
         $request = $this->putConditionalRouteItemRequest($id, $conditional_route);
 
         return $this->client
@@ -85033,7 +85033,7 @@ class ProviderApi
      * Create request for operation 'putConditionalRouteItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoute $conditional_route The updated ConditionalRoute resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -85149,11 +85149,11 @@ class ProviderApi
      * Replaces the ConditionalRoutesCondition resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships
+     * @return \Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships
      */
     public function putConditionalRoutesConditionItem($id, $conditional_routes_condition = null)
     {
@@ -85167,15 +85167,15 @@ class ProviderApi
      * Replaces the ConditionalRoutesCondition resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
      */
     public function putConditionalRoutesConditionItemWithHttpInfo($id, $conditional_routes_condition = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships';
         $request = $this->putConditionalRoutesConditionItemRequest($id, $conditional_routes_condition);
 
         try {
@@ -85227,7 +85227,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships',
+                        '\Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -85243,7 +85243,7 @@ class ProviderApi
      * Replaces the ConditionalRoutesCondition resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -85264,14 +85264,14 @@ class ProviderApi
      * Replaces the ConditionalRoutesCondition resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putConditionalRoutesConditionItemAsyncWithHttpInfo($id, $conditional_routes_condition = null)
     {
-        $returnType = '\Swagger\Client\Model\ConditionalRoutesConditionWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ConditionalRoutesConditionWithInverseRelationships';
         $request = $this->putConditionalRoutesConditionItemRequest($id, $conditional_routes_condition);
 
         return $this->client
@@ -85315,7 +85315,7 @@ class ProviderApi
      * Create request for operation 'putConditionalRoutesConditionItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
+     * @param  \Delta\Voip\Model\ConditionalRoutesCondition $conditional_routes_condition The updated ConditionalRoutesCondition resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -85431,11 +85431,11 @@ class ProviderApi
      * Replaces the ConferenceRoom resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ConferenceRoom
+     * @return \Delta\Voip\Model\ConferenceRoom
      */
     public function putConferenceRoomItem($id, $conference_room = null)
     {
@@ -85449,15 +85449,15 @@ class ProviderApi
      * Replaces the ConferenceRoom resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ConferenceRoom, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ConferenceRoom, HTTP status code, HTTP response headers (array of strings)
      */
     public function putConferenceRoomItemWithHttpInfo($id, $conference_room = null)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoom';
+        $returnType = '\Delta\Voip\Model\ConferenceRoom';
         $request = $this->putConferenceRoomItemRequest($id, $conference_room);
 
         try {
@@ -85509,7 +85509,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ConferenceRoom',
+                        '\Delta\Voip\Model\ConferenceRoom',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -85525,7 +85525,7 @@ class ProviderApi
      * Replaces the ConferenceRoom resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -85546,14 +85546,14 @@ class ProviderApi
      * Replaces the ConferenceRoom resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putConferenceRoomItemAsyncWithHttpInfo($id, $conference_room = null)
     {
-        $returnType = '\Swagger\Client\Model\ConferenceRoom';
+        $returnType = '\Delta\Voip\Model\ConferenceRoom';
         $request = $this->putConferenceRoomItemRequest($id, $conference_room);
 
         return $this->client
@@ -85597,7 +85597,7 @@ class ProviderApi
      * Create request for operation 'putConferenceRoomItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
+     * @param  \Delta\Voip\Model\ConferenceRoom $conference_room The updated ConferenceRoom resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -85713,11 +85713,11 @@ class ProviderApi
      * Replaces the Ddi resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Ddi $ddi The updated Ddi resource (optional)
+     * @param  \Delta\Voip\Model\Ddi $ddi The updated Ddi resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function putDdiItem($id, $ddi = null)
     {
@@ -85731,15 +85731,15 @@ class ProviderApi
      * Replaces the Ddi resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ddi $ddi The updated Ddi resource (optional)
+     * @param  \Delta\Voip\Model\Ddi $ddi The updated Ddi resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Ddi, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Ddi, HTTP status code, HTTP response headers (array of strings)
      */
     public function putDdiItemWithHttpInfo($id, $ddi = null)
     {
-        $returnType = '\Swagger\Client\Model\Ddi';
+        $returnType = '\Delta\Voip\Model\Ddi';
         $request = $this->putDdiItemRequest($id, $ddi);
 
         try {
@@ -85791,7 +85791,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Ddi',
+                        '\Delta\Voip\Model\Ddi',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -85807,7 +85807,7 @@ class ProviderApi
      * Replaces the Ddi resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ddi $ddi The updated Ddi resource (optional)
+     * @param  \Delta\Voip\Model\Ddi $ddi The updated Ddi resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -85828,14 +85828,14 @@ class ProviderApi
      * Replaces the Ddi resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ddi $ddi The updated Ddi resource (optional)
+     * @param  \Delta\Voip\Model\Ddi $ddi The updated Ddi resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putDdiItemAsyncWithHttpInfo($id, $ddi = null)
     {
-        $returnType = '\Swagger\Client\Model\Ddi';
+        $returnType = '\Delta\Voip\Model\Ddi';
         $request = $this->putDdiItemRequest($id, $ddi);
 
         return $this->client
@@ -85879,7 +85879,7 @@ class ProviderApi
      * Create request for operation 'putDdiItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ddi $ddi The updated Ddi resource (optional)
+     * @param  \Delta\Voip\Model\Ddi $ddi The updated Ddi resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -85995,11 +85995,11 @@ class ProviderApi
      * Replaces the Extension resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Extension $extension The updated Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The updated Extension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function putExtensionItem($id, $extension = null)
     {
@@ -86013,15 +86013,15 @@ class ProviderApi
      * Replaces the Extension resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Extension $extension The updated Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The updated Extension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Extension, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Extension, HTTP status code, HTTP response headers (array of strings)
      */
     public function putExtensionItemWithHttpInfo($id, $extension = null)
     {
-        $returnType = '\Swagger\Client\Model\Extension';
+        $returnType = '\Delta\Voip\Model\Extension';
         $request = $this->putExtensionItemRequest($id, $extension);
 
         try {
@@ -86073,7 +86073,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Extension',
+                        '\Delta\Voip\Model\Extension',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -86089,7 +86089,7 @@ class ProviderApi
      * Replaces the Extension resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Extension $extension The updated Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The updated Extension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -86110,14 +86110,14 @@ class ProviderApi
      * Replaces the Extension resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Extension $extension The updated Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The updated Extension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putExtensionItemAsyncWithHttpInfo($id, $extension = null)
     {
-        $returnType = '\Swagger\Client\Model\Extension';
+        $returnType = '\Delta\Voip\Model\Extension';
         $request = $this->putExtensionItemRequest($id, $extension);
 
         return $this->client
@@ -86161,7 +86161,7 @@ class ProviderApi
      * Create request for operation 'putExtensionItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Extension $extension The updated Extension resource (optional)
+     * @param  \Delta\Voip\Model\Extension $extension The updated Extension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -86277,11 +86277,11 @@ class ProviderApi
      * Replaces the ExternalCallFilterBlackList resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterBlackList
+     * @return \Delta\Voip\Model\ExternalCallFilterBlackList
      */
     public function putExternalCallFilterBlackListItem($id, $external_call_filter_black_list = null)
     {
@@ -86295,15 +86295,15 @@ class ProviderApi
      * Replaces the ExternalCallFilterBlackList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterBlackList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterBlackList, HTTP status code, HTTP response headers (array of strings)
      */
     public function putExternalCallFilterBlackListItemWithHttpInfo($id, $external_call_filter_black_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackList';
         $request = $this->putExternalCallFilterBlackListItemRequest($id, $external_call_filter_black_list);
 
         try {
@@ -86355,7 +86355,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterBlackList',
+                        '\Delta\Voip\Model\ExternalCallFilterBlackList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -86371,7 +86371,7 @@ class ProviderApi
      * Replaces the ExternalCallFilterBlackList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -86392,14 +86392,14 @@ class ProviderApi
      * Replaces the ExternalCallFilterBlackList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putExternalCallFilterBlackListItemAsyncWithHttpInfo($id, $external_call_filter_black_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterBlackList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterBlackList';
         $request = $this->putExternalCallFilterBlackListItemRequest($id, $external_call_filter_black_list);
 
         return $this->client
@@ -86443,7 +86443,7 @@ class ProviderApi
      * Create request for operation 'putExternalCallFilterBlackListItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterBlackList $external_call_filter_black_list The updated ExternalCallFilterBlackList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -86559,11 +86559,11 @@ class ProviderApi
      * Replaces the ExternalCallFilter resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterWithInverseRelationships
+     * @return \Delta\Voip\Model\ExternalCallFilterWithInverseRelationships
      */
     public function putExternalCallFilterItem($id, $external_call_filter = null)
     {
@@ -86577,15 +86577,15 @@ class ProviderApi
      * Replaces the ExternalCallFilter resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterWithInverseRelationships, HTTP status code, HTTP response headers (array of strings)
      */
     public function putExternalCallFilterItemWithHttpInfo($id, $external_call_filter = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWithInverseRelationships';
         $request = $this->putExternalCallFilterItemRequest($id, $external_call_filter);
 
         try {
@@ -86637,7 +86637,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterWithInverseRelationships',
+                        '\Delta\Voip\Model\ExternalCallFilterWithInverseRelationships',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -86653,7 +86653,7 @@ class ProviderApi
      * Replaces the ExternalCallFilter resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -86674,14 +86674,14 @@ class ProviderApi
      * Replaces the ExternalCallFilter resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putExternalCallFilterItemAsyncWithHttpInfo($id, $external_call_filter = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWithInverseRelationships';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWithInverseRelationships';
         $request = $this->putExternalCallFilterItemRequest($id, $external_call_filter);
 
         return $this->client
@@ -86725,7 +86725,7 @@ class ProviderApi
      * Create request for operation 'putExternalCallFilterItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilter $external_call_filter The updated ExternalCallFilter resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -86841,11 +86841,11 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelCalendar resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelCalendar
+     * @return \Delta\Voip\Model\ExternalCallFilterRelCalendar
      */
     public function putExternalCallFilterRelCalendarItem($id, $external_call_filter_rel_calendar = null)
     {
@@ -86859,15 +86859,15 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelCalendar resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelCalendar, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelCalendar, HTTP status code, HTTP response headers (array of strings)
      */
     public function putExternalCallFilterRelCalendarItemWithHttpInfo($id, $external_call_filter_rel_calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendar';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendar';
         $request = $this->putExternalCallFilterRelCalendarItemRequest($id, $external_call_filter_rel_calendar);
 
         try {
@@ -86919,7 +86919,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelCalendar',
+                        '\Delta\Voip\Model\ExternalCallFilterRelCalendar',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -86935,7 +86935,7 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelCalendar resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -86956,14 +86956,14 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelCalendar resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putExternalCallFilterRelCalendarItemAsyncWithHttpInfo($id, $external_call_filter_rel_calendar = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelCalendar';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelCalendar';
         $request = $this->putExternalCallFilterRelCalendarItemRequest($id, $external_call_filter_rel_calendar);
 
         return $this->client
@@ -87007,7 +87007,7 @@ class ProviderApi
      * Create request for operation 'putExternalCallFilterRelCalendarItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelCalendar $external_call_filter_rel_calendar The updated ExternalCallFilterRelCalendar resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -87123,11 +87123,11 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelSchedule resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterRelSchedule
+     * @return \Delta\Voip\Model\ExternalCallFilterRelSchedule
      */
     public function putExternalCallFilterRelScheduleItem($id, $external_call_filter_rel_schedule = null)
     {
@@ -87141,15 +87141,15 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelSchedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterRelSchedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterRelSchedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function putExternalCallFilterRelScheduleItemWithHttpInfo($id, $external_call_filter_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelSchedule';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelSchedule';
         $request = $this->putExternalCallFilterRelScheduleItemRequest($id, $external_call_filter_rel_schedule);
 
         try {
@@ -87201,7 +87201,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterRelSchedule',
+                        '\Delta\Voip\Model\ExternalCallFilterRelSchedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -87217,7 +87217,7 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelSchedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -87238,14 +87238,14 @@ class ProviderApi
      * Replaces the ExternalCallFilterRelSchedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putExternalCallFilterRelScheduleItemAsyncWithHttpInfo($id, $external_call_filter_rel_schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterRelSchedule';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterRelSchedule';
         $request = $this->putExternalCallFilterRelScheduleItemRequest($id, $external_call_filter_rel_schedule);
 
         return $this->client
@@ -87289,7 +87289,7 @@ class ProviderApi
      * Create request for operation 'putExternalCallFilterRelScheduleItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterRelSchedule $external_call_filter_rel_schedule The updated ExternalCallFilterRelSchedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -87405,11 +87405,11 @@ class ProviderApi
      * Replaces the ExternalCallFilterWhiteList resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExternalCallFilterWhiteList
+     * @return \Delta\Voip\Model\ExternalCallFilterWhiteList
      */
     public function putExternalCallFilterWhiteListItem($id, $external_call_filter_white_list = null)
     {
@@ -87423,15 +87423,15 @@ class ProviderApi
      * Replaces the ExternalCallFilterWhiteList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExternalCallFilterWhiteList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ExternalCallFilterWhiteList, HTTP status code, HTTP response headers (array of strings)
      */
     public function putExternalCallFilterWhiteListItemWithHttpInfo($id, $external_call_filter_white_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteList';
         $request = $this->putExternalCallFilterWhiteListItemRequest($id, $external_call_filter_white_list);
 
         try {
@@ -87483,7 +87483,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExternalCallFilterWhiteList',
+                        '\Delta\Voip\Model\ExternalCallFilterWhiteList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -87499,7 +87499,7 @@ class ProviderApi
      * Replaces the ExternalCallFilterWhiteList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -87520,14 +87520,14 @@ class ProviderApi
      * Replaces the ExternalCallFilterWhiteList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putExternalCallFilterWhiteListItemAsyncWithHttpInfo($id, $external_call_filter_white_list = null)
     {
-        $returnType = '\Swagger\Client\Model\ExternalCallFilterWhiteList';
+        $returnType = '\Delta\Voip\Model\ExternalCallFilterWhiteList';
         $request = $this->putExternalCallFilterWhiteListItemRequest($id, $external_call_filter_white_list);
 
         return $this->client
@@ -87571,7 +87571,7 @@ class ProviderApi
      * Create request for operation 'putExternalCallFilterWhiteListItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
+     * @param  \Delta\Voip\Model\ExternalCallFilterWhiteList $external_call_filter_white_list The updated ExternalCallFilterWhiteList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -87687,11 +87687,11 @@ class ProviderApi
      * Replaces the Fax resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Fax $fax The updated Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The updated Fax resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Fax
+     * @return \Delta\Voip\Model\Fax
      */
     public function putFaxItem($id, $fax = null)
     {
@@ -87705,15 +87705,15 @@ class ProviderApi
      * Replaces the Fax resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Fax $fax The updated Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The updated Fax resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Fax, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Fax, HTTP status code, HTTP response headers (array of strings)
      */
     public function putFaxItemWithHttpInfo($id, $fax = null)
     {
-        $returnType = '\Swagger\Client\Model\Fax';
+        $returnType = '\Delta\Voip\Model\Fax';
         $request = $this->putFaxItemRequest($id, $fax);
 
         try {
@@ -87765,7 +87765,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Fax',
+                        '\Delta\Voip\Model\Fax',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -87781,7 +87781,7 @@ class ProviderApi
      * Replaces the Fax resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Fax $fax The updated Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The updated Fax resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -87802,14 +87802,14 @@ class ProviderApi
      * Replaces the Fax resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Fax $fax The updated Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The updated Fax resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putFaxItemAsyncWithHttpInfo($id, $fax = null)
     {
-        $returnType = '\Swagger\Client\Model\Fax';
+        $returnType = '\Delta\Voip\Model\Fax';
         $request = $this->putFaxItemRequest($id, $fax);
 
         return $this->client
@@ -87853,7 +87853,7 @@ class ProviderApi
      * Create request for operation 'putFaxItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Fax $fax The updated Fax resource (optional)
+     * @param  \Delta\Voip\Model\Fax $fax The updated Fax resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -87969,11 +87969,11 @@ class ProviderApi
      * Replaces the Friend resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Friend $friend The updated Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The updated Friend resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Friend
+     * @return \Delta\Voip\Model\Friend
      */
     public function putFriendItem($id, $friend = null)
     {
@@ -87987,15 +87987,15 @@ class ProviderApi
      * Replaces the Friend resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Friend $friend The updated Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The updated Friend resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Friend, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Friend, HTTP status code, HTTP response headers (array of strings)
      */
     public function putFriendItemWithHttpInfo($id, $friend = null)
     {
-        $returnType = '\Swagger\Client\Model\Friend';
+        $returnType = '\Delta\Voip\Model\Friend';
         $request = $this->putFriendItemRequest($id, $friend);
 
         try {
@@ -88047,7 +88047,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Friend',
+                        '\Delta\Voip\Model\Friend',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -88063,7 +88063,7 @@ class ProviderApi
      * Replaces the Friend resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Friend $friend The updated Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The updated Friend resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -88084,14 +88084,14 @@ class ProviderApi
      * Replaces the Friend resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Friend $friend The updated Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The updated Friend resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putFriendItemAsyncWithHttpInfo($id, $friend = null)
     {
-        $returnType = '\Swagger\Client\Model\Friend';
+        $returnType = '\Delta\Voip\Model\Friend';
         $request = $this->putFriendItemRequest($id, $friend);
 
         return $this->client
@@ -88135,7 +88135,7 @@ class ProviderApi
      * Create request for operation 'putFriendItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Friend $friend The updated Friend resource (optional)
+     * @param  \Delta\Voip\Model\Friend $friend The updated Friend resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -88251,11 +88251,11 @@ class ProviderApi
      * Replaces the FriendsPattern resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FriendsPattern
+     * @return \Delta\Voip\Model\FriendsPattern
      */
     public function putFriendsPatternItem($id, $friends_pattern = null)
     {
@@ -88269,15 +88269,15 @@ class ProviderApi
      * Replaces the FriendsPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FriendsPattern, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\FriendsPattern, HTTP status code, HTTP response headers (array of strings)
      */
     public function putFriendsPatternItemWithHttpInfo($id, $friends_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPattern';
+        $returnType = '\Delta\Voip\Model\FriendsPattern';
         $request = $this->putFriendsPatternItemRequest($id, $friends_pattern);
 
         try {
@@ -88329,7 +88329,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FriendsPattern',
+                        '\Delta\Voip\Model\FriendsPattern',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -88345,7 +88345,7 @@ class ProviderApi
      * Replaces the FriendsPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -88366,14 +88366,14 @@ class ProviderApi
      * Replaces the FriendsPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putFriendsPatternItemAsyncWithHttpInfo($id, $friends_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\FriendsPattern';
+        $returnType = '\Delta\Voip\Model\FriendsPattern';
         $request = $this->putFriendsPatternItemRequest($id, $friends_pattern);
 
         return $this->client
@@ -88417,7 +88417,7 @@ class ProviderApi
      * Create request for operation 'putFriendsPatternItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
+     * @param  \Delta\Voip\Model\FriendsPattern $friends_pattern The updated FriendsPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -88533,11 +88533,11 @@ class ProviderApi
      * Replaces the HolidayDate resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HolidayDate
+     * @return \Delta\Voip\Model\HolidayDate
      */
     public function putHolidayDateItem($id, $holiday_date = null)
     {
@@ -88551,15 +88551,15 @@ class ProviderApi
      * Replaces the HolidayDate resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HolidayDate, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HolidayDate, HTTP status code, HTTP response headers (array of strings)
      */
     public function putHolidayDateItemWithHttpInfo($id, $holiday_date = null)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDate';
+        $returnType = '\Delta\Voip\Model\HolidayDate';
         $request = $this->putHolidayDateItemRequest($id, $holiday_date);
 
         try {
@@ -88611,7 +88611,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HolidayDate',
+                        '\Delta\Voip\Model\HolidayDate',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -88627,7 +88627,7 @@ class ProviderApi
      * Replaces the HolidayDate resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -88648,14 +88648,14 @@ class ProviderApi
      * Replaces the HolidayDate resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putHolidayDateItemAsyncWithHttpInfo($id, $holiday_date = null)
     {
-        $returnType = '\Swagger\Client\Model\HolidayDate';
+        $returnType = '\Delta\Voip\Model\HolidayDate';
         $request = $this->putHolidayDateItemRequest($id, $holiday_date);
 
         return $this->client
@@ -88699,7 +88699,7 @@ class ProviderApi
      * Create request for operation 'putHolidayDateItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
+     * @param  \Delta\Voip\Model\HolidayDate $holiday_date The updated HolidayDate resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -88815,11 +88815,11 @@ class ProviderApi
      * Replaces the HuntGroup resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroup
+     * @return \Delta\Voip\Model\HuntGroup
      */
     public function putHuntGroupItem($id, $hunt_group = null)
     {
@@ -88833,15 +88833,15 @@ class ProviderApi
      * Replaces the HuntGroup resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroup, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroup, HTTP status code, HTTP response headers (array of strings)
      */
     public function putHuntGroupItemWithHttpInfo($id, $hunt_group = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroup';
+        $returnType = '\Delta\Voip\Model\HuntGroup';
         $request = $this->putHuntGroupItemRequest($id, $hunt_group);
 
         try {
@@ -88893,7 +88893,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroup',
+                        '\Delta\Voip\Model\HuntGroup',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -88909,7 +88909,7 @@ class ProviderApi
      * Replaces the HuntGroup resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -88930,14 +88930,14 @@ class ProviderApi
      * Replaces the HuntGroup resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putHuntGroupItemAsyncWithHttpInfo($id, $hunt_group = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroup';
+        $returnType = '\Delta\Voip\Model\HuntGroup';
         $request = $this->putHuntGroupItemRequest($id, $hunt_group);
 
         return $this->client
@@ -88981,7 +88981,7 @@ class ProviderApi
      * Create request for operation 'putHuntGroupItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroup $hunt_group The updated HuntGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -89097,11 +89097,11 @@ class ProviderApi
      * Replaces the HuntGroupsRelUser resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\HuntGroupsRelUser
+     * @return \Delta\Voip\Model\HuntGroupsRelUser
      */
     public function putHuntGroupsRelUserItem($id, $hunt_groups_rel_user = null)
     {
@@ -89115,15 +89115,15 @@ class ProviderApi
      * Replaces the HuntGroupsRelUser resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\HuntGroupsRelUser, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\HuntGroupsRelUser, HTTP status code, HTTP response headers (array of strings)
      */
     public function putHuntGroupsRelUserItemWithHttpInfo($id, $hunt_groups_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUser';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUser';
         $request = $this->putHuntGroupsRelUserItemRequest($id, $hunt_groups_rel_user);
 
         try {
@@ -89175,7 +89175,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\HuntGroupsRelUser',
+                        '\Delta\Voip\Model\HuntGroupsRelUser',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -89191,7 +89191,7 @@ class ProviderApi
      * Replaces the HuntGroupsRelUser resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -89212,14 +89212,14 @@ class ProviderApi
      * Replaces the HuntGroupsRelUser resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putHuntGroupsRelUserItemAsyncWithHttpInfo($id, $hunt_groups_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\HuntGroupsRelUser';
+        $returnType = '\Delta\Voip\Model\HuntGroupsRelUser';
         $request = $this->putHuntGroupsRelUserItemRequest($id, $hunt_groups_rel_user);
 
         return $this->client
@@ -89263,7 +89263,7 @@ class ProviderApi
      * Create request for operation 'putHuntGroupsRelUserItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
+     * @param  \Delta\Voip\Model\HuntGroupsRelUser $hunt_groups_rel_user The updated HuntGroupsRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -89379,11 +89379,11 @@ class ProviderApi
      * Replaces the IvrEntry resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrEntry
+     * @return \Delta\Voip\Model\IvrEntry
      */
     public function putIvrEntryItem($id, $ivr_entry = null)
     {
@@ -89397,15 +89397,15 @@ class ProviderApi
      * Replaces the IvrEntry resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrEntry, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrEntry, HTTP status code, HTTP response headers (array of strings)
      */
     public function putIvrEntryItemWithHttpInfo($id, $ivr_entry = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntry';
+        $returnType = '\Delta\Voip\Model\IvrEntry';
         $request = $this->putIvrEntryItemRequest($id, $ivr_entry);
 
         try {
@@ -89457,7 +89457,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrEntry',
+                        '\Delta\Voip\Model\IvrEntry',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -89473,7 +89473,7 @@ class ProviderApi
      * Replaces the IvrEntry resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -89494,14 +89494,14 @@ class ProviderApi
      * Replaces the IvrEntry resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putIvrEntryItemAsyncWithHttpInfo($id, $ivr_entry = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrEntry';
+        $returnType = '\Delta\Voip\Model\IvrEntry';
         $request = $this->putIvrEntryItemRequest($id, $ivr_entry);
 
         return $this->client
@@ -89545,7 +89545,7 @@ class ProviderApi
      * Create request for operation 'putIvrEntryItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
+     * @param  \Delta\Voip\Model\IvrEntry $ivr_entry The updated IvrEntry resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -89661,11 +89661,11 @@ class ProviderApi
      * Replaces the IvrExcludedExtension resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrExcludedExtension
+     * @return \Delta\Voip\Model\IvrExcludedExtension
      */
     public function putIvrExcludedExtensionItem($id, $ivr_excluded_extension = null)
     {
@@ -89679,15 +89679,15 @@ class ProviderApi
      * Replaces the IvrExcludedExtension resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrExcludedExtension, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrExcludedExtension, HTTP status code, HTTP response headers (array of strings)
      */
     public function putIvrExcludedExtensionItemWithHttpInfo($id, $ivr_excluded_extension = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtension';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtension';
         $request = $this->putIvrExcludedExtensionItemRequest($id, $ivr_excluded_extension);
 
         try {
@@ -89739,7 +89739,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrExcludedExtension',
+                        '\Delta\Voip\Model\IvrExcludedExtension',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -89755,7 +89755,7 @@ class ProviderApi
      * Replaces the IvrExcludedExtension resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -89776,14 +89776,14 @@ class ProviderApi
      * Replaces the IvrExcludedExtension resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putIvrExcludedExtensionItemAsyncWithHttpInfo($id, $ivr_excluded_extension = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrExcludedExtension';
+        $returnType = '\Delta\Voip\Model\IvrExcludedExtension';
         $request = $this->putIvrExcludedExtensionItemRequest($id, $ivr_excluded_extension);
 
         return $this->client
@@ -89827,7 +89827,7 @@ class ProviderApi
      * Create request for operation 'putIvrExcludedExtensionItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
+     * @param  \Delta\Voip\Model\IvrExcludedExtension $ivr_excluded_extension The updated IvrExcludedExtension resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -89943,11 +89943,11 @@ class ProviderApi
      * Replaces the Ivr resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Ivr $ivr The updated Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The updated Ivr resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\IvrWithExcludedExtensions
+     * @return \Delta\Voip\Model\IvrWithExcludedExtensions
      */
     public function putIvrItem($id, $ivr = null)
     {
@@ -89961,15 +89961,15 @@ class ProviderApi
      * Replaces the Ivr resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ivr $ivr The updated Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The updated Ivr resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\IvrWithExcludedExtensions, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\IvrWithExcludedExtensions, HTTP status code, HTTP response headers (array of strings)
      */
     public function putIvrItemWithHttpInfo($id, $ivr = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrWithExcludedExtensions';
+        $returnType = '\Delta\Voip\Model\IvrWithExcludedExtensions';
         $request = $this->putIvrItemRequest($id, $ivr);
 
         try {
@@ -90021,7 +90021,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\IvrWithExcludedExtensions',
+                        '\Delta\Voip\Model\IvrWithExcludedExtensions',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -90037,7 +90037,7 @@ class ProviderApi
      * Replaces the Ivr resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ivr $ivr The updated Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The updated Ivr resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -90058,14 +90058,14 @@ class ProviderApi
      * Replaces the Ivr resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ivr $ivr The updated Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The updated Ivr resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putIvrItemAsyncWithHttpInfo($id, $ivr = null)
     {
-        $returnType = '\Swagger\Client\Model\IvrWithExcludedExtensions';
+        $returnType = '\Delta\Voip\Model\IvrWithExcludedExtensions';
         $request = $this->putIvrItemRequest($id, $ivr);
 
         return $this->client
@@ -90109,7 +90109,7 @@ class ProviderApi
      * Create request for operation 'putIvrItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Ivr $ivr The updated Ivr resource (optional)
+     * @param  \Delta\Voip\Model\Ivr $ivr The updated Ivr resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -90225,11 +90225,11 @@ class ProviderApi
      * Replaces the Location resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Location $location The updated Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The updated Location resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Location
+     * @return \Delta\Voip\Model\Location
      */
     public function putLocationItem($id, $location = null)
     {
@@ -90243,15 +90243,15 @@ class ProviderApi
      * Replaces the Location resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Location $location The updated Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The updated Location resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Location, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Location, HTTP status code, HTTP response headers (array of strings)
      */
     public function putLocationItemWithHttpInfo($id, $location = null)
     {
-        $returnType = '\Swagger\Client\Model\Location';
+        $returnType = '\Delta\Voip\Model\Location';
         $request = $this->putLocationItemRequest($id, $location);
 
         try {
@@ -90303,7 +90303,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Location',
+                        '\Delta\Voip\Model\Location',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -90319,7 +90319,7 @@ class ProviderApi
      * Replaces the Location resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Location $location The updated Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The updated Location resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -90340,14 +90340,14 @@ class ProviderApi
      * Replaces the Location resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Location $location The updated Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The updated Location resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putLocationItemAsyncWithHttpInfo($id, $location = null)
     {
-        $returnType = '\Swagger\Client\Model\Location';
+        $returnType = '\Delta\Voip\Model\Location';
         $request = $this->putLocationItemRequest($id, $location);
 
         return $this->client
@@ -90391,7 +90391,7 @@ class ProviderApi
      * Create request for operation 'putLocationItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Location $location The updated Location resource (optional)
+     * @param  \Delta\Voip\Model\Location $location The updated Location resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -90510,9 +90510,9 @@ class ProviderApi
      * @param  string $locution The updated Locution resource (optional)
      * @param  \SplFileObject $original_file original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function putLocutionItem($id, $locution = null, $original_file = null)
     {
@@ -90529,13 +90529,13 @@ class ProviderApi
      * @param  string $locution The updated Locution resource (optional)
      * @param  \SplFileObject $original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Locution, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Locution, HTTP status code, HTTP response headers (array of strings)
      */
     public function putLocutionItemWithHttpInfo($id, $locution = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\Locution';
+        $returnType = '\Delta\Voip\Model\Locution';
         $request = $this->putLocutionItemRequest($id, $locution, $original_file);
 
         try {
@@ -90587,7 +90587,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Locution',
+                        '\Delta\Voip\Model\Locution',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -90633,7 +90633,7 @@ class ProviderApi
      */
     public function putLocutionItemAsyncWithHttpInfo($id, $locution = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\Locution';
+        $returnType = '\Delta\Voip\Model\Locution';
         $request = $this->putLocutionItemRequest($id, $locution, $original_file);
 
         return $this->client
@@ -90800,11 +90800,11 @@ class ProviderApi
      * Replaces the MatchList resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\MatchList $match_list The updated MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The updated MatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function putMatchListItem($id, $match_list = null)
     {
@@ -90818,15 +90818,15 @@ class ProviderApi
      * Replaces the MatchList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchList $match_list The updated MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The updated MatchList resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchList, HTTP status code, HTTP response headers (array of strings)
      */
     public function putMatchListItemWithHttpInfo($id, $match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchList';
+        $returnType = '\Delta\Voip\Model\MatchList';
         $request = $this->putMatchListItemRequest($id, $match_list);
 
         try {
@@ -90878,7 +90878,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchList',
+                        '\Delta\Voip\Model\MatchList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -90894,7 +90894,7 @@ class ProviderApi
      * Replaces the MatchList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchList $match_list The updated MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The updated MatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -90915,14 +90915,14 @@ class ProviderApi
      * Replaces the MatchList resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchList $match_list The updated MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The updated MatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putMatchListItemAsyncWithHttpInfo($id, $match_list = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchList';
+        $returnType = '\Delta\Voip\Model\MatchList';
         $request = $this->putMatchListItemRequest($id, $match_list);
 
         return $this->client
@@ -90966,7 +90966,7 @@ class ProviderApi
      * Create request for operation 'putMatchListItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchList $match_list The updated MatchList resource (optional)
+     * @param  \Delta\Voip\Model\MatchList $match_list The updated MatchList resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -91082,11 +91082,11 @@ class ProviderApi
      * Replaces the MatchListPattern resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MatchListPattern
+     * @return \Delta\Voip\Model\MatchListPattern
      */
     public function putMatchListPatternItem($id, $match_list_pattern = null)
     {
@@ -91100,15 +91100,15 @@ class ProviderApi
      * Replaces the MatchListPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MatchListPattern, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MatchListPattern, HTTP status code, HTTP response headers (array of strings)
      */
     public function putMatchListPatternItemWithHttpInfo($id, $match_list_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPattern';
+        $returnType = '\Delta\Voip\Model\MatchListPattern';
         $request = $this->putMatchListPatternItemRequest($id, $match_list_pattern);
 
         try {
@@ -91160,7 +91160,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MatchListPattern',
+                        '\Delta\Voip\Model\MatchListPattern',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -91176,7 +91176,7 @@ class ProviderApi
      * Replaces the MatchListPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -91197,14 +91197,14 @@ class ProviderApi
      * Replaces the MatchListPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putMatchListPatternItemAsyncWithHttpInfo($id, $match_list_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\MatchListPattern';
+        $returnType = '\Delta\Voip\Model\MatchListPattern';
         $request = $this->putMatchListPatternItemRequest($id, $match_list_pattern);
 
         return $this->client
@@ -91248,7 +91248,7 @@ class ProviderApi
      * Create request for operation 'putMatchListPatternItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
+     * @param  \Delta\Voip\Model\MatchListPattern $match_list_pattern The updated MatchListPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -91367,9 +91367,9 @@ class ProviderApi
      * @param  string $music_on_hold The updated MusicOnHold resource (optional)
      * @param  \SplFileObject $original_file original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MusicOnHold
+     * @return \Delta\Voip\Model\MusicOnHold
      */
     public function putMusicOnHoldItem($id, $music_on_hold = null, $original_file = null)
     {
@@ -91386,13 +91386,13 @@ class ProviderApi
      * @param  string $music_on_hold The updated MusicOnHold resource (optional)
      * @param  \SplFileObject $original_file (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MusicOnHold, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\MusicOnHold, HTTP status code, HTTP response headers (array of strings)
      */
     public function putMusicOnHoldItemWithHttpInfo($id, $music_on_hold = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHold';
+        $returnType = '\Delta\Voip\Model\MusicOnHold';
         $request = $this->putMusicOnHoldItemRequest($id, $music_on_hold, $original_file);
 
         try {
@@ -91444,7 +91444,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MusicOnHold',
+                        '\Delta\Voip\Model\MusicOnHold',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -91490,7 +91490,7 @@ class ProviderApi
      */
     public function putMusicOnHoldItemAsyncWithHttpInfo($id, $music_on_hold = null, $original_file = null)
     {
-        $returnType = '\Swagger\Client\Model\MusicOnHold';
+        $returnType = '\Delta\Voip\Model\MusicOnHold';
         $request = $this->putMusicOnHoldItemRequest($id, $music_on_hold, $original_file);
 
         return $this->client
@@ -91657,11 +91657,11 @@ class ProviderApi
      * Replaces the OutgoingDdiRule resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRule
+     * @return \Delta\Voip\Model\OutgoingDdiRule
      */
     public function putOutgoingDdiRuleItem($id, $outgoing_ddi_rule = null)
     {
@@ -91675,15 +91675,15 @@ class ProviderApi
      * Replaces the OutgoingDdiRule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRule, HTTP status code, HTTP response headers (array of strings)
      */
     public function putOutgoingDdiRuleItemWithHttpInfo($id, $outgoing_ddi_rule = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRule';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRule';
         $request = $this->putOutgoingDdiRuleItemRequest($id, $outgoing_ddi_rule);
 
         try {
@@ -91735,7 +91735,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRule',
+                        '\Delta\Voip\Model\OutgoingDdiRule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -91751,7 +91751,7 @@ class ProviderApi
      * Replaces the OutgoingDdiRule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -91772,14 +91772,14 @@ class ProviderApi
      * Replaces the OutgoingDdiRule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putOutgoingDdiRuleItemAsyncWithHttpInfo($id, $outgoing_ddi_rule = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRule';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRule';
         $request = $this->putOutgoingDdiRuleItemRequest($id, $outgoing_ddi_rule);
 
         return $this->client
@@ -91823,7 +91823,7 @@ class ProviderApi
      * Create request for operation 'putOutgoingDdiRuleItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule The updated OutgoingDdiRule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -91939,11 +91939,11 @@ class ProviderApi
      * Replaces the OutgoingDdiRulesPattern resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OutgoingDdiRulesPattern
+     * @return \Delta\Voip\Model\OutgoingDdiRulesPattern
      */
     public function putOutgoingDdiRulesPatternItem($id, $outgoing_ddi_rules_pattern = null)
     {
@@ -91957,15 +91957,15 @@ class ProviderApi
      * Replaces the OutgoingDdiRulesPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OutgoingDdiRulesPattern, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\OutgoingDdiRulesPattern, HTTP status code, HTTP response headers (array of strings)
      */
     public function putOutgoingDdiRulesPatternItemWithHttpInfo($id, $outgoing_ddi_rules_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPattern';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPattern';
         $request = $this->putOutgoingDdiRulesPatternItemRequest($id, $outgoing_ddi_rules_pattern);
 
         try {
@@ -92017,7 +92017,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OutgoingDdiRulesPattern',
+                        '\Delta\Voip\Model\OutgoingDdiRulesPattern',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -92033,7 +92033,7 @@ class ProviderApi
      * Replaces the OutgoingDdiRulesPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -92054,14 +92054,14 @@ class ProviderApi
      * Replaces the OutgoingDdiRulesPattern resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putOutgoingDdiRulesPatternItemAsyncWithHttpInfo($id, $outgoing_ddi_rules_pattern = null)
     {
-        $returnType = '\Swagger\Client\Model\OutgoingDdiRulesPattern';
+        $returnType = '\Delta\Voip\Model\OutgoingDdiRulesPattern';
         $request = $this->putOutgoingDdiRulesPatternItemRequest($id, $outgoing_ddi_rules_pattern);
 
         return $this->client
@@ -92105,7 +92105,7 @@ class ProviderApi
      * Create request for operation 'putOutgoingDdiRulesPatternItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
+     * @param  \Delta\Voip\Model\OutgoingDdiRulesPattern $outgoing_ddi_rules_pattern The updated OutgoingDdiRulesPattern resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -92221,11 +92221,11 @@ class ProviderApi
      * Replaces the PickUpGroup resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpGroupWithUsers
+     * @return \Delta\Voip\Model\PickUpGroupWithUsers
      */
     public function putPickUpGroupItem($id, $pick_up_group = null)
     {
@@ -92239,15 +92239,15 @@ class ProviderApi
      * Replaces the PickUpGroup resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpGroupWithUsers, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpGroupWithUsers, HTTP status code, HTTP response headers (array of strings)
      */
     public function putPickUpGroupItemWithHttpInfo($id, $pick_up_group = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupWithUsers';
+        $returnType = '\Delta\Voip\Model\PickUpGroupWithUsers';
         $request = $this->putPickUpGroupItemRequest($id, $pick_up_group);
 
         try {
@@ -92299,7 +92299,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpGroupWithUsers',
+                        '\Delta\Voip\Model\PickUpGroupWithUsers',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -92315,7 +92315,7 @@ class ProviderApi
      * Replaces the PickUpGroup resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -92336,14 +92336,14 @@ class ProviderApi
      * Replaces the PickUpGroup resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putPickUpGroupItemAsyncWithHttpInfo($id, $pick_up_group = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpGroupWithUsers';
+        $returnType = '\Delta\Voip\Model\PickUpGroupWithUsers';
         $request = $this->putPickUpGroupItemRequest($id, $pick_up_group);
 
         return $this->client
@@ -92387,7 +92387,7 @@ class ProviderApi
      * Create request for operation 'putPickUpGroupItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
+     * @param  \Delta\Voip\Model\PickUpGroup $pick_up_group The updated PickUpGroup resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -92503,11 +92503,11 @@ class ProviderApi
      * Replaces the PickUpRelUser resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PickUpRelUser
+     * @return \Delta\Voip\Model\PickUpRelUser
      */
     public function putPickUpRelUserItem($id, $pick_up_rel_user = null)
     {
@@ -92521,15 +92521,15 @@ class ProviderApi
      * Replaces the PickUpRelUser resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PickUpRelUser, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\PickUpRelUser, HTTP status code, HTTP response headers (array of strings)
      */
     public function putPickUpRelUserItemWithHttpInfo($id, $pick_up_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUser';
+        $returnType = '\Delta\Voip\Model\PickUpRelUser';
         $request = $this->putPickUpRelUserItemRequest($id, $pick_up_rel_user);
 
         try {
@@ -92581,7 +92581,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PickUpRelUser',
+                        '\Delta\Voip\Model\PickUpRelUser',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -92597,7 +92597,7 @@ class ProviderApi
      * Replaces the PickUpRelUser resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -92618,14 +92618,14 @@ class ProviderApi
      * Replaces the PickUpRelUser resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putPickUpRelUserItemAsyncWithHttpInfo($id, $pick_up_rel_user = null)
     {
-        $returnType = '\Swagger\Client\Model\PickUpRelUser';
+        $returnType = '\Delta\Voip\Model\PickUpRelUser';
         $request = $this->putPickUpRelUserItemRequest($id, $pick_up_rel_user);
 
         return $this->client
@@ -92669,7 +92669,7 @@ class ProviderApi
      * Create request for operation 'putPickUpRelUserItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
+     * @param  \Delta\Voip\Model\PickUpRelUser $pick_up_rel_user The updated PickUpRelUser resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -92785,11 +92785,11 @@ class ProviderApi
      * Replaces the Queue resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Queue $queue The updated Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The updated Queue resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Queue
+     * @return \Delta\Voip\Model\Queue
      */
     public function putQueueItem($id, $queue = null)
     {
@@ -92803,15 +92803,15 @@ class ProviderApi
      * Replaces the Queue resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Queue $queue The updated Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The updated Queue resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Queue, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Queue, HTTP status code, HTTP response headers (array of strings)
      */
     public function putQueueItemWithHttpInfo($id, $queue = null)
     {
-        $returnType = '\Swagger\Client\Model\Queue';
+        $returnType = '\Delta\Voip\Model\Queue';
         $request = $this->putQueueItemRequest($id, $queue);
 
         try {
@@ -92863,7 +92863,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Queue',
+                        '\Delta\Voip\Model\Queue',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -92879,7 +92879,7 @@ class ProviderApi
      * Replaces the Queue resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Queue $queue The updated Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The updated Queue resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -92900,14 +92900,14 @@ class ProviderApi
      * Replaces the Queue resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Queue $queue The updated Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The updated Queue resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putQueueItemAsyncWithHttpInfo($id, $queue = null)
     {
-        $returnType = '\Swagger\Client\Model\Queue';
+        $returnType = '\Delta\Voip\Model\Queue';
         $request = $this->putQueueItemRequest($id, $queue);
 
         return $this->client
@@ -92951,7 +92951,7 @@ class ProviderApi
      * Create request for operation 'putQueueItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Queue $queue The updated Queue resource (optional)
+     * @param  \Delta\Voip\Model\Queue $queue The updated Queue resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -93067,11 +93067,11 @@ class ProviderApi
      * Replaces the QueueMember resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The updated QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The updated QueueMember resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\QueueMember
+     * @return \Delta\Voip\Model\QueueMember
      */
     public function putQueueMemberItem($id, $queue_member = null)
     {
@@ -93085,15 +93085,15 @@ class ProviderApi
      * Replaces the QueueMember resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The updated QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The updated QueueMember resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\QueueMember, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\QueueMember, HTTP status code, HTTP response headers (array of strings)
      */
     public function putQueueMemberItemWithHttpInfo($id, $queue_member = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueMember';
+        $returnType = '\Delta\Voip\Model\QueueMember';
         $request = $this->putQueueMemberItemRequest($id, $queue_member);
 
         try {
@@ -93145,7 +93145,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\QueueMember',
+                        '\Delta\Voip\Model\QueueMember',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -93161,7 +93161,7 @@ class ProviderApi
      * Replaces the QueueMember resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The updated QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The updated QueueMember resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -93182,14 +93182,14 @@ class ProviderApi
      * Replaces the QueueMember resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The updated QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The updated QueueMember resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putQueueMemberItemAsyncWithHttpInfo($id, $queue_member = null)
     {
-        $returnType = '\Swagger\Client\Model\QueueMember';
+        $returnType = '\Delta\Voip\Model\QueueMember';
         $request = $this->putQueueMemberItemRequest($id, $queue_member);
 
         return $this->client
@@ -93233,7 +93233,7 @@ class ProviderApi
      * Create request for operation 'putQueueMemberItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\QueueMember $queue_member The updated QueueMember resource (optional)
+     * @param  \Delta\Voip\Model\QueueMember $queue_member The updated QueueMember resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -93349,11 +93349,11 @@ class ProviderApi
      * Replaces the ResidentialDevice resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
+     * @param  \Delta\Voip\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ResidentialDevice
+     * @return \Delta\Voip\Model\ResidentialDevice
      */
     public function putResidentialDeviceItem($id, $residential_device = null)
     {
@@ -93367,15 +93367,15 @@ class ProviderApi
      * Replaces the ResidentialDevice resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
+     * @param  \Delta\Voip\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ResidentialDevice, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ResidentialDevice, HTTP status code, HTTP response headers (array of strings)
      */
     public function putResidentialDeviceItemWithHttpInfo($id, $residential_device = null)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDevice';
+        $returnType = '\Delta\Voip\Model\ResidentialDevice';
         $request = $this->putResidentialDeviceItemRequest($id, $residential_device);
 
         try {
@@ -93427,7 +93427,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ResidentialDevice',
+                        '\Delta\Voip\Model\ResidentialDevice',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -93443,7 +93443,7 @@ class ProviderApi
      * Replaces the ResidentialDevice resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
+     * @param  \Delta\Voip\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -93464,14 +93464,14 @@ class ProviderApi
      * Replaces the ResidentialDevice resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
+     * @param  \Delta\Voip\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putResidentialDeviceItemAsyncWithHttpInfo($id, $residential_device = null)
     {
-        $returnType = '\Swagger\Client\Model\ResidentialDevice';
+        $returnType = '\Delta\Voip\Model\ResidentialDevice';
         $request = $this->putResidentialDeviceItemRequest($id, $residential_device);
 
         return $this->client
@@ -93515,7 +93515,7 @@ class ProviderApi
      * Create request for operation 'putResidentialDeviceItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
+     * @param  \Delta\Voip\Model\ResidentialDevice $residential_device The updated ResidentialDevice resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -93631,11 +93631,11 @@ class ProviderApi
      * Replaces the RetailAccount resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
+     * @param  \Delta\Voip\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RetailAccount
+     * @return \Delta\Voip\Model\RetailAccount
      */
     public function putRetailAccountItem($id, $retail_account = null)
     {
@@ -93649,15 +93649,15 @@ class ProviderApi
      * Replaces the RetailAccount resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
+     * @param  \Delta\Voip\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RetailAccount, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RetailAccount, HTTP status code, HTTP response headers (array of strings)
      */
     public function putRetailAccountItemWithHttpInfo($id, $retail_account = null)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccount';
+        $returnType = '\Delta\Voip\Model\RetailAccount';
         $request = $this->putRetailAccountItemRequest($id, $retail_account);
 
         try {
@@ -93709,7 +93709,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RetailAccount',
+                        '\Delta\Voip\Model\RetailAccount',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -93725,7 +93725,7 @@ class ProviderApi
      * Replaces the RetailAccount resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
+     * @param  \Delta\Voip\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -93746,14 +93746,14 @@ class ProviderApi
      * Replaces the RetailAccount resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
+     * @param  \Delta\Voip\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putRetailAccountItemAsyncWithHttpInfo($id, $retail_account = null)
     {
-        $returnType = '\Swagger\Client\Model\RetailAccount';
+        $returnType = '\Delta\Voip\Model\RetailAccount';
         $request = $this->putRetailAccountItemRequest($id, $retail_account);
 
         return $this->client
@@ -93797,7 +93797,7 @@ class ProviderApi
      * Create request for operation 'putRetailAccountItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
+     * @param  \Delta\Voip\Model\RetailAccount $retail_account The updated RetailAccount resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -93913,11 +93913,11 @@ class ProviderApi
      * Replaces the RouteLock resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The updated RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The updated RouteLock resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RouteLock
+     * @return \Delta\Voip\Model\RouteLock
      */
     public function putRouteLockItem($id, $route_lock = null)
     {
@@ -93931,15 +93931,15 @@ class ProviderApi
      * Replaces the RouteLock resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The updated RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The updated RouteLock resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RouteLock, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RouteLock, HTTP status code, HTTP response headers (array of strings)
      */
     public function putRouteLockItemWithHttpInfo($id, $route_lock = null)
     {
-        $returnType = '\Swagger\Client\Model\RouteLock';
+        $returnType = '\Delta\Voip\Model\RouteLock';
         $request = $this->putRouteLockItemRequest($id, $route_lock);
 
         try {
@@ -93991,7 +93991,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RouteLock',
+                        '\Delta\Voip\Model\RouteLock',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -94007,7 +94007,7 @@ class ProviderApi
      * Replaces the RouteLock resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The updated RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The updated RouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -94028,14 +94028,14 @@ class ProviderApi
      * Replaces the RouteLock resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The updated RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The updated RouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putRouteLockItemAsyncWithHttpInfo($id, $route_lock = null)
     {
-        $returnType = '\Swagger\Client\Model\RouteLock';
+        $returnType = '\Delta\Voip\Model\RouteLock';
         $request = $this->putRouteLockItemRequest($id, $route_lock);
 
         return $this->client
@@ -94079,7 +94079,7 @@ class ProviderApi
      * Create request for operation 'putRouteLockItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\RouteLock $route_lock The updated RouteLock resource (optional)
+     * @param  \Delta\Voip\Model\RouteLock $route_lock The updated RouteLock resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -94195,11 +94195,11 @@ class ProviderApi
      * Replaces the Schedule resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Schedule $schedule The updated Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The updated Schedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Schedule
+     * @return \Delta\Voip\Model\Schedule
      */
     public function putScheduleItem($id, $schedule = null)
     {
@@ -94213,15 +94213,15 @@ class ProviderApi
      * Replaces the Schedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Schedule $schedule The updated Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The updated Schedule resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Schedule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Schedule, HTTP status code, HTTP response headers (array of strings)
      */
     public function putScheduleItemWithHttpInfo($id, $schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\Schedule';
+        $returnType = '\Delta\Voip\Model\Schedule';
         $request = $this->putScheduleItemRequest($id, $schedule);
 
         try {
@@ -94273,7 +94273,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Schedule',
+                        '\Delta\Voip\Model\Schedule',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -94289,7 +94289,7 @@ class ProviderApi
      * Replaces the Schedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Schedule $schedule The updated Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The updated Schedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -94310,14 +94310,14 @@ class ProviderApi
      * Replaces the Schedule resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Schedule $schedule The updated Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The updated Schedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putScheduleItemAsyncWithHttpInfo($id, $schedule = null)
     {
-        $returnType = '\Swagger\Client\Model\Schedule';
+        $returnType = '\Delta\Voip\Model\Schedule';
         $request = $this->putScheduleItemRequest($id, $schedule);
 
         return $this->client
@@ -94361,7 +94361,7 @@ class ProviderApi
      * Create request for operation 'putScheduleItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Schedule $schedule The updated Schedule resource (optional)
+     * @param  \Delta\Voip\Model\Schedule $schedule The updated Schedule resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -94477,12 +94477,12 @@ class ProviderApi
      * Replaces the Terminal resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\Terminal $terminal The updated Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The updated Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Terminal
+     * @return \Delta\Voip\Model\Terminal
      */
     public function putTerminalItem($id, $terminal = null, $_timezone = null)
     {
@@ -94496,16 +94496,16 @@ class ProviderApi
      * Replaces the Terminal resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Terminal $terminal The updated Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The updated Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Terminal, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Terminal, HTTP status code, HTTP response headers (array of strings)
      */
     public function putTerminalItemWithHttpInfo($id, $terminal = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\Terminal';
+        $returnType = '\Delta\Voip\Model\Terminal';
         $request = $this->putTerminalItemRequest($id, $terminal, $_timezone);
 
         try {
@@ -94557,7 +94557,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Terminal',
+                        '\Delta\Voip\Model\Terminal',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -94573,7 +94573,7 @@ class ProviderApi
      * Replaces the Terminal resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Terminal $terminal The updated Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The updated Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -94595,7 +94595,7 @@ class ProviderApi
      * Replaces the Terminal resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Terminal $terminal The updated Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The updated Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -94603,7 +94603,7 @@ class ProviderApi
      */
     public function putTerminalItemAsyncWithHttpInfo($id, $terminal = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\Terminal';
+        $returnType = '\Delta\Voip\Model\Terminal';
         $request = $this->putTerminalItemRequest($id, $terminal, $_timezone);
 
         return $this->client
@@ -94647,7 +94647,7 @@ class ProviderApi
      * Create request for operation 'putTerminalItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\Terminal $terminal The updated Terminal resource (optional)
+     * @param  \Delta\Voip\Model\Terminal $terminal The updated Terminal resource (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
      * @throws \InvalidArgumentException
@@ -94768,11 +94768,11 @@ class ProviderApi
      * Replaces the User resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\User $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The updated User resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function putUserItem($id, $user = null)
     {
@@ -94786,15 +94786,15 @@ class ProviderApi
      * Replaces the User resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\User $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The updated User resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\User, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\User, HTTP status code, HTTP response headers (array of strings)
      */
     public function putUserItemWithHttpInfo($id, $user = null)
     {
-        $returnType = '\Swagger\Client\Model\User';
+        $returnType = '\Delta\Voip\Model\User';
         $request = $this->putUserItemRequest($id, $user);
 
         try {
@@ -94846,7 +94846,7 @@ class ProviderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\User',
+                        '\Delta\Voip\Model\User',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -94862,7 +94862,7 @@ class ProviderApi
      * Replaces the User resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\User $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The updated User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -94883,14 +94883,14 @@ class ProviderApi
      * Replaces the User resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\User $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The updated User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putUserItemAsyncWithHttpInfo($id, $user = null)
     {
-        $returnType = '\Swagger\Client\Model\User';
+        $returnType = '\Delta\Voip\Model\User';
         $request = $this->putUserItemRequest($id, $user);
 
         return $this->client
@@ -94934,7 +94934,7 @@ class ProviderApi
      * Create request for operation 'putUserItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\User $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\User $user The updated User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -95051,7 +95051,7 @@ class ProviderApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -95067,7 +95067,7 @@ class ProviderApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

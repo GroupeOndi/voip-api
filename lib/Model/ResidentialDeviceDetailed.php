@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ResidentialDeviceDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,9 +62,9 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
         'transport' => 'string',
         'password' => 'string',
         'id' => 'int',
-        'transformation_rule_set' => '\Swagger\Client\Model\TransformationRuleSet',
-        'outgoing_ddi' => '\Swagger\Client\Model\Ddi',
-        'language' => '\Swagger\Client\Model\Language'
+        'transformation_rule_set' => '\Delta\Voip\Model\TransformationRuleSet',
+        'outgoing_ddi' => '\Delta\Voip\Model\Ddi',
+        'language' => '\Delta\Voip\Model\Language'
     ];
 
     /**
@@ -438,7 +438,7 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets transformation_rule_set
      *
-     * @return \Swagger\Client\Model\TransformationRuleSet
+     * @return \Delta\Voip\Model\TransformationRuleSet
      */
     public function getTransformationRuleSet()
     {
@@ -448,7 +448,7 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets transformation_rule_set
      *
-     * @param \Swagger\Client\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
+     * @param \Delta\Voip\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
      *
      * @return $this
      */
@@ -462,7 +462,7 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getOutgoingDdi()
     {
@@ -472,7 +472,7 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $outgoing_ddi outgoing_ddi
+     * @param \Delta\Voip\Model\Ddi $outgoing_ddi outgoing_ddi
      *
      * @return $this
      */
@@ -486,7 +486,7 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta\Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -496,7 +496,7 @@ class ResidentialDeviceDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta\Voip\Model\Language $language language
      *
      * @return $this
      */

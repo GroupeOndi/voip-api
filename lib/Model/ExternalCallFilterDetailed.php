@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * ExternalCallFilterDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,15 +63,15 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
         'out_of_schedule_target_type' => 'string',
         'out_of_schedule_number_value' => 'string',
         'id' => 'int',
-        'welcome_locution' => '\Swagger\Client\Model\Locution',
-        'holiday_locution' => '\Swagger\Client\Model\Locution',
-        'out_of_schedule_locution' => '\Swagger\Client\Model\Locution',
-        'holiday_extension' => '\Swagger\Client\Model\Extension',
-        'out_of_schedule_extension' => '\Swagger\Client\Model\Extension',
-        'holiday_voice_mail_user' => '\Swagger\Client\Model\User',
-        'out_of_schedule_voice_mail_user' => '\Swagger\Client\Model\User',
-        'holiday_number_country' => '\Swagger\Client\Model\Country',
-        'out_of_schedule_number_country' => '\Swagger\Client\Model\Country',
+        'welcome_locution' => '\Delta\Voip\Model\Locution',
+        'holiday_locution' => '\Delta\Voip\Model\Locution',
+        'out_of_schedule_locution' => '\Delta\Voip\Model\Locution',
+        'holiday_extension' => '\Delta\Voip\Model\Extension',
+        'out_of_schedule_extension' => '\Delta\Voip\Model\Extension',
+        'holiday_voice_mail_user' => '\Delta\Voip\Model\User',
+        'out_of_schedule_voice_mail_user' => '\Delta\Voip\Model\User',
+        'holiday_number_country' => '\Delta\Voip\Model\Country',
+        'out_of_schedule_number_country' => '\Delta\Voip\Model\Country',
         'schedule_ids' => 'int[]',
         'calendar_ids' => 'int[]',
         'white_list_ids' => 'int[]',
@@ -570,7 +570,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets welcome_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getWelcomeLocution()
     {
@@ -580,7 +580,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets welcome_locution
      *
-     * @param \Swagger\Client\Model\Locution $welcome_locution welcome_locution
+     * @param \Delta\Voip\Model\Locution $welcome_locution welcome_locution
      *
      * @return $this
      */
@@ -594,7 +594,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets holiday_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getHolidayLocution()
     {
@@ -604,7 +604,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets holiday_locution
      *
-     * @param \Swagger\Client\Model\Locution $holiday_locution holiday_locution
+     * @param \Delta\Voip\Model\Locution $holiday_locution holiday_locution
      *
      * @return $this
      */
@@ -618,7 +618,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets out_of_schedule_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getOutOfScheduleLocution()
     {
@@ -628,7 +628,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets out_of_schedule_locution
      *
-     * @param \Swagger\Client\Model\Locution $out_of_schedule_locution out_of_schedule_locution
+     * @param \Delta\Voip\Model\Locution $out_of_schedule_locution out_of_schedule_locution
      *
      * @return $this
      */
@@ -642,7 +642,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets holiday_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getHolidayExtension()
     {
@@ -652,7 +652,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets holiday_extension
      *
-     * @param \Swagger\Client\Model\Extension $holiday_extension holiday_extension
+     * @param \Delta\Voip\Model\Extension $holiday_extension holiday_extension
      *
      * @return $this
      */
@@ -666,7 +666,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets out_of_schedule_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getOutOfScheduleExtension()
     {
@@ -676,7 +676,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets out_of_schedule_extension
      *
-     * @param \Swagger\Client\Model\Extension $out_of_schedule_extension out_of_schedule_extension
+     * @param \Delta\Voip\Model\Extension $out_of_schedule_extension out_of_schedule_extension
      *
      * @return $this
      */
@@ -690,7 +690,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets holiday_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getHolidayVoiceMailUser()
     {
@@ -700,7 +700,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets holiday_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $holiday_voice_mail_user holiday_voice_mail_user
+     * @param \Delta\Voip\Model\User $holiday_voice_mail_user holiday_voice_mail_user
      *
      * @return $this
      */
@@ -714,7 +714,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets out_of_schedule_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getOutOfScheduleVoiceMailUser()
     {
@@ -724,7 +724,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets out_of_schedule_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $out_of_schedule_voice_mail_user out_of_schedule_voice_mail_user
+     * @param \Delta\Voip\Model\User $out_of_schedule_voice_mail_user out_of_schedule_voice_mail_user
      *
      * @return $this
      */
@@ -738,7 +738,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets holiday_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getHolidayNumberCountry()
     {
@@ -748,7 +748,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets holiday_number_country
      *
-     * @param \Swagger\Client\Model\Country $holiday_number_country holiday_number_country
+     * @param \Delta\Voip\Model\Country $holiday_number_country holiday_number_country
      *
      * @return $this
      */
@@ -762,7 +762,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets out_of_schedule_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getOutOfScheduleNumberCountry()
     {
@@ -772,7 +772,7 @@ class ExternalCallFilterDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets out_of_schedule_number_country
      *
-     * @param \Swagger\Client\Model\Country $out_of_schedule_number_country out_of_schedule_number_country
+     * @param \Delta\Voip\Model\Country $out_of_schedule_number_country out_of_schedule_number_country
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * FaxDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class FaxDetailed implements ModelInterface, ArrayAccess
         'email' => 'string',
         'send_by_email' => 'bool',
         'id' => 'int',
-        'outgoing_ddi' => '\Swagger\Client\Model\Ddi'
+        'outgoing_ddi' => '\Delta\Voip\Model\Ddi'
     ];
 
     /**
@@ -349,7 +349,7 @@ class FaxDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getOutgoingDdi()
     {
@@ -359,7 +359,7 @@ class FaxDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $outgoing_ddi outgoing_ddi
+     * @param \Delta\Voip\Model\Ddi $outgoing_ddi outgoing_ddi
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * MusicOnHold Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class MusicOnHold implements ModelInterface, ArrayAccess
         'name' => 'string',
         'status' => 'string',
         'id' => 'int',
-        'original_file' => '\Swagger\Client\Model\MusicOnHoldOriginalFile',
-        'encoded_file' => '\Swagger\Client\Model\MusicOnHoldEncodedFile'
+        'original_file' => '\Delta\Voip\Model\MusicOnHoldOriginalFile',
+        'encoded_file' => '\Delta\Voip\Model\MusicOnHoldEncodedFile'
     ];
 
     /**
@@ -358,7 +358,7 @@ class MusicOnHold implements ModelInterface, ArrayAccess
     /**
      * Gets original_file
      *
-     * @return \Swagger\Client\Model\MusicOnHoldOriginalFile
+     * @return \Delta\Voip\Model\MusicOnHoldOriginalFile
      */
     public function getOriginalFile()
     {
@@ -368,7 +368,7 @@ class MusicOnHold implements ModelInterface, ArrayAccess
     /**
      * Sets original_file
      *
-     * @param \Swagger\Client\Model\MusicOnHoldOriginalFile $original_file original_file
+     * @param \Delta\Voip\Model\MusicOnHoldOriginalFile $original_file original_file
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class MusicOnHold implements ModelInterface, ArrayAccess
     /**
      * Gets encoded_file
      *
-     * @return \Swagger\Client\Model\MusicOnHoldEncodedFile
+     * @return \Delta\Voip\Model\MusicOnHoldEncodedFile
      */
     public function getEncodedFile()
     {
@@ -392,7 +392,7 @@ class MusicOnHold implements ModelInterface, ArrayAccess
     /**
      * Sets encoded_file
      *
-     * @param \Swagger\Client\Model\MusicOnHoldEncodedFile $encoded_file encoded_file
+     * @param \Delta\Voip\Model\MusicOnHoldEncodedFile $encoded_file encoded_file
      *
      * @return $this
      */

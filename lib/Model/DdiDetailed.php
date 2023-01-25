@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * DdiDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,18 +64,18 @@ class DdiDetailed implements ModelInterface, ArrayAccess
         'route_type' => 'string',
         'friend_value' => 'string',
         'id' => 'int',
-        'conference_room' => '\Swagger\Client\Model\ConferenceRoom',
-        'language' => '\Swagger\Client\Model\Language',
-        'queue' => '\Swagger\Client\Model\Queue',
-        'external_call_filter' => '\Swagger\Client\Model\ExternalCallFilter',
-        'user' => '\Swagger\Client\Model\User',
-        'ivr' => '\Swagger\Client\Model\Ivr',
-        'hunt_group' => '\Swagger\Client\Model\HuntGroup',
-        'fax' => '\Swagger\Client\Model\Fax',
-        'country' => '\Swagger\Client\Model\Country',
-        'residential_device' => '\Swagger\Client\Model\ResidentialDevice',
-        'conditional_route' => '\Swagger\Client\Model\ConditionalRoute',
-        'retail_account' => '\Swagger\Client\Model\RetailAccount'
+        'conference_room' => '\Delta\Voip\Model\ConferenceRoom',
+        'language' => '\Delta\Voip\Model\Language',
+        'queue' => '\Delta\Voip\Model\Queue',
+        'external_call_filter' => '\Delta\Voip\Model\ExternalCallFilter',
+        'user' => '\Delta\Voip\Model\User',
+        'ivr' => '\Delta\Voip\Model\Ivr',
+        'hunt_group' => '\Delta\Voip\Model\HuntGroup',
+        'fax' => '\Delta\Voip\Model\Fax',
+        'country' => '\Delta\Voip\Model\Country',
+        'residential_device' => '\Delta\Voip\Model\ResidentialDevice',
+        'conditional_route' => '\Delta\Voip\Model\ConditionalRoute',
+        'retail_account' => '\Delta\Voip\Model\RetailAccount'
     ];
 
     /**
@@ -618,7 +618,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets conference_room
      *
-     * @return \Swagger\Client\Model\ConferenceRoom
+     * @return \Delta\Voip\Model\ConferenceRoom
      */
     public function getConferenceRoom()
     {
@@ -628,7 +628,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets conference_room
      *
-     * @param \Swagger\Client\Model\ConferenceRoom $conference_room conference_room
+     * @param \Delta\Voip\Model\ConferenceRoom $conference_room conference_room
      *
      * @return $this
      */
@@ -642,7 +642,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta\Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -652,7 +652,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta\Voip\Model\Language $language language
      *
      * @return $this
      */
@@ -666,7 +666,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets queue
      *
-     * @return \Swagger\Client\Model\Queue
+     * @return \Delta\Voip\Model\Queue
      */
     public function getQueue()
     {
@@ -676,7 +676,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets queue
      *
-     * @param \Swagger\Client\Model\Queue $queue queue
+     * @param \Delta\Voip\Model\Queue $queue queue
      *
      * @return $this
      */
@@ -690,7 +690,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets external_call_filter
      *
-     * @return \Swagger\Client\Model\ExternalCallFilter
+     * @return \Delta\Voip\Model\ExternalCallFilter
      */
     public function getExternalCallFilter()
     {
@@ -700,7 +700,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets external_call_filter
      *
-     * @param \Swagger\Client\Model\ExternalCallFilter $external_call_filter external_call_filter
+     * @param \Delta\Voip\Model\ExternalCallFilter $external_call_filter external_call_filter
      *
      * @return $this
      */
@@ -714,7 +714,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -724,7 +724,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -738,7 +738,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ivr
      *
-     * @return \Swagger\Client\Model\Ivr
+     * @return \Delta\Voip\Model\Ivr
      */
     public function getIvr()
     {
@@ -748,7 +748,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ivr
      *
-     * @param \Swagger\Client\Model\Ivr $ivr ivr
+     * @param \Delta\Voip\Model\Ivr $ivr ivr
      *
      * @return $this
      */
@@ -762,7 +762,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets hunt_group
      *
-     * @return \Swagger\Client\Model\HuntGroup
+     * @return \Delta\Voip\Model\HuntGroup
      */
     public function getHuntGroup()
     {
@@ -772,7 +772,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets hunt_group
      *
-     * @param \Swagger\Client\Model\HuntGroup $hunt_group hunt_group
+     * @param \Delta\Voip\Model\HuntGroup $hunt_group hunt_group
      *
      * @return $this
      */
@@ -786,7 +786,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets fax
      *
-     * @return \Swagger\Client\Model\Fax
+     * @return \Delta\Voip\Model\Fax
      */
     public function getFax()
     {
@@ -796,7 +796,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets fax
      *
-     * @param \Swagger\Client\Model\Fax $fax fax
+     * @param \Delta\Voip\Model\Fax $fax fax
      *
      * @return $this
      */
@@ -810,7 +810,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getCountry()
     {
@@ -820,7 +820,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\Country $country country
+     * @param \Delta\Voip\Model\Country $country country
      *
      * @return $this
      */
@@ -834,7 +834,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets residential_device
      *
-     * @return \Swagger\Client\Model\ResidentialDevice
+     * @return \Delta\Voip\Model\ResidentialDevice
      */
     public function getResidentialDevice()
     {
@@ -844,7 +844,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets residential_device
      *
-     * @param \Swagger\Client\Model\ResidentialDevice $residential_device residential_device
+     * @param \Delta\Voip\Model\ResidentialDevice $residential_device residential_device
      *
      * @return $this
      */
@@ -858,7 +858,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_route
      *
-     * @return \Swagger\Client\Model\ConditionalRoute
+     * @return \Delta\Voip\Model\ConditionalRoute
      */
     public function getConditionalRoute()
     {
@@ -868,7 +868,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_route
      *
-     * @param \Swagger\Client\Model\ConditionalRoute $conditional_route conditional_route
+     * @param \Delta\Voip\Model\ConditionalRoute $conditional_route conditional_route
      *
      * @return $this
      */
@@ -882,7 +882,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets retail_account
      *
-     * @return \Swagger\Client\Model\RetailAccount
+     * @return \Delta\Voip\Model\RetailAccount
      */
     public function getRetailAccount()
     {
@@ -892,7 +892,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets retail_account
      *
-     * @param \Swagger\Client\Model\RetailAccount $retail_account retail_account
+     * @param \Delta\Voip\Model\RetailAccount $retail_account retail_account
      *
      * @return $this
      */

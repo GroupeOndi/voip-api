@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * QueueDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -71,15 +71,15 @@ class QueueDetailed implements ModelInterface, ArrayAccess
         'weight' => 'int',
         'prevent_missed_calls' => 'int',
         'id' => 'int',
-        'periodic_announce_locution' => '\Swagger\Client\Model\Locution',
-        'timeout_locution' => '\Swagger\Client\Model\Locution',
-        'timeout_extension' => '\Swagger\Client\Model\Extension',
-        'timeout_voice_mail_user' => '\Swagger\Client\Model\User',
-        'full_locution' => '\Swagger\Client\Model\Locution',
-        'full_extension' => '\Swagger\Client\Model\Extension',
-        'full_voice_mail_user' => '\Swagger\Client\Model\User',
-        'timeout_number_country' => '\Swagger\Client\Model\Country',
-        'full_number_country' => '\Swagger\Client\Model\Country'
+        'periodic_announce_locution' => '\Delta\Voip\Model\Locution',
+        'timeout_locution' => '\Delta\Voip\Model\Locution',
+        'timeout_extension' => '\Delta\Voip\Model\Extension',
+        'timeout_voice_mail_user' => '\Delta\Voip\Model\User',
+        'full_locution' => '\Delta\Voip\Model\Locution',
+        'full_extension' => '\Delta\Voip\Model\Extension',
+        'full_voice_mail_user' => '\Delta\Voip\Model\User',
+        'timeout_number_country' => '\Delta\Voip\Model\Country',
+        'full_number_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -795,7 +795,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets periodic_announce_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getPeriodicAnnounceLocution()
     {
@@ -805,7 +805,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets periodic_announce_locution
      *
-     * @param \Swagger\Client\Model\Locution $periodic_announce_locution periodic_announce_locution
+     * @param \Delta\Voip\Model\Locution $periodic_announce_locution periodic_announce_locution
      *
      * @return $this
      */
@@ -819,7 +819,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets timeout_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getTimeoutLocution()
     {
@@ -829,7 +829,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets timeout_locution
      *
-     * @param \Swagger\Client\Model\Locution $timeout_locution timeout_locution
+     * @param \Delta\Voip\Model\Locution $timeout_locution timeout_locution
      *
      * @return $this
      */
@@ -843,7 +843,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets timeout_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getTimeoutExtension()
     {
@@ -853,7 +853,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets timeout_extension
      *
-     * @param \Swagger\Client\Model\Extension $timeout_extension timeout_extension
+     * @param \Delta\Voip\Model\Extension $timeout_extension timeout_extension
      *
      * @return $this
      */
@@ -867,7 +867,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets timeout_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getTimeoutVoiceMailUser()
     {
@@ -877,7 +877,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets timeout_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $timeout_voice_mail_user timeout_voice_mail_user
+     * @param \Delta\Voip\Model\User $timeout_voice_mail_user timeout_voice_mail_user
      *
      * @return $this
      */
@@ -891,7 +891,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets full_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getFullLocution()
     {
@@ -901,7 +901,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets full_locution
      *
-     * @param \Swagger\Client\Model\Locution $full_locution full_locution
+     * @param \Delta\Voip\Model\Locution $full_locution full_locution
      *
      * @return $this
      */
@@ -915,7 +915,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets full_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getFullExtension()
     {
@@ -925,7 +925,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets full_extension
      *
-     * @param \Swagger\Client\Model\Extension $full_extension full_extension
+     * @param \Delta\Voip\Model\Extension $full_extension full_extension
      *
      * @return $this
      */
@@ -939,7 +939,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets full_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getFullVoiceMailUser()
     {
@@ -949,7 +949,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets full_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $full_voice_mail_user full_voice_mail_user
+     * @param \Delta\Voip\Model\User $full_voice_mail_user full_voice_mail_user
      *
      * @return $this
      */
@@ -963,7 +963,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets timeout_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getTimeoutNumberCountry()
     {
@@ -973,7 +973,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets timeout_number_country
      *
-     * @param \Swagger\Client\Model\Country $timeout_number_country timeout_number_country
+     * @param \Delta\Voip\Model\Country $timeout_number_country timeout_number_country
      *
      * @return $this
      */
@@ -987,7 +987,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets full_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getFullNumberCountry()
     {
@@ -997,7 +997,7 @@ class QueueDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets full_number_country
      *
-     * @param \Swagger\Client\Model\Country $full_number_country full_number_country
+     * @param \Delta\Voip\Model\Country $full_number_country full_number_country
      *
      * @return $this
      */

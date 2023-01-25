@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * CallAclRelMatchListDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class CallAclRelMatchListDetailed implements ModelInterface, ArrayAccess
         'priority' => 'int',
         'policy' => 'string',
         'id' => 'int',
-        'call_acl' => '\Swagger\Client\Model\CallAcl',
-        'match_list' => '\Swagger\Client\Model\MatchList'
+        'call_acl' => '\Delta\Voip\Model\CallAcl',
+        'match_list' => '\Delta\Voip\Model\MatchList'
     ];
 
     /**
@@ -355,7 +355,7 @@ class CallAclRelMatchListDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets call_acl
      *
-     * @return \Swagger\Client\Model\CallAcl
+     * @return \Delta\Voip\Model\CallAcl
      */
     public function getCallAcl()
     {
@@ -365,7 +365,7 @@ class CallAclRelMatchListDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets call_acl
      *
-     * @param \Swagger\Client\Model\CallAcl $call_acl call_acl
+     * @param \Delta\Voip\Model\CallAcl $call_acl call_acl
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class CallAclRelMatchListDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets match_list
      *
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function getMatchList()
     {
@@ -389,7 +389,7 @@ class CallAclRelMatchListDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets match_list
      *
-     * @param \Swagger\Client\Model\MatchList $match_list match_list
+     * @param \Delta\Voip\Model\MatchList $match_list match_list
      *
      * @return $this
      */

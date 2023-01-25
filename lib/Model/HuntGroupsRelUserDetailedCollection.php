@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * HuntGroupsRelUserDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,9 +62,9 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
         'route_type' => 'string',
         'number_value' => 'string',
         'id' => 'int',
-        'hunt_group' => '\Swagger\Client\Model\HuntGroup',
-        'user' => '\Swagger\Client\Model\User',
-        'number_country' => '\Swagger\Client\Model\Country'
+        'hunt_group' => '\Delta\Voip\Model\HuntGroup',
+        'user' => '\Delta\Voip\Model\User',
+        'number_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -426,7 +426,7 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets hunt_group
      *
-     * @return \Swagger\Client\Model\HuntGroup
+     * @return \Delta\Voip\Model\HuntGroup
      */
     public function getHuntGroup()
     {
@@ -436,7 +436,7 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets hunt_group
      *
-     * @param \Swagger\Client\Model\HuntGroup $hunt_group hunt_group
+     * @param \Delta\Voip\Model\HuntGroup $hunt_group hunt_group
      *
      * @return $this
      */
@@ -450,7 +450,7 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -460,7 +460,7 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -474,7 +474,7 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNumberCountry()
     {
@@ -484,7 +484,7 @@ class HuntGroupsRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets number_country
      *
-     * @param \Swagger\Client\Model\Country $number_country number_country
+     * @param \Delta\Voip\Model\Country $number_country number_country
      *
      * @return $this
      */

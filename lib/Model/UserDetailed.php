@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * UserDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -73,18 +73,18 @@ class UserDetailed implements ModelInterface, ArrayAccess
         'multi_contact' => 'bool',
         'gs_qr_code' => 'bool',
         'id' => 'int',
-        'call_acl' => '\Swagger\Client\Model\CallAcl',
-        'boss_assistant' => '\Swagger\Client\Model\User',
-        'boss_assistant_white_list' => '\Swagger\Client\Model\MatchList',
-        'transformation_rule_set' => '\Swagger\Client\Model\TransformationRuleSet',
-        'language' => '\Swagger\Client\Model\Language',
-        'terminal' => '\Swagger\Client\Model\Terminal',
-        'extension' => '\Swagger\Client\Model\Extension',
-        'timezone' => '\Swagger\Client\Model\Timezone',
-        'outgoing_ddi' => '\Swagger\Client\Model\Ddi',
-        'outgoing_ddi_rule' => '\Swagger\Client\Model\OutgoingDdiRule',
-        'voicemail_locution' => '\Swagger\Client\Model\Locution',
-        'location' => '\Swagger\Client\Model\Location',
+        'call_acl' => '\Delta\Voip\Model\CallAcl',
+        'boss_assistant' => '\Delta\Voip\Model\User',
+        'boss_assistant_white_list' => '\Delta\Voip\Model\MatchList',
+        'transformation_rule_set' => '\Delta\Voip\Model\TransformationRuleSet',
+        'language' => '\Delta\Voip\Model\Language',
+        'terminal' => '\Delta\Voip\Model\Terminal',
+        'extension' => '\Delta\Voip\Model\Extension',
+        'timezone' => '\Delta\Voip\Model\Timezone',
+        'outgoing_ddi' => '\Delta\Voip\Model\Ddi',
+        'outgoing_ddi_rule' => '\Delta\Voip\Model\OutgoingDdiRule',
+        'voicemail_locution' => '\Delta\Voip\Model\Locution',
+        'location' => '\Delta\Voip\Model\Location',
         'pickup_group_ids' => 'int[]'
     ];
 
@@ -925,7 +925,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets call_acl
      *
-     * @return \Swagger\Client\Model\CallAcl
+     * @return \Delta\Voip\Model\CallAcl
      */
     public function getCallAcl()
     {
@@ -935,7 +935,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets call_acl
      *
-     * @param \Swagger\Client\Model\CallAcl $call_acl call_acl
+     * @param \Delta\Voip\Model\CallAcl $call_acl call_acl
      *
      * @return $this
      */
@@ -949,7 +949,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets boss_assistant
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getBossAssistant()
     {
@@ -959,7 +959,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets boss_assistant
      *
-     * @param \Swagger\Client\Model\User $boss_assistant boss_assistant
+     * @param \Delta\Voip\Model\User $boss_assistant boss_assistant
      *
      * @return $this
      */
@@ -973,7 +973,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets boss_assistant_white_list
      *
-     * @return \Swagger\Client\Model\MatchList
+     * @return \Delta\Voip\Model\MatchList
      */
     public function getBossAssistantWhiteList()
     {
@@ -983,7 +983,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets boss_assistant_white_list
      *
-     * @param \Swagger\Client\Model\MatchList $boss_assistant_white_list boss_assistant_white_list
+     * @param \Delta\Voip\Model\MatchList $boss_assistant_white_list boss_assistant_white_list
      *
      * @return $this
      */
@@ -997,7 +997,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets transformation_rule_set
      *
-     * @return \Swagger\Client\Model\TransformationRuleSet
+     * @return \Delta\Voip\Model\TransformationRuleSet
      */
     public function getTransformationRuleSet()
     {
@@ -1007,7 +1007,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets transformation_rule_set
      *
-     * @param \Swagger\Client\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
+     * @param \Delta\Voip\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
      *
      * @return $this
      */
@@ -1021,7 +1021,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta\Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -1031,7 +1031,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta\Voip\Model\Language $language language
      *
      * @return $this
      */
@@ -1045,7 +1045,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets terminal
      *
-     * @return \Swagger\Client\Model\Terminal
+     * @return \Delta\Voip\Model\Terminal
      */
     public function getTerminal()
     {
@@ -1055,7 +1055,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets terminal
      *
-     * @param \Swagger\Client\Model\Terminal $terminal terminal
+     * @param \Delta\Voip\Model\Terminal $terminal terminal
      *
      * @return $this
      */
@@ -1069,7 +1069,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -1079,7 +1079,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */
@@ -1093,7 +1093,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets timezone
      *
-     * @return \Swagger\Client\Model\Timezone
+     * @return \Delta\Voip\Model\Timezone
      */
     public function getTimezone()
     {
@@ -1103,7 +1103,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets timezone
      *
-     * @param \Swagger\Client\Model\Timezone $timezone timezone
+     * @param \Delta\Voip\Model\Timezone $timezone timezone
      *
      * @return $this
      */
@@ -1117,7 +1117,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getOutgoingDdi()
     {
@@ -1127,7 +1127,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $outgoing_ddi outgoing_ddi
+     * @param \Delta\Voip\Model\Ddi $outgoing_ddi outgoing_ddi
      *
      * @return $this
      */
@@ -1141,7 +1141,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi_rule
      *
-     * @return \Swagger\Client\Model\OutgoingDdiRule
+     * @return \Delta\Voip\Model\OutgoingDdiRule
      */
     public function getOutgoingDdiRule()
     {
@@ -1151,7 +1151,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi_rule
      *
-     * @param \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule outgoing_ddi_rule
+     * @param \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule outgoing_ddi_rule
      *
      * @return $this
      */
@@ -1165,7 +1165,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voicemail_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getVoicemailLocution()
     {
@@ -1175,7 +1175,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voicemail_locution
      *
-     * @param \Swagger\Client\Model\Locution $voicemail_locution voicemail_locution
+     * @param \Delta\Voip\Model\Locution $voicemail_locution voicemail_locution
      *
      * @return $this
      */
@@ -1189,7 +1189,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets location
      *
-     * @return \Swagger\Client\Model\Location
+     * @return \Delta\Voip\Model\Location
      */
     public function getLocation()
     {
@@ -1199,7 +1199,7 @@ class UserDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets location
      *
-     * @param \Swagger\Client\Model\Location $location location
+     * @param \Delta\Voip\Model\Location $location location
      *
      * @return $this
      */

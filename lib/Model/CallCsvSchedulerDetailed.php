@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * CallCsvSchedulerDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,13 +66,13 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
         'last_execution_error' => 'string',
         'next_execution' => '\DateTime',
         'id' => 'int',
-        'call_csv_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'ddi' => '\Swagger\Client\Model\Ddi',
-        'retail_account' => '\Swagger\Client\Model\RetailAccount',
-        'residential_device' => '\Swagger\Client\Model\ResidentialDevice',
-        'user' => '\Swagger\Client\Model\User',
-        'fax' => '\Swagger\Client\Model\Fax',
-        'friend' => '\Swagger\Client\Model\Friend'
+        'call_csv_notification_template' => '\Delta\Voip\Model\NotificationTemplate',
+        'ddi' => '\Delta\Voip\Model\Ddi',
+        'retail_account' => '\Delta\Voip\Model\RetailAccount',
+        'residential_device' => '\Delta\Voip\Model\ResidentialDevice',
+        'user' => '\Delta\Voip\Model\User',
+        'fax' => '\Delta\Voip\Model\Fax',
+        'friend' => '\Delta\Voip\Model\Friend'
     ];
 
     /**
@@ -632,7 +632,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets call_csv_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta\Voip\Model\NotificationTemplate
      */
     public function getCallCsvNotificationTemplate()
     {
@@ -642,7 +642,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets call_csv_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $call_csv_notification_template call_csv_notification_template
+     * @param \Delta\Voip\Model\NotificationTemplate $call_csv_notification_template call_csv_notification_template
      *
      * @return $this
      */
@@ -656,7 +656,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getDdi()
     {
@@ -666,7 +666,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi
      *
-     * @param \Swagger\Client\Model\Ddi $ddi ddi
+     * @param \Delta\Voip\Model\Ddi $ddi ddi
      *
      * @return $this
      */
@@ -680,7 +680,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets retail_account
      *
-     * @return \Swagger\Client\Model\RetailAccount
+     * @return \Delta\Voip\Model\RetailAccount
      */
     public function getRetailAccount()
     {
@@ -690,7 +690,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets retail_account
      *
-     * @param \Swagger\Client\Model\RetailAccount $retail_account retail_account
+     * @param \Delta\Voip\Model\RetailAccount $retail_account retail_account
      *
      * @return $this
      */
@@ -704,7 +704,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets residential_device
      *
-     * @return \Swagger\Client\Model\ResidentialDevice
+     * @return \Delta\Voip\Model\ResidentialDevice
      */
     public function getResidentialDevice()
     {
@@ -714,7 +714,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets residential_device
      *
-     * @param \Swagger\Client\Model\ResidentialDevice $residential_device residential_device
+     * @param \Delta\Voip\Model\ResidentialDevice $residential_device residential_device
      *
      * @return $this
      */
@@ -728,7 +728,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -738,7 +738,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */
@@ -752,7 +752,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets fax
      *
-     * @return \Swagger\Client\Model\Fax
+     * @return \Delta\Voip\Model\Fax
      */
     public function getFax()
     {
@@ -762,7 +762,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets fax
      *
-     * @param \Swagger\Client\Model\Fax $fax fax
+     * @param \Delta\Voip\Model\Fax $fax fax
      *
      * @return $this
      */
@@ -776,7 +776,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets friend
      *
-     * @return \Swagger\Client\Model\Friend
+     * @return \Delta\Voip\Model\Friend
      */
     public function getFriend()
     {
@@ -786,7 +786,7 @@ class CallCsvSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets friend
      *
-     * @param \Swagger\Client\Model\Friend $friend friend
+     * @param \Delta\Voip\Model\Friend $friend friend
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * CompanyDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,12 +64,12 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
         'on_demand_record_code' => 'string',
         'balance' => 'float',
         'id' => 'int',
-        'language' => '\Swagger\Client\Model\Language',
-        'default_timezone' => '\Swagger\Client\Model\Timezone',
-        'country' => '\Swagger\Client\Model\Country',
-        'transformation_rule_set' => '\Swagger\Client\Model\TransformationRuleSet',
-        'outgoing_ddi' => '\Swagger\Client\Model\Ddi',
-        'outgoing_ddi_rule' => '\Swagger\Client\Model\OutgoingDdiRule',
+        'language' => '\Delta\Voip\Model\Language',
+        'default_timezone' => '\Delta\Voip\Model\Timezone',
+        'country' => '\Delta\Voip\Model\Country',
+        'transformation_rule_set' => '\Delta\Voip\Model\TransformationRuleSet',
+        'outgoing_ddi' => '\Delta\Voip\Model\Ddi',
+        'outgoing_ddi_rule' => '\Delta\Voip\Model\OutgoingDdiRule',
         'domain_name' => 'string'
     ];
 
@@ -535,7 +535,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta\Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -545,7 +545,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta\Voip\Model\Language $language language
      *
      * @return $this
      */
@@ -559,7 +559,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets default_timezone
      *
-     * @return \Swagger\Client\Model\Timezone
+     * @return \Delta\Voip\Model\Timezone
      */
     public function getDefaultTimezone()
     {
@@ -569,7 +569,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets default_timezone
      *
-     * @param \Swagger\Client\Model\Timezone $default_timezone default_timezone
+     * @param \Delta\Voip\Model\Timezone $default_timezone default_timezone
      *
      * @return $this
      */
@@ -583,7 +583,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getCountry()
     {
@@ -593,7 +593,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\Country $country country
+     * @param \Delta\Voip\Model\Country $country country
      *
      * @return $this
      */
@@ -607,7 +607,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets transformation_rule_set
      *
-     * @return \Swagger\Client\Model\TransformationRuleSet
+     * @return \Delta\Voip\Model\TransformationRuleSet
      */
     public function getTransformationRuleSet()
     {
@@ -617,7 +617,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets transformation_rule_set
      *
-     * @param \Swagger\Client\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
+     * @param \Delta\Voip\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
      *
      * @return $this
      */
@@ -631,7 +631,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta\Voip\Model\Ddi
      */
     public function getOutgoingDdi()
     {
@@ -641,7 +641,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $outgoing_ddi outgoing_ddi
+     * @param \Delta\Voip\Model\Ddi $outgoing_ddi outgoing_ddi
      *
      * @return $this
      */
@@ -655,7 +655,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi_rule
      *
-     * @return \Swagger\Client\Model\OutgoingDdiRule
+     * @return \Delta\Voip\Model\OutgoingDdiRule
      */
     public function getOutgoingDdiRule()
     {
@@ -665,7 +665,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi_rule
      *
-     * @param \Swagger\Client\Model\OutgoingDdiRule $outgoing_ddi_rule outgoing_ddi_rule
+     * @param \Delta\Voip\Model\OutgoingDdiRule $outgoing_ddi_rule outgoing_ddi_rule
      *
      * @return $this
      */

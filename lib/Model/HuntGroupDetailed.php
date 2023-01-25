@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * HuntGroupDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,10 +66,10 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
         'prevent_missed_calls' => 'int',
         'allow_call_forwards' => 'int',
         'id' => 'int',
-        'no_answer_locution' => '\Swagger\Client\Model\Locution',
-        'no_answer_extension' => '\Swagger\Client\Model\Extension',
-        'no_answer_voice_mail_user' => '\Swagger\Client\Model\User',
-        'no_answer_number_country' => '\Swagger\Client\Model\Country'
+        'no_answer_locution' => '\Delta\Voip\Model\Locution',
+        'no_answer_extension' => '\Delta\Voip\Model\Extension',
+        'no_answer_voice_mail_user' => '\Delta\Voip\Model\User',
+        'no_answer_number_country' => '\Delta\Voip\Model\Country'
     ];
 
     /**
@@ -638,7 +638,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets no_answer_locution
      *
-     * @return \Swagger\Client\Model\Locution
+     * @return \Delta\Voip\Model\Locution
      */
     public function getNoAnswerLocution()
     {
@@ -648,7 +648,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets no_answer_locution
      *
-     * @param \Swagger\Client\Model\Locution $no_answer_locution no_answer_locution
+     * @param \Delta\Voip\Model\Locution $no_answer_locution no_answer_locution
      *
      * @return $this
      */
@@ -662,7 +662,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets no_answer_extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getNoAnswerExtension()
     {
@@ -672,7 +672,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets no_answer_extension
      *
-     * @param \Swagger\Client\Model\Extension $no_answer_extension no_answer_extension
+     * @param \Delta\Voip\Model\Extension $no_answer_extension no_answer_extension
      *
      * @return $this
      */
@@ -686,7 +686,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets no_answer_voice_mail_user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getNoAnswerVoiceMailUser()
     {
@@ -696,7 +696,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets no_answer_voice_mail_user
      *
-     * @param \Swagger\Client\Model\User $no_answer_voice_mail_user no_answer_voice_mail_user
+     * @param \Delta\Voip\Model\User $no_answer_voice_mail_user no_answer_voice_mail_user
      *
      * @return $this
      */
@@ -710,7 +710,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets no_answer_number_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta\Voip\Model\Country
      */
     public function getNoAnswerNumberCountry()
     {
@@ -720,7 +720,7 @@ class HuntGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets no_answer_number_country
      *
-     * @param \Swagger\Client\Model\Country $no_answer_number_country no_answer_number_country
+     * @param \Delta\Voip\Model\Country $no_answer_number_country no_answer_number_country
      *
      * @return $this
      */

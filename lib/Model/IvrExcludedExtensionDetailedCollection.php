@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * IvrExcludedExtensionDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class IvrExcludedExtensionDetailedCollection implements ModelInterface, ArrayAcc
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'ivr' => '\Swagger\Client\Model\Ivr',
-        'extension' => '\Swagger\Client\Model\Extension'
+        'ivr' => '\Delta\Voip\Model\Ivr',
+        'extension' => '\Delta\Voip\Model\Extension'
     ];
 
     /**
@@ -249,7 +249,7 @@ class IvrExcludedExtensionDetailedCollection implements ModelInterface, ArrayAcc
     /**
      * Gets ivr
      *
-     * @return \Swagger\Client\Model\Ivr
+     * @return \Delta\Voip\Model\Ivr
      */
     public function getIvr()
     {
@@ -259,7 +259,7 @@ class IvrExcludedExtensionDetailedCollection implements ModelInterface, ArrayAcc
     /**
      * Sets ivr
      *
-     * @param \Swagger\Client\Model\Ivr $ivr ivr
+     * @param \Delta\Voip\Model\Ivr $ivr ivr
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class IvrExcludedExtensionDetailedCollection implements ModelInterface, ArrayAcc
     /**
      * Gets extension
      *
-     * @return \Swagger\Client\Model\Extension
+     * @return \Delta\Voip\Model\Extension
      */
     public function getExtension()
     {
@@ -283,7 +283,7 @@ class IvrExcludedExtensionDetailedCollection implements ModelInterface, ArrayAcc
     /**
      * Sets extension
      *
-     * @param \Swagger\Client\Model\Extension $extension extension
+     * @param \Delta\Voip\Model\Extension $extension extension
      *
      * @return $this
      */

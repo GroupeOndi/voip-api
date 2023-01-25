@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * PickUpRelUserDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class PickUpRelUserDetailedCollection implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'pick_up_group' => '\Swagger\Client\Model\PickUpGroup',
-        'user' => '\Swagger\Client\Model\User'
+        'pick_up_group' => '\Delta\Voip\Model\PickUpGroup',
+        'user' => '\Delta\Voip\Model\User'
     ];
 
     /**
@@ -249,7 +249,7 @@ class PickUpRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets pick_up_group
      *
-     * @return \Swagger\Client\Model\PickUpGroup
+     * @return \Delta\Voip\Model\PickUpGroup
      */
     public function getPickUpGroup()
     {
@@ -259,7 +259,7 @@ class PickUpRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets pick_up_group
      *
-     * @param \Swagger\Client\Model\PickUpGroup $pick_up_group pick_up_group
+     * @param \Delta\Voip\Model\PickUpGroup $pick_up_group pick_up_group
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class PickUpRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getUser()
     {
@@ -283,7 +283,7 @@ class PickUpRelUserDetailedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\User $user user
+     * @param \Delta\Voip\Model\User $user user
      *
      * @return $this
      */

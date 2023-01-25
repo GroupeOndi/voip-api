@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **t38_passthrough** | **string** |  | [default to 'no']
 **rtp_encryption** | **bool** |  | [default to false]
 **id** | **int** |  | [optional] 
-**terminal_model** | [**\Swagger\Client\Model\TerminalModel**](TerminalModel.md) |  | [optional] 
+**terminal_model** | [**\Delta\Voip\Model\TerminalModel**](TerminalModel.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

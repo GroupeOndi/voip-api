@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * UserUpdateMyProfile Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class UserUpdateMyProfile implements ModelInterface, ArrayAccess
         'do_not_disturb' => 'bool',
         'is_boss' => 'bool',
         'max_calls' => 'int',
-        'boss_assistant' => '\Swagger\Client\Model\User',
-        'timezone' => '\Swagger\Client\Model\Timezone'
+        'boss_assistant' => '\Delta\Voip\Model\User',
+        'timezone' => '\Delta\Voip\Model\Timezone'
     ];
 
     /**
@@ -509,7 +509,7 @@ class UserUpdateMyProfile implements ModelInterface, ArrayAccess
     /**
      * Gets boss_assistant
      *
-     * @return \Swagger\Client\Model\User
+     * @return \Delta\Voip\Model\User
      */
     public function getBossAssistant()
     {
@@ -519,7 +519,7 @@ class UserUpdateMyProfile implements ModelInterface, ArrayAccess
     /**
      * Sets boss_assistant
      *
-     * @param \Swagger\Client\Model\User $boss_assistant boss_assistant
+     * @param \Delta\Voip\Model\User $boss_assistant boss_assistant
      *
      * @return $this
      */
@@ -533,7 +533,7 @@ class UserUpdateMyProfile implements ModelInterface, ArrayAccess
     /**
      * Gets timezone
      *
-     * @return \Swagger\Client\Model\Timezone
+     * @return \Delta\Voip\Model\Timezone
      */
     public function getTimezone()
     {
@@ -543,7 +543,7 @@ class UserUpdateMyProfile implements ModelInterface, ArrayAccess
     /**
      * Sets timezone
      *
-     * @param \Swagger\Client\Model\Timezone $timezone timezone
+     * @param \Delta\Voip\Model\Timezone $timezone timezone
      *
      * @return $this
      */

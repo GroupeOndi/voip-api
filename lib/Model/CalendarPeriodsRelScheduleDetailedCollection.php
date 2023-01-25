@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * CalendarPeriodsRelScheduleDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class CalendarPeriodsRelScheduleDetailedCollection implements ModelInterface, Ar
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'calendar_period' => '\Swagger\Client\Model\CalendarPeriod',
-        'schedule' => '\Swagger\Client\Model\Schedule'
+        'calendar_period' => '\Delta\Voip\Model\CalendarPeriod',
+        'schedule' => '\Delta\Voip\Model\Schedule'
     ];
 
     /**
@@ -249,7 +249,7 @@ class CalendarPeriodsRelScheduleDetailedCollection implements ModelInterface, Ar
     /**
      * Gets calendar_period
      *
-     * @return \Swagger\Client\Model\CalendarPeriod
+     * @return \Delta\Voip\Model\CalendarPeriod
      */
     public function getCalendarPeriod()
     {
@@ -259,7 +259,7 @@ class CalendarPeriodsRelScheduleDetailedCollection implements ModelInterface, Ar
     /**
      * Sets calendar_period
      *
-     * @param \Swagger\Client\Model\CalendarPeriod $calendar_period calendar_period
+     * @param \Delta\Voip\Model\CalendarPeriod $calendar_period calendar_period
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class CalendarPeriodsRelScheduleDetailedCollection implements ModelInterface, Ar
     /**
      * Gets schedule
      *
-     * @return \Swagger\Client\Model\Schedule
+     * @return \Delta\Voip\Model\Schedule
      */
     public function getSchedule()
     {
@@ -283,7 +283,7 @@ class CalendarPeriodsRelScheduleDetailedCollection implements ModelInterface, Ar
     /**
      * Sets schedule
      *
-     * @param \Swagger\Client\Model\Schedule $schedule schedule
+     * @param \Delta\Voip\Model\Schedule $schedule schedule
      *
      * @return $this
      */

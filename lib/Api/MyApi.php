@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Delta\Voip\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Delta\Voip\ApiException;
+use Delta\Voip\Configuration;
+use Delta\Voip\HeaderSelector;
+use Delta\Voip\ObjectSerializer;
 
 /**
  * MyApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,9 +93,9 @@ class MyApi
      * Retrieves a CallStats resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallStats
+     * @return \Delta\Voip\Model\CallStats
      */
     public function getCallStatsItem()
     {
@@ -109,13 +109,13 @@ class MyApi
      * Retrieves a CallStats resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallStats, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallStats, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCallStatsItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\CallStats';
+        $returnType = '\Delta\Voip\Model\CallStats';
         $request = $this->getCallStatsItemRequest();
 
         try {
@@ -167,7 +167,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallStats',
+                        '\Delta\Voip\Model\CallStats',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -207,7 +207,7 @@ class MyApi
      */
     public function getCallStatsItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\CallStats';
+        $returnType = '\Delta\Voip\Model\CallStats';
         $request = $this->getCallStatsItemRequest();
 
         return $this->client
@@ -348,9 +348,9 @@ class MyApi
      * Retrieves a ActiveCalls resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ActiveCalls
+     * @return \Delta\Voip\Model\ActiveCalls
      */
     public function getMyActiveCallsActiveCallsItem()
     {
@@ -364,13 +364,13 @@ class MyApi
      * Retrieves a ActiveCalls resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ActiveCalls, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\ActiveCalls, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyActiveCallsActiveCallsItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\ActiveCalls';
+        $returnType = '\Delta\Voip\Model\ActiveCalls';
         $request = $this->getMyActiveCallsActiveCallsItemRequest();
 
         try {
@@ -422,7 +422,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ActiveCalls',
+                        '\Delta\Voip\Model\ActiveCalls',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -462,7 +462,7 @@ class MyApi
      */
     public function getMyActiveCallsActiveCallsItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\ActiveCalls';
+        $returnType = '\Delta\Voip\Model\ActiveCalls';
         $request = $this->getMyActiveCallsActiveCallsItemRequest();
 
         return $this->client
@@ -605,9 +605,9 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallForwardSettingDetailedCollection[]
+     * @return \Delta\Voip\Model\CallForwardSettingDetailedCollection[]
      */
     public function getMyCallForwardSettingsCallForwardSettingCollection($_page = null, $_items_per_page = null)
     {
@@ -623,13 +623,13 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallForwardSettingDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallForwardSettingDetailedCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyCallForwardSettingsCallForwardSettingCollectionWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSettingDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\CallForwardSettingDetailedCollection[]';
         $request = $this->getMyCallForwardSettingsCallForwardSettingCollectionRequest($_page, $_items_per_page);
 
         try {
@@ -681,7 +681,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallForwardSettingDetailedCollection[]',
+                        '\Delta\Voip\Model\CallForwardSettingDetailedCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -725,7 +725,7 @@ class MyApi
      */
     public function getMyCallForwardSettingsCallForwardSettingCollectionAsyncWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSettingDetailedCollection[]';
+        $returnType = '\Delta\Voip\Model\CallForwardSettingDetailedCollection[]';
         $request = $this->getMyCallForwardSettingsCallForwardSettingCollectionRequest($_page, $_items_per_page);
 
         return $this->client
@@ -979,9 +979,9 @@ class MyApi
      * @param  bool $_pagination _pagination (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersCdr[]
+     * @return \Delta\Voip\Model\UsersCdr[]
      */
     public function getMyCallHistoryUsersCdrCollection($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_hash = null, $callid_hash_end = null, $callid_hash_exact = null, $callid_hash_exists = null, $callid_hash_partial = null, $callid_hash_start = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $diversion = null, $diversion_end = null, $diversion_exact = null, $diversion_exists = null, $diversion_partial = null, $diversion_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $end_time = null, $end_time_after = null, $end_time_before = null, $end_time_start = null, $end_time_strictly_after = null, $end_time_strictly_before = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $referee = null, $referee_end = null, $referee_exact = null, $referee_exists = null, $referee_partial = null, $referee_start = null, $referrer = null, $referrer_end = null, $referrer_exact = null, $referrer_exists = null, $referrer_partial = null, $referrer_start = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $user = null, $user2 = null, $user_exists = null, $xcallid = null, $xcallid_end = null, $xcallid_exact = null, $xcallid_exists = null, $xcallid_partial = null, $xcallid_start = null, $_order_callee = null, $_order_caller = null, $_order_callid_hash = null, $_order_callid = null, $_order_direction = null, $_order_diversion = null, $_order_duration = null, $_order_end_time = null, $_order_id = null, $_order_referee = null, $_order_referrer = null, $_order_start_time = null, $_order_xcallid = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
@@ -1098,13 +1098,13 @@ class MyApi
      * @param  bool $_pagination (optional)
      * @param  string $_timezone Use a time zone of choice instead of the token user one (Applies to both input and output) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersCdr[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UsersCdr[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyCallHistoryUsersCdrCollectionWithHttpInfo($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_hash = null, $callid_hash_end = null, $callid_hash_exact = null, $callid_hash_exists = null, $callid_hash_partial = null, $callid_hash_start = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $diversion = null, $diversion_end = null, $diversion_exact = null, $diversion_exists = null, $diversion_partial = null, $diversion_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $end_time = null, $end_time_after = null, $end_time_before = null, $end_time_start = null, $end_time_strictly_after = null, $end_time_strictly_before = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $referee = null, $referee_end = null, $referee_exact = null, $referee_exists = null, $referee_partial = null, $referee_start = null, $referrer = null, $referrer_end = null, $referrer_exact = null, $referrer_exists = null, $referrer_partial = null, $referrer_start = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $user = null, $user2 = null, $user_exists = null, $xcallid = null, $xcallid_end = null, $xcallid_exact = null, $xcallid_exists = null, $xcallid_partial = null, $xcallid_start = null, $_order_callee = null, $_order_caller = null, $_order_callid_hash = null, $_order_callid = null, $_order_direction = null, $_order_diversion = null, $_order_duration = null, $_order_end_time = null, $_order_id = null, $_order_referee = null, $_order_referrer = null, $_order_start_time = null, $_order_xcallid = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersCdr[]';
+        $returnType = '\Delta\Voip\Model\UsersCdr[]';
         $request = $this->getMyCallHistoryUsersCdrCollectionRequest($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_hash, $callid_hash_end, $callid_hash_exact, $callid_hash_exists, $callid_hash_partial, $callid_hash_start, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $diversion, $diversion_end, $diversion_exact, $diversion_exists, $diversion_partial, $diversion_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $end_time, $end_time_after, $end_time_before, $end_time_start, $end_time_strictly_after, $end_time_strictly_before, $friend, $friend2, $friend_exists, $id_exact, $referee, $referee_end, $referee_exact, $referee_exists, $referee_partial, $referee_start, $referrer, $referrer_end, $referrer_exact, $referrer_exists, $referrer_partial, $referrer_start, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $start_time, $start_time_after, $start_time_before, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $user, $user2, $user_exists, $xcallid, $xcallid_end, $xcallid_exact, $xcallid_exists, $xcallid_partial, $xcallid_start, $_order_callee, $_order_caller, $_order_callid_hash, $_order_callid, $_order_direction, $_order_diversion, $_order_duration, $_order_end_time, $_order_id, $_order_referee, $_order_referrer, $_order_start_time, $_order_xcallid, $_items_per_page, $_page, $_properties, $_pagination, $_timezone);
 
         try {
@@ -1156,7 +1156,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersCdr[]',
+                        '\Delta\Voip\Model\UsersCdr[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1402,7 +1402,7 @@ class MyApi
      */
     public function getMyCallHistoryUsersCdrCollectionAsyncWithHttpInfo($callee = null, $callee_end = null, $callee_exact = null, $callee_exists = null, $callee_partial = null, $callee_start = null, $caller = null, $caller_end = null, $caller_exact = null, $caller_exists = null, $caller_partial = null, $caller_start = null, $callid = null, $callid_hash = null, $callid_hash_end = null, $callid_hash_exact = null, $callid_hash_exists = null, $callid_hash_partial = null, $callid_hash_start = null, $callid_end = null, $callid_exact = null, $callid_exists = null, $callid_partial = null, $callid_start = null, $direction = null, $direction_end = null, $direction_exact = null, $direction_exists = null, $direction_partial = null, $direction_start = null, $diversion = null, $diversion_end = null, $diversion_exact = null, $diversion_exists = null, $diversion_partial = null, $diversion_start = null, $duration = null, $duration_between = null, $duration_gt = null, $duration_gte = null, $duration_lt = null, $duration_lte = null, $end_time = null, $end_time_after = null, $end_time_before = null, $end_time_start = null, $end_time_strictly_after = null, $end_time_strictly_before = null, $friend = null, $friend2 = null, $friend_exists = null, $id_exact = null, $referee = null, $referee_end = null, $referee_exact = null, $referee_exists = null, $referee_partial = null, $referee_start = null, $referrer = null, $referrer_end = null, $referrer_exact = null, $referrer_exists = null, $referrer_partial = null, $referrer_start = null, $residential_device = null, $residential_device2 = null, $residential_device_exists = null, $retail_account = null, $retail_account2 = null, $retail_account_exists = null, $start_time = null, $start_time_after = null, $start_time_before = null, $start_time_start = null, $start_time_strictly_after = null, $start_time_strictly_before = null, $user = null, $user2 = null, $user_exists = null, $xcallid = null, $xcallid_end = null, $xcallid_exact = null, $xcallid_exists = null, $xcallid_partial = null, $xcallid_start = null, $_order_callee = null, $_order_caller = null, $_order_callid_hash = null, $_order_callid = null, $_order_direction = null, $_order_diversion = null, $_order_duration = null, $_order_end_time = null, $_order_id = null, $_order_referee = null, $_order_referrer = null, $_order_start_time = null, $_order_xcallid = null, $_items_per_page = null, $_page = null, $_properties = null, $_pagination = null, $_timezone = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersCdr[]';
+        $returnType = '\Delta\Voip\Model\UsersCdr[]';
         $request = $this->getMyCallHistoryUsersCdrCollectionRequest($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_hash, $callid_hash_end, $callid_hash_exact, $callid_hash_exists, $callid_hash_partial, $callid_hash_start, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $diversion, $diversion_end, $diversion_exact, $diversion_exists, $diversion_partial, $diversion_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $end_time, $end_time_after, $end_time_before, $end_time_start, $end_time_strictly_after, $end_time_strictly_before, $friend, $friend2, $friend_exists, $id_exact, $referee, $referee_end, $referee_exact, $referee_exists, $referee_partial, $referee_start, $referrer, $referrer_end, $referrer_exact, $referrer_exists, $referrer_partial, $referrer_start, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $start_time, $start_time_after, $start_time_before, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $user, $user2, $user_exists, $xcallid, $xcallid_end, $xcallid_exact, $xcallid_exists, $xcallid_partial, $xcallid_start, $_order_callee, $_order_caller, $_order_callid_hash, $_order_callid, $_order_direction, $_order_diversion, $_order_duration, $_order_end_time, $_order_id, $_order_referee, $_order_referrer, $_order_start_time, $_order_xcallid, $_items_per_page, $_page, $_properties, $_pagination, $_timezone);
 
         return $this->client
@@ -2060,9 +2060,9 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\User[]
+     * @return \Delta\Voip\Model\User[]
      */
     public function getMyCompanyAssistantsUserCollection($_page = null, $_items_per_page = null)
     {
@@ -2078,13 +2078,13 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\User[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\User[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyCompanyAssistantsUserCollectionWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\User[]';
+        $returnType = '\Delta\Voip\Model\User[]';
         $request = $this->getMyCompanyAssistantsUserCollectionRequest($_page, $_items_per_page);
 
         try {
@@ -2136,7 +2136,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\User[]',
+                        '\Delta\Voip\Model\User[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2180,7 +2180,7 @@ class MyApi
      */
     public function getMyCompanyAssistantsUserCollectionAsyncWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\User[]';
+        $returnType = '\Delta\Voip\Model\User[]';
         $request = $this->getMyCompanyAssistantsUserCollectionRequest($_page, $_items_per_page);
 
         return $this->client
@@ -2331,9 +2331,9 @@ class MyApi
      * Retrieves a Country resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CountryDetailed
+     * @return \Delta\Voip\Model\CountryDetailed
      */
     public function getMyCompanyCountryCountryItem()
     {
@@ -2347,13 +2347,13 @@ class MyApi
      * Retrieves a Country resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CountryDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CountryDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyCompanyCountryCountryItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\CountryDetailed';
+        $returnType = '\Delta\Voip\Model\CountryDetailed';
         $request = $this->getMyCompanyCountryCountryItemRequest();
 
         try {
@@ -2405,7 +2405,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CountryDetailed',
+                        '\Delta\Voip\Model\CountryDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2445,7 +2445,7 @@ class MyApi
      */
     public function getMyCompanyCountryCountryItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\CountryDetailed';
+        $returnType = '\Delta\Voip\Model\CountryDetailed';
         $request = $this->getMyCompanyCountryCountryItemRequest();
 
         return $this->client
@@ -2588,9 +2588,9 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Extension[]
+     * @return \Delta\Voip\Model\Extension[]
      */
     public function getMyCompanyExtensionsExtensionCollection($_page = null, $_items_per_page = null)
     {
@@ -2606,13 +2606,13 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Extension[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\Extension[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyCompanyExtensionsExtensionCollectionWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\Extension[]';
+        $returnType = '\Delta\Voip\Model\Extension[]';
         $request = $this->getMyCompanyExtensionsExtensionCollectionRequest($_page, $_items_per_page);
 
         try {
@@ -2664,7 +2664,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Extension[]',
+                        '\Delta\Voip\Model\Extension[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2708,7 +2708,7 @@ class MyApi
      */
     public function getMyCompanyExtensionsExtensionCollectionAsyncWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\Extension[]';
+        $returnType = '\Delta\Voip\Model\Extension[]';
         $request = $this->getMyCompanyExtensionsExtensionCollectionRequest($_page, $_items_per_page);
 
         return $this->client
@@ -2861,9 +2861,9 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\User[]
+     * @return \Delta\Voip\Model\User[]
      */
     public function getMyCompanyVoicemailsUserCollection($_page = null, $_items_per_page = null)
     {
@@ -2879,13 +2879,13 @@ class MyApi
      * @param  int $_page The collection page number (optional)
      * @param  int $_items_per_page The number of items per page (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\User[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\User[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyCompanyVoicemailsUserCollectionWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\User[]';
+        $returnType = '\Delta\Voip\Model\User[]';
         $request = $this->getMyCompanyVoicemailsUserCollectionRequest($_page, $_items_per_page);
 
         try {
@@ -2937,7 +2937,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\User[]',
+                        '\Delta\Voip\Model\User[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2981,7 +2981,7 @@ class MyApi
      */
     public function getMyCompanyVoicemailsUserCollectionAsyncWithHttpInfo($_page = null, $_items_per_page = null)
     {
-        $returnType = '\Swagger\Client\Model\User[]';
+        $returnType = '\Delta\Voip\Model\User[]';
         $request = $this->getMyCompanyVoicemailsUserCollectionRequest($_page, $_items_per_page);
 
         return $this->client
@@ -3132,9 +3132,9 @@ class MyApi
      * Retrieves a User resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UserMyProfile
+     * @return \Delta\Voip\Model\UserMyProfile
      */
     public function getMyProfileUserItem()
     {
@@ -3148,13 +3148,13 @@ class MyApi
      * Retrieves a User resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UserMyProfile, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UserMyProfile, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyProfileUserItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\UserMyProfile';
+        $returnType = '\Delta\Voip\Model\UserMyProfile';
         $request = $this->getMyProfileUserItemRequest();
 
         try {
@@ -3206,7 +3206,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UserMyProfile',
+                        '\Delta\Voip\Model\UserMyProfile',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3246,7 +3246,7 @@ class MyApi
      */
     public function getMyProfileUserItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\UserMyProfile';
+        $returnType = '\Delta\Voip\Model\UserMyProfile';
         $request = $this->getMyProfileUserItemRequest();
 
         return $this->client
@@ -3387,9 +3387,9 @@ class MyApi
      * Retrieves a RegistrationSummary resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RegistrationSummary
+     * @return \Delta\Voip\Model\RegistrationSummary
      */
     public function getMyRegistrationSummaryRegistrationSummaryItem()
     {
@@ -3403,13 +3403,13 @@ class MyApi
      * Retrieves a RegistrationSummary resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RegistrationSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\RegistrationSummary, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyRegistrationSummaryRegistrationSummaryItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\RegistrationSummary';
+        $returnType = '\Delta\Voip\Model\RegistrationSummary';
         $request = $this->getMyRegistrationSummaryRegistrationSummaryItemRequest();
 
         try {
@@ -3461,7 +3461,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RegistrationSummary',
+                        '\Delta\Voip\Model\RegistrationSummary',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3501,7 +3501,7 @@ class MyApi
      */
     public function getMyRegistrationSummaryRegistrationSummaryItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\RegistrationSummary';
+        $returnType = '\Delta\Voip\Model\RegistrationSummary';
         $request = $this->getMyRegistrationSummaryRegistrationSummaryItemRequest();
 
         return $this->client
@@ -3642,9 +3642,9 @@ class MyApi
      * Retrieves a UserStatus resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UserStatus
+     * @return \Delta\Voip\Model\UserStatus
      */
     public function getUserStatusItem()
     {
@@ -3658,13 +3658,13 @@ class MyApi
      * Retrieves a UserStatus resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UserStatus, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UserStatus, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUserStatusItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\UserStatus';
+        $returnType = '\Delta\Voip\Model\UserStatus';
         $request = $this->getUserStatusItemRequest();
 
         try {
@@ -3716,7 +3716,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UserStatus',
+                        '\Delta\Voip\Model\UserStatus',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3756,7 +3756,7 @@ class MyApi
      */
     public function getUserStatusItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\UserStatus';
+        $returnType = '\Delta\Voip\Model\UserStatus';
         $request = $this->getUserStatusItemRequest();
 
         return $this->client
@@ -3897,9 +3897,9 @@ class MyApi
      * Retrieves a WebTheme resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\WebTheme
+     * @return \Delta\Voip\Model\WebTheme
      */
     public function getWebThemeItem()
     {
@@ -3913,13 +3913,13 @@ class MyApi
      * Retrieves a WebTheme resource.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\WebTheme, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\WebTheme, HTTP status code, HTTP response headers (array of strings)
      */
     public function getWebThemeItemWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\WebTheme';
+        $returnType = '\Delta\Voip\Model\WebTheme';
         $request = $this->getWebThemeItemRequest();
 
         try {
@@ -3971,7 +3971,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\WebTheme',
+                        '\Delta\Voip\Model\WebTheme',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4011,7 +4011,7 @@ class MyApi
      */
     public function getWebThemeItemAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\WebTheme';
+        $returnType = '\Delta\Voip\Model\WebTheme';
         $request = $this->getWebThemeItemRequest();
 
         return $this->client
@@ -4151,11 +4151,11 @@ class MyApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CallForwardSetting
+     * @return \Delta\Voip\Model\CallForwardSetting
      */
     public function postMyCallForwardSettingsCallForwardSettingItem($call_forward_setting = null)
     {
@@ -4168,15 +4168,15 @@ class MyApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CallForwardSetting, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\CallForwardSetting, HTTP status code, HTTP response headers (array of strings)
      */
     public function postMyCallForwardSettingsCallForwardSettingItemWithHttpInfo($call_forward_setting = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSetting';
+        $returnType = '\Delta\Voip\Model\CallForwardSetting';
         $request = $this->postMyCallForwardSettingsCallForwardSettingItemRequest($call_forward_setting);
 
         try {
@@ -4228,7 +4228,7 @@ class MyApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CallForwardSetting',
+                        '\Delta\Voip\Model\CallForwardSetting',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4243,7 +4243,7 @@ class MyApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -4263,14 +4263,14 @@ class MyApi
      *
      * Creates a CallForwardSetting resource.
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postMyCallForwardSettingsCallForwardSettingItemAsyncWithHttpInfo($call_forward_setting = null)
     {
-        $returnType = '\Swagger\Client\Model\CallForwardSetting';
+        $returnType = '\Delta\Voip\Model\CallForwardSetting';
         $request = $this->postMyCallForwardSettingsCallForwardSettingItemRequest($call_forward_setting);
 
         return $this->client
@@ -4313,7 +4313,7 @@ class MyApi
     /**
      * Create request for operation 'postMyCallForwardSettingsCallForwardSettingItem'
      *
-     * @param  \Swagger\Client\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
+     * @param  \Delta\Voip\Model\CallForwardSetting $call_forward_setting The updated CallForwardSetting resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -4414,11 +4414,11 @@ class MyApi
      *
      * Replaces the User resource.
      *
-     * @param  \Swagger\Client\Model\UserUpdateMyProfile $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\UserUpdateMyProfile $user The updated User resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UserMyProfile
+     * @return \Delta\Voip\Model\UserMyProfile
      */
     public function putMyProfileUserItem($user = null)
     {
@@ -4431,15 +4431,15 @@ class MyApi
      *
      * Replaces the User resource.
      *
-     * @param  \Swagger\Client\Model\UserUpdateMyProfile $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\UserUpdateMyProfile $user The updated User resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta\Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UserMyProfile, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta\Voip\Model\UserMyProfile, HTTP status code, HTTP response headers (array of strings)
      */
     public function putMyProfileUserItemWithHttpInfo($user = null)
     {
-        $returnType = '\Swagger\Client\Model\UserMyProfile';
+        $returnType = '\Delta\Voip\Model\UserMyProfile';
         $request = $this->putMyProfileUserItemRequest($user);
 
         try {
@@ -4491,7 +4491,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UserMyProfile',
+                        '\Delta\Voip\Model\UserMyProfile',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4506,7 +4506,7 @@ class MyApi
      *
      * Replaces the User resource.
      *
-     * @param  \Swagger\Client\Model\UserUpdateMyProfile $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\UserUpdateMyProfile $user The updated User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -4526,14 +4526,14 @@ class MyApi
      *
      * Replaces the User resource.
      *
-     * @param  \Swagger\Client\Model\UserUpdateMyProfile $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\UserUpdateMyProfile $user The updated User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putMyProfileUserItemAsyncWithHttpInfo($user = null)
     {
-        $returnType = '\Swagger\Client\Model\UserMyProfile';
+        $returnType = '\Delta\Voip\Model\UserMyProfile';
         $request = $this->putMyProfileUserItemRequest($user);
 
         return $this->client
@@ -4576,7 +4576,7 @@ class MyApi
     /**
      * Create request for operation 'putMyProfileUserItem'
      *
-     * @param  \Swagger\Client\Model\UserUpdateMyProfile $user The updated User resource (optional)
+     * @param  \Delta\Voip\Model\UserUpdateMyProfile $user The updated User resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

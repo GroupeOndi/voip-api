@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta\Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta\Voip\ObjectSerializer;
 
 /**
  * RatingProfileDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta\Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class RatingProfileDetailed implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'activation_time' => '\DateTime',
         'id' => 'int',
-        'rating_plan_group' => '\Swagger\Client\Model\RatingPlanGroup',
-        'routing_tag' => '\Swagger\Client\Model\RoutingTag'
+        'rating_plan_group' => '\Delta\Voip\Model\RatingPlanGroup',
+        'routing_tag' => '\Delta\Voip\Model\RoutingTag'
     ];
 
     /**
@@ -279,7 +279,7 @@ class RatingProfileDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets rating_plan_group
      *
-     * @return \Swagger\Client\Model\RatingPlanGroup
+     * @return \Delta\Voip\Model\RatingPlanGroup
      */
     public function getRatingPlanGroup()
     {
@@ -289,7 +289,7 @@ class RatingProfileDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets rating_plan_group
      *
-     * @param \Swagger\Client\Model\RatingPlanGroup $rating_plan_group rating_plan_group
+     * @param \Delta\Voip\Model\RatingPlanGroup $rating_plan_group rating_plan_group
      *
      * @return $this
      */
@@ -303,7 +303,7 @@ class RatingProfileDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets routing_tag
      *
-     * @return \Swagger\Client\Model\RoutingTag
+     * @return \Delta\Voip\Model\RoutingTag
      */
     public function getRoutingTag()
     {
@@ -313,7 +313,7 @@ class RatingProfileDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets routing_tag
      *
-     * @param \Swagger\Client\Model\RoutingTag $routing_tag routing_tag
+     * @param \Delta\Voip\Model\RoutingTag $routing_tag routing_tag
      *
      * @return $this
      */

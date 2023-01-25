@@ -5,8 +5,6 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **activation_time** | [**\DateTime**](\DateTime.md) |  | 
 **id** | **int** |  | [optional] 
-**company** | **int** |  | [optional] 
-**carrier** | **int** |  | [optional] 
 **rating_plan_group** | **int** |  | 
 **routing_tag** | **int** |  | [optional] 
 

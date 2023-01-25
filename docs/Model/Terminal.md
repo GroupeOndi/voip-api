@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **t38_passthrough** | **string** |  | [default to 'no']
 **rtp_encryption** | **bool** |  | [default to false]
 **id** | **int** |  | [optional] 
-**company** | **int** |  | 
+**terminal_model** | **int** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

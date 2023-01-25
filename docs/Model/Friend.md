@@ -16,12 +16,14 @@ Name | Type | Description | Notes
 **direct_connectivity** | **string** |  | [default to 'yes']
 **ddi_in** | **string** |  | [default to 'yes']
 **t38_passthrough** | **string** |  | [default to 'no']
+**always_apply_transformations** | **bool** |  | [default to false]
+**rtp_encryption** | **bool** |  | [default to false]
+**multi_contact** | **bool** |  | [default to false]
 **id** | **int** |  | [optional] 
-**company** | **int** |  | 
 **transformation_rule_set** | **int** |  | [optional] 
+**call_acl** | **int** |  | [optional] 
 **outgoing_ddi** | **int** |  | [optional] 
 **language** | **int** |  | [optional] 
-**inter_company** | **int** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

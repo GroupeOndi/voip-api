@@ -16,12 +16,14 @@ Name | Type | Description | Notes
 **direct_connectivity** | **string** |  | [default to 'yes']
 **ddi_in** | **string** |  | [default to 'yes']
 **t38_passthrough** | **string** |  | [default to 'no']
+**always_apply_transformations** | **bool** |  | [default to false]
+**rtp_encryption** | **bool** |  | [default to false]
+**multi_contact** | **bool** |  | [default to false]
 **id** | **int** |  | [optional] 
-**company** | [**\Delta\Voip\Model\Company**](Company.md) |  | 
-**transformation_rule_set** | [**\Delta\Voip\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | [optional] 
-**outgoing_ddi** | [**\Delta\Voip\Model\Ddi**](Ddi.md) |  | [optional] 
-**language** | [**\Delta\Voip\Model\Language**](Language.md) |  | [optional] 
-**inter_company** | [**\Delta\Voip\Model\Company**](Company.md) |  | [optional] 
+**transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | [optional] 
+**call_acl** | [**\Swagger\Client\Model\CallAcl**](CallAcl.md) |  | [optional] 
+**outgoing_ddi** | [**\Swagger\Client\Model\Ddi**](Ddi.md) |  | [optional] 
+**language** | [**\Swagger\Client\Model\Language**](Language.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

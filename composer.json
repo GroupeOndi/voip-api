@@ -1,6 +1,5 @@
 {
-    "name": "/deltacore/voip-api",
-    "version": "1.0.1",
+    "name": "GroupeOndi/deltacore/voip-api",
     "description": "",
     "keywords": [
         "swagger",
@@ -29,9 +28,9 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "Delta\\Voip\\" : "lib/" }
+        "psr-4": { "Swagger\\Client\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Delta\\Voip\\" : "test/" }
+        "psr-4": { "Swagger\\Client\\" : "test/" }
     }
 }

@@ -3,21 +3,11 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | **string** |  | 
+**name** | **string** |  | [optional] 
 **description** | **string** |  | [default to '']
 **transport** | **string** |  | [optional] 
-**ip** | **string** |  | [optional] 
-**port** | **int** |  | [optional] 
-**auth_needed** | **string** |  | [default to 'yes']
 **password** | **string** |  | [optional] 
-**allow** | **string** |  | [default to 'alaw']
-**from_domain** | **string** |  | [optional] 
-**direct_connectivity** | **string** |  | [default to 'yes']
-**ddi_in** | **string** |  | [default to 'yes']
-**max_calls** | **int** |  | 
-**t38_passthrough** | **string** |  | [default to 'no']
 **id** | **int** |  | [optional] 
-**company** | **int** |  | 
 **transformation_rule_set** | **int** |  | [optional] 
 **outgoing_ddi** | **int** |  | [optional] 
 **language** | **int** |  | [optional] 
